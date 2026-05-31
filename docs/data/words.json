@@ -134,6 +134,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "sanctions",
+      "word": "sanctions",
+      "pronunciation": "/ˈsæŋkʃənz/",
+      "partOfSpeech": "noun",
+      "definition": "Penalties or punitive measures imposed by one country or group against another to enforce compliance with international law or policy; or official permissions or approvals.",
+      "translation": "制裁；处罚；批准",
+      "example": "The international community imposed economic sanctions on the country for its human rights violations.",
+      "synonyms": [
+        "penalties",
+        "punishments",
+        "measures",
+        "restrictions"
+      ],
+      "added": "2026-05-31",
+      "source": {
+        "label": "Trump seeking edits to US-Iran deal, US media report",
+        "url": "https://www.bbc.com/news/articles/c1w2xve315do",
+        "via": "extension"
+      },
+      "srs": {
+        "due": "2026-05-31",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
