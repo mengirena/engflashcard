@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#4f46e5" />
+  <title>Word Flashcards</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icons/icon.svg" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Flashcards" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">📚 Word Flashcards</div>
+    <nav class="tabs">
+      <button class="tab" data-view="study">Study <span id="dueBadge" class="badge" hidden>0</span></button>
+      <button class="tab" data-view="browse">Browse</button>
+      <button class="tab" data-view="add">Add</button>
+      <button class="tab" data-view="import">Import</button>
+      <button class="tab" data-view="settings">⚙︎</button>
+    </nav>
+  </header>
+
+  <div id="banner" class="banner" hidden></div>
+
+  <main>
+    <!-- STUDY -->
+    <section id="view-study" class="view">
+      <div id="studyEmpty" class="empty" hidden>
+        <h2>All done for today 🎉</h2>
+        <p id="studyEmptyMsg"></p>
+      </div>
+      <div id="studyCard" class="card" hidden>
+        <div class="card-source" id="cardSource"></div>
+        <div class="card-word" id="cardWord"></div>
+        <div class="card-ipa" id="cardIpa"></div>
+        <div class="card-pos" id="cardPos"></div>
+        <button id="revealBtn" class="primary big">Show answer</button>
+        <div id="cardBack" class="card-back" hidden>
+          <div class="card-translation" id="cardTranslation"></div>
+          <div class="card-def" id="cardDef"></div>
+          <div class="card-example" id="cardExample"></div>
+          <div class="card-syn" id="cardSyn"></div>
+          <div class="seen-in" id="cardSeenIn"></div>
+          <div class="rate-row">
+            <button class="rate again" data-rate="again">Again</button>
+            <button class="rate hard" data-rate="hard">Hard</button>
+            <button class="rate good" data-rate="good">Good</button>
+            <button class="rate easy" data-rate="easy">Easy</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BROWSE -->
+    <section id="view-browse" class="view" hidden>
+      <div class="row">
+        <input id="searchInput" type="search" placeholder="Search words, meanings…" />
+        <select id="sourceFilter"><option value="">All sources</option></select>
+      </div>
+      <div id="browseCount" class="muted"></div>
+      <div id="browseList" class="browse-list"></div>
+    </section>
+
+    <!-- ADD -->
+    <section id="view-add" class="view" hidden>
+      <h2>Add a word</h2>
+      <div class="stack">
+        <input id="addWord" type="text" placeholder="Type an English word or phrase" />
+        <input id="addSource" type="text" placeholder="Where did you see it? (optional)" />
+        <button id="addBtn" class="primary">Look up &amp; save</button>
+      </div>
+      <div id="addResult"></div>
+    </section>
+
+    <!-- IMPORT -->
+    <section id="view-import" class="view" hidden>
+      <h2>Import a word list</h2>
+      <p class="muted">Paste a list, or paste/upload an export from Kindle, Libby, or Hoopla.
+        The AI reads it and pulls out the words to study.</p>
+      <div class="stack">
+        <input id="importFile" type="file" accept=".txt,.csv,.md,.json,text/*" />
+        <textarea id="importText" rows="8" placeholder="…or paste your list / export text here"></textarea>
+        <button id="analyzeBtn" class="primary">Analyze</button>
+      </div>
+      <div id="importProgress" class="muted"></div>
+      <div id="importPick"></div>
+    </section>
+
+    <!-- SETTINGS -->
+    <section id="view-settings" class="view" hidden>
+      <h2>Settings</h2>
+      <p class="muted">Stored only on this device (localStorage). Never uploaded to the repo.</p>
+      <div class="stack">
+        <label>Anthropic API key
+          <input id="setAnthropic" type="password" placeholder="sk-ant-…" autocomplete="off" />
+        </label>
+        <label>AI model
+          <input id="setModel" type="text" placeholder="claude-3-5-haiku-latest" />
+        </label>
+        <label>GitHub token (fine-grained PAT, Contents read/write)
+          <input id="setGhToken" type="password" placeholder="github_pat_…" autocomplete="off" />
+        </label>
+        <div class="grid2">
+          <label>Owner<input id="setOwner" type="text" /></label>
+          <label>Repo<input id="setRepo" type="text" /></label>
+        </div>
+        <div class="grid2">
+          <label>Branch<input id="setBranch" type="text" /></label>
+          <label>Deck path<input id="setDeckPath" type="text" /></label>
+        </div>
+        <label>Inbox folder<input id="setInbox" type="text" /></label>
+        <button id="saveSettings" class="primary">Save settings</button>
+        <button id="testConn" class="secondary">Test connection</button>
+        <div id="settingsMsg" class="muted"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="core.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

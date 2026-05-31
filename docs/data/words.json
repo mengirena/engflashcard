@@ -1,0 +1,43 @@
+{
+  "cards": [
+    {
+      "id": "ephemeral",
+      "word": "ephemeral",
+      "pronunciation": "/əˈfem(ə)rəl/",
+      "partOfSpeech": "adjective",
+      "definition": "Lasting for a very short time; fleeting.",
+      "translation": "短暂的；转瞬即逝的",
+      "example": "Fame in the age of social media can feel ephemeral.",
+      "synonyms": ["fleeting", "transient", "momentary", "short-lived"],
+      "added": "2026-05-31",
+      "source": { "label": "Welcome card", "url": "", "via": "manual" },
+      "srs": { "due": "2026-05-31", "interval": 0, "ease": 2.5, "reps": 0 }
+    },
+    {
+      "id": "serendipity",
+      "word": "serendipity",
+      "pronunciation": "/ˌserənˈdipədē/",
+      "partOfSpeech": "noun",
+      "definition": "The occurrence of happy or beneficial events by chance.",
+      "translation": "意外发现美好事物的运气；机缘巧合",
+      "example": "Finding that little café was pure serendipity.",
+      "synonyms": ["chance", "fluke", "fortuity", "luck"],
+      "added": "2026-05-31",
+      "source": { "label": "Welcome card", "url": "", "via": "manual" },
+      "srs": { "due": "2026-05-31", "interval": 0, "ease": 2.5, "reps": 0 }
+    },
+    {
+      "id": "ubiquitous",
+      "word": "ubiquitous",
+      "pronunciation": "/yo͞oˈbikwədəs/",
+      "partOfSpeech": "adjective",
+      "definition": "Present, appearing, or found everywhere.",
+      "translation": "无处不在的；普遍存在的",
+      "example": "Smartphones have become ubiquitous in daily life.",
+      "synonyms": ["omnipresent", "pervasive", "universal", "everywhere"],
+      "added": "2026-05-31",
+      "source": { "label": "Welcome card", "url": "", "via": "manual" },
+      "srs": { "due": "2026-05-31", "interval": 0, "ease": 2.5, "reps": 0 }
+    }
+  ]
+}

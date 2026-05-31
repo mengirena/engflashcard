@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Word Flashcards — Look up & save",
+  "version": "1.0.0",
+  "description": "Right-click any selected word to see its meaning and save it to your synced flashcard deck.",
+  "permissions": ["contextMenus", "storage", "activeTab", "scripting"],
+  "host_permissions": [
+    "https://api.anthropic.com/*",
+    "https://api.github.com/*"
+  ],
+  "background": { "service_worker": "background.js" },
+  "options_page": "options.html",
+  "action": { "default_title": "Word Flashcards settings" }
+}
