@@ -107,6 +107,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "quotient",
+      "word": "quotient",
+      "pronunciation": "/ˈkwoʊʃənt/",
+      "partOfSpeech": "noun",
+      "definition": "The result obtained by dividing one number by another; the answer to a division problem.",
+      "translation": "商数；除法的结果",
+      "example": "When you divide 12 by 3, the quotient is 4.",
+      "synonyms": [
+        "result",
+        "answer",
+        "outcome",
+        "quotient"
+      ],
+      "added": "2026-05-31",
+      "source": {
+        "label": "The kiss quotient",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-05-31",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
