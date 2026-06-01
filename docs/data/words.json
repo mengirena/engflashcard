@@ -188,6 +188,32 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "hazel",
+      "word": "hazel",
+      "pronunciation": "/ˈheɪzəl/",
+      "partOfSpeech": "noun, adjective",
+      "definition": "A type of shrub or small tree that produces edible nuts; also used as an adjective to describe a light brown color, especially of eyes.",
+      "translation": "榛树；浅棕色（尤指眼睛的颜色）",
+      "example": "She has bright hazel eyes that change color in different lighting.",
+      "synonyms": [
+        "nutty brown",
+        "light brown",
+        "amber"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
