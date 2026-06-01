@@ -760,6 +760,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "sleek",
+      "word": "sleek",
+      "pronunciation": "/sliːk/",
+      "partOfSpeech": "adjective",
+      "definition": "Smooth and glossy in appearance; or having a streamlined, elegant design that appears modern and sophisticated.",
+      "translation": "光滑的；流线型的；时尚的",
+      "example": "The new sports car has a sleek design that turns heads on the road.",
+      "synonyms": [
+        "smooth",
+        "glossy",
+        "streamlined",
+        "elegant"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
