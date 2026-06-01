@@ -679,6 +679,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "taboo",
+      "word": "taboo",
+      "pronunciation": "/təˈbuː/",
+      "partOfSpeech": "noun, adjective, verb",
+      "definition": "A social or religious prohibition against something considered forbidden or unacceptable; something that is prohibited or should be avoided.",
+      "translation": "禁忌；禁止；被禁止的",
+      "example": "In many traditional cultures, discussing death is considered taboo.",
+      "synonyms": [
+        "forbidden",
+        "prohibited",
+        "banned",
+        "unmentionable"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
