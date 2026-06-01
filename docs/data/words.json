@@ -241,6 +241,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "appraising",
+      "word": "appraising",
+      "pronunciation": "/əˈpreɪzɪŋ/",
+      "partOfSpeech": "verb (present participle) / adjective",
+      "definition": "Assessing or evaluating the nature, quality, or value of something; looking at someone or something in a way that suggests you are making a judgment about them.",
+      "translation": "评估；评价；打量（以做出判断）",
+      "example": "The art dealer was appraising the painting carefully to determine its market value.",
+      "synonyms": [
+        "evaluating",
+        "assessing",
+        "judging",
+        "estimating"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
