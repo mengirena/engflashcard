@@ -542,6 +542,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "gust-out",
+      "word": "gust out",
+      "pronunciation": "/ɡʌst aʊt/",
+      "partOfSpeech": "verb phrase",
+      "definition": "To blow out suddenly and forcefully in a gust or sudden burst of wind; to extinguish or disperse something by a strong wind.",
+      "translation": "被突然的强风吹灭或吹散",
+      "example": "The candle was gusted out by the sudden wind from the open window.",
+      "synonyms": [
+        "blow out",
+        "snuff out",
+        "extinguish",
+        "blown away"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
