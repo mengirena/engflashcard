@@ -214,6 +214,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "militia",
+      "word": "militia",
+      "pronunciation": "/mɪˈlɪʃə/",
+      "partOfSpeech": "noun",
+      "definition": "A military force composed of ordinary citizens rather than professional soldiers, typically called upon in emergencies or to supplement regular armed forces.",
+      "translation": "民兵队；民兵组织",
+      "example": "The local militia was activated to help with disaster relief efforts after the hurricane.",
+      "synonyms": [
+        "reserve force",
+        "citizen army",
+        "local defense force",
+        "volunteers"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
