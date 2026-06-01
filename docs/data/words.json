@@ -488,6 +488,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "put-off",
+      "word": "put off",
+      "pronunciation": "/pʊt ɔːf/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To postpone or delay something; to cause someone to feel disinterested or discouraged about something.",
+      "translation": "延迟；使不感兴趣；使厌烦",
+      "example": "I keep putting off my dental appointment, but I really need to schedule it soon.",
+      "synonyms": [
+        "delay",
+        "postpone",
+        "defer",
+        "discourage"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
