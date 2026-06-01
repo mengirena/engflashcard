@@ -432,6 +432,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "exert",
+      "word": "exert",
+      "pronunciation": "/ɪɡˈzɜːrt/",
+      "partOfSpeech": "verb",
+      "definition": "To apply or bring to bear (effort, influence, or physical force); to make a strenuous effort.",
+      "translation": "施加；发挥；尽力",
+      "example": "She had to exert considerable effort to push the heavy door open.",
+      "synonyms": [
+        "apply",
+        "exercise",
+        "use",
+        "employ",
+        "expend"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
