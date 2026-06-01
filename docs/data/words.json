@@ -597,6 +597,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "chlamydia",
+      "word": "Chlamydia",
+      "pronunciation": "/kləˈmɪdiə/",
+      "partOfSpeech": "noun",
+      "definition": "A sexually transmitted infection caused by the bacterium Chlamydia trachomatis, often asymptomatic but can lead to serious reproductive health complications if untreated.",
+      "translation": "衣原体感染；衣原体病（一种由沙眼衣原体引起的性传播疾病）",
+      "example": "Regular STI screening is important because chlamydia can be present without causing noticeable symptoms.",
+      "synonyms": [
+        "STI",
+        "sexually transmitted infection",
+        "bacterial infection",
+        "chlamydial infection"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
