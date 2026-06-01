@@ -349,6 +349,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "pencil-skirt",
+      "word": "pencil skirt",
+      "pronunciation": "/ˈpensəl skɜːrt/",
+      "partOfSpeech": "noun",
+      "definition": "A close-fitting skirt that is narrow and straight, typically extending to the knee, resembling the shape of a pencil.",
+      "translation": "铅笔裙（一种紧身直筒裙，通常及膝）",
+      "example": "She wore a black pencil skirt with a crisp white blouse for the business meeting.",
+      "synonyms": [
+        "tight skirt",
+        "straight skirt",
+        "tube skirt",
+        "fitted skirt"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
