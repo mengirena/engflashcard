@@ -787,6 +787,33 @@
         "ease": 2.5,
         "reps": 1
       }
+    },
+    {
+      "id": "lapel",
+      "word": "lapel",
+      "pronunciation": "/ləˈpɛl/",
+      "partOfSpeech": "noun",
+      "definition": "The fold of cloth on either side of the front opening of a jacket or coat that is folded back to show the reverse side.",
+      "translation": "翻领；（夹克或外套的）衣领",
+      "example": "He pinned a small badge to his jacket lapel.",
+      "synonyms": [
+        "collar",
+        "flap",
+        "fold",
+        "facing"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
