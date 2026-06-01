@@ -21,9 +21,9 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-05-31",
+        "due": "2026-06-01",
         "interval": 0,
-        "ease": 2.5,
+        "ease": 2.3,
         "reps": 0
       }
     },
