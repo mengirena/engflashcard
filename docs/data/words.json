@@ -515,6 +515,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "crotch",
+      "word": "crotch",
+      "pronunciation": "/krɑːtʃ/",
+      "partOfSpeech": "noun",
+      "definition": "The area where two things fork or split apart, most commonly the point where the legs meet the torso, or where two branches of a tree diverge.",
+      "translation": "胯部；分叉处（树枝或其他物体的分岔点）",
+      "example": "He sat in the crotch of the tree, safely hidden among the branches.",
+      "synonyms": [
+        "fork",
+        "junction",
+        "divide",
+        "intersection"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
