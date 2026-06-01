@@ -404,6 +404,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "beguiling",
+      "word": "beguiling",
+      "pronunciation": "/bɪˈɡaɪlɪŋ/",
+      "partOfSpeech": "adjective",
+      "definition": "Charming or enchanting in a deceptive or misleading way; captivating in manner but often concealing ulterior motives.",
+      "translation": "迷人的；蛊惑的；具有欺骗性的魅力",
+      "example": "The con artist's beguiling smile masked his true intentions to defraud investors.",
+      "synonyms": [
+        "charming",
+        "enchanting",
+        "seductive",
+        "deceptive",
+        "alluring"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
