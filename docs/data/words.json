@@ -569,6 +569,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "pulverize",
+      "word": "pulverize",
+      "pronunciation": "/ˈpʌlvəraɪz/",
+      "partOfSpeech": "verb",
+      "definition": "To crush or grind something into fine powder or dust; to defeat someone completely and overwhelmingly.",
+      "translation": "研磨成粉末；彻底击败",
+      "example": "The mill will pulverize the grain into flour for bread making.",
+      "synonyms": [
+        "crush",
+        "grind",
+        "powder",
+        "demolish",
+        "annihilate"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
