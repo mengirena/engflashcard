@@ -322,6 +322,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "stuttered",
+      "word": "stuttered",
+      "pronunciation": "/ˈstʌtərd/",
+      "partOfSpeech": "verb (past tense)",
+      "definition": "Spoke with involuntary repetition or prolongation of sounds, or spoke in a hesitant, halting manner.",
+      "translation": "结巴地说；支吾其词地说",
+      "example": "He stuttered nervously as he presented his research to the large audience.",
+      "synonyms": [
+        "stammered",
+        "faltered",
+        "hesitated",
+        "stumbled"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "The kiss quotient ",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
