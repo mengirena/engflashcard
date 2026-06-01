@@ -733,6 +733,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "drape",
+      "word": "drape",
+      "pronunciation": "/dreɪp/",
+      "partOfSpeech": "verb, noun",
+      "definition": "To arrange fabric or cloth loosely over something, or the fabric itself arranged in this way. As a noun, it refers to cloth or a curtain arranged in loose, graceful folds.",
+      "translation": "披，裹；垂悬；（名词）褶皱的布料，窗帘",
+      "example": "She draped a shawl over her shoulders before stepping outside.",
+      "synonyms": [
+        "droop",
+        "hang",
+        "cover",
+        "arrange"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
