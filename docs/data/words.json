@@ -706,6 +706,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "sifted",
+      "word": "sifted",
+      "pronunciation": "/ˈsɪftɪd/",
+      "partOfSpeech": "verb (past tense)",
+      "definition": "Passed a fine powder or granular substance through a sieve to break up lumps and distribute evenly; or examined carefully and thoroughly to separate or identify something.",
+      "translation": "筛过的；仔细检查/审查的",
+      "example": "She sifted the flour before adding it to the cake batter to ensure a smooth texture.",
+      "synonyms": [
+        "filtered",
+        "screened",
+        "examined",
+        "analyzed"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
