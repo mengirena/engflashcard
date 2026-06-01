@@ -20,11 +20,16 @@ Safari**. Tap **Done** and you're back in your article exactly where you were.
 Open the **Shortcuts** app → **+** (new shortcut) → add these actions in order. Use the search
 box at the bottom to find each action by name.
 
-### 1. Receive the selected word
-- The new shortcut already has **"Receive [input] from Share Sheet"** at the top. Tap it and
-  set **Receive: Text** (you can leave others on).
-- Add **Text** action → set its value to the **Shortcut Input** (tap the variable). Rename it
-  later if you like; we'll call it **Word**.
+### 1. Turn on the Share Sheet, then receive the selected word
+A brand-new shortcut does **not** show the "Receive from Share Sheet" bar until you enable it:
+- Open the shortcut's **settings**: iOS 17/18 — tap the **shortcut name at the top**; iOS 16 —
+  tap the **ⓘ** info icon in the bottom toolbar.
+- Turn **ON** **"Show in Share Sheet."**
+- Tap **"Share Sheet Types"** and make sure **Text** is checked. Also leave **URLs / Safari web
+  pages** on (so you can capture the page link as the source). Tap **Done**.
+- A bar now appears at the **top**: *"Receive Text and URLs input from Share Sheet…"* — done.
+- The shared word is the **Shortcut Input** variable. (Optional: add a **Text** action set to
+  **Shortcut Input** and call it **Word** so it's easy to reference below.)
 
 ### 2. Ask the AI for the meaning  — *Get Contents of URL*
 Add **Get Contents of URL**. Tap **Show More** and set:
