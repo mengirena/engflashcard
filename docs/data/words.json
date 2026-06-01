@@ -652,6 +652,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "doused",
+      "word": "doused",
+      "pronunciation": "/daʊst/",
+      "partOfSpeech": "verb (past tense)",
+      "definition": "To throw liquid over someone or something, typically water; or to extinguish a fire or light.",
+      "translation": "泼水；浇灭；熄灭",
+      "example": "The firefighters doused the flames with water until the fire was completely out.",
+      "synonyms": [
+        "soaked",
+        "splashed",
+        "drenched",
+        "extinguished"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
