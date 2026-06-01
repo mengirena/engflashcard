@@ -268,6 +268,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "around-the-block",
+      "word": "around the block",
+      "pronunciation": "/əˈraʊnd ðə blɑk/",
+      "partOfSpeech": "phrase",
+      "definition": "A short distance away, typically referring to a nearby location in a neighborhood or city; also used idiomatically to mean experienced or having been through something before.",
+      "translation": "在街区周围；附近；经历过很多次；老手",
+      "example": "The grocery store is just around the block from my house, so I can walk there in five minutes.",
+      "synonyms": [
+        "nearby",
+        "close by",
+        "in the vicinity",
+        "a stone's throw away"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
