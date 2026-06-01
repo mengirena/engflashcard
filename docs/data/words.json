@@ -161,6 +161,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "gutsy",
+      "word": "gutsy",
+      "pronunciation": "/ˈɡʌtsi/",
+      "partOfSpeech": "adjective",
+      "definition": "Showing courage, bravery, or bold determination in the face of difficulty or risk; willing to take chances.",
+      "translation": "勇敢的；大胆的；有胆量的",
+      "example": "It was a gutsy decision to leave her stable job and start her own business.",
+      "synonyms": [
+        "brave",
+        "bold",
+        "courageous",
+        "daring"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
