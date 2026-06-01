@@ -376,6 +376,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "jittery",
+      "word": "jittery",
+      "pronunciation": "/ˈdʒɪtəri/",
+      "partOfSpeech": "adjective",
+      "definition": "Feeling nervous, anxious, or unable to relax; characterized by quick, jerky movements or trembling.",
+      "translation": "紧张的；不安的；发抖的",
+      "example": "After drinking too much coffee, she felt jittery and couldn't sit still during the meeting.",
+      "synonyms": [
+        "nervous",
+        "anxious",
+        "twitchy",
+        "edgy",
+        "trembling"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
