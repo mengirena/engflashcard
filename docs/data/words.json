@@ -460,6 +460,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "lackluster",
+      "word": "lackluster",
+      "pronunciation": "/ˈlæk.lʌs.tər/",
+      "partOfSpeech": "adjective",
+      "definition": "Lacking brightness, vitality, or enthusiasm; dull and uninspiring.",
+      "translation": "无光泽的；乏味的；平庸的；缺乏生气的",
+      "example": "The team's lackluster performance in the first half disappointed their fans.",
+      "synonyms": [
+        "dull",
+        "uninspiring",
+        "mediocre",
+        "flat",
+        "tepid"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
