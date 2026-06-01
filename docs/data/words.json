@@ -624,6 +624,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "plaguing",
+      "word": "plaguing",
+      "pronunciation": "/ˈpleɪɡɪŋ/",
+      "partOfSpeech": "verb (present participle)",
+      "definition": "Causing persistent trouble, suffering, or annoyance to someone; persistently affecting or troubling.",
+      "translation": "困扰；折磨；持续影响",
+      "example": "The recurring headaches have been plaguing her for weeks.",
+      "synonyms": [
+        "troubling",
+        "tormenting",
+        "harassing",
+        "bothering",
+        "afflicting"
+      ],
+      "added": "2026-06-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
