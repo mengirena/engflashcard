@@ -949,6 +949,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "precarious",
+      "word": "precarious",
+      "pronunciation": "/prɪˈkɛəriəs/",
+      "partOfSpeech": "adjective",
+      "definition": "Not securely held or in a stable condition; dependent on chance circumstances and therefore uncertain or dangerous.",
+      "translation": "不稳定的；危险的；不安全的",
+      "example": "The company's financial situation became precarious after the market crash.",
+      "synonyms": [
+        "unstable",
+        "uncertain",
+        "risky",
+        "fragile"
+      ],
+      "added": "2026-06-02",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-02",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
