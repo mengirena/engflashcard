@@ -868,6 +868,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "decadently",
+      "word": "decadently",
+      "pronunciation": "/ˈdɛkədəntli/",
+      "partOfSpeech": "adverb",
+      "definition": "In a way that involves excessive self-indulgence or luxurious living, often suggesting moral decline or excess.",
+      "translation": "堕落地；过度放纵地；奢华地",
+      "example": "She decadently indulged in a seven-course meal while watching the sunset.",
+      "synonyms": [
+        "luxuriously",
+        "indulgently",
+        "extravagantly",
+        "self-indulgently"
+      ],
+      "added": "2026-06-02",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-02",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
