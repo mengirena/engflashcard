@@ -841,6 +841,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "canine",
+      "word": "canine",
+      "pronunciation": "/ˈkeɪnaɪn/",
+      "partOfSpeech": "adjective, noun",
+      "definition": "Relating to or characteristic of a dog; a dog or member of the dog family. As a noun, it can also refer to a pointed tooth in mammals.",
+      "translation": "犬科的；狗；犬齿",
+      "example": "The veterinarian specializes in canine health and treats only dogs.",
+      "synonyms": [
+        "dog-like",
+        "doggy",
+        "canid",
+        "puppy"
+      ],
+      "added": "2026-06-02",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-02",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
