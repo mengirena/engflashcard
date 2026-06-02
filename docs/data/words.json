@@ -1086,6 +1086,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "splash-over",
+      "word": "splash over",
+      "pronunciation": "/ˈsplæʃ ˈoʊvər/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To spill or scatter liquid over the edge or surface of a container, or to have a noticeable effect that extends beyond the intended area.",
+      "translation": "溅出；液体洒出；产生外溢效应",
+      "example": "When I filled the bathtub too quickly, water splashed over the sides onto the floor.",
+      "synonyms": [
+        "spill over",
+        "overflow",
+        "slop over",
+        "spray"
+      ],
+      "added": "2026-06-02",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-02",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
