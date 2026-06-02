@@ -1113,6 +1113,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "hedge",
+      "word": "hedge",
+      "pronunciation": "/hedʒ/",
+      "partOfSpeech": "noun, verb",
+      "definition": "A dense row of bushes or shrubs forming a boundary or fence; as a verb, to avoid making a direct commitment or statement.",
+      "translation": "树篱；（动词）含糊其辞，回避",
+      "example": "The garden is surrounded by a tall hedge, and the politician hedged when asked about her position on the issue.",
+      "synonyms": [
+        "fence",
+        "shrub",
+        "evade",
+        "avoid",
+        "equivocate"
+      ],
+      "added": "2026-06-02",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-02",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
