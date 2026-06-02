@@ -1169,6 +1169,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "simmering",
+      "word": "simmering",
+      "pronunciation": "/ˈsɪmərɪŋ/",
+      "partOfSpeech": "verb (present participle) / adjective",
+      "definition": "Cooking food gently in liquid just below the boiling point, or figuratively, showing suppressed anger or tension that is about to emerge.",
+      "translation": "轻轻煮沸；（情绪）即将爆发",
+      "example": "The soup has been simmering on the stove for two hours, filling the kitchen with a wonderful aroma.",
+      "synonyms": [
+        "stewing",
+        "cooking gently",
+        "brewing",
+        "festering"
+      ],
+      "added": "2026-06-02",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-02",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
