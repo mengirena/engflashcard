@@ -1058,6 +1058,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "surreal",
+      "word": "surreal",
+      "pronunciation": "/səˈriːəl/",
+      "partOfSpeech": "adjective",
+      "definition": "Having the qualities of a dream; bizarre, dreamlike, or having an strange and unsettling quality that seems disconnected from reality.",
+      "translation": "超现实的；梦幻般的；离奇怪异的",
+      "example": "The abandoned amusement park had a surreal quality, with faded colors and silent rides creating an eerie, dreamlike atmosphere.",
+      "synonyms": [
+        "dreamlike",
+        "bizarre",
+        "uncanny",
+        "strange",
+        "eerie"
+      ],
+      "added": "2026-06-02",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-02",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
