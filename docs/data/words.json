@@ -1141,6 +1141,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "brainiac",
+      "word": "brainiac",
+      "pronunciation": "/ˈbreɪniæk/",
+      "partOfSpeech": "noun",
+      "definition": "A person who is extremely intelligent or intellectually gifted; a highly intelligent person, often used informally or somewhat playfully.",
+      "translation": "天才；智力超群的人；聪慧者",
+      "example": "She's a real brainiac who solved the complex math problem in just a few minutes.",
+      "synonyms": [
+        "genius",
+        "intellectual",
+        "scholar",
+        "smart person",
+        "egghead"
+      ],
+      "added": "2026-06-02",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-02",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
