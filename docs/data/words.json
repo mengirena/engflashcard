@@ -1031,6 +1031,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "proposition",
+      "word": "proposition",
+      "pronunciation": "/ˌprɒpəˈzɪʃən/",
+      "partOfSpeech": "noun",
+      "definition": "A statement or assertion that expresses a judgment or opinion; a proposed plan or scheme for consideration.",
+      "translation": "命题；主张；提议；建议",
+      "example": "The mayor put forward a proposition to build a new community center in the neighborhood.",
+      "synonyms": [
+        "proposal",
+        "suggestion",
+        "assertion",
+        "premise"
+      ],
+      "added": "2026-06-02",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-02",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
