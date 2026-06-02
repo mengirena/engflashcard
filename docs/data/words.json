@@ -1003,6 +1003,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "endearing",
+      "word": "endearing",
+      "pronunciation": "/ɪnˈdɪrɪŋ/",
+      "partOfSpeech": "adjective",
+      "definition": "Causing someone to feel affection or love; charming or attractive in a way that makes others like you.",
+      "translation": "令人喜爱的；惹人喜欢的；可爱的",
+      "example": "The puppy's endearing habit of tilting its head made everyone smile.",
+      "synonyms": [
+        "charming",
+        "lovable",
+        "appealing",
+        "winning",
+        "attractive"
+      ],
+      "added": "2026-06-02",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-02",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
