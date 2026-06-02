@@ -814,6 +814,33 @@
         "ease": 2.35,
         "reps": 1
       }
+    },
+    {
+      "id": "froufrou",
+      "word": "froufrou",
+      "pronunciation": "/ˈfruːfruː/",
+      "partOfSpeech": "noun",
+      "definition": "Excessive ornamentation or frilly decoration, especially in clothing or furnishings; also refers to the rustling sound made by such materials.",
+      "translation": "华丽的装饰品；褶皱装饰；窸窣声（指丝绸等发出的声音）",
+      "example": "The Victorian dress was covered in lace and froufrou that made her feel elegant at the ball.",
+      "synonyms": [
+        "frills",
+        "ornamentation",
+        "embellishment",
+        "finery"
+      ],
+      "added": "2026-06-02",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-02",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
