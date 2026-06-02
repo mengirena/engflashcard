@@ -922,6 +922,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "proffer",
+      "word": "proffer",
+      "pronunciation": "/ˈprɑːfər/",
+      "partOfSpeech": "verb",
+      "definition": "To offer or present something for someone to accept, typically in a respectful or formal manner.",
+      "translation": "提供；奉献；呈献",
+      "example": "She proffered her hand in greeting as she entered the room.",
+      "synonyms": [
+        "offer",
+        "present",
+        "extend",
+        "tender"
+      ],
+      "added": "2026-06-02",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-02",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
