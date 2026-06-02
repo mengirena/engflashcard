@@ -895,6 +895,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "go-getter",
+      "word": "go-getter",
+      "pronunciation": "/ˈɡoʊ ɡɛtər/",
+      "partOfSpeech": "noun",
+      "definition": "An ambitious, energetic person who is determined to succeed and takes initiative to achieve their goals.",
+      "translation": "有进取心的人；积极进取者",
+      "example": "Sarah is a real go-getter who always volunteers for challenging projects and consistently exceeds expectations.",
+      "synonyms": [
+        "achiever",
+        "overachiever",
+        "ambitious person",
+        "self-starter"
+      ],
+      "added": "2026-06-02",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-02",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
