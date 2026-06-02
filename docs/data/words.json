@@ -976,6 +976,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "clung",
+      "word": "clung",
+      "pronunciation": "/klʌŋ/",
+      "partOfSpeech": "verb",
+      "definition": "Past tense and past participle of 'cling'; to hold on tightly to something or someone.",
+      "translation": "紧紧抓住；紧紧粘着",
+      "example": "The frightened child clung to her mother's arm during the thunderstorm.",
+      "synonyms": [
+        "grasped",
+        "gripped",
+        "held",
+        "clutched"
+      ],
+      "added": "2026-06-02",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-02",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
