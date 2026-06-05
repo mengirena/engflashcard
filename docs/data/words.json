@@ -75,10 +75,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-03",
-        "interval": 1.2,
+        "due": "2026-06-08",
+        "interval": 2.64,
         "ease": 2.2,
-        "reps": 2
+        "reps": 3
       }
     },
     {
