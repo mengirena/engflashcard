@@ -34,21 +34,20 @@
         <button class="mode active" data-mode="due">Due</button>
         <button class="mode" data-mode="weak">Weak words</button>
       </div>
+      <div class="mode-row">
+        <button class="dir active" data-dir="fwd">Word → Meaning</button>
+        <button class="dir" data-dir="rev">Meaning → Word</button>
+      </div>
       <div id="studyEmpty" class="empty" hidden>
         <h2 id="studyEmptyTitle">All done for today 🎉</h2>
         <p id="studyEmptyMsg"></p>
       </div>
       <div id="studyCard" class="card" hidden>
         <div class="card-source" id="cardSource"></div>
-        <div class="card-word" id="cardWord"></div>
-        <div class="card-ipa" id="cardIpa"></div>
-        <div class="card-pos" id="cardPos"></div>
+        <div id="cardFront"></div>
         <button id="revealBtn" class="primary big">Show answer</button>
         <div id="cardBack" class="card-back" hidden>
-          <div class="card-translation" id="cardTranslation"></div>
-          <div class="card-def" id="cardDef"></div>
-          <div class="card-example" id="cardExample"></div>
-          <div class="card-syn" id="cardSyn"></div>
+          <div id="cardBackContent"></div>
           <div class="seen-in" id="cardSeenIn"></div>
           <div class="rate-row">
             <button class="rate again" data-rate="again">Again</button>

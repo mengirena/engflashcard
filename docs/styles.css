@@ -102,8 +102,13 @@ button:disabled { opacity: .55; cursor: default; }
 
 /* Study mode switch */
 .mode-row { display: flex; gap: 8px; margin-bottom: 14px; }
-.mode { background: var(--panel); color: var(--muted); border: 1px solid var(--line); box-shadow: var(--shadow); font-weight: 600; }
+.mode, .dir { background: var(--panel); color: var(--muted); border: 1px solid var(--line); box-shadow: var(--shadow); font-weight: 600; }
 .mode.active { background: var(--brand); color: #fff; border-color: var(--brand); }
+.dir.active { background: var(--brand2); color: #fff; border-color: var(--brand2); }
+.card-pos.prompt { font-style: normal; font-weight: 600; color: var(--brand); margin-top: 14px; }
+.speak { background: transparent; border: 0; padding: 2px 4px; font-size: 17px; cursor: pointer; line-height: 1; vertical-align: middle; }
+.speak:hover { transform: scale(1.15); }
+.card-word .speak { font-size: 22px; }
 
 /* Browse */
 .browse-list { display: flex; flex-direction: column; gap: 10px; }

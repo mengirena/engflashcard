@@ -21,6 +21,7 @@
   var flushTimer = null;
   var online = true;
   var studyMode = 'due';                  // 'due' | 'weak'
+  var studyDir = 'fwd';                   // 'fwd' (word→meaning) | 'rev' (meaning→word)
   var selectMode = false;                 // batch-select in Browse
   var selected = {};                      // ids checked in Browse
 
@@ -146,6 +147,13 @@
       renderStudy();
     });
   });
+  $$('.dir').forEach(function (b) {
+    b.addEventListener('click', function () {
+      studyDir = b.dataset.dir;
+      $$('.dir').forEach(function (m) { m.classList.toggle('active', m === b); });
+      if (current) nextCard(); // re-render current card in the new direction
+    });
+  });
   function renderStudy() {
     buildQueue();
     updateDueBadge();
@@ -177,33 +185,85 @@
       $('#studyEmptyMsg').textContent = dueLeft ? (dueLeft + ' still due.') : 'No more cards due.';
     }
   }
+  // ---- audio (Web Speech API, on-device, free) ----
+  var speechOK = ('speechSynthesis' in window);
+  function speak(text) {
+    if (!speechOK || !text) return;
+    try {
+      window.speechSynthesis.cancel();
+      var u = new SpeechSynthesisUtterance(text);
+      u.lang = 'en-US'; u.rate = 0.95;
+      window.speechSynthesis.speak(u);
+    } catch (e) {}
+  }
+  function speakBtn(text) {
+    if (!speechOK) return '';
+    return '<button class="speak" data-speak="' + escapeHtml(text) + '" title="Play audio" aria-label="Play audio">🔊</button>';
+  }
+  function maskWord(text, word) {
+    var safe = escapeHtml(text);
+    if (!word) return safe;
+    try {
+      var re = new RegExp(word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\w*', 'ig');
+      return safe.replace(re, '_____');
+    } catch (e) { return safe; }
+  }
+  function synChips(c) {
+    return (c.synonyms || []).map(function (s) { return '<span class="chip">' + escapeHtml(s) + '</span>'; }).join('');
+  }
+  function wordBlock(c) {
+    return '<div class="card-word">' + escapeHtml(c.word) + ' ' + speakBtn(c.word) + '</div>' +
+      '<div class="card-ipa">' + escapeHtml(c.pronunciation || '') + '</div>' +
+      '<div class="card-pos">' + escapeHtml(c.partOfSpeech || '') + '</div>';
+  }
+  function meaningBlock(c, blankExample) {
+    var ex = c.example ? (blankExample ? maskWord(c.example, c.word) : highlight(c.example, c.word)) : '';
+    return '<div class="card-translation">' + escapeHtml(c.translation || '') + '</div>' +
+      '<div class="card-def">' + escapeHtml(c.definition || '') + '</div>' +
+      (ex ? '<div class="card-example">' + ex + '</div>' : '');
+  }
+
   function nextCard() {
     if (!queue.length) { sessionDone(); return; }
     $('#studyEmpty').hidden = true;
     $('#studyCard').hidden = false;
     current = queue[0];
     $('#cardSource').textContent = current.source && current.source.label ? '— ' + current.source.label : '';
-    $('#cardWord').textContent = current.word;
-    $('#cardIpa').textContent = current.pronunciation || '';
-    $('#cardPos').textContent = current.partOfSpeech || '';
+    if (studyDir === 'rev') {
+      // show the meaning; recall the word
+      $('#cardFront').innerHTML = meaningBlock(current, true) +
+        '<div class="card-pos prompt">What\'s the word?</div>';
+    } else {
+      $('#cardFront').innerHTML = wordBlock(current);
+    }
     $('#cardBack').hidden = true;
     $('#revealBtn').hidden = false;
+    wireSpeakButtons();
   }
   function revealCard() {
     $('#revealBtn').hidden = true;
     $('#cardBack').hidden = false;
-    $('#cardTranslation').textContent = current.translation || '';
-    $('#cardDef').textContent = current.definition || '';
-    $('#cardExample').innerHTML = current.example ? highlight(current.example, current.word) : '';
-    $('#cardSyn').innerHTML = (current.synonyms || []).map(function (s) {
-      return '<span class="chip">' + escapeHtml(s) + '</span>';
-    }).join('');
+    if (studyDir === 'rev') {
+      $('#cardBackContent').innerHTML = wordBlock(current) +
+        (current.synonyms && current.synonyms.length ? '<div class="card-syn">' + synChips(current) + '</div>' : '') +
+        (current.example ? '<div class="card-example">' + highlight(current.example, current.word) + '</div>' : '');
+      speak(current.word); // reveal includes a tap gesture, so audio is allowed
+    } else {
+      $('#cardBackContent').innerHTML = meaningBlock(current, false) +
+        (current.synonyms && current.synonyms.length ? '<div class="card-syn">' + synChips(current) + '</div>' : '');
+    }
     var src = current.source || {};
-    if (src.label) {
-      $('#cardSeenIn').innerHTML = 'Seen in: ' + (src.url
-        ? '<a href="' + escapeHtml(src.url) + '" target="_blank" rel="noopener">' + escapeHtml(src.label) + '</a>'
-        : escapeHtml(src.label));
-    } else { $('#cardSeenIn').textContent = ''; }
+    $('#cardSeenIn').innerHTML = src.label
+      ? 'Seen in: ' + (src.url
+          ? '<a href="' + escapeHtml(src.url) + '" target="_blank" rel="noopener">' + escapeHtml(src.label) + '</a>'
+          : escapeHtml(src.label))
+      : '';
+    wireSpeakButtons();
+  }
+  function wireSpeakButtons() {
+    $$('#studyCard .speak').forEach(function (b) {
+      b.onclick = function (e) { e.stopPropagation(); speak(b.dataset.speak); };
+    });
   }
   function rate(rating) {
     if (!current) return;
@@ -324,8 +384,8 @@
       var del = '<button class="bdel" data-id="' + escapeHtml(c.id) + '" title="Delete">🗑</button>';
       return '<div class="browse-item' + (selectMode ? ' selectable' : '') + '">' +
         '<div class="bhead">' + check +
-          '<div class="bmain"><div>' + due + '<span class="bw">' + escapeHtml(c.word) + '</span>' +
-          '<span class="bipa">' + escapeHtml(c.pronunciation || '') + '</span> ' +
+          '<div class="bmain"><div>' + due + '<span class="bw">' + escapeHtml(c.word) + '</span> ' + speakBtn(c.word) +
+          ' <span class="bipa">' + escapeHtml(c.pronunciation || '') + '</span> ' +
           '<span class="bpos">' + escapeHtml(c.partOfSpeech || '') + '</span>' +
           ' <span class="mbadge ' + MASTERY_CLASS[m.label] + '">' + m.label + '</span></div>' +
           '<div class="btr">' + escapeHtml(c.translation || '') + '</div>' +
@@ -346,6 +406,9 @@
         if (cb.checked) selected[cb.dataset.id] = true; else delete selected[cb.dataset.id];
         updateSelCount();
       });
+    });
+    $$('#browseList .speak').forEach(function (b) {
+      b.addEventListener('click', function (e) { e.stopPropagation(); speak(b.dataset.speak); });
     });
   }
   function updateSelCount() {
