@@ -1,6 +1,6 @@
 /* sw.js — caches the app shell so the app installs and works offline.
    Data (GitHub API / Anthropic API) always goes to the network. */
-var CACHE = 'flashcards-shell-v10';
+var CACHE = 'flashcards-shell-v11';
 var SHELL = [
   './', './index.html', './styles.css', './app.js', './core.js',
   './manifest.webmanifest', './icons/icon.svg'
@@ -20,22 +20,22 @@ self.addEventListener('activate', function (e) {
 
 self.addEventListener('fetch', function (e) {
   var url = new URL(e.request.url);
-  // never cache API traffic
+  // never touch API traffic
   if (url.hostname === 'api.github.com' || url.hostname === 'api.anthropic.com') return;
   if (e.request.method !== 'GET') return;
+  if (url.origin !== location.origin) return;
 
-  // app shell: cache-first, fall back to network, then to cached index for navigations
+  // NETWORK-FIRST: always get fresh code when online; fall back to cache offline.
   e.respondWith(
-    caches.match(e.request).then(function (hit) {
-      if (hit) return hit;
-      return fetch(e.request).then(function (res) {
-        if (url.origin === location.origin && res.ok) {
-          var copy = res.clone();
-          caches.open(CACHE).then(function (c) { c.put(e.request, copy); });
-        }
-        return res;
-      }).catch(function () {
-        if (e.request.mode === 'navigate') return caches.match('./index.html');
+    fetch(e.request).then(function (res) {
+      if (res && res.ok) {
+        var copy = res.clone();
+        caches.open(CACHE).then(function (c) { c.put(e.request, copy); });
+      }
+      return res;
+    }).catch(function () {
+      return caches.match(e.request).then(function (hit) {
+        return hit || (e.request.mode === 'navigate' ? caches.match('./index.html') : undefined);
       });
     })
   );

@@ -47,6 +47,7 @@ h2 { margin: 6px 0 12px; }
 .row { display: flex; gap: 8px; margin-bottom: 12px; }
 .row input, .row select { flex: 1; }
 .stack { display: flex; flex-direction: column; gap: 10px; }
+.panel { background: var(--panel); border-radius: 16px; box-shadow: var(--shadow); padding: 16px; }
 .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); }
 
@@ -139,7 +140,10 @@ button:disabled { opacity: .55; cursor: default; }
 .actionbar { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
 .actionbar .selall { flex-direction: row; align-items: center; gap: 6px; color: var(--ink); }
 .actionbar .selall input { width: auto; }
+.actionbar #selectMode { background: transparent; border: 1.5px solid var(--brand); color: var(--brand); }
+.actionbar #selectMode::before { content: '☐ '; }
 .actionbar #selectMode.active-sel { background: var(--brand); color: #fff; }
+.actionbar #selectMode.active-sel::before { content: '☑ '; }
 .actionbar #delSelected { margin-left: auto; }
 .danger { background: var(--again); color: #fff; font-weight: 700; }
 .bhead { display: flex; align-items: flex-start; gap: 10px; }

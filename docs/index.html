@@ -74,11 +74,11 @@
         <input id="searchInput" type="search" placeholder="Search words, meanings…" />
         <select id="sourceFilter"><option value="">All sources</option></select>
         <select id="sortBy">
-          <option value="added-desc">Newest added</option>
-          <option value="added-asc">Oldest added</option>
+          <option value="added-desc">Newest</option>
+          <option value="added-asc">Oldest</option>
           <option value="mastery-asc">Least mastered</option>
           <option value="mastery-desc">Most mastered</option>
-          <option value="az">A → Z</option>
+          <option value="az">A–Z</option>
         </select>
       </div>
       <div class="actionbar">
@@ -94,7 +94,7 @@
     <!-- ADD -->
     <section id="view-add" class="view" hidden>
       <h2>Add a word</h2>
-      <div class="stack">
+      <div class="stack panel">
         <input id="addWord" type="text" placeholder="Type an English word or phrase" />
         <input id="addSource" type="text" placeholder="Where did you see it? (optional)" />
         <button id="addBtn" class="primary">Look up &amp; save</button>
@@ -107,7 +107,7 @@
       <h2>Import a word list</h2>
       <p class="muted">Paste a list, or paste/upload an export from Kindle, Libby, or Hoopla.
         The AI reads it and pulls out the words to study.</p>
-      <div class="stack">
+      <div class="stack panel">
         <input id="importFile" type="file" accept=".txt,.csv,.md,.json,text/*" />
         <textarea id="importText" rows="8" placeholder="…or paste your list / export text here"></textarea>
         <button id="analyzeBtn" class="primary">Analyze</button>
@@ -120,7 +120,7 @@
     <section id="view-settings" class="view" hidden>
       <h2>Settings</h2>
       <p class="muted">Stored only on this device (localStorage). Never uploaded to the repo.</p>
-      <div class="stack">
+      <div class="stack panel">
         <label>Anthropic API key
           <input id="setAnthropic" type="password" placeholder="sk-ant-…" autocomplete="off" />
         </label>

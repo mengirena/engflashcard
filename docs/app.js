@@ -610,6 +610,11 @@
   // ---------- service worker ----------
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });
+    // when a new service worker takes control, refresh once so new code shows immediately
+    var swRefreshed = false;
+    navigator.serviceWorker.addEventListener('controllerchange', function () {
+      if (swRefreshed) return; swRefreshed = true; location.reload();
+    });
   }
 
   init();
