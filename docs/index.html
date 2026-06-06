@@ -80,13 +80,12 @@
           <option value="mastery-desc">Most mastered</option>
           <option value="az">A → Z</option>
         </select>
-        <button id="selectMode" class="secondary">Select</button>
       </div>
-      <div id="batchBar" class="batch-bar" hidden>
-        <label class="selall"><input type="checkbox" id="selAllBrowse" /> All</label>
-        <span id="selCount" class="muted">0 selected</span>
-        <button id="delSelected" class="danger">Delete</button>
-        <button id="selCancel" class="secondary">Cancel</button>
+      <div class="actionbar">
+        <button id="selectMode" class="secondary">Select</button>
+        <label class="selall" id="selAllWrap" hidden><input type="checkbox" id="selAllBrowse" /> All</label>
+        <span id="selCount" class="muted" hidden>0 selected</span>
+        <button id="delSelected" class="danger" hidden>Delete</button>
       </div>
       <div id="browseCount" class="muted count"></div>
       <div id="browseList" class="browse-list"></div>

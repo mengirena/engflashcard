@@ -459,16 +459,20 @@
   $('#searchInput').addEventListener('input', applyBrowse);
   $('#sourceFilter').addEventListener('change', applyBrowse);
   $('#sortBy').addEventListener('change', applyBrowse);
-  $('#selectMode').addEventListener('click', function () {
-    selectMode = true; selected = {};
-    $('#batchBar').hidden = false; $('#selectMode').hidden = true;
-    updateSelCount(); applyBrowse();
-  });
-  $('#selCancel').addEventListener('click', function () {
-    selectMode = false; selected = {};
-    $('#batchBar').hidden = true; $('#selectMode').hidden = false;
+  function setSelectMode(on) {
+    selectMode = on;
+    if (!on) selected = {};
+    var btn = $('#selectMode');
+    btn.textContent = on ? 'Done' : 'Select';
+    btn.classList.toggle('active-sel', on);
+    $('#selAllWrap').hidden = !on;
+    $('#selCount').hidden = !on;
+    $('#delSelected').hidden = !on;
+    if (on) { $('#selAllBrowse').checked = false; }
+    updateSelCount();
     applyBrowse();
-  });
+  }
+  $('#selectMode').addEventListener('click', function () { setSelectMode(!selectMode); });
   $('#selAllBrowse').addEventListener('change', function () {
     var on = this.checked;
     $$('#browseList .bsel').forEach(function (cb) {

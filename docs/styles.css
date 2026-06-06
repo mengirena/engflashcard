@@ -136,9 +136,11 @@ button:disabled { opacity: .55; cursor: default; }
 .toolbar #selectMode { flex: 0 0 auto; padding: 11px 16px; }
 .count { margin-bottom: 8px; font-size: 12px; }
 .browse-list { display: flex; flex-direction: column; gap: 10px; }
-.batch-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
-.batch-bar .selall { flex-direction: row; align-items: center; gap: 6px; color: var(--ink); }
-.batch-bar .selall input { width: auto; }
+.actionbar { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+.actionbar .selall { flex-direction: row; align-items: center; gap: 6px; color: var(--ink); }
+.actionbar .selall input { width: auto; }
+.actionbar #selectMode.active-sel { background: var(--brand); color: #fff; }
+.actionbar #delSelected { margin-left: auto; }
 .danger { background: var(--again); color: #fff; font-weight: 700; }
 .bhead { display: flex; align-items: flex-start; gap: 10px; }
 .bmain { flex: 1; min-width: 0; }
