@@ -1252,6 +1252,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "beckoning",
+      "word": "beckoning",
+      "pronunciation": "/ˈbekənɪŋ/",
+      "partOfSpeech": "verb (present participle)",
+      "definition": "Making a gesture with the hand or head to encourage someone to come closer or follow; attractively inviting or enticing.",
+      "translation": "招手；吸引；诱惑",
+      "example": "The lighthouse keeper stood at the door, beckoning the lost sailors toward safety.",
+      "synonyms": [
+        "calling",
+        "signaling",
+        "summoning",
+        "inviting",
+        "luring"
+      ],
+      "added": "2026-06-06",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
