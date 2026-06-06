@@ -180,9 +180,17 @@
       try {
         const data = await ghGetRaw(cfg, e.path);
         const card = JSON.parse(b64ToUtf8(data.content));
-        if (card && card.id && !byId[card.id]) {
+        if (!card) continue;
+        // Tolerate "lean" inbox files (e.g. raw AI output from the iOS Shortcut)
+        // that omit id/source/srs — derive/fill them here.
+        if (!card.id) card.id = slugId(card.word || e.name.replace(/\.json$/i, ''));
+        if (!card.word) card.word = card.id;
+        if (!card.id) continue;
+        if (!byId[card.id]) {
           if (!card.srs) card.srs = defaultSrs();
           if (!card.added) card.added = todayISO();
+          if (!card.source) card.source = { label: '', url: '', via: 'ios' };
+          if (!Array.isArray(card.synonyms)) card.synonyms = [];
           deck.cards.push(card);
           byId[card.id] = true;
           added++;

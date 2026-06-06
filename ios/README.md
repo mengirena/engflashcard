@@ -60,32 +60,35 @@ You are a bilingual (English–Chinese) vocabulary tutor. For the given English 
 - **Get Dictionary from Input** → input = that **text**. Now you have the card fields.
   Call this **Card**.
 
-### 4. Save it to your flashcards  — *Get Contents of URL*
-First make the file name from the word:
-- **Text** action = the **word** value from **Card** (Get Dictionary Value → `word`).
-- **Change Case** → **lowercase**.
-- **Replace Text** → find ` ` (space) replace with `-`. Call result **Slug**.
+### 4. Save it to your flashcards — *the easy way* 🎉
+**You do NOT need to rebuild the fields.** The `text` you got in step 3 is already the full
+card as JSON — just save *that*. The app fills in the id, schedule, and source automatically
+when it folds the word into your deck.
 
-Build the file contents:
-- **Get Dictionary Value** doesn't help here; instead add a **Dictionary** action named
-  **FileObj** mirroring the Card plus a source, e.g. keys: `id` (=Slug), `word`,
-  `pronunciation`, `partOfSpeech`, `definition`, `translation`, `example`, `synonyms`,
-  `source` (Dictionary: `label`=`iPhone`, `url`=`Shortcut Input` if a URL was shared, `via`=`ios`).
-  Pull each value from **Card** with **Get Dictionary Value**.
-- **Base64 Encode** the **FileObj** (add a **Text** action that holds FileObj as JSON, then
-  **Base64 Encode** it). *(Tip: a "Get Text from Input" → FileObj produces its JSON text.)*
+You need just three things:
 
-Now the upload:
-- **Get Contents of URL**
-  - **URL:** `https://api.github.com/repos/mengirena/engflashcard/contents/docs/data/inbox/` + **Slug** + `.json`
-  - **Method:** `PUT`
-  - **Headers:**
-    - `Authorization` = `Bearer YOUR_GITHUB_TOKEN`
-    - `Accept` = `application/vnd.github+json`
-  - **Request Body:** **JSON**:
-    - `message` (Text) = `capture: ` + **Word**
-    - `content` (Text) = the **Base64** value
-    - `branch` (Text) = `main`
+**a) Encode the card.**
+- Add **Base64 Encode**. Tap its input → pick the **`text`** value from step 3 (the third
+  action there — the JSON string, *before* "Get Dictionary from Input"). Result: **Base64 Encoded**.
+
+**b) Make a file name from the word.**
+- Add **Text** = the **Shortcut Input** (your word).
+- Add **Replace Text** → **Find** a single space ` ` → **Replace** with `-`. Result: **Slug**.
+  *(Single words pass through unchanged; this only matters for phrases.)*
+
+**c) Upload it.** Add **Get Contents of URL** → **Show More**:
+- **URL:** tap and build it as: `https://api.github.com/repos/mengirena/engflashcard/contents/docs/data/inbox/` then insert the **Slug** variable, then type `.json`
+- **Method:** `PUT`
+- **Headers:**
+  - `Authorization` = `Bearer YOUR_GITHUB_TOKEN`
+  - `Accept` = `application/vnd.github+json`
+- **Request Body:** **JSON** with three keys:
+  - `message` (Text) = `capture: ` + your **word** variable
+  - `content` (Text) = the **Base64 Encoded** variable from (a)
+  - `branch` (Text) = `main`
+
+That's the whole save. *(No `FileObj`, no per-field extraction — the app adds the `id`,
+default `srs`, and a `via: ios` source when it ingests the file.)*
 
 ### 5. Show the meaning over Safari
 - **Text** action combining the fields, e.g.:
