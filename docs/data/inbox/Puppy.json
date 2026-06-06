@@ -1,0 +1,11 @@
+```json
+{
+  "word": "puppy",
+  "pronunciation": "/ˈpʌpi/",
+  "partOfSpeech": "noun",
+  "definition": "A young dog, typically from birth until one year of age.",
+  "translation": "小狗；幼犬",
+  "example": "The puppy wagged its tail excitedly when we came home.",
+  "synonyms": ["young dog", "pup", "whelp"]
+}
+```
