@@ -1196,6 +1196,33 @@
         "ease": 2.35,
         "reps": 1
       }
+    },
+    {
+      "word": "column",
+      "pronunciation": "/ˈkɑːləm/",
+      "partOfSpeech": "noun",
+      "definition": "A vertical cylindrical or rectangular structure that supports a building or other structure; alternatively, a vertical arrangement of items, text, or data in a table or on a page.",
+      "translation": "柱子；纵列；栏",
+      "example": "The ancient Greek temple was supported by tall marble columns.",
+      "synonyms": [
+        "pillar",
+        "support",
+        "post",
+        "row"
+      ],
+      "id": "column",
+      "srs": {
+        "due": "2026-06-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-06-06",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
