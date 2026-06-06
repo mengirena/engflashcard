@@ -175,18 +175,19 @@
 
     const byId = {};
     deck.cards.forEach(function (c) { byId[c.id] = true; });
-    let added = 0;
+    let added = 0, failed = 0;
+    const toDelete = []; // only files we successfully handled — never drop a bad file
     for (const e of entries) {
       try {
         const data = await ghGetRaw(cfg, e.path);
         // tolerate AI output wrapped in ```json fences (iOS Shortcut saves raw text)
         const card = JSON.parse(stripFences(b64ToUtf8(data.content)));
-        if (!card) continue;
+        if (!card) { failed++; continue; }
         // Tolerate "lean" inbox files (e.g. raw AI output from the iOS Shortcut)
         // that omit id/source/srs — derive/fill them here.
         if (!card.id) card.id = slugId(card.word || e.name.replace(/\.json$/i, ''));
         if (!card.word) card.word = card.id;
-        if (!card.id) continue;
+        if (!card.id) { failed++; continue; }
         if (!byId[card.id]) {
           if (!card.srs) card.srs = defaultSrs();
           if (!card.added) card.added = todayISO();
@@ -196,17 +197,18 @@
           byId[card.id] = true;
           added++;
         }
-      } catch (err) { /* skip bad inbox file */ }
+        toDelete.push(e); // parsed fine (added or already a duplicate) → safe to clear
+      } catch (err) { failed++; /* keep the file so a bad capture is never lost */ }
     }
     let sha = deck.sha;
     if (added > 0) {
       sha = await saveDeck(cfg, deck.cards, deck.sha, 'ingest ' + added + ' captured word(s)');
     }
-    // delete processed inbox files (best effort)
-    for (const e of entries) {
+    // delete only successfully-processed inbox files (best effort)
+    for (const e of toDelete) {
       try { await ghDeleteFile(cfg, e.path, e.sha, 'clear inbox: ' + e.name); } catch (err) {}
     }
-    return { ingested: added, cards: deck.cards, sha: sha };
+    return { ingested: added, failed: failed, cards: deck.cards, sha: sha };
   }
 
   // ---------- SRS (simplified SM-2) ----------

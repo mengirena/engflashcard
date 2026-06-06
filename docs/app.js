@@ -101,7 +101,8 @@
         // fold in any words captured from the extension / phone
         var res = await C.ingestInbox(cfg, deck);
         if (res.ingested > 0) { deck.cards = res.cards; deck.sha = res.sha; cacheDeck(); toast('Added ' + res.ingested + ' captured word(s).'); }
-        banner('');
+        if (res.failed > 0) { banner('⚠︎ ' + res.failed + ' captured file(s) couldn\'t be read and were left in the inbox for another try. They may be malformed.'); }
+        else banner('');
         online = true;
       } catch (e) {
         online = false;
