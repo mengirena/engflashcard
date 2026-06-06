@@ -226,8 +226,12 @@
 
   // How well a card is known, from its SRS state. Higher score = better mastered.
   // Thresholds mirror Anki's notion of "mature" (interval >= 21 days).
-  function masteryInfo(card) {
-    const s = card.srs || {};
+  // dir: 'fwd' (front: word→meaning, uses card.srs) | 'rev' (back: meaning→word, uses card.srsBack)
+  function srsKey(dir) { return dir === 'rev' ? 'srsBack' : 'srs'; }
+  function getSrs(card, dir) { return card[srsKey(dir)]; }
+
+  function masteryInfo(card, dir) {
+    const s = getSrs(card, dir) || {};
     const reps = s.reps || 0, interval = s.interval || 0;
     let score, label;
     if (reps === 0) { score = 0; label = 'New'; }
@@ -239,22 +243,25 @@
     return { score: score, label: label, rank: rank };
   }
 
-  // ---------- SRS (simplified SM-2) ----------
-  function isDue(card, refISO) {
+  // ---------- SRS (simplified SM-2), per direction ----------
+  function isDue(card, dir, refISO) {
+    const s = getSrs(card, dir);
     const today = refISO || todayISO();
-    if (!card.srs || card.srs.reps === 0) return true;
-    return card.srs.due <= today;
+    if (!s || s.reps === 0) return true;   // new (or never studied in this direction)
+    return s.due <= today;
   }
-  function srsReview(card, rating) {
-    const s = card.srs || defaultSrs();
+  function srsReview(card, rating, dir) {
+    const key = srsKey(dir);
+    const s = card[key] || defaultSrs();
     let ease = s.ease || 2.5;
     let interval = s.interval || 0;
     let reps = s.reps || 0;
+    if (rating === 'again') {
+      ease = Math.max(1.3, ease - 0.20);
+      card[key] = { due: todayISO(), interval: 0, ease: ease, reps: 0 };
+      return card[key];
+    }
     switch (rating) {
-      case 'again':
-        ease = Math.max(1.3, ease - 0.20); interval = 0; reps = 0;
-        card.srs = { due: todayISO(), interval: 0, ease: ease, reps: reps };
-        return card.srs;
       case 'hard':
         ease = Math.max(1.3, ease - 0.15);
         interval = interval > 0 ? interval * 1.2 : 1;
@@ -270,8 +277,8 @@
     }
     reps += 1;
     interval = Math.max(1, interval);
-    card.srs = { due: addDaysISO(interval), interval: interval, ease: ease, reps: reps };
-    return card.srs;
+    card[key] = { due: addDaysISO(interval), interval: interval, ease: ease, reps: reps };
+    return card[key];
   }
 
   // ---------- Anthropic ----------
@@ -366,7 +373,7 @@
     loadDeck, saveDeck, buildCard, defaultSrs,
     saveCapture, ingestInbox, deleteCards, masteryInfo,
     // srs
-    isDue, srsReview,
+    isDue, srsReview, getSrs,
     // ai
     anthropicLookup, lookup, parseImport
   };

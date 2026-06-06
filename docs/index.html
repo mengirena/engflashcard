@@ -11,7 +11,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="Flashcards" />
-  <link rel="stylesheet" href="styles.css?v=14" />
+  <link rel="stylesheet" href="styles.css?v=15" />
 </head>
 <body>
   <header class="topbar">
@@ -36,8 +36,8 @@
           <button class="mode" data-mode="weak">Weak words</button>
         </div>
         <div class="seg seg-dir">
-          <button class="dir active" data-dir="fwd">Word → Meaning</button>
-          <button class="dir" data-dir="rev">Meaning → Word</button>
+          <button class="dir active" data-dir="fwd" title="See the word, recall the meaning">Front</button>
+          <button class="dir" data-dir="rev" title="See the meaning, recall the word">Back</button>
         </div>
       </div>
       <div class="study-progress" id="studyProgress" hidden>
@@ -148,7 +148,7 @@
 
   <div id="toast" class="toast" hidden></div>
 
-  <script src="core.js?v=14"></script>
-  <script src="app.js?v=14"></script>
+  <script src="core.js?v=15"></script>
+  <script src="app.js?v=15"></script>
 </body>
 </html>

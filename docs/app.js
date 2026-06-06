@@ -84,7 +84,7 @@
 
   // ---------- init ----------
   function updateDueBadge() {
-    var n = deck.cards.filter(function (c) { return C.isDue(c); }).length;
+    var n = deck.cards.filter(function (c) { return C.isDue(c, studyDir); }).length;
     var b = $('#dueBadge');
     b.textContent = n; b.hidden = n === 0;
   }
@@ -133,13 +133,17 @@
   // ---------- STUDY ----------
   function buildQueue() {
     if (studyMode === 'weak') {
-      // practice the least-mastered words first, regardless of due date
+      // practice the least-mastered words first (for the current side), regardless of due date
       queue = deck.cards.slice().sort(function (a, b) {
-        return C.masteryInfo(a).rank - C.masteryInfo(b).rank;
+        return C.masteryInfo(a, studyDir).rank - C.masteryInfo(b, studyDir).rank;
       });
     } else {
-      queue = deck.cards.filter(function (c) { return C.isDue(c); });
-      queue.sort(function (a, b) { return (a.srs.due || '').localeCompare(b.srs.due || ''); });
+      queue = deck.cards.filter(function (c) { return C.isDue(c, studyDir); });
+      queue.sort(function (a, b) {
+        var da = (C.getSrs(a, studyDir) || {}).due || '';
+        var db = (C.getSrs(b, studyDir) || {}).due || '';
+        return da.localeCompare(db);
+      });
     }
   }
   $$('.mode').forEach(function (b) {
@@ -153,7 +157,7 @@
     b.addEventListener('click', function () {
       studyDir = b.dataset.dir;
       $$('.dir').forEach(function (m) { m.classList.toggle('active', m === b); });
-      if (current) nextCard(); // re-render current card in the new direction
+      renderStudy(); // rebuild the queue for this side (front/back have separate schedules)
     });
   });
   function updateProgress() {
@@ -190,7 +194,7 @@
     $('#studyProgress').hidden = true;
     $('#studyEmpty').hidden = false;
     updateDueBadge();
-    var dueLeft = deck.cards.filter(function (c) { return C.isDue(c); }).length;
+    var dueLeft = deck.cards.filter(function (c) { return C.isDue(c, studyDir); }).length;
     if (studyMode === 'weak') {
       $('#studyEmptyTitle').textContent = 'Practice round complete 💪';
       $('#studyEmptyMsg').textContent = 'Tap "Weak words" again for another pass.';
@@ -242,10 +246,10 @@
     $('#studyEmpty').hidden = true;
     $('#studyCard').hidden = false;
     current = queue[0];
-    var m = C.masteryInfo(current);
+    var m = C.masteryInfo(current, studyDir);
     var badge = $('#cardMastery');
     badge.className = 'mbadge ' + (MASTERY_CLASS[m.label] || 'm0');
-    badge.textContent = m.label;
+    badge.textContent = (studyDir === 'rev' ? 'Back · ' : 'Front · ') + m.label;
     $('#cardSource').textContent = current.source && current.source.label ? '— ' + current.source.label : '';
     if (studyDir === 'rev') {
       // show the meaning; recall the word
@@ -288,7 +292,7 @@
   }
   function rate(rating) {
     if (!current) return;
-    C.srsReview(current, rating);
+    C.srsReview(current, rating, studyDir);
     dirty = true;
     scheduleFlush();
     if (rating !== 'again') sessionDone[current.id] = true;
@@ -386,11 +390,12 @@
       if (!q) return true;
       return (c.word + ' ' + c.definition + ' ' + c.translation + ' ' + (c.synonyms || []).join(' ')).toLowerCase().indexOf(q) >= 0;
     });
+    function weakRank(c) { return Math.min(C.masteryInfo(c, 'fwd').rank, C.masteryInfo(c, 'rev').rank); }
     list.sort(function (a, b) {
       switch (sort) {
         case 'added-asc': return (a.added || '').localeCompare(b.added || '');
-        case 'mastery-asc': return C.masteryInfo(a).rank - C.masteryInfo(b).rank;
-        case 'mastery-desc': return C.masteryInfo(b).rank - C.masteryInfo(a).rank;
+        case 'mastery-asc': return weakRank(a) - weakRank(b);
+        case 'mastery-desc': return weakRank(b) - weakRank(a);
         case 'az': return a.word.localeCompare(b.word);
         case 'added-desc':
         default: return (b.added || '').localeCompare(a.added || '');
@@ -398,19 +403,21 @@
     });
     $('#browseCount').textContent = list.length + ' of ' + deck.cards.length + ' word(s)';
     $('#browseList').innerHTML = list.map(function (c) {
-      var m = C.masteryInfo(c);
-      var due = C.isDue(c) ? '<span class="due-dot" title="due"></span>' : '';
+      var mf = C.masteryInfo(c, 'fwd'), mb = C.masteryInfo(c, 'rev');
+      var due = (C.isDue(c, 'fwd') || C.isDue(c, 'rev')) ? '<span class="due-dot" title="due"></span>' : '';
       var seen = c.source && c.source.label ? ' · ' + escapeHtml(c.source.label) : '';
       var check = selectMode
         ? '<input type="checkbox" class="bsel" data-id="' + escapeHtml(c.id) + '"' + (selected[c.id] ? ' checked' : '') + '>'
         : '';
       var del = '<button class="bdel" data-id="' + escapeHtml(c.id) + '" title="Delete">🗑</button>';
+      var badges = '<span class="mbadge ' + MASTERY_CLASS[mf.label] + '" title="Front (word→meaning)">F·' + mf.label + '</span>' +
+                   ' <span class="mbadge ' + MASTERY_CLASS[mb.label] + '" title="Back (meaning→word)">B·' + mb.label + '</span>';
       return '<div class="browse-item' + (selectMode ? ' selectable' : '') + '">' +
         '<div class="bhead">' + check +
           '<div class="bmain"><div>' + due + '<span class="bw">' + escapeHtml(c.word) + '</span> ' + speakBtn(c.word) +
           ' <span class="bipa">' + escapeHtml(c.pronunciation || '') + '</span> ' +
           '<span class="bpos">' + escapeHtml(c.partOfSpeech || '') + '</span>' +
-          ' <span class="mbadge ' + MASTERY_CLASS[m.label] + '">' + m.label + '</span></div>' +
+          ' ' + badges + '</div>' +
           '<div class="btr">' + escapeHtml(c.translation || '') + '</div>' +
           '<div class="bdef">' + escapeHtml(c.definition || '') + '</div>' +
           '<div class="bmeta">added ' + escapeHtml(c.added || '') + ' · next ' + escapeHtml(c.srs ? c.srs.due : '') + seen + '</div></div>' +
