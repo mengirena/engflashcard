@@ -211,6 +211,34 @@
     return { ingested: added, failed: failed, cards: deck.cards, sha: sha };
   }
 
+  // Remove cards by id and persist the deck.
+  async function deleteCards(cfg, ids, deck) {
+    const drop = {};
+    (ids || []).forEach(function (id) { drop[id] = true; });
+    const before = deck.cards.length;
+    deck.cards = deck.cards.filter(function (c) { return !drop[c.id]; });
+    const removed = before - deck.cards.length;
+    if (removed > 0) {
+      deck.sha = await saveDeck(cfg, deck.cards, deck.sha, 'delete ' + removed + ' card(s)');
+    }
+    return { removed: removed, cards: deck.cards, sha: deck.sha };
+  }
+
+  // How well a card is known, from its SRS state. Higher score = better mastered.
+  // Thresholds mirror Anki's notion of "mature" (interval >= 21 days).
+  function masteryInfo(card) {
+    const s = card.srs || {};
+    const reps = s.reps || 0, interval = s.interval || 0;
+    let score, label;
+    if (reps === 0) { score = 0; label = 'New'; }
+    else if (interval < 4) { score = 1; label = 'Learning'; }
+    else if (interval < 21) { score = 2; label = 'Familiar'; }
+    else { score = 3; label = 'Mastered'; }
+    // numeric rank for fine-grained sorting (level dominates, then interval, then ease)
+    const rank = score * 1e6 + Math.min(interval, 9999) * 100 + Math.round((s.ease || 2.5) * 10);
+    return { score: score, label: label, rank: rank };
+  }
+
   // ---------- SRS (simplified SM-2) ----------
   function isDue(card, refISO) {
     const today = refISO || todayISO();
@@ -336,7 +364,7 @@
     ghGetRaw, ghGetJsonFile, ghListDir, ghPutJsonFile, ghDeleteFile,
     // deck
     loadDeck, saveDeck, buildCard, defaultSrs,
-    saveCapture, ingestInbox,
+    saveCapture, ingestInbox, deleteCards, masteryInfo,
     // srs
     isDue, srsReview,
     // ai

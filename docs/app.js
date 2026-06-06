@@ -20,6 +20,9 @@
   var dirty = false;
   var flushTimer = null;
   var online = true;
+  var studyMode = 'due';                  // 'due' | 'weak'
+  var selectMode = false;                 // batch-select in Browse
+  var selected = {};                      // ids checked in Browse
 
   // ---------- config ----------
   function loadCfg() {
@@ -126,27 +129,58 @@
 
   // ---------- STUDY ----------
   function buildQueue() {
-    queue = deck.cards.filter(function (c) { return C.isDue(c); });
-    // new/most-overdue first-ish: keep stable; shuffle lightly
-    queue.sort(function (a, b) { return (a.srs.due || '').localeCompare(b.srs.due || ''); });
+    if (studyMode === 'weak') {
+      // practice the least-mastered words first, regardless of due date
+      queue = deck.cards.slice().sort(function (a, b) {
+        return C.masteryInfo(a).rank - C.masteryInfo(b).rank;
+      });
+    } else {
+      queue = deck.cards.filter(function (c) { return C.isDue(c); });
+      queue.sort(function (a, b) { return (a.srs.due || '').localeCompare(b.srs.due || ''); });
+    }
   }
+  $$('.mode').forEach(function (b) {
+    b.addEventListener('click', function () {
+      studyMode = b.dataset.mode;
+      $$('.mode').forEach(function (m) { m.classList.toggle('active', m === b); });
+      renderStudy();
+    });
+  });
   function renderStudy() {
     buildQueue();
     updateDueBadge();
     if (!queue.length) {
       $('#studyCard').hidden = true;
       $('#studyEmpty').hidden = false;
-      $('#studyEmptyMsg').textContent = deck.cards.length
-        ? 'Nothing due right now. You have ' + deck.cards.length + ' word(s) total.'
-        : 'No words yet — add some in the Add or Import tab, or look one up on your phone.';
+      $('#studyEmptyTitle').textContent = !deck.cards.length ? 'No words yet' : 'All caught up 🎉';
+      $('#studyEmptyMsg').textContent = !deck.cards.length
+        ? 'No words yet — add some in the Add or Import tab, or look one up on your phone.'
+        : (studyMode === 'weak'
+            ? 'No words to practice.'
+            : 'Nothing due right now. Try "Weak words" to practice anyway — you have ' + deck.cards.length + ' word(s) total.');
       return;
     }
     $('#studyEmpty').hidden = true;
     $('#studyCard').hidden = false;
     nextCard();
   }
+  function sessionDone() {
+    $('#studyCard').hidden = true;
+    $('#studyEmpty').hidden = false;
+    updateDueBadge();
+    var dueLeft = deck.cards.filter(function (c) { return C.isDue(c); }).length;
+    if (studyMode === 'weak') {
+      $('#studyEmptyTitle').textContent = 'Practice round complete 💪';
+      $('#studyEmptyMsg').textContent = 'Tap "Weak words" again for another pass.';
+    } else {
+      $('#studyEmptyTitle').textContent = 'All done for today 🎉';
+      $('#studyEmptyMsg').textContent = dueLeft ? (dueLeft + ' still due.') : 'No more cards due.';
+    }
+  }
   function nextCard() {
-    if (!queue.length) { renderStudy(); return; }
+    if (!queue.length) { sessionDone(); return; }
+    $('#studyEmpty').hidden = true;
+    $('#studyCard').hidden = false;
     current = queue[0];
     $('#cardSource').textContent = current.source && current.source.label ? '— ' + current.source.label : '';
     $('#cardWord').textContent = current.word;
@@ -259,31 +293,104 @@
     sel.value = cur;
     applyBrowse();
   }
+  var MASTERY_CLASS = { 'New': 'm0', 'Learning': 'm1', 'Familiar': 'm2', 'Mastered': 'm3' };
   function applyBrowse() {
     var q = $('#searchInput').value.trim().toLowerCase();
     var src = $('#sourceFilter').value;
+    var sort = $('#sortBy').value;
     var list = deck.cards.filter(function (c) {
       if (src && (!c.source || c.source.label !== src)) return false;
       if (!q) return true;
       return (c.word + ' ' + c.definition + ' ' + c.translation + ' ' + (c.synonyms || []).join(' ')).toLowerCase().indexOf(q) >= 0;
     });
-    list.sort(function (a, b) { return (b.added || '').localeCompare(a.added || ''); });
+    list.sort(function (a, b) {
+      switch (sort) {
+        case 'added-asc': return (a.added || '').localeCompare(b.added || '');
+        case 'mastery-asc': return C.masteryInfo(a).rank - C.masteryInfo(b).rank;
+        case 'mastery-desc': return C.masteryInfo(b).rank - C.masteryInfo(a).rank;
+        case 'az': return a.word.localeCompare(b.word);
+        case 'added-desc':
+        default: return (b.added || '').localeCompare(a.added || '');
+      }
+    });
     $('#browseCount').textContent = list.length + ' of ' + deck.cards.length + ' word(s)';
     $('#browseList').innerHTML = list.map(function (c) {
+      var m = C.masteryInfo(c);
       var due = C.isDue(c) ? '<span class="due-dot" title="due"></span>' : '';
       var seen = c.source && c.source.label ? ' · ' + escapeHtml(c.source.label) : '';
-      return '<div class="browse-item">' +
-        '<div>' + due + '<span class="bw">' + escapeHtml(c.word) + '</span>' +
-        '<span class="bipa">' + escapeHtml(c.pronunciation || '') + '</span> ' +
-        '<span class="bpos">' + escapeHtml(c.partOfSpeech || '') + '</span></div>' +
-        '<div class="btr">' + escapeHtml(c.translation || '') + '</div>' +
-        '<div class="bdef">' + escapeHtml(c.definition || '') + '</div>' +
-        '<div class="bmeta">added ' + escapeHtml(c.added || '') + ' · next ' + escapeHtml(c.srs ? c.srs.due : '') + seen + '</div>' +
+      var check = selectMode
+        ? '<input type="checkbox" class="bsel" data-id="' + escapeHtml(c.id) + '"' + (selected[c.id] ? ' checked' : '') + '>'
+        : '';
+      var del = '<button class="bdel" data-id="' + escapeHtml(c.id) + '" title="Delete">🗑</button>';
+      return '<div class="browse-item' + (selectMode ? ' selectable' : '') + '">' +
+        '<div class="bhead">' + check +
+          '<div class="bmain"><div>' + due + '<span class="bw">' + escapeHtml(c.word) + '</span>' +
+          '<span class="bipa">' + escapeHtml(c.pronunciation || '') + '</span> ' +
+          '<span class="bpos">' + escapeHtml(c.partOfSpeech || '') + '</span>' +
+          ' <span class="mbadge ' + MASTERY_CLASS[m.label] + '">' + m.label + '</span></div>' +
+          '<div class="btr">' + escapeHtml(c.translation || '') + '</div>' +
+          '<div class="bdef">' + escapeHtml(c.definition || '') + '</div>' +
+          '<div class="bmeta">added ' + escapeHtml(c.added || '') + ' · next ' + escapeHtml(c.srs ? c.srs.due : '') + seen + '</div></div>' +
+          (selectMode ? '' : del) +
+        '</div>' +
       '</div>';
     }).join('') || '<p class="muted">No matches.</p>';
+    wireBrowseRowActions();
+  }
+  function wireBrowseRowActions() {
+    $$('#browseList .bdel').forEach(function (b) {
+      b.addEventListener('click', function () { confirmDelete([b.dataset.id]); });
+    });
+    $$('#browseList .bsel').forEach(function (cb) {
+      cb.addEventListener('change', function () {
+        if (cb.checked) selected[cb.dataset.id] = true; else delete selected[cb.dataset.id];
+        updateSelCount();
+      });
+    });
+  }
+  function updateSelCount() {
+    var n = Object.keys(selected).length;
+    $('#selCount').textContent = n + ' selected';
+    $('#delSelected').disabled = n === 0;
+  }
+  async function confirmDelete(ids) {
+    if (!ids.length) return;
+    if (!hasKeys()) { toast('Add your keys in Settings first.'); return; }
+    var names = ids.map(function (id) { var c = deck.cards.find(function (x) { return x.id === id; }); return c ? c.word : id; });
+    var msg = ids.length === 1 ? 'Delete “' + names[0] + '”?' : 'Delete ' + ids.length + ' words?';
+    if (!confirm(msg)) return;
+    try {
+      var res = await C.deleteCards(cfg, ids, deck);
+      deck.cards = res.cards; deck.sha = res.sha; cacheDeck();
+      ids.forEach(function (id) { delete selected[id]; });
+      updateDueBadge(); updateSelCount();
+      renderBrowse();
+      toast('Deleted ' + res.removed + ' word(s).');
+    } catch (e) {
+      toast('Delete failed: ' + e.message.slice(0, 80));
+    }
   }
   $('#searchInput').addEventListener('input', applyBrowse);
   $('#sourceFilter').addEventListener('change', applyBrowse);
+  $('#sortBy').addEventListener('change', applyBrowse);
+  $('#selectMode').addEventListener('click', function () {
+    selectMode = true; selected = {};
+    $('#batchBar').hidden = false; $('#selectMode').hidden = true;
+    updateSelCount(); applyBrowse();
+  });
+  $('#selCancel').addEventListener('click', function () {
+    selectMode = false; selected = {};
+    $('#batchBar').hidden = true; $('#selectMode').hidden = false;
+    applyBrowse();
+  });
+  $('#selAllBrowse').addEventListener('change', function () {
+    var on = this.checked;
+    $$('#browseList .bsel').forEach(function (cb) {
+      cb.checked = on; if (on) selected[cb.dataset.id] = true; else delete selected[cb.dataset.id];
+    });
+    updateSelCount();
+  });
+  $('#delSelected').addEventListener('click', function () { confirmDelete(Object.keys(selected)); });
 
   // ---------- IMPORT ----------
   var parsed = [];

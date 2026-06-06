@@ -30,8 +30,12 @@
   <main>
     <!-- STUDY -->
     <section id="view-study" class="view">
+      <div class="mode-row">
+        <button class="mode active" data-mode="due">Due</button>
+        <button class="mode" data-mode="weak">Weak words</button>
+      </div>
       <div id="studyEmpty" class="empty" hidden>
-        <h2>All done for today 🎉</h2>
+        <h2 id="studyEmptyTitle">All done for today 🎉</h2>
         <p id="studyEmptyMsg"></p>
       </div>
       <div id="studyCard" class="card" hidden>
@@ -61,6 +65,22 @@
       <div class="row">
         <input id="searchInput" type="search" placeholder="Search words, meanings…" />
         <select id="sourceFilter"><option value="">All sources</option></select>
+      </div>
+      <div class="row">
+        <select id="sortBy">
+          <option value="added-desc">Newest added</option>
+          <option value="added-asc">Oldest added</option>
+          <option value="mastery-asc">Least mastered</option>
+          <option value="mastery-desc">Most mastered</option>
+          <option value="az">A → Z</option>
+        </select>
+        <button id="selectMode" class="secondary">Select</button>
+      </div>
+      <div id="batchBar" class="batch-bar" hidden>
+        <label class="selall"><input type="checkbox" id="selAllBrowse" /> All</label>
+        <span id="selCount" class="muted">0 selected</span>
+        <button id="delSelected" class="danger">Delete</button>
+        <button id="selCancel" class="secondary">Cancel</button>
       </div>
       <div id="browseCount" class="muted"></div>
       <div id="browseList" class="browse-list"></div>

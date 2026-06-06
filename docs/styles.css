@@ -100,8 +100,27 @@ button:disabled { opacity: .55; cursor: default; }
 
 .empty { text-align: center; padding: 40px 10px; color: var(--muted); }
 
+/* Study mode switch */
+.mode-row { display: flex; gap: 8px; margin-bottom: 14px; }
+.mode { background: var(--panel); color: var(--muted); border: 1px solid var(--line); box-shadow: var(--shadow); font-weight: 600; }
+.mode.active { background: var(--brand); color: #fff; border-color: var(--brand); }
+
 /* Browse */
 .browse-list { display: flex; flex-direction: column; gap: 10px; }
+.batch-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+.batch-bar .selall { flex-direction: row; align-items: center; gap: 6px; color: var(--ink); }
+.batch-bar .selall input { width: auto; }
+.danger { background: var(--again); color: #fff; font-weight: 700; }
+.bhead { display: flex; align-items: flex-start; gap: 10px; }
+.bmain { flex: 1; min-width: 0; }
+.bsel { width: auto; margin-top: 4px; }
+.bdel { background: transparent; font-size: 18px; padding: 2px 6px; line-height: 1; align-self: flex-start; }
+.bdel:hover { background: #fee2e2; border-radius: 8px; }
+.mbadge { display: inline-block; font-size: 11px; font-weight: 700; padding: 1px 8px; border-radius: 999px; vertical-align: middle; }
+.mbadge.m0 { background: #e5e7eb; color: #374151; }
+.mbadge.m1 { background: #fee2e2; color: #b91c1c; }
+.mbadge.m2 { background: #fef3c7; color: #92400e; }
+.mbadge.m3 { background: #d1fae5; color: #065f46; }
 .browse-item { background: #fff; border-radius: 14px; box-shadow: var(--shadow); padding: 14px 16px; }
 .browse-item .bw { font-size: 19px; font-weight: 700; }
 .browse-item .bipa { color: var(--brand); font-size: 14px; margin-left: 8px; }
