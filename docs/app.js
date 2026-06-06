@@ -22,6 +22,8 @@
   var online = true;
   var studyMode = 'due';                  // 'due' | 'weak'
   var studyDir = 'fwd';                   // 'fwd' (word→meaning) | 'rev' (meaning→word)
+  var sessionTotal = 0;                   // cards in the current study session
+  var sessionDone = {};                   // ids graduated (rated non-"again") this session
   var selectMode = false;                 // batch-select in Browse
   var selected = {};                      // ids checked in Browse
 
@@ -154,8 +156,19 @@
       if (current) nextCard(); // re-render current card in the new direction
     });
   });
+  function updateProgress() {
+    var p = $('#studyProgress');
+    if (!sessionTotal) { p.hidden = true; return; }
+    p.hidden = false;
+    var done = Object.keys(sessionDone).length;
+    $('#studyBar').style.width = Math.min(100, Math.round(done / sessionTotal * 100)) + '%';
+    $('#studyCount').textContent = done + ' / ' + sessionTotal;
+  }
   function renderStudy() {
     buildQueue();
+    sessionTotal = queue.length;
+    sessionDone = {};
+    updateProgress();
     updateDueBadge();
     if (!queue.length) {
       $('#studyCard').hidden = true;
@@ -174,6 +187,7 @@
   }
   function sessionDone() {
     $('#studyCard').hidden = true;
+    $('#studyProgress').hidden = true;
     $('#studyEmpty').hidden = false;
     updateDueBadge();
     var dueLeft = deck.cards.filter(function (c) { return C.isDue(c); }).length;
@@ -228,6 +242,10 @@
     $('#studyEmpty').hidden = true;
     $('#studyCard').hidden = false;
     current = queue[0];
+    var m = C.masteryInfo(current);
+    var badge = $('#cardMastery');
+    badge.className = 'mbadge ' + (MASTERY_CLASS[m.label] || 'm0');
+    badge.textContent = m.label;
     $('#cardSource').textContent = current.source && current.source.label ? '— ' + current.source.label : '';
     if (studyDir === 'rev') {
       // show the meaning; recall the word
@@ -238,6 +256,9 @@
     }
     $('#cardBack').hidden = true;
     $('#revealBtn').hidden = false;
+    // entrance animation
+    var card = $('#studyCard');
+    card.classList.remove('enter'); void card.offsetWidth; card.classList.add('enter');
     wireSpeakButtons();
   }
   function revealCard() {
@@ -270,9 +291,11 @@
     C.srsReview(current, rating);
     dirty = true;
     scheduleFlush();
+    if (rating !== 'again') sessionDone[current.id] = true;
     // remove from front; if 'again', re-queue near the end of this session
     queue.shift();
     if (rating === 'again') queue.push(current);
+    updateProgress();
     updateDueBadge();
     nextCard();
   }

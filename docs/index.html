@@ -40,12 +40,19 @@
           <button class="dir" data-dir="rev">Meaning → Word</button>
         </div>
       </div>
+      <div class="study-progress" id="studyProgress" hidden>
+        <div class="study-bar"><i id="studyBar"></i></div>
+        <span class="study-count" id="studyCount"></span>
+      </div>
       <div id="studyEmpty" class="empty" hidden>
         <h2 id="studyEmptyTitle">All done for today 🎉</h2>
         <p id="studyEmptyMsg"></p>
       </div>
       <div id="studyCard" class="card" hidden>
-        <div class="card-source" id="cardSource"></div>
+        <div class="card-top">
+          <span class="mbadge" id="cardMastery"></span>
+          <span class="card-source" id="cardSource"></span>
+        </div>
         <div id="cardFront"></div>
         <button id="revealBtn" class="primary big">Show answer</button>
         <div id="cardBack" class="card-back" hidden>
