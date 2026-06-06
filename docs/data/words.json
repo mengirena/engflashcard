@@ -1169,6 +1169,34 @@
         "ease": 2.35,
         "reps": 1
       }
+    },
+    {
+      "id": "gloating",
+      "word": "gloating",
+      "pronunciation": "/ˈɡloʊtɪŋ/",
+      "partOfSpeech": "verb (present participle) / adjective",
+      "definition": "Feeling or expressing smug or malicious pleasure, especially over someone else's misfortune or one's own success.",
+      "translation": "幸灾乐祸；自鸣得意；得意洋洋",
+      "example": "He couldn't help gloating over his rival's defeat in the competition.",
+      "synonyms": [
+        "relishing",
+        "exulting",
+        "rejoicing",
+        "savoring",
+        "triumphing"
+      ],
+      "added": "2026-06-06",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
