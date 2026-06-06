@@ -1,0 +1,11 @@
+```json
+{
+  "word": "test",
+  "pronunciation": "/test/",
+  "partOfSpeech": "noun, verb",
+  "definition": "An examination or assessment to measure knowledge, ability, or quality; to evaluate or try something to determine its effectiveness or reliability.",
+  "translation": "测试；考试；试验",
+  "example": "She studied hard to prepare for the chemistry test next week.",
+  "synonyms": ["exam", "quiz", "trial", "check"]
+}
+```
