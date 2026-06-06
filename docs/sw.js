@@ -1,6 +1,6 @@
 /* sw.js — caches the app shell so the app installs and works offline.
    Data (GitHub API / Anthropic API) always goes to the network. */
-var CACHE = 'flashcards-shell-v6';
+var CACHE = 'flashcards-shell-v7';
 var SHELL = [
   './', './index.html', './styles.css', './app.js', './core.js',
   './manifest.webmanifest', './icons/icon.svg'

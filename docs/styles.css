@@ -100,11 +100,12 @@ button:disabled { opacity: .55; cursor: default; }
 
 .empty { text-align: center; padding: 40px 10px; color: var(--muted); }
 
-/* Study mode switch */
-.mode-row { display: flex; gap: 8px; margin-bottom: 14px; }
-.mode, .dir { background: var(--panel); color: var(--muted); border: 1px solid var(--line); box-shadow: var(--shadow); font-weight: 600; }
-.mode.active { background: var(--brand); color: #fff; border-color: var(--brand); }
-.dir.active { background: var(--brand2); color: #fff; border-color: var(--brand2); }
+/* Study controls — segmented pills, one row (wraps if too narrow) */
+.study-controls { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 16px; justify-content: center; }
+.seg { display: inline-flex; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 3px; box-shadow: var(--shadow); }
+.seg button { border: 0; background: transparent; color: var(--muted); padding: 7px 14px; border-radius: 999px; font-weight: 600; font-size: 13px; white-space: nowrap; transition: background .15s, color .15s; }
+.seg-mode .mode.active { background: var(--brand); color: #fff; }
+.seg-dir .dir.active { background: var(--brand2); color: #fff; }
 .card-pos.prompt { font-style: normal; font-weight: 600; color: var(--brand); margin-top: 14px; }
 .speak { background: transparent; border: 0; padding: 2px 4px; font-size: 17px; cursor: pointer; line-height: 1; vertical-align: middle; }
 .speak:hover { transform: scale(1.15); }
@@ -126,7 +127,8 @@ button:disabled { opacity: .55; cursor: default; }
 .mbadge.m1 { background: #fee2e2; color: #b91c1c; }
 .mbadge.m2 { background: #fef3c7; color: #92400e; }
 .mbadge.m3 { background: #d1fae5; color: #065f46; }
-.browse-item { background: #fff; border-radius: 14px; box-shadow: var(--shadow); padding: 14px 16px; }
+.browse-item { background: var(--panel); border-radius: 14px; box-shadow: var(--shadow); padding: 14px 16px; transition: box-shadow .15s, transform .15s; }
+.browse-item:hover { transform: translateY(-1px); box-shadow: 0 10px 30px rgba(20, 20, 50, 0.12); }
 .browse-item .bw { font-size: 19px; font-weight: 700; }
 .browse-item .bipa { color: var(--brand); font-size: 14px; margin-left: 8px; }
 .browse-item .bpos { color: var(--muted); font-style: italic; font-size: 13px; }

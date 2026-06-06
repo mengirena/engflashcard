@@ -30,13 +30,15 @@
   <main>
     <!-- STUDY -->
     <section id="view-study" class="view">
-      <div class="mode-row">
-        <button class="mode active" data-mode="due">Due</button>
-        <button class="mode" data-mode="weak">Weak words</button>
-      </div>
-      <div class="mode-row">
-        <button class="dir active" data-dir="fwd">Word → Meaning</button>
-        <button class="dir" data-dir="rev">Meaning → Word</button>
+      <div class="study-controls">
+        <div class="seg seg-mode">
+          <button class="mode active" data-mode="due">Due</button>
+          <button class="mode" data-mode="weak">Weak words</button>
+        </div>
+        <div class="seg seg-dir">
+          <button class="dir active" data-dir="fwd">Word → Meaning</button>
+          <button class="dir" data-dir="rev">Meaning → Word</button>
+        </div>
       </div>
       <div id="studyEmpty" class="empty" hidden>
         <h2 id="studyEmptyTitle">All done for today 🎉</h2>
