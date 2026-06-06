@@ -1225,6 +1225,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "earnest",
+      "word": "earnest",
+      "pronunciation": "/ˈɜːrnɪst/",
+      "partOfSpeech": "adjective",
+      "definition": "Sincere and intense in conviction or feeling; showing serious and eager commitment to something.",
+      "translation": "认真的；诚挚的；热切的",
+      "example": "She made an earnest effort to improve her grades by studying every evening.",
+      "synonyms": [
+        "sincere",
+        "serious",
+        "passionate",
+        "dedicated"
+      ],
+      "added": "2026-06-06",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
