@@ -1223,6 +1223,88 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "word": "heavy",
+      "pronunciation": "/ˈhɛvi/",
+      "partOfSpeech": "adjective",
+      "definition": "Of great weight; difficult to lift or carry. Also used figuratively to describe something intense, serious, or burdensome.",
+      "translation": "沉重的；繁重的；严肃的",
+      "example": "The heavy suitcase was difficult for me to lift into the overhead compartment.",
+      "synonyms": [
+        "weighty",
+        "burdensome",
+        "serious",
+        "intense"
+      ],
+      "id": "heavy",
+      "srs": {
+        "due": "2026-06-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-06-06",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "blob",
+      "pronunciation": "/blɑːb/",
+      "partOfSpeech": "noun",
+      "definition": "A small, soft, rounded mass or lump of something; in scientific contexts, an undefined or amorphous area with distinct characteristics different from its surroundings.",
+      "translation": "斑点；团块；（科学用语中）异常区域",
+      "example": "Satellites detected a cold blob of water in the Atlantic Ocean that indicates changes in ocean circulation patterns.",
+      "synonyms": [
+        "spot",
+        "patch",
+        "mass",
+        "lump",
+        "area"
+      ],
+      "id": "blob",
+      "srs": {
+        "due": "2026-06-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-06-06",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "deficit",
+      "pronunciation": "/ˈdɛfɪsɪt/",
+      "partOfSpeech": "noun",
+      "definition": "The amount by which something is less than what is required or expected, especially the shortfall between expenditure and revenue.",
+      "translation": "赤字；不足；缺陷",
+      "example": "The government announced a budget deficit of $50 billion for the fiscal year.",
+      "synonyms": [
+        "shortfall",
+        "shortage",
+        "gap",
+        "loss"
+      ],
+      "id": "deficit",
+      "srs": {
+        "due": "2026-06-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-06-06",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
