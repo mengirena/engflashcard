@@ -133,7 +133,7 @@ button:disabled { opacity: .55; cursor: default; }
 /* Browse */
 .toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 10px; }
 .toolbar #searchInput { flex: 1 1 200px; min-width: 0; }
-.toolbar select { flex: 0 1 auto; width: auto; padding: 11px 12px; }
+.toolbar select { flex: 0 1 auto; width: auto; max-width: 170px; padding: 11px 12px; }
 .toolbar #selectMode { flex: 0 0 auto; padding: 11px 16px; }
 .count { margin-bottom: 8px; font-size: 12px; }
 .browse-list { display: flex; flex-direction: column; gap: 10px; }

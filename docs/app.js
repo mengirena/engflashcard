@@ -608,14 +608,9 @@
   });
 
   // ---------- service worker ----------
-  // No service worker: it caused stale-asset bugs. Actively remove any old one + caches.
+  // Service worker for offline study (network-first, so it never serves stale code).
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.getRegistrations()
-      .then(function (regs) { regs.forEach(function (r) { r.unregister(); }); })
-      .catch(function () {});
-  }
-  if (self.caches && caches.keys) {
-    caches.keys().then(function (keys) { keys.forEach(function (k) { caches.delete(k); }); }).catch(function () {});
+    window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });
   }
 
   init();
