@@ -1308,6 +1308,89 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "quirky",
+      "word": "quirky",
+      "pronunciation": "/ˈkwɜːrki/",
+      "partOfSpeech": "adjective",
+      "definition": "Having unusual, peculiar, or unexpected characteristics in an interesting or endearing way; unconventional or idiosyncratic.",
+      "translation": "古怪的；奇特的；离奇的（通常带有趣味性）",
+      "example": "She has a quirky sense of humor that makes her stand out among her friends.",
+      "synonyms": [
+        "eccentric",
+        "unconventional",
+        "odd",
+        "peculiar",
+        "whimsical"
+      ],
+      "added": "2026-06-06",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
+    },
+    {
+      "id": "knapsack",
+      "word": "knapsack",
+      "pronunciation": "/ˈnæpˌsæk/",
+      "partOfSpeech": "noun",
+      "definition": "A bag with shoulder straps that is worn on the back, typically used for carrying supplies or personal belongings during travel or hiking.",
+      "translation": "背包；行囊",
+      "example": "The hiker loaded his knapsack with water, snacks, and a map before starting the trail.",
+      "synonyms": [
+        "backpack",
+        "rucksack",
+        "pack",
+        "haversack"
+      ],
+      "added": "2026-06-06",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
+    },
+    {
+      "id": "lugubrious",
+      "word": "lugubrious",
+      "pronunciation": "/ləˈɡuːbriəs/",
+      "partOfSpeech": "adjective",
+      "definition": "Mournful, dismal, or sorrowful in appearance or manner; expressing or suggesting sadness and grief.",
+      "translation": "忧郁的；悲哀的；令人沮丧的",
+      "example": "The old mansion had a lugubrious atmosphere, with its dark corridors and dust-covered portraits of deceased ancestors.",
+      "synonyms": [
+        "mournful",
+        "dismal",
+        "gloomy",
+        "sorrowful",
+        "melancholic"
+      ],
+      "added": "2026-06-06",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
