@@ -1197,6 +1197,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "meek",
+      "word": "meek",
+      "pronunciation": "/miːk/",
+      "partOfSpeech": "adjective",
+      "definition": "Quiet, gentle, and not assertive; showing a lack of confidence or strength of character.",
+      "translation": "温顺的；温和的；谦恭的",
+      "example": "Despite his intelligence, he had a meek demeanor that made it hard for others to recognize his abilities.",
+      "synonyms": [
+        "mild",
+        "gentle",
+        "submissive",
+        "humble",
+        "timid"
+      ],
+      "added": "2026-06-06",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
