@@ -179,7 +179,8 @@
     for (const e of entries) {
       try {
         const data = await ghGetRaw(cfg, e.path);
-        const card = JSON.parse(b64ToUtf8(data.content));
+        // tolerate AI output wrapped in ```json fences (iOS Shortcut saves raw text)
+        const card = JSON.parse(stripFences(b64ToUtf8(data.content)));
         if (!card) continue;
         // Tolerate "lean" inbox files (e.g. raw AI output from the iOS Shortcut)
         // that omit id/source/srs — derive/fill them here.
