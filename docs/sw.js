@@ -1,13 +1,20 @@
 /* sw.js — caches the app shell so the app installs and works offline.
    Data (GitHub API / Anthropic API) always goes to the network. */
-var CACHE = 'flashcards-shell-v11';
+var CACHE = 'flashcards-shell-v12';
 var SHELL = [
   './', './index.html', './styles.css', './app.js', './core.js',
   './manifest.webmanifest', './icons/icon.svg'
 ];
 
 self.addEventListener('install', function (e) {
-  e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(SHELL); }).then(function () { return self.skipWaiting(); }));
+  // precache with cache:'reload' so we never store a stale HTTP-cached copy
+  e.waitUntil(
+    caches.open(CACHE).then(function (c) {
+      return Promise.all(SHELL.map(function (u) {
+        return c.add(new Request(u, { cache: 'reload' })).catch(function () {});
+      }));
+    }).then(function () { return self.skipWaiting(); })
+  );
 });
 
 self.addEventListener('activate', function (e) {
