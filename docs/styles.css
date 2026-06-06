@@ -130,6 +130,11 @@ button:disabled { opacity: .55; cursor: default; }
 @keyframes revealIn { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
 
 /* Browse */
+.toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 10px; }
+.toolbar #searchInput { flex: 1 1 200px; min-width: 0; }
+.toolbar select { flex: 0 1 auto; width: auto; padding: 11px 12px; }
+.toolbar #selectMode { flex: 0 0 auto; padding: 11px 16px; }
+.count { margin-bottom: 8px; font-size: 12px; }
 .browse-list { display: flex; flex-direction: column; gap: 10px; }
 .batch-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
 .batch-bar .selall { flex-direction: row; align-items: center; gap: 6px; color: var(--ink); }

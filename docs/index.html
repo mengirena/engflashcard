@@ -70,11 +70,9 @@
 
     <!-- BROWSE -->
     <section id="view-browse" class="view" hidden>
-      <div class="row">
+      <div class="toolbar">
         <input id="searchInput" type="search" placeholder="Search words, meanings…" />
         <select id="sourceFilter"><option value="">All sources</option></select>
-      </div>
-      <div class="row">
         <select id="sortBy">
           <option value="added-desc">Newest added</option>
           <option value="added-asc">Oldest added</option>
@@ -90,7 +88,7 @@
         <button id="delSelected" class="danger">Delete</button>
         <button id="selCancel" class="secondary">Cancel</button>
       </div>
-      <div id="browseCount" class="muted"></div>
+      <div id="browseCount" class="muted count"></div>
       <div id="browseList" class="browse-list"></div>
     </section>
 
