@@ -608,8 +608,14 @@
   });
 
   // ---------- service worker ----------
+  // No service worker: it caused stale-asset bugs. Actively remove any old one + caches.
   if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });
+    navigator.serviceWorker.getRegistrations()
+      .then(function (regs) { regs.forEach(function (r) { r.unregister(); }); })
+      .catch(function () {});
+  }
+  if (self.caches && caches.keys) {
+    caches.keys().then(function (keys) { keys.forEach(function (k) { caches.delete(k); }); }).catch(function () {});
   }
 
   init();
