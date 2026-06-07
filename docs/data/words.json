@@ -1488,6 +1488,115 @@
         "ease": 1.7500000000000004,
         "reps": 6
       }
+    },
+    {
+      "word": "seams",
+      "pronunciation": "/siːmz/",
+      "partOfSpeech": "noun",
+      "definition": "Lines where two pieces of fabric, material, or surfaces are sewn or joined together; also can refer to thin layers of coal or other material found in rock.",
+      "translation": "接缝；缝线；（煤等的）层",
+      "example": "The tailor carefully stitched the seams of the wedding dress to ensure they were perfectly straight.",
+      "synonyms": [
+        "stitches",
+        "joins",
+        "lines",
+        "junctures"
+      ],
+      "id": "seams",
+      "srs": {
+        "due": "2026-06-07",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-06-07",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "backtracking",
+      "pronunciation": "/ˈbæktræk.ɪŋ/",
+      "partOfSpeech": "noun, verb (gerund)",
+      "definition": "The act of retracing one's steps or reversing a previous decision, statement, or course of action. In computing, it refers to an algorithmic technique that abandons a partial solution when it determines the solution cannot succeed.",
+      "translation": "回溯；反悔；撤回之前的说法或决定（在计算机科学中，指放弃无法成功的部分解的算法技术）",
+      "example": "After initially supporting the proposal, the manager started backtracking when she realized the budget constraints.",
+      "synonyms": [
+        "reversing",
+        "retracting",
+        "retreating",
+        "recanting"
+      ],
+      "id": "backtracking",
+      "srs": {
+        "due": "2026-06-07",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-06-07",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "conviction",
+      "pronunciation": "/kənˈvɪkʃən/",
+      "partOfSpeech": "noun",
+      "definition": "A firmly held belief or opinion; or a legal declaration that someone is guilty of a crime.",
+      "translation": "信念；定罪",
+      "example": "She spoke with conviction about the importance of education.",
+      "synonyms": [
+        "belief",
+        "certainty",
+        "verdict",
+        "judgment"
+      ],
+      "id": "conviction",
+      "srs": {
+        "due": "2026-06-07",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-06-07",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "uplift",
+      "pronunciation": "/ʌpˈlɪft/",
+      "partOfSpeech": "verb, noun",
+      "definition": "To raise something or someone to a higher level, either physically or spiritually/emotionally; to improve the condition or morale of a person or group.",
+      "translation": "提升；鼓舞；抬起；改善社会地位或精神状态",
+      "example": "The inspiring speech uplifted the entire audience and gave them hope for the future.",
+      "synonyms": [
+        "elevate",
+        "boost",
+        "inspire",
+        "raise",
+        "encourage"
+      ],
+      "id": "uplift",
+      "srs": {
+        "due": "2026-06-07",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-06-07",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
