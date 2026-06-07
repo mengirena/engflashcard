@@ -1419,6 +1419,33 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "id": "pouty",
+      "word": "pouty",
+      "pronunciation": "/ˈpaʊti/",
+      "partOfSpeech": "adjective",
+      "definition": "Showing annoyance or dissatisfaction by pushing out one's lips; sulky or moody.",
+      "translation": "噘嘴的；生气的；不满的；闷闷不乐的",
+      "example": "She gave him a pouty look when he refused to buy her ice cream.",
+      "synonyms": [
+        "sulky",
+        "moody",
+        "petulant",
+        "disgruntled"
+      ],
+      "added": "2026-06-07",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-07",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
