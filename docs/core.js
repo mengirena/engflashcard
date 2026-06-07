@@ -312,7 +312,7 @@
     "or phrase, respond with ONLY a single JSON object, no prose, no code fences, with keys: " +
     "word (string, base/dictionary form), pronunciation (IPA in slashes), partOfSpeech " +
     "(e.g. noun, verb, adjective), definition (clear English, one or two sentences), " +
-    "translation (Simplified Chinese translation/explanation), example (one natural English " +
+    "translation (Traditional Chinese 繁體中文 translation/explanation — never Simplified), example (one natural English " +
     "sentence using the word), synonyms (array of 2-5 English synonyms). " +
     "If a context sentence is provided, tailor the definition and example to that sense.";
 

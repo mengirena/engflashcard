@@ -139,13 +139,16 @@
         return C.masteryInfo(a, studyDir).rank - C.masteryInfo(b, studyDir).rank;
       });
     } else {
-      queue = deck.cards.filter(function (c) { return C.isDue(c, studyDir); });
-      queue.sort(function (a, b) {
-        var da = (C.getSrs(a, studyDir) || {}).due || '';
-        var db = (C.getSrs(b, studyDir) || {}).due || '';
-        return da.localeCompare(db);
-      });
+      // due cards in RANDOM order (not sequential) so each session feels fresh
+      queue = shuffle(deck.cards.filter(function (c) { return C.isDue(c, studyDir); }));
     }
+  }
+  function shuffle(a) {
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = a[i]; a[i] = a[j]; a[j] = t;
+    }
+    return a;
   }
   $$('.mode').forEach(function (b) {
     b.addEventListener('click', function () {
@@ -230,22 +233,25 @@
   function synChips(c) {
     return (c.synonyms || []).map(function (s) { return '<span class="chip">' + escapeHtml(s) + '</span>'; }).join('');
   }
+  function zhBlock(c) {
+    var zh = escapeHtml(c.translation || '');
+    if (!zh) return '';
+    if (cfg.hideChinese) {
+      return '<div class="zh-wrap"><button type="button" class="zh-toggle">Show Chinese</button>' +
+        '<div class="card-translation" hidden>' + zh + '</div></div>';
+    }
+    return '<div class="card-translation">' + zh + '</div>';
+  }
   function wordBlock(c) {
     return '<div class="card-word">' + escapeHtml(c.word) + ' ' + speakBtn(c.word) + '</div>' +
       '<div class="card-ipa">' + escapeHtml(c.pronunciation || '') + '</div>' +
-      '<div class="card-pos">' + escapeHtml(c.partOfSpeech || '') + '</div>';
+      '<div class="card-pos">' + escapeHtml(c.partOfSpeech || '') + '</div>' +
+      zhBlock(c);
   }
   function meaningBlock(c, blankExample) {
     var ex = c.example ? (blankExample ? maskWord(c.example, c.word) : highlight(c.example, c.word)) : '';
-    var core = '<div class="card-def">' + escapeHtml(c.definition || '') + '</div>' +
+    return '<div class="card-def">' + escapeHtml(c.definition || '') + '</div>' +
       (ex ? '<div class="card-example">' + ex + '</div>' : '');
-    var zh = escapeHtml(c.translation || '');
-    if (!zh) return core;
-    if (cfg.hideChinese) {
-      return core + '<div class="zh-wrap"><button type="button" class="zh-toggle">显示中文 / Show Chinese</button>' +
-        '<div class="card-translation" hidden>' + zh + '</div></div>';
-    }
-    return '<div class="card-translation">' + zh + '</div>' + core;
   }
 
   function nextCard() {
