@@ -11,7 +11,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="Flashcards" />
-  <link rel="stylesheet" href="styles.css?v=15" />
+  <link rel="stylesheet" href="styles.css?v=16" />
 </head>
 <body>
   <header class="topbar">
@@ -139,6 +139,7 @@
           <label>Deck path<input id="setDeckPath" type="text" /></label>
         </div>
         <label>Inbox folder<input id="setInbox" type="text" /></label>
+        <label class="check"><input type="checkbox" id="setHideZh" /> Hide Chinese in study (tap to reveal)</label>
         <button id="saveSettings" class="primary">Save settings</button>
         <button id="testConn" class="secondary">Test connection</button>
         <div id="settingsMsg" class="muted"></div>
@@ -148,7 +149,7 @@
 
   <div id="toast" class="toast" hidden></div>
 
-  <script src="core.js?v=15"></script>
-  <script src="app.js?v=15"></script>
+  <script src="core.js?v=16"></script>
+  <script src="app.js?v=16"></script>
 </body>
 </html>

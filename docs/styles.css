@@ -81,7 +81,12 @@ button:disabled { opacity: .55; cursor: default; }
 .card-pos { color: var(--muted); font-style: italic; margin-bottom: 18px; }
 .card-back { margin-top: 18px; text-align: left; border-top: 1px solid var(--line); padding-top: 16px; }
 .card-translation { font-size: 22px; font-weight: 700; margin-bottom: 8px; }
-.card-def { margin-bottom: 10px; }
+.card-def { font-size: 17px; margin-bottom: 10px; }
+.zh-wrap { margin-top: 12px; }
+.zh-toggle { background: #eef0fb; color: var(--brand); font-size: 13px; font-weight: 600; padding: 6px 14px; border-radius: 999px; }
+.zh-wrap .card-translation { margin-top: 8px; }
+label.check { flex-direction: row; align-items: center; gap: 8px; color: var(--ink); font-size: 14px; }
+label.check input { width: auto; }
 .card-example { background: #f8f9ff; border-radius: 12px; padding: 10px 12px; font-style: italic; }
 .card-example mark { background: #fde68a; padding: 0 2px; border-radius: 3px; font-style: normal; }
 .card-syn { margin-top: 10px; }

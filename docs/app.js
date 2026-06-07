@@ -10,7 +10,8 @@
   var DEFAULTS = {
     anthropicKey: '', model: 'claude-3-5-haiku-latest', githubToken: '',
     owner: 'mengirena', repo: 'engflashcard', branch: 'main',
-    deckPath: 'docs/data/words.json', inboxDir: 'docs/data/inbox'
+    deckPath: 'docs/data/words.json', inboxDir: 'docs/data/inbox',
+    hideChinese: true
   };
 
   var cfg = loadCfg();
@@ -236,9 +237,15 @@
   }
   function meaningBlock(c, blankExample) {
     var ex = c.example ? (blankExample ? maskWord(c.example, c.word) : highlight(c.example, c.word)) : '';
-    return '<div class="card-translation">' + escapeHtml(c.translation || '') + '</div>' +
-      '<div class="card-def">' + escapeHtml(c.definition || '') + '</div>' +
+    var core = '<div class="card-def">' + escapeHtml(c.definition || '') + '</div>' +
       (ex ? '<div class="card-example">' + ex + '</div>' : '');
+    var zh = escapeHtml(c.translation || '');
+    if (!zh) return core;
+    if (cfg.hideChinese) {
+      return core + '<div class="zh-wrap"><button type="button" class="zh-toggle">显示中文 / Show Chinese</button>' +
+        '<div class="card-translation" hidden>' + zh + '</div></div>';
+    }
+    return '<div class="card-translation">' + zh + '</div>' + core;
   }
 
   function nextCard() {
@@ -263,7 +270,7 @@
     // entrance animation
     var card = $('#studyCard');
     card.classList.remove('enter'); void card.offsetWidth; card.classList.add('enter');
-    wireSpeakButtons();
+    wireCardButtons();
   }
   function revealCard() {
     $('#revealBtn').hidden = true;
@@ -283,11 +290,19 @@
           ? '<a href="' + escapeHtml(src.url) + '" target="_blank" rel="noopener">' + escapeHtml(src.label) + '</a>'
           : escapeHtml(src.label))
       : '';
-    wireSpeakButtons();
+    wireCardButtons();
   }
-  function wireSpeakButtons() {
+  function wireCardButtons() {
     $$('#studyCard .speak').forEach(function (b) {
       b.onclick = function (e) { e.stopPropagation(); speak(b.dataset.speak); };
+    });
+    $$('#studyCard .zh-toggle').forEach(function (b) {
+      b.onclick = function (e) {
+        e.stopPropagation();
+        var t = b.parentNode.querySelector('.card-translation');
+        if (t) t.hidden = false;
+        b.hidden = true;
+      };
     });
   }
   function rate(rating) {
@@ -579,6 +594,7 @@
     $('#setBranch').value = cfg.branch || DEFAULTS.branch;
     $('#setDeckPath').value = cfg.deckPath || DEFAULTS.deckPath;
     $('#setInbox').value = cfg.inboxDir || DEFAULTS.inboxDir;
+    $('#setHideZh').checked = cfg.hideChinese !== false;
   }
   $('#saveSettings').addEventListener('click', async function () {
     cfg.anthropicKey = $('#setAnthropic').value.trim();
@@ -589,6 +605,7 @@
     cfg.branch = $('#setBranch').value.trim() || DEFAULTS.branch;
     cfg.deckPath = $('#setDeckPath').value.trim() || DEFAULTS.deckPath;
     cfg.inboxDir = $('#setInbox').value.trim() || DEFAULTS.inboxDir;
+    cfg.hideChinese = $('#setHideZh').checked;
     saveCfg();
     $('#settingsMsg').textContent = 'Saved. Reloading deck…';
     banner('');
