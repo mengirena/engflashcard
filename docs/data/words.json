@@ -836,10 +836,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-06",
-        "interval": 1.2,
+        "due": "2026-06-10",
+        "interval": 2.82,
         "ease": 2.35,
-        "reps": 2
+        "reps": 3
       }
     },
     {
