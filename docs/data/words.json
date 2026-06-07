@@ -1391,6 +1391,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "word": "defy",
+      "pronunciation": "/dɪˈfaɪ/",
+      "partOfSpeech": "verb",
+      "definition": "To openly resist or refuse to obey someone in authority; to challenge or stand up against something despite opposition or consequences.",
+      "translation": "违抗；反抗；挑战",
+      "example": "Several Republican members of Congress decided to defy the party leadership on this controversial vote.",
+      "synonyms": [
+        "resist",
+        "oppose",
+        "challenge",
+        "disobey",
+        "confront"
+      ],
+      "id": "defy",
+      "srs": {
+        "due": "2026-06-07",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-06-07",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
