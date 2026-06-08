@@ -1979,6 +1979,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "grimace",
+      "word": "grimace",
+      "pronunciation": "/ɡrɪˈmeɪs/",
+      "partOfSpeech": "noun, verb",
+      "definition": "A facial expression of pain, disgust, or disapproval, typically with the mouth twisted to one side; to make such an expression.",
+      "translation": "鬼臉；作出不悅或痛苦的表情；皺眉頭",
+      "example": "She grimaced at the bitter taste of the medicine.",
+      "synonyms": [
+        "wince",
+        "frown",
+        "scowl",
+        "contort"
+      ],
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
