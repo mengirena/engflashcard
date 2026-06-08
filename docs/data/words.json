@@ -1951,6 +1951,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "woolly",
+      "word": "woolly",
+      "pronunciation": "/ˈwʊli/",
+      "partOfSpeech": "adjective",
+      "definition": "Covered with, made of, or resembling wool; also means unclear, confused, or vague in thinking.",
+      "translation": "羊毛的；毛茸茸的；模糊不清的；思維混亂的",
+      "example": "The woolly mammoth was covered in thick fur to survive the ice age.",
+      "synonyms": [
+        "fuzzy",
+        "fluffy",
+        "hairy",
+        "vague",
+        "unclear"
+      ],
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
