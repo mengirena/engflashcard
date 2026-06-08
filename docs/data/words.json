@@ -2232,6 +2232,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "pricked",
+      "word": "pricked",
+      "pronunciation": "/prɪkt/",
+      "partOfSpeech": "verb (past tense)",
+      "definition": "Pierced or punctured with a sharp point; also means to feel a sudden sharp sensation or to cause someone to pay attention suddenly.",
+      "translation": "刺穿；戳；被刺痛；引起注意",
+      "example": "She pricked her finger on the needle while sewing.",
+      "synonyms": [
+        "punctured",
+        "pierced",
+        "stabbed",
+        "poked"
+      ],
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
