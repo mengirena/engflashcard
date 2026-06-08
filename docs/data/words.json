@@ -1841,6 +1841,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "dawn",
+      "word": "dawn",
+      "pronunciation": "/dɔːn/",
+      "partOfSpeech": "noun, verb",
+      "definition": "The first appearance of light in the morning before the sun rises; or as a verb, to begin to grow light in the morning, or to begin to be understood or realized.",
+      "translation": "黎明；天亮；開始出現；逐漸明白",
+      "example": "We woke at dawn to watch the sun rise over the mountains.",
+      "synonyms": [
+        "daybreak",
+        "sunrise",
+        "beginning",
+        "emerge",
+        "appear"
+      ],
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
