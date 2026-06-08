@@ -1597,6 +1597,62 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "word": "eerie",
+      "pronunciation": "/ˈɪəri/",
+      "partOfSpeech": "adjective",
+      "definition": "Strange and frightening in a mysterious way; causing an uneasy feeling of fear or unease.",
+      "translation": "詭異的；令人感到毛骨悚然的；陰森的",
+      "example": "The old abandoned house had an eerie silence that made us want to leave immediately.",
+      "synonyms": [
+        "spooky",
+        "creepy",
+        "uncanny",
+        "mysterious",
+        "unsettling"
+      ],
+      "id": "eerie",
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "dismal",
+      "pronunciation": "/ˈdɪzməl/",
+      "partOfSpeech": "adjective",
+      "definition": "Causing a feeling of gloom or depression; extremely dark, gloomy, or depressing in character or atmosphere.",
+      "translation": "淒慘的；陰沉的；令人沮喪的；黯淡的",
+      "example": "The dismal weather and grey skies made everyone want to stay indoors.",
+      "synonyms": [
+        "gloomy",
+        "bleak",
+        "dreary",
+        "depressing",
+        "dark"
+      ],
+      "id": "dismal",
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
