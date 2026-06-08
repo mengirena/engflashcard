@@ -2034,6 +2034,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "jamb",
+      "word": "jamb",
+      "pronunciation": "/dʒæm/",
+      "partOfSpeech": "noun",
+      "definition": "The vertical piece of wood, metal, or stone that forms the side of a doorway, window, or other opening.",
+      "translation": "門框的豎邊；窗框的豎邊（門或窗兩側的直立構件）",
+      "example": "She painted the door jambs white to match the trim around the house.",
+      "synonyms": [
+        "doorpost",
+        "side post",
+        "upright",
+        "frame"
+      ],
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
