@@ -1924,6 +1924,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "snort",
+      "word": "snort",
+      "pronunciation": "/snɔːrt/",
+      "partOfSpeech": "verb",
+      "definition": "To exhale air forcibly and audibly through the nose, often expressing contempt, laughter, or derision; or to inhale a substance through the nose.",
+      "translation": "鼻息；哼鼻子；通過鼻子吸入物質",
+      "example": "He let out a snort of disbelief when he heard the outrageous claim.",
+      "synonyms": [
+        "huff",
+        "snuffle",
+        "grunt",
+        "wheeze"
+      ],
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
