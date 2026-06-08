@@ -281,15 +281,16 @@
     $('#revealBtn').hidden = true;
     $('#cardBack').hidden = false;
     if (studyDir === 'rev') {
-      $('#cardBackContent').innerHTML = wordBlock(current) +
+      // back side shows the word; chip goes right under its part of speech
+      $('#cardBackContent').innerHTML = wordBlock(current) + zhBlock(current) +
         (current.synonyms && current.synonyms.length ? '<div class="card-syn">' + synChips(current) + '</div>' : '') +
-        (current.example ? '<div class="card-example">' + highlight(current.example, current.word) + '</div>' : '') +
-        zhBlock(current);
+        (current.example ? '<div class="card-example">' + highlight(current.example, current.word) + '</div>' : '');
       speak(current.word); // reveal includes a tap gesture, so audio is allowed
     } else {
+      // front holds the word + POS; reveal the chip there (under POS, above the divider)
+      $('#cardFront').innerHTML = wordBlock(current) + zhBlock(current);
       $('#cardBackContent').innerHTML = meaningBlock(current, false) +
-        (current.synonyms && current.synonyms.length ? '<div class="card-syn">' + synChips(current) + '</div>' : '') +
-        zhBlock(current);
+        (current.synonyms && current.synonyms.length ? '<div class="card-syn">' + synChips(current) + '</div>' : '');
     }
     var src = current.source || {};
     $('#cardSeenIn').innerHTML = src.label
