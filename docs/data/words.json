@@ -2088,6 +2088,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "crook",
+      "word": "crook",
+      "pronunciation": "/krʊk/",
+      "partOfSpeech": "noun",
+      "definition": "A person who engages in dishonest or illegal activities; a criminal or thief. Alternatively, a bent or curved implement, such as a shepherd's staff with a hooked end.",
+      "translation": "騙子；罪犯；盜賊。或：彎曲的木杖（如牧羊人的杖）。",
+      "example": "The police arrested the crook who had been stealing from shops across the city.",
+      "synonyms": [
+        "criminal",
+        "thief",
+        "swindler",
+        "rogue"
+      ],
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
