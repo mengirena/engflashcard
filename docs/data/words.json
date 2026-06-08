@@ -1896,6 +1896,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "plaster",
+      "word": "plaster",
+      "pronunciation": "/ˈplæstər/",
+      "partOfSpeech": "noun, verb",
+      "definition": "A soft mixture of lime, cement, sand, and water applied to walls or ceilings to create a smooth surface; or to coat thickly with a substance.",
+      "translation": "灰泥；膏藥；厚厚地塗抹",
+      "example": "The workers applied plaster to the damaged wall to prepare it for painting.",
+      "synonyms": [
+        "coating",
+        "paste",
+        "adhesive strip",
+        "bandage",
+        "cover"
+      ],
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
