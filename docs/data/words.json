@@ -2006,6 +2006,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "slashing",
+      "word": "slashing",
+      "pronunciation": "/ˈslæʃɪŋ/",
+      "partOfSpeech": "verb (present participle); noun; adjective",
+      "definition": "Making sweeping cuts with a sharp object; or dramatically reducing something in amount or intensity. Can also describe something severe or striking.",
+      "translation": "砍、劈、斬；大幅削減；猛烈的、尖銳的",
+      "example": "The company is slashing prices to attract more customers during the sale.",
+      "synonyms": [
+        "cutting",
+        "reducing",
+        "slicing",
+        "trimming",
+        "severe"
+      ],
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
