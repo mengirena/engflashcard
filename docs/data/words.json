@@ -2259,6 +2259,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "jangle",
+      "word": "jangle",
+      "pronunciation": "/ˈdʒæŋɡəl/",
+      "partOfSpeech": "verb",
+      "definition": "To make a harsh, discordant ringing sound, or to cause someone to feel nervous and irritated.",
+      "translation": "發出刺耳的叮噹聲；使（某人）感到緊張不安",
+      "example": "The keys jangled in her pocket as she walked down the hallway.",
+      "synonyms": [
+        "clang",
+        "ring",
+        "clatter",
+        "irritate"
+      ],
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
