@@ -1814,6 +1814,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "groan",
+      "word": "groan",
+      "pronunciation": "/ɡroʊn/",
+      "partOfSpeech": "verb, noun",
+      "definition": "To make a deep, heavy sound expressing pain, discomfort, or disapproval; or the sound itself.",
+      "translation": "呻吟；嘆息聲",
+      "example": "The patient groaned as the doctor examined his injured leg.",
+      "synonyms": [
+        "moan",
+        "whimper",
+        "sigh",
+        "complain"
+      ],
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
