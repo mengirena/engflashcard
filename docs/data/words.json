@@ -1531,9 +1531,9 @@
       ],
       "id": "backtracking",
       "srs": {
-        "due": "2026-06-07",
+        "due": "2026-06-08",
         "interval": 0,
-        "ease": 2.5,
+        "ease": 2.3,
         "reps": 0
       },
       "added": "2026-06-07",
