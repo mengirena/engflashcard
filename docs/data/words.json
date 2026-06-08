@@ -1763,6 +1763,33 @@
         "ease": 2.35,
         "reps": 1
       }
+    },
+    {
+      "id": "thrummed",
+      "word": "thrummed",
+      "pronunciation": "/θrʌmd/",
+      "partOfSpeech": "verb (past tense)",
+      "definition": "Made a continuous rhythmic humming or vibrating sound, or played a stringed instrument idly with the fingers.",
+      "translation": "發出持續的低鳴聲；隨意彈撥弦樂器",
+      "example": "The engine thrummed steadily as we drove down the highway.",
+      "synonyms": [
+        "hummed",
+        "vibrated",
+        "resonated",
+        "drummed"
+      ],
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
