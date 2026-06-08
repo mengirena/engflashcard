@@ -245,8 +245,7 @@
   function wordBlock(c) {
     return '<div class="card-word">' + escapeHtml(c.word) + ' ' + speakBtn(c.word) + '</div>' +
       '<div class="card-ipa">' + escapeHtml(c.pronunciation || '') + '</div>' +
-      '<div class="card-pos">' + escapeHtml(c.partOfSpeech || '') + '</div>' +
-      zhBlock(c);
+      '<div class="card-pos">' + escapeHtml(c.partOfSpeech || '') + '</div>';
   }
   function meaningBlock(c, blankExample) {
     var ex = c.example ? (blankExample ? maskWord(c.example, c.word) : highlight(c.example, c.word)) : '';
@@ -284,11 +283,13 @@
     if (studyDir === 'rev') {
       $('#cardBackContent').innerHTML = wordBlock(current) +
         (current.synonyms && current.synonyms.length ? '<div class="card-syn">' + synChips(current) + '</div>' : '') +
-        (current.example ? '<div class="card-example">' + highlight(current.example, current.word) + '</div>' : '');
+        (current.example ? '<div class="card-example">' + highlight(current.example, current.word) + '</div>' : '') +
+        zhBlock(current);
       speak(current.word); // reveal includes a tap gesture, so audio is allowed
     } else {
       $('#cardBackContent').innerHTML = meaningBlock(current, false) +
-        (current.synonyms && current.synonyms.length ? '<div class="card-syn">' + synChips(current) + '</div>' : '');
+        (current.synonyms && current.synonyms.length ? '<div class="card-syn">' + synChips(current) + '</div>' : '') +
+        zhBlock(current);
     }
     var src = current.source || {};
     $('#cardSeenIn').innerHTML = src.label
