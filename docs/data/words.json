@@ -743,10 +743,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-08",
-        "interval": 2.64,
-        "ease": 2.2,
-        "reps": 3
+        "due": "2026-06-16",
+        "interval": 8.0652,
+        "ease": 2.35,
+        "reps": 4
       }
     },
     {
