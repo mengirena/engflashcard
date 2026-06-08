@@ -2115,6 +2115,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "flex",
+      "word": "flex",
+      "pronunciation": "/flɛks/",
+      "partOfSpeech": "verb",
+      "definition": "To bend or move a joint or muscle, or to display one's abilities, possessions, or achievements in a way that is intended to impress others.",
+      "translation": "彎曲；伸縮肌肉；炫耀；展示",
+      "example": "He flexed his biceps to show off his muscles at the gym.",
+      "synonyms": [
+        "bend",
+        "curve",
+        "show off",
+        "boast",
+        "flaunt"
+      ],
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
