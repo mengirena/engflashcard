@@ -2061,6 +2061,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "tendril",
+      "word": "tendril",
+      "pronunciation": "/ˈtendrəl/",
+      "partOfSpeech": "noun",
+      "definition": "A slender, thread-like stem or leaf of a climbing plant that coils around a support for the plant to climb.",
+      "translation": "捲鬚；卷鬚；植物的螺旋狀捲鬚",
+      "example": "The ivy's tendrils wrapped tightly around the wooden fence.",
+      "synonyms": [
+        "vine",
+        "shoot",
+        "spiral",
+        "curl"
+      ],
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
