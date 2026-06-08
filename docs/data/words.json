@@ -93,10 +93,10 @@
         "reps": 4
       },
       "srsBack": {
-        "due": "2026-06-08",
-        "interval": 1,
+        "due": "2026-06-11",
+        "interval": 3,
         "ease": 2.5,
-        "reps": 1
+        "reps": 2
       }
     },
     {
