@@ -1626,6 +1626,12 @@
         "label": "",
         "url": "",
         "via": "ios"
+      },
+      "srsBack": {
+        "due": "2026-06-09",
+        "interval": 1,
+        "ease": 2.35,
+        "reps": 1
       }
     },
     {
