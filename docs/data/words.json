@@ -2205,6 +2205,33 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "id": "bewildered",
+      "word": "bewildered",
+      "pronunciation": "/bɪˈwɪldərd/",
+      "partOfSpeech": "adjective",
+      "definition": "Confused and perplexed; unable to understand or decide what to do because something is complicated or unexpected.",
+      "translation": "困惑的；迷茫的；不知所措的",
+      "example": "She looked bewildered when confronted with the complex instructions for assembling the furniture.",
+      "synonyms": [
+        "confused",
+        "perplexed",
+        "puzzled",
+        "disoriented"
+      ],
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
