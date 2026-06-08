@@ -1869,6 +1869,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "peek",
+      "word": "peek",
+      "pronunciation": "/piːk/",
+      "partOfSpeech": "verb",
+      "definition": "To look quickly or secretly at something, often from a hidden position or through a small opening.",
+      "translation": "偷看；瞥見；窺視",
+      "example": "The child peeked through the curtains to see if Santa had arrived.",
+      "synonyms": [
+        "glance",
+        "peep",
+        "glimpse",
+        "sneak a look"
+      ],
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
