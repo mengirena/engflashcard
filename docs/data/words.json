@@ -1597,6 +1597,34 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "word": "enticing",
+      "pronunciation": "/ɪnˈtaɪsɪŋ/",
+      "partOfSpeech": "adjective",
+      "definition": "Attractively tempting or appealing in a way that arouses desire or interest.",
+      "translation": "誘人的；吸引人的；令人動心的",
+      "example": "The bakery window displayed an enticing array of fresh pastries that made everyone who walked by stop and look.",
+      "synonyms": [
+        "tempting",
+        "alluring",
+        "appealing",
+        "attractive",
+        "inviting"
+      ],
+      "id": "enticing",
+      "srs": {
+        "due": "2026-06-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-06-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
