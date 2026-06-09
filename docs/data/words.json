@@ -1397,10 +1397,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-09",
-        "interval": 1.2,
+        "due": "2026-06-12",
+        "interval": 2.64,
         "ease": 2.2,
-        "reps": 2
+        "reps": 3
       }
     },
     {
