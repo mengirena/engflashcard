@@ -1962,6 +1962,12 @@
         "interval": 1,
         "ease": 2.5,
         "reps": 1
+      },
+      "srsBack": {
+        "due": "2026-06-10",
+        "interval": 1,
+        "ease": 2.5,
+        "reps": 1
       }
     },
     {
