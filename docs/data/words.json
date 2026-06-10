@@ -950,10 +950,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-10",
-        "interval": 2.82,
+        "due": "2026-06-17",
+        "interval": 6.627,
         "ease": 2.35,
-        "reps": 3
+        "reps": 4
       },
       "srsBack": {
         "due": "2026-06-12",
