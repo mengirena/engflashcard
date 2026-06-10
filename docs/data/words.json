@@ -1293,10 +1293,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-10",
-        "interval": 3,
+        "due": "2026-06-18",
+        "interval": 7.5,
         "ease": 2.5,
-        "reps": 2
+        "reps": 3
       }
     },
     {
