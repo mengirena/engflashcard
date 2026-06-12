@@ -737,10 +737,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-11",
-        "interval": 2.0736,
-        "ease": 1.35,
-        "reps": 5
+        "due": "2026-06-14",
+        "interval": 2.48832,
+        "ease": 1.3,
+        "reps": 6
       },
       "srsBack": {
         "due": "2026-06-08",
