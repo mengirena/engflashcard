@@ -1988,10 +1988,10 @@
         "reps": 2
       },
       "srsBack": {
-        "due": "2026-06-10",
-        "interval": 1,
+        "due": "2026-06-16",
+        "interval": 3,
         "ease": 2.5,
-        "reps": 1
+        "reps": 2
       }
     },
     {
