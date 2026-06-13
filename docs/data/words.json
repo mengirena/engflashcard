@@ -1588,10 +1588,10 @@
       ],
       "id": "defy",
       "srs": {
-        "due": "2026-06-09",
-        "interval": 1.2,
+        "due": "2026-06-16",
+        "interval": 2.64,
         "ease": 2.2,
-        "reps": 2
+        "reps": 3
       },
       "added": "2026-06-07",
       "source": {
