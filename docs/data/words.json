@@ -1821,10 +1821,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-11",
-        "interval": 1,
-        "ease": 2.35,
-        "reps": 1
+        "due": "2026-06-14",
+        "interval": 1.2,
+        "ease": 2.2,
+        "reps": 2
       },
       "srsBack": {
         "due": "2026-06-10",
