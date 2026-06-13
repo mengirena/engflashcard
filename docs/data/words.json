@@ -2323,10 +2323,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-08",
-        "interval": 0,
-        "ease": 2.5,
-        "reps": 0
+        "due": "2026-06-14",
+        "interval": 1,
+        "ease": 2.35,
+        "reps": 1
       },
       "srsBack": {
         "due": "2026-06-10",
