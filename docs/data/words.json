@@ -2186,10 +2186,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-10",
-        "interval": 1,
-        "ease": 2.5,
-        "reps": 1
+        "due": "2026-06-14",
+        "interval": 1.2,
+        "ease": 2.35,
+        "reps": 2
       }
     },
     {
