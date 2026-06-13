@@ -1748,10 +1748,10 @@
       ],
       "id": "uplift",
       "srs": {
-        "due": "2026-06-13",
-        "interval": 3,
+        "due": "2026-06-21",
+        "interval": 7.5,
         "ease": 2.5,
-        "reps": 2
+        "reps": 3
       },
       "added": "2026-06-07",
       "source": {
