@@ -592,6 +592,12 @@
         "interval": 6.627,
         "ease": 2.35,
         "reps": 4
+      },
+      "srsBack": {
+        "due": "2026-06-14",
+        "interval": 0,
+        "ease": 2.3,
+        "reps": 0
       }
     },
     {
