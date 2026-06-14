@@ -2104,10 +2104,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-14",
-        "interval": 1,
+        "due": "2026-06-17",
+        "interval": 3,
         "ease": 2.35,
-        "reps": 1
+        "reps": 2
       },
       "usage": "Woolly typically pairs with nouns like \"jumper,\" \"sweater,\" \"mammoth,\" or abstract nouns like \"thinking\" and \"ideas.\" It's neutral to casual in register and common in British English (American English often prefers \"woolly-headed\" or \"fuzzy\" for the figurative sense). Avoid it in formal academic writing when precision is critical, and note that the figurative sense (confused/vague) can feel slightly informal or dismissive."
     },
