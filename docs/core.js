@@ -149,6 +149,7 @@
       definition: (fields && fields.definition) || '',
       translation: (fields && fields.translation) || '',
       example: (fields && fields.example) || '',
+      usage: (fields && fields.usage) || '',
       synonyms: (fields && Array.isArray(fields.synonyms)) ? fields.synonyms : [],
       added: todayISO(),
       source: source || { label: '', url: '', via: 'manual' },
@@ -313,7 +314,9 @@
     "word (string, base/dictionary form), pronunciation (IPA in slashes), partOfSpeech " +
     "(e.g. noun, verb, adjective), definition (clear English, one or two sentences), " +
     "translation (Traditional Chinese 繁體中文 translation/explanation — never Simplified), example (one natural English " +
-    "sentence using the word), synonyms (array of 2-5 English synonyms). " +
+    "sentence using the word), usage (a short English note on how to actually use the word: " +
+    "typical collocations/what it pairs with, its register — formal/neutral/casual/literary — " +
+    "and when NOT to use it), synonyms (array of 2-5 English synonyms). " +
     "If a context sentence is provided, tailor the definition and example to that sense.";
 
   async function anthropicLookup(cfg, word, context) {
@@ -331,6 +334,25 @@
   async function lookup(cfg, word, source, context) {
     const fields = await anthropicLookup(cfg, word, context);
     return buildCard(fields.word || word, fields, source);
+  }
+
+  // Check a user-written sentence that uses `word`. Returns structured feedback.
+  const CHECK_SYSTEM =
+    "You are an encouraging English writing coach. The learner is practising using a target " +
+    "word in their own sentence. Judge ONLY whether the sentence uses the target word correctly " +
+    "and naturally (ignore minor unrelated typos unless they change meaning). Respond with ONLY a " +
+    "JSON object, no prose, no code fences, keys: verdict (one of \"correct\", \"awkward\", " +
+    "\"incorrect\"), feedback (one or two short encouraging English sentences explaining the " +
+    "judgement), better (a more natural rewrite of THEIR sentence keeping their meaning; if their " +
+    "sentence is already great, return it unchanged), tip (one short note on a useful collocation " +
+    "or register point for this word).";
+
+  async function checkSentence(cfg, word, definition, sentence) {
+    const user = 'Target word: "' + word + '"\nMeaning: ' + (definition || '') +
+      '\nLearner\'s sentence: "' + sentence + '"';
+    const text = await anthropicCall(cfg, CHECK_SYSTEM, user, 500);
+    try { return JSON.parse(stripFences(text)); }
+    catch (e) { throw new Error('Could not read the AI feedback. Raw: ' + text.slice(0, 200)); }
   }
 
   const IMPORT_SYSTEM =
@@ -375,6 +397,6 @@
     // srs
     isDue, srsReview, getSrs,
     // ai
-    anthropicLookup, lookup, parseImport
+    anthropicLookup, lookup, parseImport, checkSentence
   };
 })(typeof self !== 'undefined' ? self : this);

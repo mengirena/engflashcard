@@ -89,13 +89,41 @@ label.check { flex-direction: row; align-items: center; gap: 8px; color: var(--i
 label.check input { width: auto; }
 .card-example { background: #f8f9ff; border-radius: 12px; padding: 10px 12px; font-style: italic; }
 .card-example mark { background: #fde68a; padding: 0 2px; border-radius: 3px; font-style: normal; }
+.card-usage { margin-top: 10px; background: #fff7ed; border-left: 3px solid #f59e0b; border-radius: 8px; padding: 8px 10px; font-size: 14px; text-align: left; }
+.usage-tag { display: inline-block; font-size: 11px; font-weight: 700; color: #92400e; text-transform: uppercase; letter-spacing: .04em; margin-right: 4px; }
 .card-syn { margin-top: 10px; }
+@media (prefers-color-scheme: dark) { .card-usage { background: #3a2a12; } }
 .chip {
   display: inline-block; background: #eef0fb; color: var(--brand);
   padding: 3px 10px; border-radius: 999px; font-size: 13px; margin: 3px 4px 0 0;
 }
 .seen-in { margin-top: 12px; font-size: 13px; color: var(--muted); }
 .seen-in a { color: var(--brand); }
+
+/* Practice (write your own sentence) */
+.practice { margin-top: 14px; text-align: left; }
+.secondary.small, .primary.small { font-size: 13px; padding: 7px 12px; }
+#practicePanel { margin-top: 10px; }
+#practicePanel textarea { margin-bottom: 8px; }
+.card-mine { margin-top: 10px; background: #eef9f1; border-left: 3px solid var(--good); border-radius: 8px; padding: 8px 10px; font-size: 14px; text-align: left; }
+.usage-tag.mine { color: #065f46; }
+.fb { margin-top: 10px; border-radius: 10px; padding: 10px 12px; font-size: 14px; }
+.fb-verdict { font-weight: 700; margin-bottom: 4px; }
+.fb-better { margin-top: 6px; }
+.fb-tip { margin-top: 6px; color: var(--muted); }
+.fb #practiceSave { margin-top: 10px; }
+.fb.v-good { background: #eef9f1; border: 1px solid #a7e3bf; }
+.fb.v-good .fb-verdict { color: #065f46; }
+.fb.v-warn { background: #fff7ed; border: 1px solid #fed7aa; }
+.fb.v-warn .fb-verdict { color: #92400e; }
+.fb.v-bad { background: #fef2f2; border: 1px solid #fecaca; }
+.fb.v-bad .fb-verdict { color: #b91c1c; }
+.active-badge { background: #d1fae5; color: #065f46; }
+@media (prefers-color-scheme: dark) {
+  .card-mine, .fb.v-good { background: #0e2a1c; }
+  .fb.v-warn { background: #3a2a12; }
+  .fb.v-bad { background: #3a1414; }
+}
 
 .rate-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 18px; }
 .rate { color: #fff; font-weight: 700; }

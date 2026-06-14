@@ -252,6 +252,14 @@
     return '<div class="card-def">' + escapeHtml(c.definition || '') + '</div>' +
       (ex ? '<div class="card-example">' + ex + '</div>' : '');
   }
+  function usageBlock(c) {
+    if (!c.usage) return '';
+    return '<div class="card-usage"><span class="usage-tag">Usage</span> ' + escapeHtml(c.usage) + '</div>';
+  }
+  function mineBlock(c) {
+    if (!c.mySentence) return '';
+    return '<div class="card-mine"><span class="usage-tag mine">Your sentence</span> ' + highlight(c.mySentence, c.word) + '</div>';
+  }
 
   function nextCard() {
     if (!queue.length) { sessionDone(); return; }
@@ -262,6 +270,7 @@
     var badge = $('#cardMastery');
     badge.className = 'mbadge ' + (MASTERY_CLASS[m.label] || 'm0');
     badge.textContent = (studyDir === 'rev' ? 'Back · ' : 'Front · ') + m.label;
+    $('#cardActive').hidden = !current.activeMastery;
     $('#cardSource').textContent = current.source && current.source.label ? '— ' + current.source.label : '';
     if (studyDir === 'rev') {
       // show the meaning; recall the word
@@ -284,13 +293,15 @@
       // back side shows the word; chip goes right under its part of speech
       $('#cardBackContent').innerHTML = wordBlock(current) + zhBlock(current) +
         (current.synonyms && current.synonyms.length ? '<div class="card-syn">' + synChips(current) + '</div>' : '') +
-        (current.example ? '<div class="card-example">' + highlight(current.example, current.word) + '</div>' : '');
+        (current.example ? '<div class="card-example">' + highlight(current.example, current.word) + '</div>' : '') +
+        usageBlock(current) + mineBlock(current);
       speak(current.word); // reveal includes a tap gesture, so audio is allowed
     } else {
       // front holds the word + POS; reveal the chip there (under POS, above the divider)
       $('#cardFront').innerHTML = wordBlock(current) + zhBlock(current);
       $('#cardBackContent').innerHTML = meaningBlock(current, false) +
-        (current.synonyms && current.synonyms.length ? '<div class="card-syn">' + synChips(current) + '</div>' : '');
+        (current.synonyms && current.synonyms.length ? '<div class="card-syn">' + synChips(current) + '</div>' : '') +
+        usageBlock(current) + mineBlock(current);
     }
     var src = current.source || {};
     $('#cardSeenIn').innerHTML = src.label
@@ -299,6 +310,7 @@
           : escapeHtml(src.label))
       : '';
     wireCardButtons();
+    setupPractice();
   }
   function wireCardButtons() {
     $$('#studyCard .speak').forEach(function (b) {
@@ -312,6 +324,51 @@
         b.hidden = true;
       };
     });
+  }
+
+  // ---------- practice (write a sentence, AI checks it) ----------
+  function setupPractice() {
+    $('#practicePanel').hidden = true;
+    $('#practiceInput').value = current.mySentence || '';
+    $('#practiceFeedback').innerHTML = '';
+    $('#practiceToggle').textContent = current.mySentence ? '✍️ Practice (saved ✓)' : '✍️ Practice using it';
+  }
+  $('#practiceToggle').addEventListener('click', function () {
+    var p = $('#practicePanel');
+    p.hidden = !p.hidden;
+    if (!p.hidden) $('#practiceInput').focus();
+  });
+  $('#practiceCheck').addEventListener('click', async function () {
+    var s = $('#practiceInput').value.trim();
+    if (!s) { toast('Write a sentence first.'); return; }
+    if (!hasKeys()) { toast('Add your keys in Settings first.'); show('settings'); return; }
+    var fb = $('#practiceFeedback');
+    fb.innerHTML = '<p class="muted"><span class="spinner"></span>Checking…</p>';
+    try {
+      var r = await C.checkSentence(cfg, current.word, current.definition, s);
+      renderFeedback(r, s);
+    } catch (e) { fb.innerHTML = '<p class="banner">' + escapeHtml(e.message) + '</p>'; }
+  });
+  function renderFeedback(r, s) {
+    var v = (r.verdict || '').toLowerCase();
+    var cls = v === 'correct' ? 'v-good' : (v === 'awkward' ? 'v-warn' : 'v-bad');
+    var label = v === 'correct' ? '✓ Natural' : (v === 'awkward' ? '~ A bit awkward' : '✗ Needs work');
+    $('#practiceFeedback').innerHTML = '<div class="fb ' + cls + '">' +
+      '<div class="fb-verdict">' + label + '</div>' +
+      (r.feedback ? '<div>' + escapeHtml(r.feedback) + '</div>' : '') +
+      (r.better ? '<div class="fb-better"><b>More natural:</b> ' + escapeHtml(r.better) + '</div>' : '') +
+      (r.tip ? '<div class="fb-tip">💡 ' + escapeHtml(r.tip) + '</div>' : '') +
+      '<button id="practiceSave" class="secondary small">Save my sentence ✓</button>' +
+      '</div>';
+    $('#practiceSave').addEventListener('click', function () { savePractice(s); });
+  }
+  function savePractice(s) {
+    current.mySentence = s;
+    current.activeMastery = true;
+    dirty = true; scheduleFlush();
+    $('#cardActive').hidden = false;
+    $('#practiceToggle').textContent = '✍️ Practice (saved ✓)';
+    toast('Saved your sentence ✓');
   }
   function rate(rating) {
     if (!current) return;
@@ -387,6 +444,7 @@
         '<div class="card-translation">' + escapeHtml(card.translation || '') + '</div>' +
         '<div class="card-def">' + escapeHtml(card.definition || '') + '</div>' +
         '<div class="card-example">' + (card.example ? highlight(card.example, card.word) : '') + '</div>' +
+        usageBlock(card) +
         '<div class="card-syn">' + (card.synonyms || []).map(function (s) { return '<span class="chip">' + escapeHtml(s) + '</span>'; }).join('') + '</div>' +
       '</div>';
     return d;
@@ -434,7 +492,8 @@
         : '';
       var del = '<button class="bdel" data-id="' + escapeHtml(c.id) + '" title="Delete">🗑</button>';
       var badges = '<span class="mbadge ' + MASTERY_CLASS[mf.label] + '" title="Front (word→meaning)">F·' + mf.label + '</span>' +
-                   ' <span class="mbadge ' + MASTERY_CLASS[mb.label] + '" title="Back (meaning→word)">B·' + mb.label + '</span>';
+                   ' <span class="mbadge ' + MASTERY_CLASS[mb.label] + '" title="Back (meaning→word)">B·' + mb.label + '</span>' +
+                   (c.activeMastery ? ' <span class="mbadge m3" title="You can use it in your own sentence">✓ Active</span>' : '');
       return '<div class="browse-item' + (selectMode ? ' selectable' : '') + '">' +
         '<div class="bhead">' + check +
           '<div class="bmain"><div>' + due + '<span class="bw">' + escapeHtml(c.word) + '</span> ' + speakBtn(c.word) +
@@ -443,6 +502,7 @@
           ' ' + badges + '</div>' +
           '<div class="btr">' + escapeHtml(c.translation || '') + '</div>' +
           '<div class="bdef">' + escapeHtml(c.definition || '') + '</div>' +
+          (c.usage ? '<div class="card-usage"><span class="usage-tag">Usage</span> ' + escapeHtml(c.usage) + '</div>' : '') +
           '<div class="bmeta">added ' + escapeHtml(c.added || '') + ' · next ' + escapeHtml(c.srs ? c.srs.due : '') + seen + '</div></div>' +
           (selectMode ? '' : del) +
         '</div>' +

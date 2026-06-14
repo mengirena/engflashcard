@@ -11,7 +11,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="Flashcards" />
-  <link rel="stylesheet" href="styles.css?v=19" />
+  <link rel="stylesheet" href="styles.css?v=20" />
 </head>
 <body>
   <header class="topbar">
@@ -51,6 +51,7 @@
       <div id="studyCard" class="card" hidden>
         <div class="card-top">
           <span class="mbadge" id="cardMastery"></span>
+          <span class="mbadge m3 active-badge" id="cardActive" hidden>✓ Active</span>
           <span class="card-source" id="cardSource"></span>
         </div>
         <div id="cardFront"></div>
@@ -58,6 +59,14 @@
         <div id="cardBack" class="card-back" hidden>
           <div id="cardBackContent"></div>
           <div class="seen-in" id="cardSeenIn"></div>
+          <div class="practice">
+            <button id="practiceToggle" class="secondary small">✍️ Practice using it</button>
+            <div id="practicePanel" hidden>
+              <textarea id="practiceInput" rows="2" placeholder="Write your own sentence using this word…"></textarea>
+              <button id="practiceCheck" class="primary small">Check my sentence</button>
+              <div id="practiceFeedback"></div>
+            </div>
+          </div>
           <div class="rate-row">
             <button class="rate again" data-rate="again">Again</button>
             <button class="rate hard" data-rate="hard">Hard</button>
@@ -149,7 +158,7 @@
 
   <div id="toast" class="toast" hidden></div>
 
-  <script src="core.js?v=19"></script>
-  <script src="app.js?v=19"></script>
+  <script src="core.js?v=20"></script>
+  <script src="app.js?v=20"></script>
 </body>
 </html>
