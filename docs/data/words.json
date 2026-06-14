@@ -2238,10 +2238,10 @@
       ],
       "id": "malicious",
       "srs": {
-        "due": "2026-06-14",
-        "interval": 1,
+        "due": "2026-06-17",
+        "interval": 3,
         "ease": 2.35,
-        "reps": 1
+        "reps": 2
       },
       "added": "2026-06-08",
       "source": {
