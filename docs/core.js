@@ -347,6 +347,17 @@
     "sentence is already great, return it unchanged), tip (one short note on a useful collocation " +
     "or register point for this word).";
 
+  // Generate just a usage note for an existing word (for backfilling old cards).
+  const USAGE_SYSTEM =
+    "You are an English usage coach. For the given word, reply with ONLY a short plain-text " +
+    "usage note (no JSON, no quotes, 1-3 sentences): typical collocations / what it pairs with, " +
+    "its register (formal/neutral/casual/literary), and when NOT to use it.";
+  async function usageFor(cfg, word, definition) {
+    const user = 'Word: "' + word + '"' + (definition ? ('\nMeaning: ' + definition) : '');
+    const text = await anthropicCall(cfg, USAGE_SYSTEM, user, 300);
+    return stripFences(text).trim();
+  }
+
   async function checkSentence(cfg, word, definition, sentence) {
     const user = 'Target word: "' + word + '"\nMeaning: ' + (definition || '') +
       '\nLearner\'s sentence: "' + sentence + '"';
@@ -397,6 +408,6 @@
     // srs
     isDue, srsReview, getSrs,
     // ai
-    anthropicLookup, lookup, parseImport, checkSentence
+    anthropicLookup, lookup, parseImport, checkSentence, usageFor
   };
 })(typeof self !== 'undefined' ? self : this);

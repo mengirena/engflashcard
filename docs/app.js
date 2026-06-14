@@ -663,6 +663,9 @@
     $('#setDeckPath').value = cfg.deckPath || DEFAULTS.deckPath;
     $('#setInbox').value = cfg.inboxDir || DEFAULTS.inboxDir;
     $('#setHideZh').checked = cfg.hideChinese !== false;
+    var missing = deck.cards.filter(function (c) { return !c.usage; }).length;
+    $('#backfillUsage').textContent = missing ? ('Fill missing usage notes (' + missing + ')') : 'Usage notes complete ✓';
+    $('#backfillUsage').disabled = missing === 0;
   }
   $('#saveSettings').addEventListener('click', async function () {
     cfg.anthropicKey = $('#setAnthropic').value.trim();
@@ -697,6 +700,26 @@
     try { await C.anthropicLookup(cfg, 'test'); out.push('✅ Anthropic OK.'); }
     catch (e) { out.push('❌ Anthropic: ' + e.message.slice(0, 140)); }
     m.innerHTML = out.map(escapeHtml).join('<br>');
+  });
+  $('#backfillUsage').addEventListener('click', async function () {
+    if (!hasKeys()) { toast('Add your keys first.'); return; }
+    var missing = deck.cards.filter(function (c) { return !c.usage; });
+    var m = $('#settingsMsg');
+    if (!missing.length) { m.textContent = 'All cards already have usage notes.'; return; }
+    var btn = this; btn.disabled = true;
+    await C.mapLimit(missing, 3, async function (c) {
+      var u = await C.usageFor(cfg, c.word, c.definition);
+      if (u) c.usage = u;
+    }, function (done, total) { m.innerHTML = '<span class="spinner"></span>Filling usage notes… ' + done + '/' + total; });
+    var filled = missing.filter(function (c) { return !!c.usage; }).length;
+    try {
+      deck.sha = await C.saveDeck(cfg, deck.cards, deck.sha, 'backfill usage notes (' + filled + ')');
+      cacheDeck();
+      m.textContent = 'Added usage notes to ' + filled + ' card(s).';
+    } catch (e) {
+      m.textContent = 'Generated locally but GitHub save failed: ' + e.message.slice(0, 80);
+    }
+    fillSettings();
   });
 
   // ---------- service worker ----------
