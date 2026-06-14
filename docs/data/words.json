@@ -2340,6 +2340,33 @@
         "ease": 2.35,
         "reps": 1
       }
+    },
+    {
+      "id": "chrysanthemum",
+      "word": "chrysanthemum",
+      "pronunciation": "/krɪˈsænθəməm/",
+      "partOfSpeech": "noun",
+      "definition": "A flowering plant of the daisy family, native to Asia, with colorful blooms that have many petals radiating from a central disk. It is commonly cultivated as an ornamental plant and is particularly significant in East Asian cultures.",
+      "translation": "菊花；秋菊",
+      "example": "She arranged a beautiful bouquet of white and yellow chrysanthemums for the autumn festival.",
+      "synonyms": [
+        "mum",
+        "daisy",
+        "flower",
+        "bloom"
+      ],
+      "added": "2026-06-14",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-14",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
