@@ -2041,10 +2041,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-14",
-        "interval": 1.2,
+        "due": "2026-06-18",
+        "interval": 2.64,
         "ease": 2.2,
-        "reps": 2
+        "reps": 3
       },
       "usage": "**Plaster** typically pairs with wall, ceiling, surface, or crack (noun use), and with coat, cover, or apply (verb use). It's neutral/technical in construction contexts but becomes informal when used figuratively (e.g., \"plastered with posters\" or the slang \"plastered\" meaning drunk). Avoid it in formal writing when describing thin coatings or paint—plaster implies a thicker, paste-like application."
     },
