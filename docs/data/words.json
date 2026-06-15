@@ -2161,10 +2161,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-14",
-        "interval": 1,
+        "due": "2026-06-18",
+        "interval": 3,
         "ease": 2.5,
-        "reps": 1
+        "reps": 2
       },
       "usage": "**Slashing** commonly pairs with nouns like \"costs,\" \"prices,\" \"budget,\" and \"rates\" when describing dramatic reductions, and with \"attacks,\" \"wounds,\" or \"rain\" in physical contexts. It's neutral-to-informal in register and works well in business/financial discussions and vivid descriptions. Avoid it in formal academic writing where \"reducing significantly\" or \"cutting\" would be more appropriate, and don't use it when describing gradual or minor changes."
     },
