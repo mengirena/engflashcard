@@ -2509,6 +2509,32 @@
         "via": "ios"
       },
       "usage": "**Apparatus** pairs well with descriptive words like \"complex,\" \"sophisticated,\" or \"bureaucratic\" and appears in phrases like \"breathing apparatus,\" \"security apparatus,\" or \"state apparatus.\" It's formal/technical in register and commonly used in scientific, governmental, and institutional contexts. Avoid it in casual conversation where \"equipment,\" \"system,\" or \"machinery\" would sound more natural."
+    },
+    {
+      "word": "mascaras",
+      "pronunciation": "/mæˈskɑːrəz/",
+      "partOfSpeech": "noun",
+      "definition": "Plural of mascara; cosmetic products applied to eyelashes to darken, lengthen, or thicken them for enhancing eye appearance.",
+      "translation": "睫毛膏（複數形式）；用於使睫毛變黑、加長或加厚的化妝品",
+      "example": "She has several mascaras in different shades stored in her makeup drawer.",
+      "synonyms": [
+        "eye cosmetics",
+        "lash products",
+        "makeup"
+      ],
+      "id": "mascaras",
+      "srs": {
+        "due": "2026-06-15",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-06-15",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
