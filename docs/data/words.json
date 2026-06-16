@@ -2564,6 +2564,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "burrow",
+      "word": "burrow",
+      "pronunciation": "/ˈbɜːroʊ/",
+      "partOfSpeech": "noun, verb",
+      "definition": "A hole or tunnel dug by an animal such as a rabbit or fox as a dwelling; or as a verb, to dig such a hole, or to move or search deeply into something.",
+      "translation": "洞穴；地洞（動物挖掘的住所）；挖掘；鑽入；深入搜尋",
+      "example": "The rabbit disappeared into its burrow when it heard the fox approaching.",
+      "usage": "As a noun, commonly paired with animals: rabbit burrow, fox burrow, badger burrow. As a verb, often used with 'into,' 'through,' or 'under' to describe physical or figurative digging/searching. Neutral to informal register. Can be used literally (animal habitats) or metaphorically (digging into books, memories, research). Avoid in very formal academic writing where 'excavate' or 'tunnel' might be preferred.",
+      "synonyms": [
+        "tunnel",
+        "hole",
+        "den",
+        "excavate",
+        "dig"
+      ],
+      "added": "2026-06-16",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-16",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
