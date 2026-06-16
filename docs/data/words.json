@@ -2593,6 +2593,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "nestle",
+      "word": "nestle",
+      "pronunciation": "/ˈnɛsəl/",
+      "partOfSpeech": "verb",
+      "definition": "To settle or curl up comfortably in a warm, sheltered place; or to snuggle closely against someone or something.",
+      "translation": "窩在；依偎；舒適地躺著",
+      "example": "The baby nestled against her mother's chest and fell asleep.",
+      "usage": "Commonly used in descriptive or literary contexts. Pairs well with prepositions like 'against', 'into', 'among'. Neutral to warm, slightly poetic register. Often describes physical comfort or affection. Not typically used in formal business writing.",
+      "synonyms": [
+        "snuggle",
+        "cuddle",
+        "curl up",
+        "huddle"
+      ],
+      "added": "2026-06-16",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-16",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
