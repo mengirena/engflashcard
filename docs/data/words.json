@@ -1909,10 +1909,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-14",
-        "interval": 1.2,
+        "due": "2026-06-19",
+        "interval": 2.64,
         "ease": 2.2,
-        "reps": 2
+        "reps": 3
       },
       "srsBack": {
         "due": "2026-06-10",
