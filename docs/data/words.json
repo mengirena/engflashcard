@@ -578,10 +578,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-16",
-        "interval": 6.051600000000001,
+        "due": "2026-06-28",
+        "interval": 12.405780000000005,
         "ease": 2.0500000000000003,
-        "reps": 5
+        "reps": 6
       },
       "usage": "**Put off** is neutral and common in both speech and writing. It pairs naturally with tasks, meetings, decisions, or people (e.g., \"put off the meeting,\" \"put off a decision,\" \"put off by his attitude\"). Avoid it in very formal contexts where \"postpone,\" \"defer,\" or \"delay\" sound more appropriate; also avoid confusing the phrasal verb with \"put on\" (wear) or \"put out\" (annoy/inconvenience)."
     },
