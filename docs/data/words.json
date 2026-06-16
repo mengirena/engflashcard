@@ -2621,6 +2621,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "reckless",
+      "word": "reckless",
+      "pronunciation": "/ˈrekləs/",
+      "partOfSpeech": "adjective",
+      "definition": "Showing a lack of care or concern for the consequences of one's actions; acting without thinking about danger or harm.",
+      "translation": "魯莽的；不顧後果的；莽撞的",
+      "example": "His reckless driving on the highway endangered everyone in the car.",
+      "usage": "Common in formal and neutral contexts. Typically pairs with nouns describing dangerous or irresponsible behavior (reckless driving, reckless decision, reckless abandon). Can modify nouns directly (a reckless driver) or follow linking verbs (He was reckless). Slightly more formal than 'careless'; implies willful disregard rather than mere oversight. Avoid using for minor mistakes or unintentional errors.",
+      "synonyms": [
+        "careless",
+        "irresponsible",
+        "hasty",
+        "rash"
+      ],
+      "added": "2026-06-16",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-16",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
