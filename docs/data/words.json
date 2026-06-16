@@ -2536,6 +2536,34 @@
         "via": "ios"
       },
       "usage": "Neutral/casual register; commonly pairs with \"waterproof,\" \"volumizing,\" \"mascara brush,\" or \"apply.\" Use freely in everyday contexts (beauty advice, shopping, makeup tutorials). Avoid in formal writing unless discussing cosmetics industry or beauty standards specifically."
+    },
+    {
+      "id": "knot",
+      "word": "knot",
+      "pronunciation": "/nɑːt/",
+      "partOfSpeech": "noun, verb",
+      "definition": "A fastening made by tying together the ends or parts of a string, rope, or cord; or to tie something into a knot.",
+      "translation": "結；打結；(速度單位)節",
+      "example": "She tied a knot in the rope to secure the boat to the dock.",
+      "usage": "Neutral, everyday word. Common collocations: tie a knot, untie a knot, knot in one's stomach (anxiety), a tangled knot. Used in sailing, climbing, crafts, and metaphorically for problems ('a knot to untangle'). Avoid in formal academic writing when 'bond' or 'connection' would be more appropriate.",
+      "synonyms": [
+        "tie",
+        "bend",
+        "hitch",
+        "loop"
+      ],
+      "added": "2026-06-16",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-16",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
