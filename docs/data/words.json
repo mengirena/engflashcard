@@ -2257,10 +2257,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-14",
-        "interval": 1.2,
-        "ease": 2.15,
-        "reps": 2
+        "due": "2026-06-17",
+        "interval": 1.44,
+        "ease": 2,
+        "reps": 3
       },
       "usage": "**Crook** (criminal sense) is casual/informal and pairs with verbs like \"catch,\" \"arrest,\" or \"nab\"; avoid it in formal legal or official contexts where \"criminal,\" \"offender,\" or \"perpetrator\" are more appropriate. The curved-implement sense is more formal/technical and commonly collocates with \"shepherd's crook\" or \"bishop's crook.\""
     },
