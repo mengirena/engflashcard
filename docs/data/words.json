@@ -2474,10 +2474,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-15",
-        "interval": 1,
-        "ease": 2.5,
-        "reps": 1
+        "due": "2026-06-17",
+        "interval": 1.2,
+        "ease": 2.35,
+        "reps": 2
       },
       "usage": "**Chrysanthemum** typically pairs with words like \"flower,\" \"bloom,\" \"arrangement,\" \"festival,\" or \"garden,\" and is used in neutral/formal contexts when discussing horticulture, floral design, or cultural traditions. It's most common in written English (gardening articles, botanical texts) and sounds slightly formal or poetic in casual speech. Avoid using it as a casual synonym for \"flower\" in everyday conversation—say \"flower\" or \"bloom\" instead unless you're specifically discussing this particular plant."
     },
