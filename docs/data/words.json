@@ -2132,10 +2132,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-16",
-        "interval": 3,
+        "due": "2026-06-24",
+        "interval": 7.050000000000001,
         "ease": 2.35,
-        "reps": 2
+        "reps": 3
       },
       "usage": "**Grimace** pairs naturally with *at* (grimace at bad news) or *with* (grimace with pain). It's neutral-to-formal and commonly appears in descriptive writing. Avoid it when describing subtle expressions—grimace suggests an obvious, exaggerated distortion of the face, not a slight frown or mild discomfort."
     },
