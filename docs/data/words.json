@@ -3016,6 +3016,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "tug-on",
+      "word": "tug on",
+      "pronunciation": "/tʌɡ ɑn/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To pull something with a quick, sharp, or repeated motion, usually with some force but not necessarily violently.",
+      "translation": "用力拉；猛拉；拽",
+      "example": "The child tugged on his mother's sleeve to get her attention.",
+      "usage": "Common in neutral and casual contexts. Typically pairs with body parts (sleeve, arm, hair, beard) or objects held by someone. Can be used literally (physical pulling) or figuratively (something that affects you emotionally, e.g., 'tugged on my heartstrings'). Avoid in formal writing unless describing literal pulling actions.",
+      "synonyms": [
+        "pull",
+        "yank",
+        "jerk",
+        "tug at"
+      ],
+      "added": "2026-06-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
