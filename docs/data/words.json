@@ -2959,6 +2959,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "gravelly",
+      "word": "gravelly",
+      "pronunciation": "/ˈɡrævəli/",
+      "partOfSpeech": "adjective",
+      "definition": "Containing, consisting of, or resembling gravel; or (of a voice) rough and rasping in quality, like gravel crunching underfoot.",
+      "translation": "含有礫石的；由礫石組成的；(嗓音)沙啞的；粗啞的",
+      "example": "His gravelly voice was distinctive and unmistakable, ragged from decades of smoking.",
+      "usage": "Commonly used to describe terrain, soil, or riverbeds with gravel. When describing voice, it conveys a rough, husky quality—neutral to slightly negative tone depending on context. Typical collocations: gravelly voice, gravelly road, gravelly beach, gravelly terrain. Register: neutral to slightly literary. Avoid using for smooth or refined voices.",
+      "synonyms": [
+        "gravel-filled",
+        "rough",
+        "rasping",
+        "husky",
+        "gritty"
+      ],
+      "added": "2026-06-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
