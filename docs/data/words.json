@@ -2762,6 +2762,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "hazard",
+      "word": "hazard",
+      "pronunciation": "/ˈhæzərd/",
+      "partOfSpeech": "noun, verb",
+      "definition": "A source of danger or risk that could cause harm or loss. As a verb, to expose something to risk or to venture a guess.",
+      "translation": "危害；危險；冒險。作動詞時表示冒…的風險或大膽猜測。",
+      "example": "Loose electrical wiring is a serious fire hazard in old buildings.",
+      "usage": "Common in safety/risk contexts (occupational hazard, health hazard, environmental hazard). Neutral to formal register. The verb form 'hazard a guess' is idiomatic. Avoid in very casual speech; use 'risk' or 'danger' in everyday conversation.",
+      "synonyms": [
+        "risk",
+        "danger",
+        "peril",
+        "threat"
+      ],
+      "added": "2026-06-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
