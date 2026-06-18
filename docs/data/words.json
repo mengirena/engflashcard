@@ -2790,6 +2790,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "procession",
+      "word": "procession",
+      "pronunciation": "/prəˈseʃən/",
+      "partOfSpeech": "noun",
+      "definition": "A formal or ceremonial movement of people walking or traveling together in an orderly line or group, typically for a special occasion or religious observance.",
+      "translation": "隊伍；遊行；行列；（尤指宗教或正式的）隊伍遊行",
+      "example": "The funeral procession moved slowly through the streets as mourners paid their respects.",
+      "usage": "Neutral to formal register. Common collocations: wedding procession, funeral procession, religious procession, parade procession. Used in formal contexts (ceremonies, religious events) or in news/descriptive writing. Not typically used casually in everyday conversation.",
+      "synonyms": [
+        "parade",
+        "march",
+        "cavalcade",
+        "cortège"
+      ],
+      "added": "2026-06-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
