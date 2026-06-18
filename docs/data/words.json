@@ -2733,6 +2733,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "duck",
+      "word": "duck",
+      "pronunciation": "/dʌk/",
+      "partOfSpeech": "noun, verb",
+      "definition": "As a noun: a water bird with webbed feet, a flat bill, and feathers that are waterproof. As a verb: to quickly lower your head or body to avoid something, or to avoid a responsibility or question.",
+      "translation": "名詞：鴨子；動詞：低頭躲避、迴避",
+      "example": "The child had to duck under the low doorway to avoid hitting her head.",
+      "usage": "As a noun, used neutrally in everyday contexts (wildlife, food, children's stories). As a verb, commonly paired with 'under,' 'away,' or 'out of' (duck under the table, duck out of a meeting). The verbal sense is informal/neutral and often implies avoiding or evading something, sometimes with a negative connotation. Casual to neutral register.",
+      "synonyms": [
+        "waterfowl",
+        "crouch",
+        "dodge",
+        "evade",
+        "avoid"
+      ],
+      "added": "2026-06-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
