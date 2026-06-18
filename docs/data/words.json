@@ -2705,6 +2705,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "creased",
+      "word": "creased",
+      "pronunciation": "/kriːst/",
+      "partOfSpeech": "adjective; past tense verb",
+      "definition": "Having wrinkles, folds, or lines pressed into a surface, typically fabric or paper; or the past tense of 'crease,' meaning to make such folds or wrinkles.",
+      "translation": "有褶皺的；被折痕弄皺的；（動詞過去式）製造褶皺/折痕",
+      "example": "His shirt was creased from being packed in the suitcase for three days.",
+      "usage": "Commonly used to describe clothing, paper, or other materials with unwanted wrinkles. Register: neutral/everyday. Often paired with: 'creased trousers,' 'creased fabric,' 'heavily creased,' 'slightly creased.' As a verb, pairs with 'crease the paper' or 'crease along the line.' Not typically used in formal or literary contexts; avoid for abstract concepts.",
+      "synonyms": [
+        "wrinkled",
+        "folded",
+        "lined",
+        "rumpled"
+      ],
+      "added": "2026-06-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
