@@ -2931,6 +2931,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "laved",
+      "word": "laved",
+      "pronunciation": "/leɪvd/",
+      "partOfSpeech": "verb (past tense)",
+      "definition": "Washed or bathed, especially in a gentle or poetic manner; rinsed with water.",
+      "translation": "洗淨；沐浴；用水輕輕沖洗",
+      "example": "The cool stream laved her face as she knelt by the riverbank.",
+      "usage": "Literary and formal contexts; commonly used in poetry, descriptive prose, and romantic writing. Often pairs with body parts (face, hands) or the subject being refreshed/purified. Rarely used in everyday speech—'washed' or 'bathed' is more common in casual English. Not appropriate for technical or business writing.",
+      "synonyms": [
+        "washed",
+        "bathed",
+        "rinsed",
+        "cleansed"
+      ],
+      "added": "2026-06-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
