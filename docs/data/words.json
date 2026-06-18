@@ -2524,10 +2524,10 @@
       ],
       "id": "mascaras",
       "srs": {
-        "due": "2026-06-17",
-        "interval": 1,
+        "due": "2026-06-21",
+        "interval": 3,
         "ease": 2.5,
-        "reps": 1
+        "reps": 2
       },
       "added": "2026-06-15",
       "source": {
