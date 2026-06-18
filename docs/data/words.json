@@ -3129,6 +3129,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "chronological",
+      "word": "chronological",
+      "pronunciation": "/ˌkrɒnəˈlɒdʒɪkəl/",
+      "partOfSpeech": "adjective",
+      "definition": "Arranged in the order in which events actually occurred in time, from earliest to latest.",
+      "translation": "按時間順序的；年代順序的；按時序排列的",
+      "example": "The museum displayed the artifacts in chronological order, starting with items from 3000 BCE.",
+      "usage": "Commonly used in academic, historical, and professional contexts. Typical collocations: 'chronological order,' 'chronological sequence,' 'chronological arrangement.' Neutral to formal register. Use when describing the arrangement or analysis of events, dates, or developments over time. Not typically used in casual conversation.",
+      "synonyms": [
+        "sequential",
+        "temporal",
+        "time-ordered",
+        "progressive"
+      ],
+      "added": "2026-06-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
