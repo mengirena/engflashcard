@@ -2649,6 +2649,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "caress",
+      "word": "caress",
+      "pronunciation": "/kəˈres/",
+      "partOfSpeech": "verb, noun",
+      "definition": "To touch or stroke gently and affectionately, typically with one's hand; a gentle or tender touch.",
+      "translation": "撫摸；輕柔的愛撫",
+      "example": "She caressed her cat's fur as it purred contentedly on her lap.",
+      "usage": "Typically used in romantic, intimate, or affectionate contexts. Common collocations: caress someone's cheek/face/hair. Can be used literally (physical touch) or metaphorically (soft light caresses the skin). Generally neutral to formal register; less common in very casual speech. Avoid in clinical or purely functional descriptions of touch.",
+      "synonyms": [
+        "stroke",
+        "fondle",
+        "touch tenderly",
+        "cuddle"
+      ],
+      "added": "2026-06-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
