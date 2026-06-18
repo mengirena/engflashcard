@@ -1364,10 +1364,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-18",
-        "interval": 7.5,
+        "due": "2026-07-07",
+        "interval": 18.75,
         "ease": 2.5,
-        "reps": 3
+        "reps": 4
       },
       "usage": "**brainiac** — Informal/casual term; pairs with verbs like \"is,\" \"think,\" or descriptors like \"total\" or \"real\" (\"total brainiac\"). Commonly used playfully or with mild affection rather than as a serious compliment. Avoid in formal academic or professional writing, as it can sound dismissive or condescending depending on tone."
     },
