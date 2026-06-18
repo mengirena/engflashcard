@@ -2309,10 +2309,10 @@
       ],
       "id": "malicious",
       "srs": {
-        "due": "2026-06-17",
-        "interval": 3,
+        "due": "2026-06-25",
+        "interval": 7.050000000000001,
         "ease": 2.35,
-        "reps": 2
+        "reps": 3
       },
       "added": "2026-06-08",
       "source": {
