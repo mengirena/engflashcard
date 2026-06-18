@@ -2988,6 +2988,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "chuckle",
+      "word": "chuckle",
+      "pronunciation": "/ˈtʃʌkəl/",
+      "partOfSpeech": "verb, noun",
+      "definition": "To laugh quietly or in a restrained manner, often with amusement or satisfaction. As a noun, it refers to a soft, quiet laugh.",
+      "translation": "輕聲笑；暗自發笑；竊笑",
+      "example": "She chuckled at his terrible joke, even though it wasn't very funny.",
+      "usage": "Neutral to casual register. Typically used to describe gentle, suppressed laughter rather than loud or boisterous laughing. Common collocations: 'chuckle to oneself,' 'chuckle at/about something.' Avoid using when describing loud, prolonged laughter or crying.",
+      "synonyms": [
+        "laugh",
+        "giggle",
+        "snicker",
+        "chuckle"
+      ],
+      "added": "2026-06-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
