@@ -3073,6 +3073,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "riblets",
+      "word": "riblets",
+      "pronunciation": "/ˈrɪblɪts/",
+      "partOfSpeech": "noun",
+      "definition": "Small, fine grooves or ridges on a surface, typically on aircraft skin or swimwear, designed to reduce drag by managing fluid flow.",
+      "translation": "細微溝槽；微型凹槽（通常用於飛機機身或泳衣上以減少阻力）",
+      "example": "The swimsuit's riblets help reduce water resistance, allowing swimmers to move faster through the pool.",
+      "usage": "Primarily used in technical or sports contexts (aerodynamics, swimming, engineering). Formal/technical register. Often paired with 'drag reduction,' 'hydrodynamic,' or 'aerodynamic.' Not commonly used in casual conversation.",
+      "synonyms": [
+        "grooves",
+        "ridges",
+        "striations",
+        "microchannels"
+      ],
+      "added": "2026-06-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
