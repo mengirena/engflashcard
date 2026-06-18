@@ -2677,6 +2677,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "bolt",
+      "word": "bolt",
+      "pronunciation": "/boʊlt/",
+      "partOfSpeech": "noun, verb",
+      "definition": "As a noun: a metal pin or bar with a head at one end and a thread at the other, used with a nut to fasten things together. As a verb: to run away suddenly, or to fasten something securely with a bolt.",
+      "translation": "栓釘；螺栓（名詞）；突然逃跑；用螺栓固定（動詞）",
+      "example": "The carpenter secured the metal plate with a bolt and nut.",
+      "usage": "Noun: common in construction and mechanical contexts; pairs with 'nut,' 'tighten,' 'loosen.' Verb: 'bolt' as in 'to bolt the door' (formal/neutral); 'to bolt away/out' meaning to run off suddenly (neutral/informal). Not typically used in highly formal writing unless discussing hardware.",
+      "synonyms": [
+        "fasten",
+        "secure",
+        "flee",
+        "dash"
+      ],
+      "added": "2026-06-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
