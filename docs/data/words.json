@@ -2818,6 +2818,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "aching",
+      "word": "aching",
+      "pronunciation": "/ˈeɪkɪŋ/",
+      "partOfSpeech": "adjective",
+      "definition": "Experiencing a dull, persistent pain; or feeling a strong emotional longing or desire for something.",
+      "translation": "疼痛的；渴望的；思念的",
+      "example": "After the long hike, my legs were aching, and I had an aching desire to return home.",
+      "usage": "Commonly used with body parts (aching back, aching joints) or abstract nouns (aching heart, aching need). Neutral to slightly literary register. Pairs well with 'for' when expressing longing (aching for something). Avoid using for sharp, acute pain—use 'throbbing' or 'stabbing' instead.",
+      "synonyms": [
+        "sore",
+        "painful",
+        "yearning",
+        "longing",
+        "hurting"
+      ],
+      "added": "2026-06-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
