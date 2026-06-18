@@ -2847,6 +2847,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "evade",
+      "word": "evade",
+      "pronunciation": "/ɪˈveɪd/",
+      "partOfSpeech": "verb",
+      "definition": "To escape or avoid something, typically by cunning or deceit; to elude responsibility, detection, or a pursuer.",
+      "translation": "躲避；逃避；規避",
+      "example": "The suspect managed to evade police for three days before being arrested.",
+      "usage": "Common collocations: evade arrest, evade taxes, evade the question, evade responsibility. Neutral to slightly formal register. Used in legal, investigative, and everyday contexts. Not typically used for simple physical avoidance without a sense of escape or cleverness involved.",
+      "synonyms": [
+        "dodge",
+        "escape",
+        "avoid",
+        "elude"
+      ],
+      "added": "2026-06-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
