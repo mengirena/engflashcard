@@ -2875,6 +2875,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "merest",
+      "word": "merest",
+      "pronunciation": "/ˈmɪərɪst/",
+      "partOfSpeech": "adjective (superlative form of 'mere')",
+      "definition": "The smallest or slightest possible amount or degree of something; used to emphasize how minimal or insignificant something is.",
+      "translation": "最微小的；最輕微的；僅僅的（用於強調某事物極少或微不足道）",
+      "example": "The merest hint of criticism made her defensive.",
+      "usage": "Formal to literary register. Often appears in phrases like 'the merest trace,' 'the merest suggestion,' or 'the merest whisper' to emphasize smallness or insignificance. Commonly used in descriptive or introspective writing. Not typical in casual speech.",
+      "synonyms": [
+        "slightest",
+        "tiniest",
+        "minutest",
+        "faintest"
+      ],
+      "added": "2026-06-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
