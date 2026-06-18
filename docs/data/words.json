@@ -2903,6 +2903,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "knead",
+      "word": "knead",
+      "pronunciation": "/niːd/",
+      "partOfSpeech": "verb",
+      "definition": "To press and fold dough or clay repeatedly with your hands to make it smooth and elastic, or to massage muscles firmly.",
+      "translation": "揉製；揉搓；按摩（肌肉）",
+      "example": "She kneaded the bread dough for ten minutes until it became soft and stretchy.",
+      "usage": "Common in cooking and baking contexts (knead dough, knead bread). Also used in therapeutic/physical contexts (knead muscles, knead tension). Neutral to formal register. Do not confuse with 'need' (pronounced /niːd/ but spelled differently).",
+      "synonyms": [
+        "work",
+        "massage",
+        "manipulate",
+        "press"
+      ],
+      "added": "2026-06-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
