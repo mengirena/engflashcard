@@ -3044,6 +3044,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "hazy",
+      "word": "hazy",
+      "pronunciation": "/ˈheɪzi/",
+      "partOfSpeech": "adjective",
+      "definition": "Unclear or obscured by haze, mist, or dust; or figuratively, unclear or vague in memory, thought, or understanding.",
+      "translation": "朦朧的；模糊的；不清楚的",
+      "example": "The hazy morning sky gradually cleared as the sun rose higher.",
+      "usage": "Neutral/informal register. Often describes weather ('hazy day', 'hazy weather') or mental states ('hazy memory', 'hazy recollection'). Can be literal (obscured by atmospheric conditions) or metaphorical (unclear thinking). Not typically formal, though acceptable in all contexts.",
+      "synonyms": [
+        "foggy",
+        "misty",
+        "unclear",
+        "vague",
+        "fuzzy"
+      ],
+      "added": "2026-06-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
