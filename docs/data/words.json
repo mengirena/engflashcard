@@ -3101,6 +3101,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "ringlets",
+      "word": "ringlets",
+      "pronunciation": "/ˈrɪŋlɪts/",
+      "partOfSpeech": "noun",
+      "definition": "Small rings or curls, typically of hair that hang down in spiral loops; also small circular or ring-shaped objects.",
+      "translation": "小捲髮；捲毛；環狀物",
+      "example": "The little girl's golden ringlets bounced as she ran across the garden.",
+      "usage": "Commonly used in literary, poetic, or descriptive contexts to describe delicate spiral curls of hair, particularly on children or women. Often has a charming, romantic, or nostalgic tone. Less commonly used in modern casual speech; more formal or old-fashioned register. Pairs with adjectives like 'golden,' 'dark,' 'soft,' 'bouncing.' Avoid in technical or scientific contexts.",
+      "synonyms": [
+        "curls",
+        "coils",
+        "spirals",
+        "loops"
+      ],
+      "added": "2026-06-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
