@@ -3326,6 +3326,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "hostile-takeover",
+      "word": "hostile takeover",
+      "pronunciation": "/ˈhɒstaɪl ˈteɪkˌoʊvər/",
+      "partOfSpeech": "noun",
+      "definition": "An acquisition of a company by another company against the wishes of the target company's management and board of directors, typically accomplished by purchasing a controlling stake in the company's stock.",
+      "translation": "敵意收購；非友善併購",
+      "example": "The investment firm launched a hostile takeover bid for the struggling retailer after the board rejected their initial offer.",
+      "usage": "Common in finance and business contexts (formal/neutral). Often paired with verbs like 'launch,' 'attempt,' 'defend against,' or 'block.' Used when discussing corporate mergers, acquisitions, or financial news. Do not use casually or metaphorically in non-business contexts.",
+      "synonyms": [
+        "unfriendly takeover",
+        "hostile bid",
+        "aggressive acquisition",
+        "forced acquisition"
+      ],
+      "added": "2026-06-19",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-19",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
