@@ -3298,6 +3298,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "reliance",
+      "word": "reliance",
+      "pronunciation": "/rɪˈlaɪəns/",
+      "partOfSpeech": "noun",
+      "definition": "The state of depending on or trusting someone or something for support, help, or supply. It refers to the act or fact of relying on another person or thing.",
+      "translation": "依賴；信任；依靠",
+      "example": "The country's heavy reliance on imported oil makes it vulnerable to global price fluctuations.",
+      "usage": "Common in formal and neutral contexts. Often paired with 'on' or 'upon' (reliance on/upon something). Frequently used in discussions of economics, policy, relationships, and infrastructure. Can be negative (over-reliance, too much dependence) or neutral (necessary reliance).",
+      "synonyms": [
+        "dependence",
+        "trust",
+        "confidence",
+        "faith"
+      ],
+      "added": "2026-06-19",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-19",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
