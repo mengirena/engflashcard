@@ -13,7 +13,13 @@
   --shadow: 0 6px 24px rgba(20, 20, 50, 0.08);
 }
 * { box-sizing: border-box; }
-html, body { margin: 0; }
+html, body {
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;          /* no sideways scrolling of the page */
+  overscroll-behavior: none;   /* no rubber-band / swipe-to-navigate bounce */
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background: var(--bg);
