@@ -3269,6 +3269,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "goof",
+      "word": "goof",
+      "pronunciation": "/ɡuːf/",
+      "partOfSpeech": "noun, verb",
+      "definition": "A silly or stupid person; or to act in a silly, playful manner or make a mistake. As a verb, it can mean to waste time or fool around.",
+      "translation": "傻瓜；笨蛋；做傻事；胡鬧；浪費時間",
+      "example": "Don't be such a goof—we need to focus on the project. / The kids were goofing around in the backyard after school.",
+      "usage": "Casual, informal register. Common in friendly or lighthearted contexts. Verb often used with 'around' or 'off' (goof around, goof off). Not appropriate for formal or professional settings. Typically used playfully rather than as harsh insult.",
+      "synonyms": [
+        "fool",
+        "clown",
+        "joke around",
+        "mess around",
+        "fool around"
+      ],
+      "added": "2026-06-19",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-19",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
