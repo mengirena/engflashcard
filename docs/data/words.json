@@ -3185,6 +3185,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "dead-on",
+      "word": "dead on",
+      "pronunciation": "/ˈdɛd ɒn/",
+      "partOfSpeech": "adjective/adverb",
+      "definition": "Exactly right or accurate; hitting the target or center precisely. It describes something that is completely correct or perfectly aimed.",
+      "translation": "完全正確的；精確無誤的；正中目標的",
+      "example": "Your analysis of the situation was dead on—you identified the problem immediately.",
+      "usage": "Neutral to casual register. Commonly used in conversation to affirm accuracy or correctness. Pairs well with descriptions, predictions, or aim-based actions (e.g., 'dead on accurate,' 'dead on target'). Avoid in very formal or academic writing; use 'precisely correct' or 'exactly right' instead.",
+      "synonyms": [
+        "spot-on",
+        "accurate",
+        "correct",
+        "right on the money"
+      ],
+      "added": "2026-06-19",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-19",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
