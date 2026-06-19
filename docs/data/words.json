@@ -3241,6 +3241,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "chip-in",
+      "word": "chip in",
+      "pronunciation": "/tʃɪp ɪn/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To contribute money or help toward a shared goal or expense; to make a contribution to something, typically as part of a group effort.",
+      "translation": "貢獻；出力；湊錢；插嘴（非正式用法）",
+      "example": "Everyone chipped in $10 to buy a birthday gift for our coworker.",
+      "usage": "Neutral to casual register. Commonly used in everyday contexts with money or group projects. Often paired with prepositions like 'in' and amounts of money (chip in $20, chip in towards). Can also mean 'to interrupt or add a comment' (less formal). Not typically used in formal writing; more conversational.",
+      "synonyms": [
+        "contribute",
+        "pitch in",
+        "help out",
+        "donate"
+      ],
+      "added": "2026-06-19",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-19",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
