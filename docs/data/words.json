@@ -3382,6 +3382,34 @@
         "ease": 2.35,
         "reps": 1
       }
+    },
+    {
+      "id": "balayage",
+      "word": "balayage",
+      "pronunciation": "/ˌbæləˈɑːʒ/",
+      "partOfSpeech": "noun",
+      "definition": "A hair coloring technique in which color is hand-painted or swept onto sections of hair to create a natural, sun-kissed effect with soft, blended highlights.",
+      "translation": "挑染；掃染法（一種頭髮染色技術，通過手工在頭髮上掃刷顏料以營造自然曬傷效果的柔和漸變高光）",
+      "example": "She decided to get a balayage at the salon to add dimension and brightness to her dark brown hair.",
+      "usage": "Commonly used in hair salon and beauty contexts. Typically paired with words like 'get a balayage,' 'balayage highlights,' or 'balayage technique.' Neutral to slightly upmarket register; frequently discussed in fashion and lifestyle media. Not appropriate for technical or formal non-beauty contexts.",
+      "synonyms": [
+        "highlights",
+        "painted highlights",
+        "sweeping color",
+        "dimensional coloring"
+      ],
+      "added": "2026-06-19",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-19",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
