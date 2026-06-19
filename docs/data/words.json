@@ -3354,6 +3354,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "moronic",
+      "word": "moronic",
+      "pronunciation": "/məˈrɒnɪk/",
+      "partOfSpeech": "adjective",
+      "definition": "Extremely stupid or foolish; showing a complete lack of intelligence or common sense.",
+      "translation": "智力低下的；極其愚蠢的；白癡般的",
+      "example": "It was a moronic decision to drive without checking the weather forecast during a hurricane.",
+      "usage": "Casual to slightly offensive register. Often used hyperbolically in informal speech to emphasize stupidity. Avoid in formal or professional contexts. Pairs with nouns like 'decision,' 'idea,' 'behavior,' or 'comment.' Can be considered insulting when directed at a person, though more acceptable when describing an action or decision.",
+      "synonyms": [
+        "stupid",
+        "idiotic",
+        "foolish",
+        "asinine"
+      ],
+      "added": "2026-06-19",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-19",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
