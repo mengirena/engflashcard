@@ -3157,6 +3157,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "sass",
+      "word": "sass",
+      "pronunciation": "/sæs/",
+      "partOfSpeech": "noun, verb",
+      "definition": "Rude or disrespectful speech; to talk back to someone in an impudent or cheeky manner.",
+      "translation": "頂嘴；無禮的言語；粗魯地回嘴",
+      "example": "The teenager got in trouble for sassing her teacher during class.",
+      "usage": "Common in informal and casual contexts, especially in American English. As a noun, often used with verbs like 'give,' 'take,' or 'get.' As a verb, typically used with 'sass someone' or 'sass back.' It conveys youthful cheekiness rather than serious rudeness. Avoid in formal or professional settings.",
+      "synonyms": [
+        "backtalk",
+        "cheek",
+        "impertinence",
+        "talk back"
+      ],
+      "added": "2026-06-19",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-19",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
