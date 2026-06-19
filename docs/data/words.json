@@ -3264,10 +3264,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-19",
-        "interval": 0,
+        "due": "2026-06-20",
+        "interval": 1,
         "ease": 2.5,
-        "reps": 0
+        "reps": 1
       }
     },
     {
