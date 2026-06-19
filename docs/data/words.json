@@ -3213,6 +3213,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "sketch-out",
+      "word": "sketch out",
+      "pronunciation": "/sketʃ aʊt/",
+      "partOfSpeech": "verb (phrasal)",
+      "definition": "To outline or describe something in broad strokes without providing complete details; to create a rough preliminary plan or drawing.",
+      "translation": "勾勒出；粗略描述；簡要說明；初步規劃",
+      "example": "The architect sketched out the building's main features before creating detailed blueprints.",
+      "usage": "Neutral to formal. Commonly used in creative, planning, and business contexts. Pairs with nouns like 'plan,' 'design,' 'idea,' 'proposal,' 'outline.' Used when you want to convey the initial, rough, or foundational version of something. Not appropriate when referring to finished or highly detailed work.",
+      "synonyms": [
+        "outline",
+        "draft",
+        "rough out",
+        "delineate"
+      ],
+      "added": "2026-06-19",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-19",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
