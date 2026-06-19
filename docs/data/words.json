@@ -1513,10 +1513,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-16",
-        "interval": 2.64,
+        "due": "2026-06-25",
+        "interval": 5.808000000000001,
         "ease": 2.2,
-        "reps": 3
+        "reps": 4
       },
       "usage": "**Beckoning** is most commonly used with \"finger,\" \"hand,\" or \"gesture\" when describing physical movement, or with abstract nouns like \"future,\" \"adventure,\" or \"opportunity\" when meaning attractively inviting. It's formal to literary in register and works well in narrative or descriptive writing. Avoid it in casual speech where \"waving someone over\" or \"calling\" would be more natural."
     },
