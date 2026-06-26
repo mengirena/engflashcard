@@ -3410,6 +3410,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "word": "plead guilty",
+      "pronunciation": "/plɛd ˈɡɪlti/",
+      "partOfSpeech": "verb phrase",
+      "definition": "To formally admit in court that one has committed a crime or is responsible for the charges against them.",
+      "translation": "認罪；承認有罪",
+      "example": "After reviewing the evidence, the defendant decided to plead guilty to the fraud charges.",
+      "synonyms": [
+        "confess",
+        "admit guilt",
+        "accept responsibility",
+        "own up"
+      ],
+      "id": "plead-guilty",
+      "srs": {
+        "due": "2026-06-26",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-06-26",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
