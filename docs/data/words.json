@@ -3719,6 +3719,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "placket",
+      "word": "placket",
+      "pronunciation": "/ˈplækɪt/",
+      "partOfSpeech": "noun",
+      "definition": "A slit or opening in a garment, typically at the neckline, waistline, or sleeve, that allows easier access for dressing or undressing. It may be finished with buttons, a zipper, or other fasteners.",
+      "translation": "衣服的開口；衣襟開口（通常在頸部、腰部或袖口處，方便穿脫和扣上釦子）",
+      "example": "The dress featured decorative button plackets down the front.",
+      "usage": "Commonly used in sewing, fashion design, and garment construction contexts. Register is neutral to technical/professional. Often paired with adjectives describing the type (e.g., 'button placket,' 'zippered placket,' 'decorative placket') or verbs like 'finish,' 'reinforce,' or 'add.' Not typically used in casual everyday speech outside of fashion/tailoring circles.",
+      "synonyms": [
+        "opening",
+        "slit",
+        "aperture",
+        "fastening"
+      ],
+      "added": "2026-06-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
