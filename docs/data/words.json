@@ -3663,6 +3663,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "pugnacious",
+      "word": "pugnacious",
+      "pronunciation": "/pʌɡˈneɪʃəs/",
+      "partOfSpeech": "adjective",
+      "definition": "Eager or quick to fight; combative and aggressive in temperament or behavior.",
+      "translation": "好鬥的；好戰的；好惹事的",
+      "example": "The pugnacious boxer dominated the ring with his aggressive fighting style.",
+      "usage": "Formal to neutral register. Often used to describe people with combative personalities, argumentative characters in literature, or aggressive animal behavior. Typically pairs with nouns like 'attitude,' 'nature,' 'temperament,' or 'mood.' Avoid in casual contexts unless being deliberately emphatic or literary.",
+      "synonyms": [
+        "belligerent",
+        "combative",
+        "aggressive",
+        "quarrelsome"
+      ],
+      "added": "2026-06-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
