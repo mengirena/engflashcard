@@ -3579,6 +3579,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "discarding",
+      "word": "discarding",
+      "pronunciation": "/dɪsˈkɑːrdɪŋ/",
+      "partOfSpeech": "verb (present participle)",
+      "definition": "Throwing away or rejecting something as no longer useful, wanted, or needed; getting rid of something deliberately.",
+      "translation": "丟棄；拋棄；放棄",
+      "example": "She is discarding old clothes to make room in her closet.",
+      "usage": "Neutral register, commonly used in everyday contexts. Pairs well with objects (trash, waste, ideas, plans, clothes). Can be literal (throwing something away) or figurative (rejecting ideas or relationships). Avoid in formal writing when 'eliminating' or 'disposing of' might be more appropriate.",
+      "synonyms": [
+        "throwing away",
+        "abandoning",
+        "rejecting",
+        "disposing of"
+      ],
+      "added": "2026-06-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
