@@ -3607,6 +3607,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "shell-shocked",
+      "word": "shell-shocked",
+      "pronunciation": "/ˈʃɛl ʃɑkt/",
+      "partOfSpeech": "adjective",
+      "definition": "Deeply surprised, upset, or stunned by something unexpected; emotionally overwhelmed or dazed by a shocking event.",
+      "translation": "震驚的；目瞪口呆的；受到驚嚇而不知所措的",
+      "example": "After hearing the unexpected news about the company closure, employees looked absolutely shell-shocked.",
+      "usage": "Commonly used in informal and neutral contexts to describe someone's reaction to shocking or traumatic news. Often pairs with verbs like 'look,' 'seem,' 'appear,' or 'feel.' Originated from WWI soldiers traumatized by artillery bombardment, but is now used figuratively in everyday speech. Avoid using in formal academic or highly professional writing.",
+      "synonyms": [
+        "stunned",
+        "dazed",
+        "shocked",
+        "bewildered"
+      ],
+      "added": "2026-06-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
