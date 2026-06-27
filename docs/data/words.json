@@ -3776,6 +3776,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "clasp",
+      "word": "clasp",
+      "pronunciation": "/klæsp/",
+      "partOfSpeech": "noun, verb",
+      "definition": "A device or fastening that holds two things together, typically by gripping or interlocking; or to hold something tightly in one's arms or hands.",
+      "translation": "扣子；夾子；緊握；擁抱",
+      "example": "She clasped her hands together nervously while waiting for the interview results.",
+      "usage": "As a noun, commonly found with: bag clasp, belt clasp, bracelet clasp. As a verb, frequently paired with objects like 'hands,' 'arms,' 'fingers'; collocations include 'clasp together,' 'clasp tightly,' 'clasp to one's chest.' Neutral register, used in both everyday and formal contexts. Not typically used in highly technical or slang registers.",
+      "synonyms": [
+        "fasten",
+        "grip",
+        "embrace",
+        "buckle"
+      ],
+      "added": "2026-06-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
