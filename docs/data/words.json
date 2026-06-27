@@ -3437,6 +3437,34 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "id": "rag",
+      "word": "rag",
+      "pronunciation": "/ræɡ/",
+      "partOfSpeech": "noun",
+      "definition": "A piece of old, worn, or torn cloth, typically used for cleaning or wiping. It can also refer to a newspaper or magazine, often derogatory.",
+      "translation": "抹布；破布；舊衣服 (或指報紙/雜誌，帶貶低意味)",
+      "example": "She wiped the spill with an old rag.",
+      "usage": "Neutral register. Common in both formal and casual contexts when referring to cloth. Pair with verbs like 'wipe,' 'clean,' 'tear,' 'shred.' In the phrase 'rag doll,' it's used literally. When referring to publications, it's informal/derogatory ('that rag of a newspaper').",
+      "synonyms": [
+        "cloth",
+        "scrap",
+        "tatter",
+        "fabric strip"
+      ],
+      "added": "2026-06-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
