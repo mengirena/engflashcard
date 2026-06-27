@@ -3465,6 +3465,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "ragged",
+      "word": "ragged",
+      "pronunciation": "/ˈræɡɪd/",
+      "partOfSpeech": "adjective",
+      "definition": "Torn, frayed, or worn into an uneven or tattered state; alternatively, appearing rough, unkempt, or exhausted.",
+      "translation": "破爛的；衣衫襤褸的；粗糙不整的；疲憊不堪的",
+      "example": "After weeks of hiking through the mountains, his ragged clothes hung from his thin frame.",
+      "usage": "Common in both literal (fabric, clothing, edges) and figurative (exhausted, rough quality) contexts. Neutral to slightly literary register. Pairs naturally with nouns like 'clothes,' 'edges,' 'appearance,' 'breath.' Can also describe a person's exhausted state (e.g., 'run someone ragged'—to exhaust them). Avoid in formal professional writing unless describing actual torn materials.",
+      "synonyms": [
+        "tattered",
+        "torn",
+        "shabby",
+        "unkempt",
+        "haggard"
+      ],
+      "added": "2026-06-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
