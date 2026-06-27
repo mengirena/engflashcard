@@ -3522,6 +3522,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "warfare",
+      "word": "warfare",
+      "pronunciation": "/ˈwɔːrfeər/",
+      "partOfSpeech": "noun",
+      "definition": "Engagement in or activities involved in war and armed conflict; also used figuratively to describe intense competition or conflict between groups.",
+      "translation": "戰爭；戰鬥；(比喻)激烈的競爭或衝突",
+      "example": "The documentary examined the evolution of naval warfare throughout the 20th century.",
+      "usage": "Typically used in formal or academic contexts when discussing military conflicts and combat strategies. Can be preceded by adjectives specifying the type (e.g., 'chemical warfare,' 'psychological warfare,' 'cyber warfare'). Also used figuratively in business or competitive contexts ('price warfare'). Avoid in casual contexts unless discussing actual military operations.",
+      "synonyms": [
+        "combat",
+        "conflict",
+        "fighting",
+        "battle"
+      ],
+      "added": "2026-06-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
