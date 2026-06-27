@@ -3747,6 +3747,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "fumble",
+      "word": "fumble",
+      "pronunciation": "/ˈfʌmbəl/",
+      "partOfSpeech": "verb",
+      "definition": "To handle something clumsily or awkwardly, often dropping or nearly dropping it; to search or grope around uncertainly with one's hands.",
+      "translation": "笨拙地處理；摸索；失手掉落",
+      "example": "He fumbled with his keys at the door, dropping them twice before finally unlocking it.",
+      "usage": "Neutral to casual register. Common in everyday contexts describing clumsy physical actions. Often paired with prepositions like 'with,' 'for,' 'in,' or 'through.' Can be used literally (physical clumsiness) or figuratively (mental confusion or hesitation). Not typically used in highly formal writing.",
+      "synonyms": [
+        "bungle",
+        "botch",
+        "grope",
+        "stumble",
+        "flounder"
+      ],
+      "added": "2026-06-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
