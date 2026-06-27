@@ -3635,6 +3635,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "cowardice",
+      "word": "cowardice",
+      "pronunciation": "/ˈkaʊərdɪs/",
+      "partOfSpeech": "noun",
+      "definition": "The state or quality of lacking courage; the failure to face danger, pain, or difficulty with bravery.",
+      "translation": "懦弱；膽怯；怯懦",
+      "example": "His cowardice prevented him from speaking up against the injustice, even though he knew it was wrong.",
+      "usage": "Formal to neutral register. Often used to criticize someone's lack of bravery or moral courage. Common collocations: 'act of cowardice,' 'display cowardice,' 'accuse of cowardice.' Not typically used in casual, friendly contexts as it is a strong negative judgment.",
+      "synonyms": [
+        "timidity",
+        "fearfulness",
+        "spinelessness",
+        "pusillanimity"
+      ],
+      "added": "2026-06-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
