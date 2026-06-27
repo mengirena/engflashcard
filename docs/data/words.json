@@ -3691,6 +3691,34 @@
         "ease": 2.3,
         "reps": 0
       }
+    },
+    {
+      "id": "badger",
+      "word": "badger",
+      "pronunciation": "/ˈbædʒər/",
+      "partOfSpeech": "verb",
+      "definition": "To pester or harass someone persistently, often by asking them repeatedly or putting pressure on them to do something.",
+      "translation": "糾纏；煩擾；不斷地催促或騷擾某人",
+      "example": "The children badgered their parents for hours until they agreed to go to the amusement park.",
+      "usage": "Neutral to slightly negative register. Commonly collocates with prepositions like 'badger someone about/for/into.' Used to describe repeated, annoying requests or persistent pestering. Not appropriate in formal professional contexts; better suited for casual or conversational settings.",
+      "synonyms": [
+        "pester",
+        "harass",
+        "hound",
+        "nag"
+      ],
+      "added": "2026-06-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
