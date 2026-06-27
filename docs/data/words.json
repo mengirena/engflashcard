@@ -3550,6 +3550,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "closing-in-on",
+      "word": "closing in on",
+      "pronunciation": "/ˈkloʊzɪŋ ɪn ɑn/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To approach someone or something gradually, either physically or in terms of progress toward a goal; to draw nearer to catching, reaching, or achieving something.",
+      "translation": "逐漸接近；快要達到；迫近",
+      "example": "The detective is closing in on the suspect after weeks of investigation.",
+      "usage": "Neutral to slightly formal register. Commonly used with time expressions ('closing in on midnight'), with people/things being pursued or caught ('the police are closing in on him'), or with goals being neared ('closing in on the deadline'). Works well in narrative, news, and everyday speech. Avoid in highly formal academic writing.",
+      "synonyms": [
+        "approaching",
+        "nearing",
+        "zeroing in on",
+        "gaining on",
+        "converging on"
+      ],
+      "added": "2026-06-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
