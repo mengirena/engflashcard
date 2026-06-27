@@ -3494,6 +3494,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "wage",
+      "word": "wage",
+      "pronunciation": "/weɪdʒ/",
+      "partOfSpeech": "noun",
+      "definition": "A fixed regular payment made by an employer to an employee, typically calculated on an hourly or daily basis rather than a salary.",
+      "translation": "工資；薪資（通常按小時或日計算）",
+      "example": "She earns a competitive wage working as a software engineer.",
+      "usage": "Commonly used in the phrase 'minimum wage' or 'living wage.' Often paired with verbs like 'earn,' 'pay,' or 'raise.' More formal/neutral register. Typically refers to hourly or manual work rather than salaried positions.",
+      "synonyms": [
+        "salary",
+        "payment",
+        "compensation",
+        "earnings"
+      ],
+      "added": "2026-06-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
