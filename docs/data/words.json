@@ -2728,10 +2728,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-18",
-        "interval": 0,
-        "ease": 2.5,
-        "reps": 0
+        "due": "2026-06-29",
+        "interval": 2,
+        "ease": 2.65,
+        "reps": 1
       }
     },
     {
