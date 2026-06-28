@@ -3971,6 +3971,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "lurch",
+      "word": "lurch",
+      "pronunciation": "/lɜːtʃ/",
+      "partOfSpeech": "verb, noun",
+      "definition": "To move abruptly and unsteadily, often swaying to one side; or a sudden, staggering movement or stagger.",
+      "translation": "蹣跚；突然搖晃；不穩定地移動",
+      "example": "The ship lurched violently as the wave hit it, causing passengers to stumble.",
+      "usage": "Common in both narrative and everyday speech (neutral register). As a verb, often paired with adverbs like 'forward,' 'sideways,' or 'to one side.' Frequently used to describe physical movement caused by external forces (waves, impacts, drunkenness). In the phrase 'leave someone in the lurch,' it means to abandon someone in a difficult situation (more formal/idiomatic usage).",
+      "synonyms": [
+        "stagger",
+        "sway",
+        "totter",
+        "stumble"
+      ],
+      "added": "2026-06-28",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-28",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
