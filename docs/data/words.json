@@ -3915,6 +3915,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "flit",
+      "word": "flit",
+      "pronunciation": "/flɪt/",
+      "partOfSpeech": "verb",
+      "definition": "To move quickly and lightly from one place to another, often in a sudden or restless manner.",
+      "translation": "輕快地飛動；閃現；倏然移動",
+      "example": "A butterfly flitted from flower to flower in the garden.",
+      "usage": "Neutral to slightly literary register. Commonly used with adverbs like 'quickly,' 'about,' or 'across.' Often describes the movement of small creatures (birds, insects) or quick, ephemeral movements. Can also mean to pass quickly through someone's mind. Avoid in formal technical writing.",
+      "synonyms": [
+        "dart",
+        "flutter",
+        "skitter",
+        "flit"
+      ],
+      "added": "2026-06-28",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-28",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
