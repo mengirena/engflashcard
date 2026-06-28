@@ -3999,6 +3999,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "wail",
+      "word": "wail",
+      "pronunciation": "/weɪl/",
+      "partOfSpeech": "verb, noun",
+      "definition": "To cry out loudly in grief, pain, or distress; or a prolonged cry or sound expressing such emotion.",
+      "translation": "哭喊；嚎啕大哭；悲鳴",
+      "example": "The baby began to wail when her mother left the room.",
+      "usage": "Common in both spoken and written English. Typically pairs with 'in' (wail in grief/pain) or as a standalone verb. More emotional and dramatic than 'cry' or 'weep'—use when describing intense, audible expressions of distress. Neutral to literary register. Avoid in formal contexts unless describing actual mourning or lamentation.",
+      "synonyms": [
+        "cry",
+        "sob",
+        "howl",
+        "keen",
+        "lament"
+      ],
+      "added": "2026-06-28",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-28",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
