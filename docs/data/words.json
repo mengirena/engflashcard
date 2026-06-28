@@ -4056,6 +4056,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "chalkiness",
+      "word": "chalkiness",
+      "pronunciation": "/ˈtʃɔːkɪnəs/",
+      "partOfSpeech": "noun",
+      "definition": "The quality or state of resembling chalk in texture, appearance, or taste; a dry, powdery, or grainy sensation in the mouth.",
+      "translation": "粉筆質地；乾粉性；(味道或口感的)粉狀感、乾澀感",
+      "example": "The chalkiness of the old paint made it crumble easily when touched.",
+      "usage": "Used to describe undesirable textures in food (e.g., 'the chalkiness of the cake'), cosmetics, paint finishes, or soil. Informal to neutral register. Common in culinary, texture, and quality descriptions. Avoid in formal scientific writing where 'friability' or 'pulverulence' might be preferred.",
+      "synonyms": [
+        "powderiness",
+        "grittiness",
+        "dryness",
+        "pastiness"
+      ],
+      "added": "2026-06-28",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-28",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
