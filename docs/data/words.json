@@ -3832,6 +3832,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "lopsided",
+      "word": "lopsided",
+      "pronunciation": "/ˈlɒpˌsaɪdɪd/",
+      "partOfSpeech": "adjective",
+      "definition": "Asymmetrical or unbalanced, with one side heavier, larger, or more developed than the other; also used figuratively to describe an unfair or unequal distribution.",
+      "translation": "不對稱的；傾斜的；不均衡的；不公平的",
+      "example": "The lopsided cake looked funny because the baker had filled one side with much more frosting than the other.",
+      "usage": "Common in both literal and figurative contexts. Pairs with nouns describing objects (lopsided smile, lopsided score) or abstract concepts (lopsided deal, lopsided argument). Neutral to slightly informal register. Works well in descriptive writing and everyday speech. Avoid in formal technical or academic writing unless the imbalance is the focus.",
+      "synonyms": [
+        "unbalanced",
+        "asymmetrical",
+        "skewed",
+        "uneven"
+      ],
+      "added": "2026-06-28",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-28",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
