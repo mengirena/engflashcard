@@ -3943,6 +3943,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "lull",
+      "word": "lull",
+      "pronunciation": "/lʌl/",
+      "partOfSpeech": "verb (past tense: lulled)",
+      "definition": "To calm or soothe someone, typically into a peaceful or drowsy state; or to give someone a false sense of security.",
+      "translation": "哄睡；使安心；騙取信任；使人放鬆警惕",
+      "example": "The gentle rocking motion lulled the baby to sleep.",
+      "usage": "Common in two contexts: (1) literal soothing (lulled to sleep, lulled into slumber) — neutral/literary register; (2) deceptive sense (lulled into a false sense of security, lulled into complacency) — more formal/cautionary tone. Often paired with 'into' when describing the resulting state. Avoid overuse in casual speech.",
+      "synonyms": [
+        "soothe",
+        "calm",
+        "pacify",
+        "rock"
+      ],
+      "added": "2026-06-28",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-28",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
