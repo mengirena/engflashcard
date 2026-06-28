@@ -3887,6 +3887,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "slab",
+      "word": "slab",
+      "pronunciation": "/slæb/",
+      "partOfSpeech": "noun",
+      "definition": "A thick, flat piece of hard material such as stone, concrete, or wood. It can also refer to a large flat surface or a substantial piece of something.",
+      "translation": "厚板；石板；混凝土板；（食物或物質的）厚塊",
+      "example": "The workers poured concrete into forms to create a slab for the foundation of the new building.",
+      "usage": "Neutral to slightly technical register. Commonly used in construction (concrete slab, foundation slab), geology (slate slab), and informally for large portions of food (a slab of cake, a slab of meat). Pairs well with materials: stone slab, marble slab, wood slab, or contexts: slab of concrete, slab sidewalk. Not typically used in formal literary writing.",
+      "synonyms": [
+        "block",
+        "plank",
+        "sheet",
+        "chunk"
+      ],
+      "added": "2026-06-28",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-28",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
