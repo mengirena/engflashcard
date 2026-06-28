@@ -3860,6 +3860,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "salmonella",
+      "word": "Salmonella",
+      "pronunciation": "/ˌsælməˈnɛlə/",
+      "partOfSpeech": "noun",
+      "definition": "A type of rod-shaped bacterium that causes food poisoning, typically found in raw or undercooked poultry, eggs, and contaminated food products.",
+      "translation": "沙門氏菌；沙門菌",
+      "example": "The restaurant was shut down after several customers contracted Salmonella from the contaminated chicken.",
+      "usage": "Typically used in medical, food safety, and health contexts. Common collocations: 'Salmonella poisoning', 'Salmonella outbreak', 'contaminated with Salmonella', 'Salmonella infection'. Neutral to formal register. Use when discussing foodborne illness or public health issues; not typically used in casual conversation unless discussing a specific health incident.",
+      "synonyms": [
+        "foodborne pathogen",
+        "bacterial infection",
+        "food poisoning agent"
+      ],
+      "added": "2026-06-28",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-28",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
