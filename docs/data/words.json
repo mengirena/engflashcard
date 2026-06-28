@@ -3804,6 +3804,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "perspiration",
+      "word": "perspiration",
+      "pronunciation": "/ˌpɜːrspəˈreɪʃən/",
+      "partOfSpeech": "noun",
+      "definition": "The process of sweating; moisture released through the skin, especially as a result of heat, physical exertion, or stress.",
+      "translation": "出汗；汗液",
+      "example": "After running the marathon, beads of perspiration dripped down her face.",
+      "usage": "Neutral to formal register. Commonly used in medical, fitness, and scientific contexts. Pairs with: 'heavy perspiration,' 'light perspiration,' 'beads/drops of perspiration,' 'profuse perspiration.' More formal/technical than the casual word 'sweat,' though both are acceptable in most contexts. Avoid in very casual speech where 'sweat' is more natural.",
+      "synonyms": [
+        "sweat",
+        "moisture",
+        "exudation",
+        "transpiration"
+      ],
+      "added": "2026-06-28",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-28",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
