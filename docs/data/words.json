@@ -4028,6 +4028,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "rancorous",
+      "word": "rancorous",
+      "pronunciation": "/ˈræŋkərəs/",
+      "partOfSpeech": "adjective",
+      "definition": "Bitter, spiteful, and full of resentment or anger; characterized by deep-seated ill will or hostility.",
+      "translation": "充滿怨恨的；惡毒的；尖刻的",
+      "example": "The rancorous dispute between the two former business partners lasted for years.",
+      "usage": "Formal to neutral register. Typically modifies nouns like 'dispute,' 'argument,' 'debate,' 'tone,' 'atmosphere,' or 'feelings.' Often used to describe interpersonal conflict or historical grievances. Not suitable for light or casual contexts; conveys serious emotional intensity.",
+      "synonyms": [
+        "bitter",
+        "acrimonious",
+        "spiteful",
+        "hostile"
+      ],
+      "added": "2026-06-28",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-06-28",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
