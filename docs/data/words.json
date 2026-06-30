@@ -2069,10 +2069,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-24",
-        "interval": 6.627,
+        "due": "2026-07-16",
+        "interval": 15.57345,
         "ease": 2.35,
-        "reps": 4
+        "reps": 5
       },
       "srsBack": {
         "due": "2026-06-16",
