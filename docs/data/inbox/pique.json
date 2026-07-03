@@ -1,0 +1,21 @@
+{
+  "id": "pique",
+  "word": "pique",
+  "pronunciation": "/piːk/",
+  "partOfSpeech": "verb, noun",
+  "definition": "As a verb: to provoke or stimulate (interest or curiosity), or to offend or wound (pride). As a noun: a feeling of irritation or resentment.",
+  "translation": "激起；引起（兴趣等）；惹恼；怨恨",
+  "example": "The mysterious letter piqued her curiosity, and she couldn't wait to open it.",
+  "synonyms": [
+    "provoke",
+    "irritate",
+    "intrigue",
+    "stimulate"
+  ],
+  "added": "2026-07-03",
+  "source": {
+    "label": "TOP - 京都錦市場商店街",
+    "url": "https://www.kyoto-nishiki.or.jp/en/",
+    "via": "extension"
+  }
+}
