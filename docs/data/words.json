@@ -4084,6 +4084,61 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "word": "sparring",
+      "pronunciation": "/ˈspɑːrɪŋ/",
+      "partOfSpeech": "noun, verb (gerund)",
+      "definition": "Practice fighting or boxing with controlled movements, or engaging in a friendly argument or debate without serious intent to win.",
+      "translation": "練習性的搏擊或拳擊；友善的辯論或爭論",
+      "example": "The boxer spent an hour sparring with his training partner before the championship match.",
+      "synonyms": [
+        "boxing",
+        "practicing",
+        "debating",
+        "bickering",
+        "jousting"
+      ],
+      "id": "sparring",
+      "srs": {
+        "due": "2026-07-04",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-07-04",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "id": "pique",
+      "word": "pique",
+      "pronunciation": "/piːk/",
+      "partOfSpeech": "verb, noun",
+      "definition": "As a verb: to provoke or stimulate (interest or curiosity), or to offend or wound (pride). As a noun: a feeling of irritation or resentment.",
+      "translation": "激起；引起（兴趣等）；惹恼；怨恨",
+      "example": "The mysterious letter piqued her curiosity, and she couldn't wait to open it.",
+      "synonyms": [
+        "provoke",
+        "irritate",
+        "intrigue",
+        "stimulate"
+      ],
+      "added": "2026-07-03",
+      "source": {
+        "label": "TOP - 京都錦市場商店街",
+        "url": "https://www.kyoto-nishiki.or.jp/en/",
+        "via": "extension"
+      },
+      "srs": {
+        "due": "2026-07-04",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
