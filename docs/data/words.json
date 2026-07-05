@@ -4193,6 +4193,34 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "id": "courier",
+      "word": "courier",
+      "pronunciation": "/ˈkʊriər/",
+      "partOfSpeech": "noun",
+      "definition": "A person or company employed to transport and deliver packages, documents, or messages, typically over short to medium distances or with speed and security as priorities.",
+      "translation": "快遞員；信使；快遞公司",
+      "example": "The courier delivered the important legal documents to our office before noon.",
+      "usage": "Neutral to formal register. Common collocations: 'courier service,' 'courier delivery,' 'send by courier,' 'bicycle courier.' Use when emphasizing speed, security, or professional handling of parcels. Distinguish from 'postman' (regular mail) and 'messenger' (informal, typically local). Popular in business and e-commerce contexts.",
+      "synonyms": [
+        "messenger",
+        "delivery person",
+        "carrier",
+        "dispatcher"
+      ],
+      "added": "2026-07-05",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-05",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
