@@ -4139,6 +4139,60 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "word": "nebulizer",
+      "pronunciation": "/ˈnebjəlaɪzər/",
+      "partOfSpeech": "noun",
+      "definition": "A medical device that converts liquid medication into a fine mist or aerosol spray, allowing it to be inhaled directly into the lungs for respiratory treatment.",
+      "translation": "霧化器；噴霧器（將液體藥物轉化為細霧供吸入的醫療裝置）",
+      "example": "The doctor prescribed a nebulizer to help the child with asthma breathe more easily.",
+      "synonyms": [
+        "atomizer",
+        "inhaler",
+        "vaporizer",
+        "spray"
+      ],
+      "id": "nebulizer",
+      "srs": {
+        "due": "2026-07-05",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-07-05",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "wean",
+      "pronunciation": "/wiːn/",
+      "partOfSpeech": "verb",
+      "definition": "To accustom a child or young animal to food other than its mother's milk; or to gradually cause someone to stop depending on or being addicted to something.",
+      "translation": "斷奶；逐漸戒除（習慣或依賴）",
+      "example": "The mother weaned her baby off breast milk at six months old.",
+      "synonyms": [
+        "accustom",
+        "habituate",
+        "detach",
+        "withdraw"
+      ],
+      "id": "wean",
+      "srs": {
+        "due": "2026-07-05",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-07-05",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
