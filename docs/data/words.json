@@ -4221,6 +4221,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "bougie",
+      "word": "bougie",
+      "pronunciation": "/ˈbuːʒi/",
+      "partOfSpeech": "adjective, noun",
+      "definition": "Marked by a preoccupation with wealth, luxury, and high social status, often in a way perceived as pretentious or superficial; originally, a candle made of wax.",
+      "translation": "資產階級的；裝腔作勢的；追求奢侈品的（現代用法）；蠟燭（原義）",
+      "example": "She criticized her friend's bougie Instagram aesthetic of designer handbags and expensive brunch spots.",
+      "usage": "Modern slang use (noun or adjective): casual, often ironic or critical in tone. Common pairings: 'bougie lifestyle,' 'bougie aesthetic,' 'bougie taste.' Primarily used in informal contexts—social media, casual conversation—not in formal writing or professional speech. Original meaning (candle) is now archaic and rarely used outside medical/historical contexts.",
+      "synonyms": [
+        "pretentious",
+        "snobbish",
+        "materialistic",
+        "ostentatious"
+      ],
+      "added": "2026-07-09",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-09",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
