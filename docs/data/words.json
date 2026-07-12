@@ -4360,6 +4360,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "derogatory",
+      "word": "derogatory",
+      "pronunciation": "/dɪˈrɒɡətəri/",
+      "partOfSpeech": "adjective",
+      "definition": "Expressing a negative or disrespectful opinion; intended to harm someone's reputation or dignity.",
+      "translation": "貶損的；侮辱性的；有損名譽的",
+      "example": "He made derogatory comments about her intelligence during the meeting.",
+      "usage": "Formal to neutral register. Commonly paired with nouns like 'remarks,' 'comments,' 'language,' 'terms,' or 'statements.' Used to describe speech, writing, or behavior that demeans or insults. Avoid using casually in everyday conversation; more appropriate in formal, academic, or professional contexts.",
+      "synonyms": [
+        "disparaging",
+        "insulting",
+        "disrespectful",
+        "demeaning"
+      ],
+      "added": "2026-07-12",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-12",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
