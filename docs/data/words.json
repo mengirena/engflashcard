@@ -4305,6 +4305,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "kama-sutra",
+      "word": "Kama Sutra",
+      "pronunciation": "/ˈkɑːmə ˈsuːtrə/",
+      "partOfSpeech": "noun",
+      "definition": "An ancient Sanskrit text from India that provides guidance on human sexuality, relationships, and intimate practices; often referenced in modern culture as a manual of sexual positions and techniques.",
+      "translation": "《愛經》(愛慾之經);古印度性愛指南",
+      "example": "The Kama Sutra is frequently misunderstood in the West as purely a sex manual, when it actually addresses broader aspects of courtship and relationships.",
+      "usage": "Typically used in formal, educational, or cultural contexts when discussing Indian philosophy, sexuality studies, or classical literature. Avoid using it casually or reductively. The term is neutral in academic settings but can carry different connotations depending on context. Often capitalized as a proper title.",
+      "synonyms": [
+        "ancient Indian text",
+        "Sanskrit treatise",
+        "love manual"
+      ],
+      "added": "2026-07-12",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-12",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
