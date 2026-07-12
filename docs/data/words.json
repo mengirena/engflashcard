@@ -4332,6 +4332,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "char",
+      "word": "char",
+      "pronunciation": "/tʃɑːr/",
+      "partOfSpeech": "verb",
+      "definition": "To burn or scorch the surface of something, turning it black or darkened; to cook food at high heat until the outside is blackened.",
+      "translation": "燒焦；炭化；用高溫烤至表面變黑",
+      "example": "The chef deliberately charred the surface of the steak to create a flavorful crust.",
+      "usage": "Commonly used in cooking contexts (char the vegetables, char the meat). Can be both transitive and intransitive. Neutral to culinary register. Pair with cooking methods or ingredients. Avoid in formal academic writing unless discussing cooking techniques or materials science.",
+      "synonyms": [
+        "scorch",
+        "blacken",
+        "burn",
+        "sear"
+      ],
+      "added": "2026-07-12",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-12",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
