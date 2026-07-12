@@ -4277,6 +4277,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "ficus",
+      "word": "ficus",
+      "pronunciation": "/ˈfaɪkəs/",
+      "partOfSpeech": "noun",
+      "definition": "A genus of tropical and subtropical trees and shrubs in the fig family, commonly grown as ornamental houseplants. The term often refers specifically to the fig tree or popular indoor varieties like the Ficus benjamina (weeping fig).",
+      "translation": "榕樹；無花果樹（常指室內盆栽植物）",
+      "example": "She placed a tall ficus in the corner of her living room to add some greenery to the space.",
+      "usage": "Commonly used in gardening and interior design contexts. Typically paired with descriptive terms like 'weeping ficus,' 'rubber plant ficus,' or 'potted ficus.' Neutral/formal register. Not used in casual speech unless discussing plants specifically. Popular as a decorative houseplant due to its tolerance of indoor conditions.",
+      "synonyms": [
+        "fig tree",
+        "fig plant",
+        "rubber plant",
+        "weeping fig"
+      ],
+      "added": "2026-07-12",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-12",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
