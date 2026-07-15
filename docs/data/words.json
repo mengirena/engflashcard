@@ -1335,10 +1335,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-22",
-        "interval": 7.92,
-        "ease": 2.2,
-        "reps": 4
+        "due": "2026-07-25",
+        "interval": 9.504,
+        "ease": 2.0500000000000003,
+        "reps": 5
       },
       "usage": "**Hedge** as a noun is neutral/formal and pairs with words like \"trim,\" \"plant,\" \"row,\" or \"boundary.\" As a verb (to hedge), it's neutral and commonly appears with \"one's bets,\" \"the question,\" or \"one's position\"—avoid it when you need to sound direct or decisive, as it implies evasion or lack of commitment."
     },
