@@ -2616,10 +2616,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-18",
-        "interval": 1,
-        "ease": 2.35,
-        "reps": 1
+        "due": "2026-07-16",
+        "interval": 0,
+        "ease": 2.15,
+        "reps": 0
       }
     },
     {
