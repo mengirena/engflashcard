@@ -1834,10 +1834,10 @@
       ],
       "id": "uplift",
       "srs": {
-        "due": "2026-06-21",
-        "interval": 7.5,
+        "due": "2026-08-04",
+        "interval": 18.75,
         "ease": 2.5,
-        "reps": 3
+        "reps": 4
       },
       "added": "2026-06-07",
       "source": {
