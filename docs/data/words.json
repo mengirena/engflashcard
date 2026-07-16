@@ -3426,10 +3426,10 @@
       ],
       "id": "plead-guilty",
       "srs": {
-        "due": "2026-07-16",
-        "interval": 1,
+        "due": "2026-07-19",
+        "interval": 3,
         "ease": 2.15,
-        "reps": 1
+        "reps": 2
       },
       "added": "2026-06-26",
       "source": {
