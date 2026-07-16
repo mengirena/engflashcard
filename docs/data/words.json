@@ -3208,10 +3208,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-07-01",
-        "interval": 1,
-        "ease": 2.35,
-        "reps": 1
+        "due": "2026-07-17",
+        "interval": 1.2,
+        "ease": 2.2,
+        "reps": 2
       }
     },
     {
