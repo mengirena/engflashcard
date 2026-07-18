@@ -4443,6 +4443,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "crude",
+      "word": "crude",
+      "pronunciation": "/kruːd/",
+      "partOfSpeech": "adjective",
+      "definition": "In a natural or raw state; not yet processed or refined. Also means lacking sophistication, tact, or delicacy; rough or vulgar.",
+      "translation": "粗糙的；未精製的；粗俗的；不精緻的",
+      "example": "The company extracts crude oil from beneath the ocean floor and sends it to refineries for processing.",
+      "usage": "Common in technical contexts (crude oil, crude materials) and social/behavioral descriptions (crude jokes, crude manners). Register ranges from neutral (technical) to informal/negative (behavioral). Avoid in formal etiquette; use 'unrefined' or 'unsophisticated' for more diplomatic phrasing.",
+      "synonyms": [
+        "raw",
+        "unrefined",
+        "coarse",
+        "vulgar",
+        "rough"
+      ],
+      "added": "2026-07-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
