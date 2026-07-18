@@ -4808,6 +4808,34 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "id": "thwart",
+      "word": "thwart",
+      "pronunciation": "/θwɔːrt/",
+      "partOfSpeech": "verb",
+      "definition": "To prevent someone from accomplishing something or to block their plans; to oppose or hinder.",
+      "translation": "阻撓；挫敗；阻止（某人的計畫或意圖）",
+      "example": "The security system thwarted the burglar's attempt to steal the artwork.",
+      "usage": "Transitive verb, formal/neutral register. Typically used with a person or their plans/attempts as the object. Common collocations: 'thwart an attempt', 'thwart a plan', 'thwart someone's efforts'. Not typically used in casual speech; more common in formal writing, news, or literature.",
+      "synonyms": [
+        "foil",
+        "block",
+        "frustrate",
+        "obstruct"
+      ],
+      "added": "2026-07-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
