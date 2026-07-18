@@ -4415,6 +4415,34 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "id": "snap",
+      "word": "snap",
+      "pronunciation": "/snæp/",
+      "partOfSpeech": "verb",
+      "definition": "To break suddenly and completely, typically with a sharp cracking sound; to break under sudden stress or strain.",
+      "translation": "折斷；猛然斷裂",
+      "example": "The fragile thread snapped under the slightest tension.",
+      "usage": "Common in both literal (physical breaking) and figurative contexts (emotional breaking point). Neutral register. Pairs with: snap in two, snap under pressure, snap apart. Not typically used in formal technical writing; more natural in everyday speech and narrative.",
+      "synonyms": [
+        "break",
+        "crack",
+        "split",
+        "rupture"
+      ],
+      "added": "2026-07-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
