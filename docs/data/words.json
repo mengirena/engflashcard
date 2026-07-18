@@ -1943,10 +1943,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-16",
-        "interval": 3,
-        "ease": 2.35,
-        "reps": 2
+        "due": "2026-07-28",
+        "interval": 9.75,
+        "ease": 2.5,
+        "reps": 3
       },
       "usage": "**Groan** pairs with subjects expressing pain (\"groan in agony\"), disapproval (\"groan at a bad joke\"), or fatigue (\"groan under the weight\"). It's neutral/casual and very common in both speech and writing. Avoid it in formal academic or professional contexts where \"express disapproval\" or \"object\" would be more appropriate; also avoid when describing other animals' vocalizations unless emphasizing human-like complaint."
     },
