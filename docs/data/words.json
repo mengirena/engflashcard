@@ -4725,6 +4725,89 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "word": "suspending",
+      "pronunciation": "/səˈspɛndɪŋ/",
+      "partOfSpeech": "verb (present participle)",
+      "definition": "Temporarily stopping or pausing something, with the intention of resuming it later; halting an activity or commitment for a period of time.",
+      "translation": "暫停；中止；暫時停止（通常意指稍後可能恢復）",
+      "example": "Iran says it is suspending commitments to the interim nuclear deal with the U.S. in response to recent tensions.",
+      "synonyms": [
+        "pausing",
+        "halting",
+        "interrupting",
+        "ceasing",
+        "freezing"
+      ],
+      "id": "suspending",
+      "srs": {
+        "due": "2026-07-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-07-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "controversial",
+      "pronunciation": "/kənˈtrɒvɜːrʃəl/",
+      "partOfSpeech": "adjective",
+      "definition": "causing or likely to cause heated debate, disagreement, or public dispute; involving issues that people have strong and differing opinions about.",
+      "translation": "具爭議的；引起爭論的；有爭議性的",
+      "example": "The controversial decision to demolish the historic building sparked protests from residents.",
+      "synonyms": [
+        "contentious",
+        "disputed",
+        "debatable",
+        "divisive",
+        "questionable"
+      ],
+      "id": "controversial",
+      "srs": {
+        "due": "2026-07-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-07-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "ziggurat",
+      "pronunciation": "/ˈzɪɡ.ə.ræt/",
+      "partOfSpeech": "noun",
+      "definition": "An ancient Mesopotamian temple structure built as a series of rectangular tiers or stepped platforms stacked on top of each other, with a shrine or temple at the top.",
+      "translation": "古代美索不達米亞的階梯式神廟；呈層級遞減的塔形建築，由多個矩形平台堆疊而成，頂部設有神殿",
+      "example": "The Great Ziggurat of Ur, built around 2100 BCE, is one of the most well-preserved examples of ancient Mesopotamian architecture.",
+      "synonyms": [
+        "pyramid",
+        "stepped tower",
+        "temple tower",
+        "tiered structure"
+      ],
+      "id": "ziggurat",
+      "srs": {
+        "due": "2026-07-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-07-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
