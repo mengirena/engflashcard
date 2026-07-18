@@ -4556,6 +4556,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "depict",
+      "word": "depict",
+      "pronunciation": "/dɪˈpɪkt/",
+      "partOfSpeech": "verb",
+      "definition": "To represent or describe something in a picture, painting, film, or words; to show what something or someone looks like or what an event was like.",
+      "translation": "描繪；刻畫；描述",
+      "example": "The mural depicts the history of the city over the past century.",
+      "usage": "Commonly used in formal and neutral contexts when discussing visual art, literature, film, or historical accounts. Typical collocations: 'depict a scene,' 'depict a character,' 'depict an event.' Often paired with nouns referring to images, stories, or representations. Not casual or colloquial.",
+      "synonyms": [
+        "portray",
+        "illustrate",
+        "represent",
+        "describe"
+      ],
+      "added": "2026-07-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
