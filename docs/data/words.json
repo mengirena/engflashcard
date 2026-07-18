@@ -4641,6 +4641,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "poised",
+      "word": "poised",
+      "pronunciation": "/pɔɪzd/",
+      "partOfSpeech": "adjective",
+      "definition": "Balanced or positioned in a stable, controlled manner; alternatively, mentally or emotionally prepared and composed, ready to act.",
+      "translation": "平衡的；鎮定的；準備好的；蓄勢待發的",
+      "example": "The diver was poised on the edge of the platform, ready to jump.",
+      "usage": "Can describe physical balance (a poised stance) or mental readiness (poised for success). Often paired with 'for' or 'on' when indicating readiness. Formal to neutral register. Avoid using for situations requiring awkwardness or unsteadiness.",
+      "synonyms": [
+        "balanced",
+        "composed",
+        "ready",
+        "prepared"
+      ],
+      "added": "2026-07-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
