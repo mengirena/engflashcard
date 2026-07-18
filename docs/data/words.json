@@ -4528,6 +4528,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "mediation",
+      "word": "mediation",
+      "pronunciation": "/ˌmiːdiˈeɪʃən/",
+      "partOfSpeech": "noun",
+      "definition": "The intervention of a neutral third party to help resolve a dispute or reach an agreement between two conflicting parties.",
+      "translation": "調解；仲裁；居中協調",
+      "example": "The labor dispute was resolved through mediation between the union and management.",
+      "usage": "Commonly used in legal, business, and diplomatic contexts. Typically pairs with verbs like 'seek,' 'pursue,' 'enter into,' or 'attempt.' Often used in phrases like 'mediation services,' 'mediation process,' or 'mediation agreement.' Formal to neutral register. Do not confuse with 'arbitration' (binding decision) or 'negotiation' (direct discussion between parties).",
+      "synonyms": [
+        "arbitration",
+        "reconciliation",
+        "negotiation",
+        "intervention"
+      ],
+      "added": "2026-07-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
