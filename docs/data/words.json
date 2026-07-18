@@ -4612,6 +4612,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "cascading",
+      "word": "cascading",
+      "pronunciation": "/kæˈskeɪdɪŋ/",
+      "partOfSpeech": "adjective, verb (present participle)",
+      "definition": "Falling or flowing downward in a series of stages or levels, like a waterfall; or causing a series of events to happen one after another in rapid succession.",
+      "translation": "級聯的；連鎖的；瀑布般下落的；連續發生的",
+      "example": "The cascading waterfalls created a breathtaking view, and the cascading failures in the system brought down the entire network.",
+      "usage": "Commonly used in both literal contexts (waterfalls, stairs, hair) and figurative contexts (effects, failures, consequences). Frequently paired with nouns like 'waterfalls,' 'failures,' 'effects,' 'style,' and 'levels.' Also used in computing (cascading style sheets, cascading deletes). Register is neutral to formal. Avoid in highly casual speech.",
+      "synonyms": [
+        "flowing",
+        "tumbling",
+        "sequential",
+        "successive",
+        "chain-reaction"
+      ],
+      "added": "2026-07-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
