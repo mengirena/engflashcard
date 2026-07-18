@@ -4472,6 +4472,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "desalination",
+      "word": "desalination",
+      "pronunciation": "/ˌdiːsælɪˈneɪʃən/",
+      "partOfSpeech": "noun",
+      "definition": "The process of removing salt and other minerals from seawater or brackish water to produce fresh water suitable for drinking or irrigation.",
+      "translation": "淡化作用；脫鹽；海水淡化（將海水或鹹水中的鹽分和礦物質去除，以製造淡水）",
+      "example": "Many Middle Eastern countries rely heavily on desalination plants to provide clean drinking water in arid regions.",
+      "usage": "Formal/technical register, commonly used in environmental science, engineering, and policy discussions. Typical collocations: desalination plant, desalination process, desalination technology. Often paired with 'water scarcity,' 'coastal areas,' or 'renewable energy.' Not used in casual conversation; appropriate for academic, industrial, or news contexts.",
+      "synonyms": [
+        "salt removal",
+        "water purification",
+        "demineralization",
+        "saline separation"
+      ],
+      "added": "2026-07-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
