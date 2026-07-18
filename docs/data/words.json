@@ -4697,6 +4697,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "low-rising",
+      "word": "low-rising",
+      "pronunciation": "/ˌloʊ ˈraɪzɪŋ/",
+      "partOfSpeech": "adjective",
+      "definition": "Describing a structure, building, or development that is built at a relatively low height with relatively few stories. It can also refer to a distinctive speech intonation pattern in which pitch falls at the end of sentences or utterances.",
+      "translation": "低矮的；低層的；（語言學）低降調的",
+      "example": "The architect designed a low-rising apartment complex to blend harmoniously with the neighborhood's character.",
+      "usage": "Commonly used in urban planning, real estate, and architecture to describe buildings of 1-4 stories. Also used in linguistics/phonetics to describe intonation patterns, particularly associated with Australian English and other varieties. Register: neutral to formal. Pair with: development, buildings, architecture, intonation, accent.",
+      "synonyms": [
+        "low-rise",
+        "single-story",
+        "short",
+        "squat"
+      ],
+      "added": "2026-07-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
