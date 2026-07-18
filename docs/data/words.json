@@ -4500,6 +4500,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "maritime",
+      "word": "maritime",
+      "pronunciation": "/ˈmærɪtaɪm/",
+      "partOfSpeech": "adjective",
+      "definition": "Relating to the sea, ships, or seafaring; connected with the navigation or commerce of the sea.",
+      "translation": "海事的；海運的；與海洋相關的",
+      "example": "The maritime industry includes shipping companies, port operators, and fishing fleets.",
+      "usage": "Formal register, commonly used in business, legal, and geographical contexts. Pairs well with nouns like 'law', 'trade', 'industry', 'nation', 'province', 'dispute'. Not typically used in casual conversation unless discussing shipping or naval matters specifically.",
+      "synonyms": [
+        "nautical",
+        "naval",
+        "oceanic",
+        "seafaring"
+      ],
+      "added": "2026-07-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
