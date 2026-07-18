@@ -4584,6 +4584,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "clad",
+      "word": "clad",
+      "pronunciation": "/klæd/",
+      "partOfSpeech": "adjective, verb (past tense of clothe)",
+      "definition": "Dressed or clothed in something; covered or wrapped in a material or layer. As a verb, it means to dress someone or to cover something with a protective layer.",
+      "translation": "穿著；身穿；覆蓋；包裹",
+      "example": "The soldiers were clad in heavy armor as they marched into battle.",
+      "usage": "Common as an adjective in descriptive or literary contexts (e.g., 'clad in silk,' 'clad in darkness'). As a verb, more formal and less common in modern English; 'clothe' is the standard form. Often paired with prepositions: clad in, clad with. Register: formal to literary; avoid in casual conversation.",
+      "synonyms": [
+        "dressed",
+        "attired",
+        "clothed",
+        "garbed"
+      ],
+      "added": "2026-07-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
