@@ -4669,6 +4669,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "complex-rising",
+      "word": "complex rising",
+      "pronunciation": "/ˈkɒmpleks ˈraɪzɪŋ/",
+      "partOfSpeech": "noun phrase",
+      "definition": "A rebellion or uprising involving multiple groups, causes, or interconnected factors that are difficult to fully understand or resolve. In historical contexts, it refers to a revolt with complicated origins, motivations, or participants.",
+      "translation": "複雜的起義；多因素起義（涉及多個群體、複雜的社會或政治因素的反叛）",
+      "example": "The complex rising of 1648 involved religious conflict, peasant grievances, and noble resistance to royal authority all intertwined.",
+      "usage": "Formal/academic register. Used primarily in historical, political, or sociological contexts to describe revolts or uprisings that defy simple explanation. Common in history texts and scholarly analysis. Avoid in casual conversation; use simply 'rebellion' or 'uprising' instead.",
+      "synonyms": [
+        "uprising",
+        "rebellion",
+        "revolt",
+        "insurrection"
+      ],
+      "added": "2026-07-18",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-18",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
