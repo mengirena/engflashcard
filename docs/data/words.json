@@ -4836,6 +4836,89 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "word": "infamous",
+      "pronunciation": "/ˈɪnfəməs/",
+      "partOfSpeech": "adjective",
+      "definition": "Well-known for something bad or evil; notorious in a negative way.",
+      "translation": "惡名昭彰的；臭名遠揚的；聲名狼狉的",
+      "example": "The infamous dictator was responsible for countless atrocities during his reign.",
+      "synonyms": [
+        "notorious",
+        "disreputable",
+        "scandalous",
+        "notorious"
+      ],
+      "id": "infamous",
+      "srs": {
+        "due": "2026-07-22",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-07-22",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "grueling",
+      "pronunciation": "/ˈɡruːəlɪŋ/",
+      "partOfSpeech": "adjective",
+      "definition": "Extremely tiring and demanding; requiring great effort and endurance.",
+      "translation": "極其疲勞的；令人筋疲力盡的；艱苦的",
+      "example": "The marathon runners completed a grueling 26-mile course under the hot sun.",
+      "synonyms": [
+        "exhausting",
+        "punishing",
+        "arduous",
+        "taxing",
+        "strenuous"
+      ],
+      "id": "grueling",
+      "srs": {
+        "due": "2026-07-22",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-07-22",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "regimen",
+      "pronunciation": "/ˈrɛdʒɪmən/",
+      "partOfSpeech": "noun",
+      "definition": "A prescribed system of diet, exercise, or other activities intended to improve health or achieve a specific goal.",
+      "translation": "養生法；療程；制度；一套有計畫的生活作息或治療方案",
+      "example": "Her doctor recommended a strict exercise regimen to help lower her blood pressure.",
+      "synonyms": [
+        "regime",
+        "program",
+        "routine",
+        "schedule",
+        "course"
+      ],
+      "id": "regimen",
+      "srs": {
+        "due": "2026-07-22",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-07-22",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
