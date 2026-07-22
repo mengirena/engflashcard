@@ -4919,6 +4919,34 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "id": "juror",
+      "word": "juror",
+      "pronunciation": "/ˈdʒʊrər/",
+      "partOfSpeech": "noun",
+      "definition": "A member of a jury who is sworn to deliver a verdict in a legal case based on the evidence presented in court.",
+      "translation": "陪審團成員；陪審員",
+      "example": "The juror listened carefully to all the testimony before casting her vote on the verdict.",
+      "usage": "Formal/legal register. Commonly paired with: 'jury duty,' 'prospective juror,' 'juror selection,' 'impartial juror.' Used in legal contexts and courtroom discussions. Not appropriate for informal settings or when referring to judges or attorneys.",
+      "synonyms": [
+        "jury member",
+        "jurywoman",
+        "juryman",
+        "panel member"
+      ],
+      "added": "2026-07-22",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-22",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
