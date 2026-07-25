@@ -4947,6 +4947,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "ovaltine",
+      "word": "Ovaltine",
+      "pronunciation": "/ˈoʊvəlˌtiːn/",
+      "partOfSpeech": "noun",
+      "definition": "A brand name for a malted milk powder drink mix, typically mixed with hot or cold milk to create a chocolate or malt-flavored beverage, popular especially as a children's drink.",
+      "translation": "阿華田（一種麥芽奶粉飲料品牌）",
+      "example": "She gave her son a warm cup of Ovaltine before bedtime.",
+      "usage": "Primarily a trademark noun, used informally and casually. Common in nostalgic or children's contexts. In modern usage, often used generically to refer to any malted milk drink. Typically paired with: 'cup of,' 'glass of,' 'mix,' 'drink.' More common in North American English and in older or nostalgic discourse; less frequently used by younger generations.",
+      "synonyms": [
+        "malted milk",
+        "milk drink",
+        "hot chocolate alternative"
+      ],
+      "added": "2026-07-25",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-25",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
