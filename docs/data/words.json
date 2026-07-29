@@ -4974,6 +4974,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "aperitif",
+      "word": "aperitif",
+      "pronunciation": "/ˌæpərɪˈtiːf/",
+      "partOfSpeech": "noun",
+      "definition": "A light alcoholic drink served before a meal to stimulate the appetite, or the period of time before a meal when such drinks are consumed.",
+      "translation": "開胃酒；餐前酒",
+      "example": "The guests enjoyed cocktails and aperitifs on the terrace before dinner was served.",
+      "usage": "Typically used in formal or semi-formal dining contexts. Often paired with words like 'serve,' 'enjoy,' 'before dinner,' or names of specific drinks (e.g., 'champagne aperitifs'). Register: formal to neutral. Not used in casual everyday speech, but standard in culinary and hospitality contexts.",
+      "synonyms": [
+        "pre-dinner drink",
+        "appetizer drink",
+        "cocktail",
+        "digestif (opposite purpose)"
+      ],
+      "added": "2026-07-29",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-07-29",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
