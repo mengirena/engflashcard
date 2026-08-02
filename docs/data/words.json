@@ -5002,6 +5002,91 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "slip-through-the-cracks",
+      "word": "slip through the cracks",
+      "pronunciation": "/slɪp θruː ðə kræks/",
+      "partOfSpeech": "idiom",
+      "definition": "To be overlooked, missed, or ignored, especially when something should have been noticed or dealt with; to fall between the gaps of a system or process.",
+      "translation": "從縫隙中溜走；被忽視；被漏掉；在管理或制度中被遺漏",
+      "example": "I want to follow up on the task in case it slips through the cracks while we're both busy.",
+      "usage": "**Slip through the cracks** is a very common English idiom used in both professional and everyday contexts. Always use 'the cracks' (plural, with 'the') — never 'a crack' or 'crack.' Common collocations: 'make sure nothing slips through the cracks,' 'fall through the cracks' (same meaning). Use it when describing tasks, people, or issues that get accidentally ignored or forgotten within a system. Neutral/informal register — perfectly appropriate in work emails and meetings.",
+      "synonyms": [
+        "fall through the cracks",
+        "be overlooked",
+        "be missed",
+        "go unnoticed"
+      ],
+      "added": "2026-08-02",
+      "source": {
+        "label": "English Tutor Session",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-08-02",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
+    },
+    {
+      "id": "deal-with",
+      "word": "deal with",
+      "pronunciation": "/diːl wɪð/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To take action in order to handle or manage a problem, situation, or task; to be about or concern a particular subject.",
+      "translation": "處理；應付；解決（問題或情況）；涉及（某主題）",
+      "example": "Can you deal with the client complaint this afternoon? I assumed it was already dealt with.",
+      "usage": "**Deal with** is one of the most common phrasal verbs in English — master it. Key point: you MUST keep 'with' — never say 'I will deal it' or 'it is dealt.' The past tense form is 'dealt with' (irregular: deal → dealt). Common patterns: 'deal with a problem/issue/situation,' 'I'll deal with it,' 'it's been dealt with.' Neutral register, fine in both professional and casual speech. Also used as 'this book deals with...' meaning 'this book is about...'",
+      "synonyms": [
+        "handle",
+        "manage",
+        "take care of",
+        "address",
+        "tackle"
+      ],
+      "added": "2026-08-02",
+      "source": {
+        "label": "English Tutor Session",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-08-02",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
+    },
+    {
+      "id": "in-case",
+      "word": "in case",
+      "pronunciation": "/ɪn keɪs/",
+      "partOfSpeech": "conjunction / phrase",
+      "definition": "As a precaution against something that might happen; used to introduce a reason why you are doing something now to prepare for a possible future situation.",
+      "translation": "萬一；以防；以防萬一；為了預防某事發生",
+      "example": "I sent a follow-up email in case the first one was missed.",
+      "usage": "**In case** expresses precaution — you do something NOW to prepare for something that MIGHT happen later. Do NOT confuse it with 'if': 'I'll call you if I'm late' (I may or may not be late) vs. 'I'll take an umbrella in case it rains' (I'm preparing now for that possibility). Common patterns: 'in case + subject + verb' (in case you forgot, in case it rains, in case we both assumed...). Neutral register, very common in everyday speech and writing.",
+      "synonyms": [
+        "just in case",
+        "in the event that",
+        "as a precaution",
+        "lest"
+      ],
+      "added": "2026-08-02",
+      "source": {
+        "label": "English Tutor Session",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-08-02",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
