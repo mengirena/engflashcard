@@ -5002,6 +5002,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "bereavement",
+      "word": "bereavement",
+      "pronunciation": "/bɪˈriːvmənt/",
+      "partOfSpeech": "noun",
+      "definition": "The state of deep sorrow and loss caused by someone's death, or the period of time during which a person mourns.",
+      "translation": "喪親；哀悼期；喪失親人所帶來的悲傷",
+      "example": "After her mother's death, she took several months of bereavement leave from work.",
+      "usage": "Formal/neutral register. Commonly paired with: 'bereavement leave' (workplace), 'period of bereavement', 'bereft' (adjective form). Used in professional, medical, and condolence contexts. Avoid in casual or flippant speech.",
+      "synonyms": [
+        "grief",
+        "mourning",
+        "loss",
+        "sorrow"
+      ],
+      "added": "2026-08-03",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-08-03",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
