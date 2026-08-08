@@ -5030,6 +5030,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "prestige",
+      "word": "prestige",
+      "pronunciation": "/preˈstɪdʒ/",
+      "partOfSpeech": "noun",
+      "definition": "High status or respect earned through achievements, reputation, or social standing. The admiration and influence that comes from being successful or highly regarded.",
+      "translation": "聲望、威望、名望。因成就或高度評價而獲得的崇高地位和尊重。",
+      "example": "Harvard University has long enjoyed tremendous prestige in the academic world.",
+      "usage": "Formal to neutral register. Commonly paired with adjectives like 'high,' 'great,' 'considerable,' or verbs like 'gain,' 'lose,' 'damage,' 'enhance.' Used in professional, academic, and social contexts. Avoid in casual, intimate conversation—sounds stilted when discussing personal relationships.",
+      "synonyms": [
+        "reputation",
+        "status",
+        "esteem",
+        "credibility",
+        "cachet"
+      ],
+      "added": "2026-08-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-08-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
