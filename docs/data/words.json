@@ -5059,6 +5059,116 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "word": "apoplectic",
+      "pronunciation": "/ˌæpəˈplɛktɪk/",
+      "partOfSpeech": "adjective",
+      "definition": "Extremely angry or furious; overcome with rage. Figuratively, it describes someone so enraged that they appear to be on the verge of losing control.",
+      "translation": "極度憤怒的；暴怒的；激怒的",
+      "example": "When he discovered his carefully organized notes were deleted, he became absolutely apoplectic.",
+      "synonyms": [
+        "furious",
+        "enraged",
+        "livid",
+        "irate",
+        "seething"
+      ],
+      "id": "apoplectic",
+      "srs": {
+        "due": "2026-08-31",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-08-31",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "mullet",
+      "pronunciation": "/ˈmʌlɪt/",
+      "partOfSpeech": "noun",
+      "definition": "A hairstyle with short hair on the sides and front and long hair in the back, often characterized by the phrase 'business in the front, party in the back.' In this context, it refers to pages in a bullet journal that serve a dual purpose—combining different organizational or tracking functions.",
+      "translation": "短髮型（兩側和前面短，後面長）；或在子彈筆記中指具有雙重功能的頁面",
+      "example": "The bullet journal includes several mullets that combine both monthly tracking and future planning on a single spread.",
+      "synonyms": [
+        "hybrid pages",
+        "combination spreads",
+        "dual-purpose layouts",
+        "mixed-function pages"
+      ],
+      "id": "mullet",
+      "srs": {
+        "due": "2026-08-31",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-08-31",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "proscriptive",
+      "pronunciation": "/prəˈskrɪptɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "Prescribing or laying down rules; giving explicit instructions or directions about what must be done. In the context of organizational methods, it refers to a structured, rule-based approach that dictates specific procedures to follow.",
+      "translation": "規定性的；指令性的；明確規定做法的",
+      "example": "The Bullet Journal Method provides a proscriptive system that guides users through specific steps for tracking and organizing their lives.",
+      "synonyms": [
+        "prescriptive",
+        "directive",
+        "instructive",
+        "regulatory"
+      ],
+      "id": "proscriptive",
+      "srs": {
+        "due": "2026-08-31",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-08-31",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "rein in",
+      "pronunciation": "/reɪn ɪn/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To control or restrain something that is growing too large or becoming unmanageable; to hold back or limit the expansion of something.",
+      "translation": "控制；約束；制約；勒住",
+      "example": "You need to rein in your spending if you want to save money for the future.",
+      "synonyms": [
+        "control",
+        "restrain",
+        "curb",
+        "limit",
+        "constrain"
+      ],
+      "id": "rein-in",
+      "srs": {
+        "due": "2026-08-31",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-08-31",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
