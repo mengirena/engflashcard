@@ -5169,6 +5169,503 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "word": "unwavering",
+      "pronunciation": "/ʌnˈweɪvərɪŋ/",
+      "partOfSpeech": "adjective",
+      "definition": "Steady, firm, and not changing or weakening; showing strong and consistent commitment or resolve.",
+      "translation": "堅定不移的；不動搖的；始終如一的",
+      "example": "Her unwavering commitment to personal growth helped her stick with the bullet journal method despite initial difficulties.",
+      "synonyms": [
+        "steadfast",
+        "resolute",
+        "firm",
+        "constant",
+        "unflinching"
+      ],
+      "id": "unwavering",
+      "srs": {
+        "due": "2026-09-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "devise",
+      "pronunciation": "/dɪˈvaɪz/",
+      "partOfSpeech": "verb",
+      "definition": "To plan, design, or create something new, often through careful thinking and creativity. In the context of the Bullet Journal Method, it means to develop or invent a system or approach.",
+      "translation": "設計、發明、策劃",
+      "example": "She is devising a new organizational system to help manage her daily tasks and goals.",
+      "synonyms": [
+        "design",
+        "create",
+        "invent",
+        "plan",
+        "develop"
+      ],
+      "id": "devise",
+      "srs": {
+        "due": "2026-09-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "wayward",
+      "pronunciation": "/ˈweɪwərd/",
+      "partOfSpeech": "adjective",
+      "definition": "Difficult to control or predict; stubbornly disobedient or rebellious. Often describes someone whose behavior is unpredictable and hard to manage.",
+      "translation": "任性的；難以控制的；叛逆的；不聽話的",
+      "example": "The bullet journal method helps organize wayward thoughts and scattered ideas into a coherent system.",
+      "synonyms": [
+        "unruly",
+        "disobedient",
+        "unpredictable",
+        "headstrong"
+      ],
+      "id": "wayward",
+      "srs": {
+        "due": "2026-09-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "unadulterated",
+      "pronunciation": "/ˌʌnəˈdʌltəreɪtɪd/",
+      "partOfSpeech": "adjective",
+      "definition": "Pure and free from any contamination, dilution, or unwanted added elements; complete and absolute.",
+      "translation": "純正的；未摻雜的；絕對的；完全的",
+      "example": "The book offers unadulterated advice on creating an organized life without unnecessary complications.",
+      "synonyms": [
+        "pure",
+        "genuine",
+        "uncontaminated",
+        "absolute",
+        "complete"
+      ],
+      "id": "unadulterated",
+      "srs": {
+        "due": "2026-09-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "mortified",
+      "pronunciation": "/ˈmɔːrtɪfaɪd/",
+      "partOfSpeech": "adjective",
+      "definition": "Feeling intense embarrassment, shame, or humiliation about something one has done or experienced.",
+      "translation": "感到極度尷尬、羞愧或丟臉的；被激怒的；惱羞成怒的",
+      "example": "I was mortified when I tripped and fell in front of the entire class during the presentation.",
+      "synonyms": [
+        "embarrassed",
+        "ashamed",
+        "humiliated",
+        "chagrined",
+        "discomfited"
+      ],
+      "id": "mortified",
+      "srs": {
+        "due": "2026-09-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "excruciating",
+      "pronunciation": "/ɪkˈskruːʃieɪtɪŋ/",
+      "partOfSpeech": "adjective",
+      "definition": "Extremely painful or causing intense suffering; also used to describe something unbearably difficult, tedious, or embarrassing.",
+      "translation": "極其痛苦的；令人難以忍受的；折磨人的",
+      "example": "The process of organizing years of scattered notes was excruciating, but it helped me finally understand my past patterns.",
+      "synonyms": [
+        "agonizing",
+        "torturous",
+        "unbearable",
+        "harrowing",
+        "insufferable"
+      ],
+      "id": "excruciating",
+      "srs": {
+        "due": "2026-09-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "cobble",
+      "pronunciation": "/ˈkɒbəl/",
+      "partOfSpeech": "verb",
+      "definition": "To pave or lay with cobblestones; to repair or make something roughly or clumsily.",
+      "translation": "用圓石鋪砌；粗糙地修補或製造",
+      "example": "The old town square was cobbled with smooth stones that had been worn down over centuries.",
+      "synonyms": [
+        "pave",
+        "lay",
+        "patch",
+        "repair"
+      ],
+      "id": "cobble",
+      "srs": {
+        "due": "2026-09-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "unwieldy",
+      "pronunciation": "/ʌnˈwiːldi/",
+      "partOfSpeech": "adjective",
+      "definition": "Difficult to handle, move, or use because of being large, heavy, or awkwardly shaped; cumbersome and impractical.",
+      "translation": "笨重的；難以操控的；不方便的",
+      "example": "The old filing system was so unwieldy that it took hours to find a single document.",
+      "synonyms": [
+        "cumbersome",
+        "awkward",
+        "bulky",
+        "unmanageable"
+      ],
+      "id": "unwieldy",
+      "srs": {
+        "due": "2026-09-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "dubious",
+      "pronunciation": "/ˈduːbiəs/",
+      "partOfSpeech": "adjective",
+      "definition": "Hesitant or unwilling to believe something; causing doubt or uncertainty about truth, quality, or legitimacy.",
+      "translation": "可疑的；令人懷疑的；不確定的；半信半疑的",
+      "example": "I was dubious about whether the Bullet Journal Method would actually help me stay organized, but it turned out to be quite effective.",
+      "synonyms": [
+        "skeptical",
+        "doubtful",
+        "suspicious",
+        "questionable",
+        "uncertain"
+      ],
+      "id": "dubious",
+      "srs": {
+        "due": "2026-09-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "helm",
+      "pronunciation": "/hɛlm/",
+      "partOfSpeech": "noun",
+      "definition": "A position of control or leadership; the steering mechanism of a ship or boat.",
+      "translation": "掌舵；領導地位；船舵",
+      "example": "She took the helm of the company and transformed it into a thriving business.",
+      "synonyms": [
+        "control",
+        "leadership",
+        "command",
+        "steering"
+      ],
+      "id": "helm",
+      "srs": {
+        "due": "2026-09-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "sitar",
+      "pronunciation": "/sɪˈtɑːr/",
+      "partOfSpeech": "noun",
+      "definition": "A stringed musical instrument originating from India, with a long neck and a resonating body, typically having multiple strings that are plucked to produce melodic and rhythmic sounds.",
+      "translation": "西塔琴（印度傳統弦樂器）",
+      "example": "The musician played beautiful ragas on the sitar, captivating the audience with its distinctive resonant tones.",
+      "synonyms": [
+        "lute",
+        "stringed instrument",
+        "Indian harp"
+      ],
+      "id": "sitar",
+      "srs": {
+        "due": "2026-09-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "unnerving",
+      "pronunciation": "/ʌnˈnɜːrvɪŋ/",
+      "partOfSpeech": "adjective",
+      "definition": "Causing someone to feel anxious, unsettled, or lacking confidence; making someone lose their nerve or composure.",
+      "translation": "令人不安的；令人失去信心的；令人緊張的",
+      "example": "The blank pages of a new journal can be unnerving at first, but the Bullet Journal Method helps you overcome that initial anxiety.",
+      "synonyms": [
+        "disconcerting",
+        "unsettling",
+        "disquieting",
+        "disturbing"
+      ],
+      "id": "unnerving",
+      "srs": {
+        "due": "2026-09-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "proponent",
+      "pronunciation": "/prəˈpoʊnənt/",
+      "partOfSpeech": "noun",
+      "definition": "A person who advocates for or supports a particular idea, theory, or cause; someone who argues in favor of something.",
+      "translation": "支持者；提倡者；贊同者",
+      "example": "Ryder Carroll is a proponent of the Bullet Journal Method, believing it helps people organize their lives more effectively.",
+      "synonyms": [
+        "advocate",
+        "supporter",
+        "champion",
+        "backer",
+        "exponent"
+      ],
+      "id": "proponent",
+      "srs": {
+        "due": "2026-09-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "antidote",
+      "pronunciation": "/ˈæn.tɪ.doʊt/",
+      "partOfSpeech": "noun",
+      "definition": "A substance or action that counteracts or neutralizes something harmful or undesirable; a remedy or solution to a problem.",
+      "translation": "解毒劑；對抗之物；補救辦法",
+      "example": "Regular exercise is an effective antidote to stress and anxiety.",
+      "synonyms": [
+        "remedy",
+        "cure",
+        "solution",
+        "counteragent",
+        "corrective"
+      ],
+      "id": "antidote",
+      "srs": {
+        "due": "2026-09-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "newfound",
+      "pronunciation": "/ˈnjuːfaʊnd/",
+      "partOfSpeech": "adjective",
+      "definition": "Recently discovered, found, or acquired; something that has just been obtained or realized after not having it before.",
+      "translation": "新發現的；新獲得的；最近才找到的",
+      "example": "After completing the Bullet Journal Method, readers often experience a newfound sense of clarity and organization in their daily lives.",
+      "synonyms": [
+        "newly discovered",
+        "recently acquired",
+        "fresh",
+        "new-found",
+        "recent"
+      ],
+      "id": "newfound",
+      "srs": {
+        "due": "2026-09-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "withered",
+      "pronunciation": "/ˈwɪðərd/",
+      "partOfSpeech": "adjective",
+      "definition": "Dried up, shriveled, or depleted of vitality; having lost freshness, strength, or relevance over time.",
+      "translation": "枯萎的；衰弱的；凋謝的；失去生氣的",
+      "example": "The withered flowers in the vase were a reminder that without proper care, even the most beautiful things fade away.",
+      "synonyms": [
+        "shriveled",
+        "dried up",
+        "depleted",
+        "faded",
+        "weakened"
+      ],
+      "id": "withered",
+      "srs": {
+        "due": "2026-09-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "repercussions",
+      "pronunciation": "/ˌrɛpərˈkʌʃənz/",
+      "partOfSpeech": "noun",
+      "definition": "The indirect, often unintended consequences or effects of an action or event, especially negative ones that spread over time or affect multiple people.",
+      "translation": "後果；連鎖反應；影響（通常指負面的間接影響）",
+      "example": "The decision to cut the budget had serious repercussions throughout the entire department.",
+      "synonyms": [
+        "consequences",
+        "effects",
+        "aftereffects",
+        "ramifications",
+        "impact"
+      ],
+      "id": "repercussions",
+      "srs": {
+        "due": "2026-09-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "nitty-gritty",
+      "pronunciation": "/ˈnɪti ˈɡrɪti/",
+      "partOfSpeech": "noun",
+      "definition": "The most important or essential details of a matter; the practical, fundamental facts or issues that need to be addressed.",
+      "translation": "核心問題；關鍵細節；實質內容",
+      "example": "When planning your bullet journal, you need to get down to the nitty-gritty of what you actually want to track and accomplish.",
+      "synonyms": [
+        "basics",
+        "essentials",
+        "core",
+        "crux",
+        "fundamentals"
+      ],
+      "id": "nitty-gritty",
+      "srs": {
+        "due": "2026-09-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
