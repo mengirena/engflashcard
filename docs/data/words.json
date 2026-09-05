@@ -5721,6 +5721,34 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "id": "lucrative",
+      "word": "lucrative",
+      "pronunciation": "/ˈluːkrətɪv/",
+      "partOfSpeech": "adjective",
+      "definition": "Producing a great deal of profit or income; financially rewarding or advantageous.",
+      "translation": "有利可圖的；賺錢的；獲利豐厚的",
+      "example": "She left her job in academia to pursue a more lucrative career in consulting.",
+      "usage": "Typically used to describe businesses, jobs, contracts, or opportunities that generate significant money. Common collocations: lucrative deal, lucrative business, lucrative opportunity, lucrative market. Formal to neutral register; appropriate in professional and academic contexts. Avoid using it ironically or for things that make only modest profit.",
+      "synonyms": [
+        "profitable",
+        "remunerative",
+        "money-making",
+        "rewarding"
+      ],
+      "added": "2026-09-05",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-05",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
