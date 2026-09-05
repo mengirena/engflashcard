@@ -5666,6 +5666,61 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "word": "ascent",
+      "pronunciation": "/əˈsɛnt/",
+      "partOfSpeech": "noun",
+      "definition": "The act of climbing or moving upward, either physically or metaphorically; the process of rising in rank, status, or achievement.",
+      "translation": "上升；攀升；進步",
+      "example": "Her ascent from a junior employee to company director was remarkable.",
+      "synonyms": [
+        "climb",
+        "rise",
+        "advancement",
+        "progression",
+        "elevation"
+      ],
+      "id": "ascent",
+      "srs": {
+        "due": "2026-09-05",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-05",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "participatory",
+      "pronunciation": "/pɑrˈtɪsəˌpətɔri/",
+      "partOfSpeech": "adjective",
+      "definition": "Involving or encouraging the active involvement and contribution of all members or participants, rather than passive observation or one-way instruction.",
+      "translation": "參與式的；需要主動參與的；互動型的",
+      "example": "The bullet journal method is participatory because it encourages you to actively design and customize your planning system rather than simply following a rigid template.",
+      "synonyms": [
+        "collaborative",
+        "interactive",
+        "engaging",
+        "hands-on"
+      ],
+      "id": "participatory",
+      "srs": {
+        "due": "2026-09-05",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-05",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
