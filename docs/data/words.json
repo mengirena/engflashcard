@@ -6409,6 +6409,35 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "id": "etiquette",
+      "word": "etiquette",
+      "pronunciation": "/ˈɛtɪkɛt/",
+      "partOfSpeech": "noun",
+      "definition": "The conventional rules of polite behavior in society or in a particular group or situation. It refers to the expected standards of courtesy and proper conduct.",
+      "translation": "禮儀；禮節；社交禮俗",
+      "example": "In Japanese business etiquette, it is important to exchange business cards with both hands.",
+      "usage": "Formal/neutral register. Commonly paired with adjectives like 'business,' 'dining,' 'social,' or 'professional.' Use it when discussing rules of polite conduct in specific contexts (workplace, formal events, cultural settings). Not typically used casually in everyday conversation unless discussing manners deliberately.",
+      "synonyms": [
+        "protocol",
+        "propriety",
+        "decorum",
+        "courtesy",
+        "convention"
+      ],
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
