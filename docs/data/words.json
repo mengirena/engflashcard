@@ -5749,6 +5749,666 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "word": "thimble",
+      "pronunciation": "/ˈθɪmbəl/",
+      "partOfSpeech": "noun",
+      "definition": "A small metal or plastic cap worn on the finger to protect it while sewing, or something very small in size or capacity.",
+      "translation": "頂針；極小的東西",
+      "example": "She slipped a thimble onto her finger before hand-sewing the delicate fabric.",
+      "synonyms": [
+        "cap",
+        "covering",
+        "sheath",
+        "miniature"
+      ],
+      "id": "thimble",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "yeller",
+      "pronunciation": "/ˈjɛlər/",
+      "partOfSpeech": "noun",
+      "definition": "A person who yells or shouts loudly and frequently; someone prone to raising their voice in anger, excitement, or for emphasis.",
+      "translation": "喊叫者；大聲叫喊的人",
+      "example": "The coach was known as a yeller, always motivating the team through loud encouragement from the sidelines.",
+      "synonyms": [
+        "shouter",
+        "screamer",
+        "loudmouth",
+        "hollerer"
+      ],
+      "id": "yeller",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "devour",
+      "pronunciation": "/dɪˈvaʊər/",
+      "partOfSpeech": "verb",
+      "definition": "To read, consume, or engage with something eagerly and enthusiastically, often completely and in a short time; or literally, to eat food quickly and greedily.",
+      "translation": "貪婪地吃；狼吞虎嚥；熱情地閱讀或消費（某物）",
+      "example": "She devoured the self-help book in just two days because she found it so compelling.",
+      "synonyms": [
+        "consume",
+        "absorb",
+        "engross",
+        "gobble",
+        "inhale"
+      ],
+      "id": "devour",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "Cyclopean",
+      "pronunciation": "/ˌsaɪ.kləˈpiː.ən/",
+      "partOfSpeech": "adjective",
+      "definition": "Massive and imposing in size or scale; resembling or suggestive of the work of the mythical Cyclops, often used to describe architecture or construction of huge, crude stone blocks fitted together without mortar.",
+      "translation": "巨大的；龐大的；（建築風格）由巨型石塊堆砌的",
+      "example": "The ancient fortress was built with cyclopean walls made of enormous stones fitted together without any binding material.",
+      "synonyms": [
+        "colossal",
+        "massive",
+        "gigantic",
+        "monumental",
+        "enormous"
+      ],
+      "id": "cyclopean",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "pug",
+      "pronunciation": "/pʌɡ/",
+      "partOfSpeech": "noun",
+      "definition": "A small dog breed with a flat face, wrinkled muzzle, and compact body, originally from China. In the context of bullet journaling, it can also refer to a small decorative element or doodle used to mark or embellish journal entries.",
+      "translation": "哈巴狗；（在子彈筆記中）小裝飾圖案或塗鴉",
+      "example": "She drew a tiny pug in the margin of her bullet journal to mark her completed tasks.",
+      "synonyms": [
+        "lapdog",
+        "toy dog",
+        "decoration",
+        "embellishment",
+        "doodle"
+      ],
+      "id": "pug",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "runoff",
+      "pronunciation": "/ˈrʌnɔːf/",
+      "partOfSpeech": "noun",
+      "definition": "Water that flows over the surface of land into streams and rivers, typically after rain or snowmelt; can also refer to a final election or competition held to determine a winner when previous results were tied or inconclusive.",
+      "translation": "徑流；地表逕流（雨水或融雪流入溪流河川的水）；或決選（當先前結果打平或不夠明確時舉行的最終選舉或競賽）",
+      "example": "Heavy runoff from the storm caused the creek to overflow its banks.",
+      "synonyms": [
+        "drainage",
+        "overflow",
+        "watercourse",
+        "discharge"
+      ],
+      "id": "runoff",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "seep into",
+      "pronunciation": "/siːp ˈɪntuː/",
+      "partOfSpeech": "verb phrase",
+      "definition": "To gradually flow or penetrate through something slowly and imperceptibly; to gradually become part of something through subtle or gradual process.",
+      "translation": "逐漸滲入；慢慢地深入；逐步融入",
+      "example": "As you practice the Bullet Journal Method regularly, its organizational principles seep into your daily habits and transform how you think about time management.",
+      "synonyms": [
+        "permeate",
+        "infiltrate",
+        "gradually enter",
+        "soak into",
+        "sink in"
+      ],
+      "id": "seep-into",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "forfeit",
+      "pronunciation": "/ˈfɔːrfɪt/",
+      "partOfSpeech": "verb",
+      "definition": "To lose or be forced to give up something as a penalty or consequence of breaking a rule or failing to meet an obligation.",
+      "translation": "喪失；被迫放棄；因違規而失去（權利、資格等）",
+      "example": "If you don't submit your journal entries on time, you forfeit your chance to win the monthly prize.",
+      "synonyms": [
+        "lose",
+        "surrender",
+        "relinquish",
+        "sacrifice",
+        "give up"
+      ],
+      "id": "forfeit",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "palliative",
+      "pronunciation": "/ˈpæliətɪv/",
+      "partOfSpeech": "adjective, noun",
+      "definition": "Serving to relieve or ease the symptoms of a disease or problem without curing it; a measure or treatment that reduces pain or difficulty without addressing the underlying cause.",
+      "translation": "紓緩的；舒緩療法；對症療法（用來減輕症狀而非根治問題）",
+      "example": "While therapy can be a palliative measure for stress, regular exercise and proper sleep address the root causes of anxiety.",
+      "synonyms": [
+        "alleviative",
+        "soothing",
+        "mitigating",
+        "symptomatic"
+      ],
+      "id": "palliative",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "hail from",
+      "pronunciation": "/heɪl frɑm/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To come from or originate in a particular place, often referring to someone's birthplace, hometown, or where they originally belong.",
+      "translation": "來自；原籍於；出身於",
+      "example": "The author hails from New York, where he developed his passion for organization and productivity.",
+      "synonyms": [
+        "come from",
+        "originate from",
+        "be from",
+        "hail out of"
+      ],
+      "id": "hail-from",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "endeavor",
+      "pronunciation": "/ɪnˈdɛvər/",
+      "partOfSpeech": "noun, verb",
+      "definition": "A serious and sustained effort to accomplish something; to try hard or make a determined attempt to achieve a goal.",
+      "translation": "努力；嘗試；奮力追求 (nǔlì; chǎngshì; fènlì zhuīqiú)",
+      "example": "Through consistent daily endeavor with your bullet journal, you can transform how you organize your life and achieve your goals.",
+      "synonyms": [
+        "attempt",
+        "effort",
+        "strive",
+        "undertaking",
+        "pursue"
+      ],
+      "id": "endeavor",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "obscure",
+      "pronunciation": "/əbˈskjʊr/",
+      "partOfSpeech": "adjective",
+      "definition": "Difficult to understand, unclear, or not easily perceived; lacking clarity or brightness.",
+      "translation": "模糊的；含糊的；不清楚的；晦澀的",
+      "example": "The instructions were so obscure that nobody could figure out how to assemble the furniture.",
+      "synonyms": [
+        "unclear",
+        "vague",
+        "ambiguous",
+        "cryptic",
+        "murky"
+      ],
+      "id": "obscure",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "ministry",
+      "pronunciation": "/ˈmɪnɪstri/",
+      "partOfSpeech": "noun",
+      "definition": "A department of government headed by a minister, or the work and duties of a minister or clergy member in religious service.",
+      "translation": "部門；事工；牧職（或宗教服務）",
+      "example": "She dedicated her life to ministry, serving others through her church community.",
+      "synonyms": [
+        "department",
+        "service",
+        "clergy",
+        "vocation",
+        "calling"
+      ],
+      "id": "ministry",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "gallimaufry",
+      "pronunciation": "/ˌɡæl.ɪˈmɔː.fri/",
+      "partOfSpeech": "noun",
+      "definition": "A confused jumble or medley of things; a disorderly mixture or hodgepodge of unrelated items or ideas.",
+      "translation": "大雜燴；混亂的雜合物；五花八門的混合",
+      "example": "Without a bullet journal, many people's thoughts become a gallimaufry of scattered notes and forgotten ideas.",
+      "synonyms": [
+        "hodgepodge",
+        "mishmash",
+        "medley",
+        "jumble",
+        "potpourri"
+      ],
+      "id": "gallimaufry",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "garlands",
+      "pronunciation": "/ˈɡɑːrləndz/",
+      "partOfSpeech": "noun",
+      "definition": "Decorative chains or wreaths of flowers, leaves, or other materials, typically used as ornaments for celebrations or special occasions.",
+      "translation": "花環；花彩；裝飾用的花束或葉子串",
+      "example": "The town square was decorated with colorful garlands of lights and flowers for the holiday festival.",
+      "synonyms": [
+        "wreaths",
+        "festoons",
+        "chains",
+        "decorations"
+      ],
+      "id": "garlands",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "collage",
+      "pronunciation": "/kəˈlɑːʒ/",
+      "partOfSpeech": "noun",
+      "definition": "A piece of art made by gluing or pasting various materials such as photographs, paper, fabric, or other objects onto a surface. It can also refer to any collection of different elements combined together.",
+      "translation": "拼貼畫；拼貼藝術；混合物（由不同元素組成的集合）",
+      "example": "The artist created a beautiful collage using torn magazine pages and photographs.",
+      "synonyms": [
+        "montage",
+        "assemblage",
+        "composite",
+        "mixture"
+      ],
+      "id": "collage",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "sunlounge",
+      "pronunciation": "/ˈsʌnlaʊndʒ/",
+      "partOfSpeech": "noun",
+      "definition": "A room or area in a building, typically with large windows or glass walls, designed to allow maximum sunlight and provide a comfortable space for relaxing.",
+      "translation": "日光室；陽光房間（一個充滿自然光的舒適休閒空間）",
+      "example": "We spent the afternoon reading books in the sunlounge, enjoying the warmth of the afternoon sun.",
+      "synonyms": [
+        "sunroom",
+        "solarium",
+        "conservatory",
+        "sitting room"
+      ],
+      "id": "sunlounge",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "pare down",
+      "pronunciation": "/peər daʊn/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To reduce something gradually by removing unnecessary parts or details; to trim or diminish something to a smaller, more essential form.",
+      "translation": "逐步削減；精簡；縮小至基本元素",
+      "example": "She decided to pare down her possessions to just the items she truly needed and loved.",
+      "synonyms": [
+        "trim",
+        "reduce",
+        "minimize",
+        "cut back",
+        "streamline"
+      ],
+      "id": "pare-down",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "menacing",
+      "pronunciation": "/ˈmenəsɪŋ/",
+      "partOfSpeech": "adjective",
+      "definition": "Threatening or suggesting that something harmful or dangerous might happen; having a quality that causes worry or fear.",
+      "translation": "威脅性的；令人恐懼的；惡意的；危險的",
+      "example": "The menacing clouds gathered overhead, suggesting a severe storm was approaching.",
+      "synonyms": [
+        "threatening",
+        "ominous",
+        "sinister",
+        "intimidating",
+        "dangerous"
+      ],
+      "id": "menacing",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "corral",
+      "pronunciation": "/kəˈrɑːl/",
+      "partOfSpeech": "verb",
+      "definition": "To gather, collect, or round up items (or people) into one place, often implying organization or containment of scattered things.",
+      "translation": "圍攏；集中；匯集（把分散的事物聚集在一起）",
+      "example": "In your bullet journal, you corral all your tasks and thoughts into one organized system.",
+      "synonyms": [
+        "gather",
+        "collect",
+        "round up",
+        "consolidate",
+        "wrangle"
+      ],
+      "id": "corral",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "hog",
+      "pronunciation": "/hɔːɡɪŋ/",
+      "partOfSpeech": "verb (present participle)",
+      "definition": "To take or use more than one's fair share of something; to monopolize or selfishly dominate something that should be shared.",
+      "translation": "獨佔；壟斷；自私地佔用",
+      "example": "She was hogging the bathroom for hours, preventing others from using it.",
+      "synonyms": [
+        "monopolizing",
+        "dominating",
+        "commandeering",
+        "appropriating"
+      ],
+      "id": "hog",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "naturopaths",
+      "pronunciation": "/ˈneɪtʃərəpæθs/",
+      "partOfSpeech": "noun",
+      "definition": "Practitioners who treat illnesses and promote health using natural remedies, herbs, and alternative therapies rather than conventional medicine.",
+      "translation": "自然療法醫生；自然療法師（使用草藥、天然物質和替代療法來治療疾病的執業者）",
+      "example": "Some naturopaths recommend herbal supplements and dietary changes before considering pharmaceutical treatments.",
+      "synonyms": [
+        "holistic practitioners",
+        "alternative healers",
+        "herbalists",
+        "natural medicine practitioners"
+      ],
+      "id": "naturopaths",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "pare back",
+      "pronunciation": "/pɛr bæk/",
+      "partOfSpeech": "phrasal verb",
+      "definition": "To reduce something gradually or systematically by removing unnecessary parts; to simplify or decrease something to a smaller, more essential form.",
+      "translation": "逐步削減；精簡；縮減；去除多餘部分",
+      "example": "In organizing your life, you may need to pare back your commitments to focus on what truly matters.",
+      "synonyms": [
+        "trim down",
+        "reduce",
+        "streamline",
+        "cut back",
+        "simplify"
+      ],
+      "id": "pare-back",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "teakwood",
+      "pronunciation": "/ˈtiːkwʊd/",
+      "partOfSpeech": "noun",
+      "definition": "A hard, durable wood from the teak tree, prized for its golden-brown color and resistance to rot and water damage, commonly used in furniture and shipbuilding.",
+      "translation": "柚木；用柚木製成的木材",
+      "example": "The luxury yacht was built with teakwood decking that has remained beautiful for decades.",
+      "synonyms": [
+        "teak",
+        "teak timber",
+        "teak lumber"
+      ],
+      "id": "teakwood",
+      "srs": {
+        "due": "2026-09-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-10",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
