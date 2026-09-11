@@ -6438,6 +6438,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "word": "contortion",
+      "pronunciation": "/kənˈtɔːrʃən/",
+      "partOfSpeech": "noun",
+      "definition": "The act of twisting or bending something out of its normal shape; a twisted or distorted form or position.",
+      "translation": "扭曲；變形；扭動身體的雜技動作",
+      "example": "The acrobat performed an impressive contortion, bending her body into an impossible pretzel-like shape.",
+      "synonyms": [
+        "twist",
+        "distortion",
+        "deformation",
+        "flexing",
+        "bending"
+      ],
+      "id": "contortion",
+      "srs": {
+        "due": "2026-09-11",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-11",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
