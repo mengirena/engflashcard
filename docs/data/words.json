@@ -6466,6 +6466,143 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "word": "steeple",
+      "pronunciation": "/ˈstiːpəl/",
+      "partOfSpeech": "noun",
+      "definition": "A tall, pointed structure that rises from the roof of a church or other building, typically topped with a spire. The term often refers to the entire tower including the church bell tower.",
+      "translation": "尖塔；教堂尖頂；鐘樓",
+      "example": "The old town's steeples rose majestically above the surrounding buildings, making them visible from miles away.",
+      "synonyms": [
+        "spire",
+        "tower",
+        "bell tower",
+        "turret"
+      ],
+      "id": "steeple",
+      "srs": {
+        "due": "2026-09-13",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-13",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "intrepid",
+      "pronunciation": "/ɪnˈtrɛpɪd/",
+      "partOfSpeech": "adjective",
+      "definition": "Fearless and adventurous; showing courage in the face of danger or difficulty. It describes someone who is bold and willing to undertake risky or challenging endeavors.",
+      "translation": "無畏的；勇敢的；大膽的",
+      "example": "The intrepid explorer ventured into the uncharted jungle despite the numerous hazards that lay ahead.",
+      "synonyms": [
+        "fearless",
+        "brave",
+        "courageous",
+        "bold",
+        "adventurous"
+      ],
+      "id": "intrepid",
+      "srs": {
+        "due": "2026-09-13",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-13",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "conform",
+      "pronunciation": "/kənˈfɔːrm/",
+      "partOfSpeech": "verb",
+      "definition": "To comply with rules, standards, or expectations; to adapt oneself to established norms or requirements.",
+      "translation": "符合；遵守；使一致",
+      "example": "The bullet journal system helps you conform your daily habits to your personal values and goals.",
+      "synonyms": [
+        "comply",
+        "adhere",
+        "follow",
+        "abide by",
+        "adapt"
+      ],
+      "id": "conform",
+      "srs": {
+        "due": "2026-09-13",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-13",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "ungainly",
+      "pronunciation": "/ʌnˈɡeɪnli/",
+      "partOfSpeech": "adjective",
+      "definition": "Lacking grace or elegance in movement or appearance; clumsy or awkward-looking.",
+      "translation": "笨拙的；不靈活的；姿態不雅的",
+      "example": "The tall, ungainly teenager eventually grew into his lanky frame and became quite athletic.",
+      "synonyms": [
+        "clumsy",
+        "awkward",
+        "ungraceful",
+        "uncoordinated"
+      ],
+      "id": "ungainly",
+      "srs": {
+        "due": "2026-09-13",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-13",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "rote",
+      "pronunciation": "/roʊt/",
+      "partOfSpeech": "noun",
+      "definition": "Mechanical or habitual repetition of something without full understanding or thought; learning or doing something by memory alone rather than by understanding its meaning.",
+      "translation": "死記硬背；機械式重複；憑記憶學習",
+      "example": "Instead of learning by rote memorization, the teacher encouraged students to understand the concepts deeply.",
+      "synonyms": [
+        "memorization",
+        "repetition",
+        "mechanical learning",
+        "unthinking repetition"
+      ],
+      "id": "rote",
+      "srs": {
+        "due": "2026-09-13",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-13",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
