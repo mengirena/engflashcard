@@ -6603,6 +6603,89 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "word": "celiac",
+      "pronunciation": "/ˈsiːliæk/",
+      "partOfSpeech": "adjective",
+      "definition": "Relating to the abdomen or abdominal cavity, particularly used in medical contexts to describe the coeliac artery and related structures. In modern usage, it commonly refers to celiac disease, an autoimmune digestive disorder triggered by gluten consumption.",
+      "translation": "腹腔的；腹部的；（特別指）乳糜瀉（一種麩質不耐症）",
+      "example": "People with celiac disease must avoid foods containing gluten to prevent intestinal damage.",
+      "synonyms": [
+        "abdominal",
+        "intestinal",
+        "gastric",
+        "visceral"
+      ],
+      "id": "celiac",
+      "srs": {
+        "due": "2026-09-15",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-15",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "meets the eye",
+      "pronunciation": "/miːts ðə aɪ/",
+      "partOfSpeech": "phrase",
+      "definition": "Is visible or apparent at first glance; is what one initially perceives or observes. Often used in the phrase 'more than meets the eye' to suggest that something is more complex or significant than it first appears.",
+      "translation": "映入眼簾；乍看之下所見到的；表面上看起來的樣子",
+      "example": "At first glance, the bullet journal seems like just a simple notebook, but there's more to it than meets the eye.",
+      "synonyms": [
+        "appears",
+        "seems",
+        "looks",
+        "is visible",
+        "is apparent"
+      ],
+      "id": "meets-the-eye",
+      "srs": {
+        "due": "2026-09-15",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-15",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "superfluous",
+      "pronunciation": "/suːˈpɜːrfluəs/",
+      "partOfSpeech": "adjective",
+      "definition": "More than needed or wanted; unnecessary or excessive. In the context of organizing and journaling, it refers to extra items, pages, or elements that don't serve a practical purpose.",
+      "translation": "多餘的；不必要的；過多的",
+      "example": "When designing your bullet journal, avoid superfluous decorations that distract from tracking your actual tasks and goals.",
+      "synonyms": [
+        "unnecessary",
+        "redundant",
+        "excess",
+        "extraneous",
+        "unwanted"
+      ],
+      "id": "superfluous",
+      "srs": {
+        "due": "2026-09-15",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-15",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
