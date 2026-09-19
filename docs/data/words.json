@@ -6686,6 +6686,87 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "word": "bleacher",
+      "pronunciation": "/ˈblɛtʃər/",
+      "partOfSpeech": "noun",
+      "definition": "A long bench with or without a backrest, typically made of wood or metal, used for seating spectators at sports events or outdoor gatherings.",
+      "translation": "露天看台；(通常無靠背的)長椅座位",
+      "example": "We bought tickets in the bleachers to watch the baseball game from the outfield.",
+      "synonyms": [
+        "grandstand",
+        "stands",
+        "bench",
+        "seating"
+      ],
+      "id": "bleacher",
+      "srs": {
+        "due": "2026-09-19",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-19",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "brevity",
+      "pronunciation": "/ˈbrevɪti/",
+      "partOfSpeech": "noun",
+      "definition": "The quality of being brief or short in duration or length; conciseness in expression.",
+      "translation": "簡潔；簡短；言簡意賅",
+      "example": "The author appreciated the brevity of the bullet journal method, which allowed her to capture information quickly without unnecessary elaboration.",
+      "synonyms": [
+        "conciseness",
+        "shortness",
+        "terseness",
+        "succinctness"
+      ],
+      "id": "brevity",
+      "srs": {
+        "due": "2026-09-19",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-19",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "contusions",
+      "pronunciation": "/kənˈtuːʒənz/",
+      "partOfSpeech": "noun",
+      "definition": "Plural of contusion; bruises on the skin or soft tissues caused by impact or trauma without breaking the skin.",
+      "translation": "瘀傷；挫傷（皮膚或軟組織因撞擊或創傷而產生的傷害，但皮膚未破裂）",
+      "example": "After the accident, the patient had several contusions on his arms and legs.",
+      "synonyms": [
+        "bruises",
+        "injuries",
+        "trauma",
+        "wounds"
+      ],
+      "id": "contusions",
+      "srs": {
+        "due": "2026-09-19",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-19",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
