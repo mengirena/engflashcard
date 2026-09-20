@@ -7086,6 +7086,252 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "word": "soleus",
+      "pronunciation": "/ˈsoʊliəs/",
+      "partOfSpeech": "noun",
+      "definition": "A flat, broad muscle in the calf of the leg that lies beneath the gastrocnemius muscle and helps to plantar flex the foot (point the toes downward).",
+      "translation": "比目魚肌（小腿後側的一條扁平肌肉，位於腓腸肌下方，協助足部蹠屈）",
+      "example": "Strengthening your soleus muscle through calf raises can improve your running performance and ankle stability.",
+      "synonyms": [
+        "calf muscle",
+        "plantar flexor",
+        "deep calf muscle"
+      ],
+      "id": "soleus",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "fortifies",
+      "pronunciation": "/ˈfɔːrtɪfaɪz/",
+      "partOfSpeech": "verb",
+      "definition": "Strengthens or reinforces something, either physically by building defensive structures, or mentally/emotionally by providing support and encouragement. Can also mean to add nutrients or ingredients to food to increase its nutritional value.",
+      "translation": "加強；鞏固；堡壘化；增強（食物的營養成分）",
+      "example": "Regular exercise fortifies both the body and the mind against stress.",
+      "synonyms": [
+        "strengthens",
+        "reinforces",
+        "hardens",
+        "bolsters",
+        "enriches"
+      ],
+      "id": "fortifies",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "regime",
+      "pronunciation": "/rəˈʒiːm/",
+      "partOfSpeech": "noun",
+      "definition": "A system of government or rule, especially an authoritarian one; alternatively, a set of rules or procedures for managing something.",
+      "translation": "政權；統治制度；或一套管理規則或程序",
+      "example": "The authoritarian regime restricted freedom of speech and press.",
+      "synonyms": [
+        "government",
+        "rule",
+        "administration",
+        "system"
+      ],
+      "id": "regime",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "glycogen",
+      "pronunciation": "/ˈɡlaɪkədʒən/",
+      "partOfSpeech": "noun",
+      "definition": "A polysaccharide stored in the liver and muscles that serves as a readily available source of glucose for energy when needed by the body.",
+      "translation": "糖原；肝糖原（一種多醣體，儲存在肝臟和肌肉中，可迅速分解提供能量）",
+      "example": "During intense exercise, your muscles break down glycogen to fuel their contractions.",
+      "synonyms": [
+        "animal starch",
+        "glucose polymer",
+        "energy reserve"
+      ],
+      "id": "glycogen",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "wherewithal",
+      "pronunciation": "/ˈwɛrwɪðˌɔːl/",
+      "partOfSpeech": "noun",
+      "definition": "The necessary means, resources, or ability to accomplish something; the financial or practical capability to do what is needed.",
+      "translation": "必要的手段、資源或能力；完成某事所需的財力或實際能力",
+      "example": "She had the wherewithal to organize her life by using the bullet journal system to track habits and plan her future.",
+      "synonyms": [
+        "means",
+        "resources",
+        "ability",
+        "capability"
+      ],
+      "id": "wherewithal",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "bureaucracy",
+      "pronunciation": "/bjʊˈrɑːkrəsi/",
+      "partOfSpeech": "noun",
+      "definition": "A system of government or organization with many hierarchical levels and complex administrative rules and procedures; often associated with excessive red tape and inefficiency.",
+      "translation": "官僚體制；官僚主義；繁複的行政程序",
+      "example": "The company's bureaucracy made it difficult to get approval for even simple decisions.",
+      "synonyms": [
+        "red tape",
+        "administration",
+        "hierarchy",
+        "bureaucratic system",
+        "officialdom"
+      ],
+      "id": "bureaucracy",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "taken with",
+      "pronunciation": "/ˈteɪkən wɪð/",
+      "partOfSpeech": "verb phrase",
+      "definition": "To find someone or something attractive, appealing, or interesting; to like or be impressed by someone or something.",
+      "translation": "喜歡上；被吸引；對某人/某事印象深刻",
+      "example": "She was quite taken with the new bullet journal system and decided to adopt it immediately.",
+      "synonyms": [
+        "charmed by",
+        "impressed by",
+        "attracted to",
+        "delighted with",
+        "drawn to"
+      ],
+      "id": "taken-with",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "tormented",
+      "pronunciation": "/ˈtɔːrmentɪd/",
+      "partOfSpeech": "adjective",
+      "definition": "Suffering from persistent anxiety, guilt, or emotional distress; troubled or anguished in mind or spirit.",
+      "translation": "飽受折磨的；備受困擾的；痛苦的",
+      "example": "She felt tormented by regret over the decision she had made years ago.",
+      "synonyms": [
+        "troubled",
+        "anguished",
+        "distressed",
+        "plagued",
+        "vexed"
+      ],
+      "id": "tormented",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "leaf through",
+      "pronunciation": "/liːf θruː/",
+      "partOfSpeech": "verb phrase",
+      "definition": "To turn pages of a book, magazine, or document quickly and casually without reading everything carefully; to skim through something.",
+      "translation": "快速翻閱；瀏覽（書籍、雜誌等）",
+      "example": "I leafed through the magazine while waiting at the doctor's office.",
+      "synonyms": [
+        "flip through",
+        "skim",
+        "browse",
+        "scan",
+        "thumb through"
+      ],
+      "id": "leaf-through",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
