@@ -6767,6 +6767,325 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "word": "axial",
+      "pronunciation": "/ˈæk.ʃəl/",
+      "partOfSpeech": "adjective",
+      "definition": "Relating to, forming, or around an axis; situated on, along, or around a central line or shaft.",
+      "translation": "軸向的；關於軸的；沿著軸線的",
+      "example": "The axial rotation of the Earth causes day and night cycles.",
+      "synonyms": [
+        "central",
+        "longitudinal",
+        "along the axis",
+        "linear"
+      ],
+      "id": "axial",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "constricts",
+      "pronunciation": "/kənˈstrɪkts/",
+      "partOfSpeech": "verb",
+      "definition": "Compresses or squeezes something tightly, or becomes narrower; can also mean to limit or restrict something.",
+      "translation": "收縮；壓縮；束縛；限制",
+      "example": "The python constricts its prey by wrapping around it and squeezing tightly.",
+      "synonyms": [
+        "tightens",
+        "compresses",
+        "squeezes",
+        "restricts",
+        "narrows"
+      ],
+      "id": "constricts",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "capsule",
+      "pronunciation": "/ˈkæp.səl/",
+      "partOfSpeech": "noun",
+      "definition": "A small container, typically made of gelatin or plastic, that holds a dose of medicine or supplement; alternatively, a pressurized compartment in a spacecraft designed to carry astronauts or equipment.",
+      "translation": "膠囊；太空艙",
+      "example": "She swallowed the vitamin capsule with a glass of water.",
+      "synonyms": [
+        "pill",
+        "tablet",
+        "container",
+        "pod",
+        "chamber"
+      ],
+      "id": "capsule",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "hematoma",
+      "pronunciation": "/ˌhɛməˈtoʊmə/",
+      "partOfSpeech": "noun",
+      "definition": "A collection of blood that has leaked out of blood vessels and accumulated in body tissues, typically resulting from an injury or trauma.",
+      "translation": "血腫；瘀血腫塊（由於受傷而積聚在組織中的血液）",
+      "example": "After the car accident, the patient developed a large hematoma on his leg.",
+      "synonyms": [
+        "bruise",
+        "contusion",
+        "swelling",
+        "ecchymosis"
+      ],
+      "id": "hematoma",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "liniment",
+      "pronunciation": "/ˈlɪnɪmənt/",
+      "partOfSpeech": "noun",
+      "definition": "A medicinal liquid preparation rubbed on the skin to relieve pain, soreness, or stiffness in muscles and joints.",
+      "translation": "搽劑；按摩油；膏狀藥物（塗抹於皮膚以緩解肌肉或關節疼痛）",
+      "example": "After the workout, he applied a warming liniment to his sore shoulders.",
+      "synonyms": [
+        "embrocation",
+        "salve",
+        "balm",
+        "rub"
+      ],
+      "id": "liniment",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "suboccipitals",
+      "pronunciation": "/ˌsʌbɒkˈsɪpɪtəlz/",
+      "partOfSpeech": "noun",
+      "definition": "A group of deep neck muscles located beneath the occipital bone at the base of the skull, responsible for fine movements of the head and neck. These muscles are important for proprioception and stabilizing the upper cervical spine.",
+      "translation": "枕下肌群；位於頭骨枕部下方的深層頸部肌肉，負責頭頸部的精細運動",
+      "example": "Physical therapists often focus on releasing tension in the suboccipitals to relieve headaches and neck pain.",
+      "synonyms": [
+        "suboccipital muscles",
+        "deep cervical flexors",
+        "upper neck stabilizers",
+        "occipital muscles"
+      ],
+      "id": "suboccipitals",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "levator",
+      "pronunciation": "/ləˈveɪtər/",
+      "partOfSpeech": "noun",
+      "definition": "A muscle that raises or lifts a body part; in anatomy, any muscle whose primary action is to elevate a structure.",
+      "translation": "提肌；舉肌（解剖學術語，指能夠抬起或提起身體某一部位的肌肉）",
+      "example": "The levator palpebrae superioris muscle is responsible for lifting the upper eyelid.",
+      "synonyms": [
+        "lifting muscle",
+        "elevator muscle",
+        "raiser"
+      ],
+      "id": "levator",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "scapulae",
+      "pronunciation": "/ˈskæpjəliː/",
+      "partOfSpeech": "noun",
+      "definition": "Plural of scapula; the large, flat triangular bones located on each side of the upper back, commonly known as shoulder blades.",
+      "translation": "肩胛骨（肩胛骨的複數形式）",
+      "example": "The doctor examined the patient's scapulae to check for any signs of injury or misalignment.",
+      "synonyms": [
+        "shoulder blades",
+        "scapulas"
+      ],
+      "id": "scapulae",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "pectoralis",
+      "pronunciation": "/ˌpɛktərˈeɪlɪs/",
+      "partOfSpeech": "noun",
+      "definition": "Either of two large muscles of the chest that move the arm and shoulder, consisting of the pectoralis major and pectoralis minor. This is the anatomical Latin name commonly used in medical and fitness contexts.",
+      "translation": "胸肌（特別是指胸大肌或胸小肌）；胸部肌肉",
+      "example": "The pectoralis major is the larger, more superficial chest muscle that bodybuilders often emphasize in their training.",
+      "synonyms": [
+        "chest muscle",
+        "pectoral",
+        "pec"
+      ],
+      "id": "pectoralis",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "anaerobic",
+      "pronunciation": "/ˌænəˈroʊbɪk/",
+      "partOfSpeech": "adjective",
+      "definition": "Relating to or requiring an environment without oxygen; capable of functioning or occurring in the absence of air or oxygen.",
+      "translation": "厭氧的；無氧的",
+      "example": "Anaerobic exercise, such as sprinting, relies on energy systems that don't require oxygen.",
+      "synonyms": [
+        "oxygen-free",
+        "anoxic",
+        "airless"
+      ],
+      "id": "anaerobic",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "glycolysis",
+      "pronunciation": "/ɡlaɪˈkɒlɪsɪs/",
+      "partOfSpeech": "noun",
+      "definition": "The metabolic pathway that converts glucose into pyruvate, releasing energy in the form of ATP and NADH; the first stage of cellular respiration that occurs in the cytoplasm of cells.",
+      "translation": "糖酵解；葡萄糖分解途徑（細胞呼吸的第一個階段，將葡萄糖分解成丙酮酸並釋放能量）",
+      "example": "During intense exercise, muscles rely heavily on glycolysis to quickly produce ATP for energy.",
+      "synonyms": [
+        "glucose breakdown",
+        "sugar metabolism",
+        "fermentation pathway"
+      ],
+      "id": "glycolysis",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "venous",
+      "pronunciation": "/ˈviːnəs/",
+      "partOfSpeech": "adjective",
+      "definition": "Relating to, contained in, or carried by veins, especially the blood vessels that return blood to the heart.",
+      "translation": "靜脈的；與靜脈有關的",
+      "example": "The doctor checked the patient's venous blood pressure to assess their cardiovascular health.",
+      "synonyms": [
+        "vascular",
+        "circulatory",
+        "blood-related"
+      ],
+      "id": "venous",
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
