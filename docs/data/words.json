@@ -7332,6 +7332,34 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "id": "visceral-fat",
+      "word": "visceral fat",
+      "pronunciation": "/ˈvɪsərəl fæt/",
+      "partOfSpeech": "noun phrase",
+      "definition": "Fat that accumulates around internal organs in the abdominal cavity, deep within the body rather than under the skin. It is metabolically active and associated with increased health risks including inflammation and metabolic disease.",
+      "translation": "內臟脂肪；腹腔脂肪",
+      "example": "High levels of visceral fat have been linked to type 2 diabetes and cardiovascular disease, even in people with a normal BMI.",
+      "usage": "Used primarily in medical, health, and fitness contexts. Often contrasted with 'subcutaneous fat' (fat under the skin). Register: neutral to formal. Common collocations: 'visceral fat accumulation,' 'reduce/decrease visceral fat,' 'visceral fat levels,' 'visceral obesity.' Not typically used in casual conversation.",
+      "synonyms": [
+        "abdominal fat",
+        "intra-abdominal fat",
+        "belly fat",
+        "organ fat"
+      ],
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
