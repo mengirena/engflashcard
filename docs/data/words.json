@@ -7360,6 +7360,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "osteopenia",
+      "word": "osteopenia",
+      "pronunciation": "/ˌɒstiəˈpiːniə/",
+      "partOfSpeech": "noun",
+      "definition": "A medical condition characterized by lower than normal bone mineral density, indicating weakened bones but not yet at the level of osteoporosis. It is considered a precursor to osteoporosis.",
+      "translation": "骨量減少症；低骨密度症",
+      "example": "The doctor diagnosed her with osteopenia and recommended increased calcium intake and weight-bearing exercise to prevent progression to osteoporosis.",
+      "usage": "Used in medical and healthcare contexts, primarily by doctors, radiologists, and patients discussing bone health. It is a technical/formal clinical term. Often appears in phrases like 'diagnosed with osteopenia' or 'osteopenia screening.' Not used in casual conversation.",
+      "synonyms": [
+        "low bone density",
+        "decreased bone mineral density",
+        "bone loss",
+        "pre-osteoporosis"
+      ],
+      "added": "2026-09-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
