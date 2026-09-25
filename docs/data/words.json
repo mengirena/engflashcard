@@ -7416,6 +7416,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "scapular",
+      "word": "scapular",
+      "pronunciation": "/ˈskæpjələr/",
+      "partOfSpeech": "adjective, noun",
+      "definition": "Relating to the scapula (shoulder blade bone). As a noun, it refers to a religious garment consisting of two pieces of cloth connected by straps, worn over the shoulders by some Catholic devotees.",
+      "translation": "肩胛骨的；肩甲骨的；（名詞）聖衣；聖布",
+      "example": "The scapular region of the back includes the muscles that stabilize the shoulder blade.",
+      "usage": "Primarily used in medical/anatomical contexts (adjective: 'scapular pain,' 'scapular muscles'), or in religious contexts (noun: wearing a scapular as devotional practice). Formal/technical register in anatomy; neutral to formal in religious contexts. Avoid in casual conversation unless discussing specific medical or religious topics.",
+      "synonyms": [
+        "shoulder-blade-related",
+        "shoulder",
+        "vestment",
+        "religious garment"
+      ],
+      "added": "2026-09-25",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-25",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
