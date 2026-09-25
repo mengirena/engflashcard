@@ -7388,6 +7388,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "lateral",
+      "word": "lateral",
+      "pronunciation": "/ˈlætərəl/",
+      "partOfSpeech": "adjective",
+      "definition": "Situated at, directed toward, or coming from the side of something; relating to movement or direction from left to right or vice versa.",
+      "translation": "側面的；橫向的；側邊的",
+      "example": "The car was hit by a lateral collision on the driver's side.",
+      "usage": "Commonly used in anatomy (lateral muscle), engineering, medicine, and spatial descriptions. Formal to neutral register. Often pairs with 'movement,' 'thinking,' 'direction,' or body parts. Avoid in casual speech unless discussing technical subjects.",
+      "synonyms": [
+        "side",
+        "sideways",
+        "oblique",
+        "transverse"
+      ],
+      "added": "2026-09-25",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-25",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
