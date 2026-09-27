@@ -7526,6 +7526,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "adorn",
+      "word": "adorn",
+      "pronunciation": "/əˈdɔːrn/",
+      "partOfSpeech": "verb",
+      "definition": "To decorate or embellish something with ornaments or attractive items to make it more beautiful or impressive.",
+      "translation": "裝飾；點綴；使增色",
+      "example": "Fresh flowers adorned the wedding altar, creating a beautiful backdrop for the ceremony.",
+      "usage": "Formal to neutral register. Commonly paired with nouns like 'walls,' 'rooms,' 'altars,' 'tables,' 'hair,' or 'clothes.' Often used in descriptive or poetic contexts. Less common in casual speech; prefer 'decorate' or 'dress up' in everyday conversation.",
+      "synonyms": [
+        "decorate",
+        "embellish",
+        "ornament",
+        "beautify"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
