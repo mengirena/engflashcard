@@ -7554,6 +7554,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "whimsy",
+      "word": "whimsy",
+      "pronunciation": "/ˈwɪmzi/",
+      "partOfSpeech": "noun",
+      "definition": "Playfully quaint or fanciful behavior or humor; a sudden desire or change of mind that seems based on impulse rather than reason.",
+      "translation": "異想天開；突發奇想；古怪趣味；怪誕幽默",
+      "example": "The artist's garden was full of whimsy, with whimsical sculptures and colorful paintings hidden among the flowers.",
+      "usage": "Often paired with adjectives like 'full of,' 'touch of,' or used as 'whimsical' (adjective form). Neutral to informal register. Common in creative, artistic, or storytelling contexts. Avoid in formal business or academic writing unless specifically discussing art or literature. Often has a lighthearted, nostalgic, or slightly magical tone.",
+      "synonyms": [
+        "fancy",
+        "caprice",
+        "playfulness",
+        "quaintness",
+        "whimsicality"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
