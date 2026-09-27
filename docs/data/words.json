@@ -7697,6 +7697,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "dune",
+      "word": "dune",
+      "pronunciation": "/djuːn/",
+      "partOfSpeech": "noun",
+      "definition": "A hill or ridge of sand formed by wind, typically found in deserts or along coastlines.",
+      "translation": "沙丘；沙漠中被風吹起的沙堆",
+      "example": "The children ran down the sandy dunes toward the beach.",
+      "usage": "Common in geographical and environmental contexts. Plural form 'dunes' is frequently used since they typically occur in groups. Register: neutral to formal. Pairs well with: sand dunes, coastal dunes, desert dunes, wind-swept dunes. Not typically used metaphorically in modern English.",
+      "synonyms": [
+        "sand hill",
+        "sandbank",
+        "ridge",
+        "mound"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
