@@ -7444,6 +7444,60 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "word": "cortisol",
+      "pronunciation": "/ˈkɔːrtɪsɔːl/",
+      "partOfSpeech": "noun",
+      "definition": "A steroid hormone produced by the adrenal glands that helps regulate stress response, blood sugar, and metabolism in the body.",
+      "translation": "皮質醇（一種由腎上腺分泌的類固醇激素，幫助調節壓力反應、血糖和新陳代謝）",
+      "example": "When you experience prolonged stress, your body releases cortisol, which can affect your sleep and immune system.",
+      "synonyms": [
+        "hydrocortisone",
+        "glucocorticoid",
+        "stress hormone"
+      ],
+      "id": "cortisol",
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
+    },
+    {
+      "word": "deluge",
+      "pronunciation": "/ˈdɛljuːdʒ/",
+      "partOfSpeech": "noun",
+      "definition": "A large amount of something that arrives or happens at the same time, often overwhelming in quantity; alternatively, a great flood of water.",
+      "translation": "大量湧入；洪水般的東西；泛濫",
+      "example": "After launching the product, the company received a deluge of customer inquiries that their small team couldn't handle.",
+      "synonyms": [
+        "flood",
+        "torrent",
+        "barrage",
+        "avalanche",
+        "inundation"
+      ],
+      "id": "deluge",
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      },
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "ios"
+      }
     }
   ]
 }
