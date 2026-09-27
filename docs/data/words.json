@@ -8006,6 +8006,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "sassy",
+      "word": "sassy",
+      "pronunciation": "/ˈsæsi/",
+      "partOfSpeech": "adjective",
+      "definition": "Lively, bold, and full of attitude; showing a playful or cheeky confidence that borders on rudeness or disrespect.",
+      "translation": "活潑大膽的；態度傲慢的；充滿俏皮自信的",
+      "example": "She gave the teacher a sassy reply when asked why her homework was late.",
+      "usage": "Casual and informal register. Often used in friendly, lighthearted contexts to describe someone's spirited or impudent behavior or appearance. Common collocations: 'sassy attitude,' 'sassy comment,' 'sassy outfit.' Can be affectionate or mildly critical depending on tone. Avoid in formal or professional settings.",
+      "synonyms": [
+        "cheeky",
+        "mouthy",
+        "spunky",
+        "impudent"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
