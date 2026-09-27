@@ -8206,6 +8206,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "busboy",
+      "word": "busboy",
+      "pronunciation": "/ˈbʌzbɔɪ/",
+      "partOfSpeech": "noun",
+      "definition": "A restaurant employee, typically young, whose job is to clear and clean tables, refill water glasses, and assist servers with food service.",
+      "translation": "餐廳跑堂生；清臺小弟（在餐廳協助服務生清理和整理餐桌的員工）",
+      "example": "The busboy quickly cleared our plates after we finished our main course.",
+      "usage": "Neutral/casual register; commonly used in hospitality and restaurant contexts. Typical collocations: 'a busboy clears tables,' 'works as a busboy,' 'the busboy refilled our water.' Not used in formal culinary or fine-dining terminology, where 'table assistant' or 'commis' might be preferred. Gender-neutral alternative: 'busser' is increasingly used.",
+      "synonyms": [
+        "busser",
+        "table clearer",
+        "dining room assistant",
+        "runner"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
