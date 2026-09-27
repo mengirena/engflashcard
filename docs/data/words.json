@@ -7611,6 +7611,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "gateway",
+      "word": "gateway",
+      "pronunciation": "/ˈɡeɪtweɪ/",
+      "partOfSpeech": "noun",
+      "definition": "An entrance or passage that can be closed by a gate; also, a means of access or entry to something larger or more important.",
+      "translation": "大門；通道；進入的途徑；入口",
+      "example": "Silicon Valley is often called the gateway to the technology industry.",
+      "usage": "Common in both literal contexts (the gateway to the city) and figurative ones (gateway drug, gateway to success). Neutral to formal register. Often used with 'to' or 'into.' The metaphorical sense is very productive in business, education, and social discourse.",
+      "synonyms": [
+        "entrance",
+        "passage",
+        "portal",
+        "entry point",
+        "access"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
