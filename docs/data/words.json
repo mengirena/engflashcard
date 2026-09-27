@@ -8320,6 +8320,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "gamescape",
+      "word": "gamescape",
+      "pronunciation": "/ˈɡeɪmˌskeɪp/",
+      "partOfSpeech": "noun",
+      "definition": "The visual environment or landscape within a video game; the designed terrain, setting, or world that players navigate and interact with during gameplay.",
+      "translation": "遊戲場景；遊戲世界的視覺環境或地形",
+      "example": "The gamescape in that open-world RPG is incredibly detailed, with diverse biomes ranging from forests to deserts.",
+      "usage": "Primarily used in gaming discourse, criticism, and design contexts. Combines 'game' + 'landscape' or '-scape' (suffix). Neutral to technical register. Common in video game reviews, developer interviews, and academic discussions of game design. Not typically used outside gaming circles.",
+      "synonyms": [
+        "game world",
+        "game environment",
+        "in-game landscape",
+        "game setting"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
