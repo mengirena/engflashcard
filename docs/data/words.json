@@ -7583,6 +7583,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "asphalt",
+      "word": "asphalt",
+      "pronunciation": "/ˈæsfɔːlt/",
+      "partOfSpeech": "noun",
+      "definition": "A dark, sticky substance made from crude oil that is mixed with gravel or crushed stone to create a durable surface for roads and pavements.",
+      "translation": "瀝青；柏油；柏油路面",
+      "example": "The workers repaired the cracked asphalt on the highway last week.",
+      "usage": "Commonly used in construction and infrastructure contexts. Pairs with words like 'road', 'pavement', 'surface', 'driveway', and 'crack'. Neutral to formal register. Used literally to describe the material; less commonly used metaphorically.",
+      "synonyms": [
+        "bitumen",
+        "tarmac",
+        "blacktop",
+        "pavement"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
