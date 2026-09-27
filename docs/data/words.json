@@ -7893,6 +7893,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "hunk",
+      "word": "hunk",
+      "pronunciation": "/hʌŋk/",
+      "partOfSpeech": "noun",
+      "definition": "A large piece or chunk of something solid, or (informal) an attractive, muscular man.",
+      "translation": "大塊；（非正式）肌肉發達的帥哥；魅力十足的男人",
+      "example": "She bit off a hunk of bread and dipped it in the soup.",
+      "usage": "As a physical object: typically used with 'of' (a hunk of cheese, meat, etc.). As slang for an attractive man: informal/casual register, often used humorously or affectionately. Not appropriate in formal contexts.",
+      "synonyms": [
+        "chunk",
+        "piece",
+        "lump",
+        "slab"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
