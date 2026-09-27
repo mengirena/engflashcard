@@ -7725,6 +7725,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "gridded",
+      "word": "gridded",
+      "pronunciation": "/ˈɡrɪdɪd/",
+      "partOfSpeech": "adjective",
+      "definition": "Marked with or arranged in a grid pattern; divided into squares or rectangles by intersecting lines.",
+      "translation": "網格狀的；畫有格線的；分格的",
+      "example": "The architect presented a gridded map showing how the city would be divided into distinct zones.",
+      "usage": "Common in technical, scientific, and planning contexts (maps, data visualization, urban planning). Often used to describe physical objects with visible grid patterns or data that has been organized into a grid structure. Neutral to formal register. Not typically used in casual conversation.",
+      "synonyms": [
+        "grid-marked",
+        "squared",
+        "cross-hatched",
+        "partitioned"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
