@@ -7809,6 +7809,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "gazebo",
+      "word": "gazebo",
+      "pronunciation": "/ɡəˈziːboʊ/",
+      "partOfSpeech": "noun",
+      "definition": "A freestanding, open-sided roofed structure, typically found in gardens or parks, designed to provide shade and a pleasant outdoor gathering space.",
+      "translation": "涼亭；花園涼棚",
+      "example": "We sat in the gazebo during the wedding reception to escape the afternoon sun.",
+      "usage": "Neutral/formal register. Commonly paired with descriptors like 'wooden gazebo,' 'garden gazebo,' or 'Victorian gazebo.' Often used in contexts of gardens, parks, outdoor events, and real estate descriptions. Not typically used in casual everyday speech unless discussing specific outdoor structures.",
+      "synonyms": [
+        "pavilion",
+        "pergola",
+        "arbour",
+        "summer house"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
