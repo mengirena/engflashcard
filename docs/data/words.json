@@ -7753,6 +7753,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "crested",
+      "word": "crested",
+      "pronunciation": "/ˈkrestɪd/",
+      "partOfSpeech": "adjective",
+      "definition": "Having a crest or distinctive tuft of feathers, hair, or other material on the head; also used to describe something that has reached its highest point or peak.",
+      "translation": "有冠毛的；有羽冠的；達到頂峰的",
+      "example": "The crested cockatoo spread its white feathers impressively.",
+      "usage": "Common in ornithology (bird descriptions) and descriptive writing. Can also describe waves (crested waves = waves with foam on top) or achievements (the crested moment of success). Register: neutral to formal. Not typically used in casual speech for non-physical meanings.",
+      "synonyms": [
+        "topped",
+        "peaked",
+        "tufted",
+        "crowned"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
