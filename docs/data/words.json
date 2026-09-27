@@ -7865,6 +7865,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "arduous",
+      "word": "arduous",
+      "pronunciation": "/ˈɑːr.dʒu.əs/",
+      "partOfSpeech": "adjective",
+      "definition": "Requiring great effort, energy, or determination to accomplish; difficult and tiring.",
+      "translation": "艱苦的；費力的；困難的",
+      "example": "Climbing Mount Everest is an arduous journey that demands months of physical training.",
+      "usage": "Formal to neutral register. Commonly paired with nouns like 'task,' 'journey,' 'process,' 'undertaking.' Best used when describing something that requires sustained effort over time, not just a single moment of difficulty. Avoid in casual speech; sounds literary or formal.",
+      "synonyms": [
+        "strenuous",
+        "laborious",
+        "grueling",
+        "taxing"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
