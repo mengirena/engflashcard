@@ -8062,6 +8062,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "fervent",
+      "word": "fervent",
+      "pronunciation": "/ˈfɜːrvənt/",
+      "partOfSpeech": "adjective",
+      "definition": "Displaying intense, passionate, and heartfelt emotion or enthusiasm; showing or feeling great warmth and earnestness.",
+      "translation": "熾熱的；熱切的；狂熱的；誠摯的",
+      "example": "She gave a fervent speech about the importance of environmental protection that moved everyone in the audience.",
+      "usage": "Neutral to formal register. Commonly pairs with nouns like 'wish,' 'hope,' 'belief,' 'prayer,' 'support,' 'advocate,' or 'admirer.' Used to describe people, their feelings, or their actions. Avoid in purely objective or detached contexts where emotional tone would be inappropriate.",
+      "synonyms": [
+        "passionate",
+        "intense",
+        "ardent",
+        "zealous",
+        "sincere"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
