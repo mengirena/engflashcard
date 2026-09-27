@@ -7668,6 +7668,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "slog",
+      "word": "slog",
+      "pronunciation": "/slɒɡ/",
+      "partOfSpeech": "verb, noun",
+      "definition": "To work hard for an extended period at something difficult or tedious; to trudge or move slowly with effort through difficult conditions.",
+      "translation": "苦幹；艱難跋涉；(名詞) 艱苦的工作或行進",
+      "example": "She slogged through the thick mud to reach the cabin.",
+      "usage": "Commonly used in both formal and informal contexts. As a verb, pairs naturally with 'through' (slog through), 'away' (slog away), or 'along'. Register: neutral to slightly informal. Not typically used in highly formal writing. Emphasises sustained effort despite difficulty.",
+      "synonyms": [
+        "trudge",
+        "toil",
+        "plod",
+        "labor",
+        "grind"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
