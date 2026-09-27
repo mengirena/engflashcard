@@ -8263,6 +8263,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "cement",
+      "word": "cement",
+      "pronunciation": "/sɪˈment/",
+      "partOfSpeech": "noun, verb",
+      "definition": "A powdery substance mixed with water and aggregate to form concrete; or to bind things together firmly (literally or figuratively).",
+      "translation": "水泥；黏合劑；或是將某物牢固地粘合在一起",
+      "example": "The workers used cement to bond the bricks together, and the shared experience helped cement their friendship.",
+      "usage": "As a noun, it is commonly used in construction and technical contexts (mix cement, pour cement, cement powder). As a verb, it is often used figuratively to mean 'strengthen' or 'solidify' (cement a relationship, cement one's reputation). Neutral to formal register. Avoid using the verb form in very casual speech when a simpler word like 'strengthen' would work.",
+      "synonyms": [
+        "bind",
+        "bond",
+        "solidify",
+        "strengthen",
+        "adhesive"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
