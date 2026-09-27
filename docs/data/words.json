@@ -7781,6 +7781,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "incessant",
+      "word": "incessant",
+      "pronunciation": "/ɪnˈsɛsənt/",
+      "partOfSpeech": "adjective",
+      "definition": "Continuing without pause or interruption; never stopping or ceasing.",
+      "translation": "不間斷的；持續不停的；無休止的",
+      "example": "The incessant noise from the construction site made it impossible to concentrate.",
+      "usage": "Formal to neutral register. Often paired with abstract nouns like 'noise,' 'rain,' 'chatter,' 'demands,' 'interruptions.' Conveys annoyance or intensity. Use when something truly unbroken occurs; avoid for things that merely happen frequently or regularly.",
+      "synonyms": [
+        "ceaseless",
+        "constant",
+        "unrelenting",
+        "uninterrupted"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
