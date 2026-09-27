@@ -7837,6 +7837,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "chaparral",
+      "word": "chaparral",
+      "pronunciation": "/ˌʃæpəˈræl/",
+      "partOfSpeech": "noun",
+      "definition": "A type of shrubland ecosystem characterized by dense, low-growing woody vegetation, typically found in Mediterranean climates with hot, dry summers and mild, wet winters.",
+      "translation": "灌木叢林；地中海型灌木林地（一種生態環境，由濃密的低矮木本植物組成，通常出現在地中海氣候區）",
+      "example": "The chaparral of Southern California is home to many drought-resistant plant species adapted to long periods without rain.",
+      "usage": "Primarily used in scientific, geographical, and ecological contexts. Common in discussions of Californian, Mediterranean, and southwestern American landscapes. Register is formal to neutral. Often paired with descriptors like 'coastal chaparral,' 'desert chaparral,' or used as an adjective ('chaparral fire,' 'chaparral vegetation'). Not typically used in casual everyday speech outside environmental or regional discussions.",
+      "synonyms": [
+        "shrubland",
+        "scrubland",
+        "maquis",
+        "brushland"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
