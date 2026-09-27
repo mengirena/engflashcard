@@ -8091,6 +8091,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "transcendent",
+      "word": "transcendent",
+      "pronunciation": "/trænˈsɛndənt/",
+      "partOfSpeech": "adjective",
+      "definition": "Exceeding ordinary limits; surpassing normal experience or understanding, often in a spiritual or philosophical sense. It can also mean superior to or going beyond the material world.",
+      "translation": "超越的；超凡的；卓越的；超越凡俗的",
+      "example": "The pianist's transcendent performance moved the audience to tears.",
+      "usage": "Formal to literary register. Often used in philosophical, spiritual, or aesthetic contexts. Pairs well with: transcendent beauty, transcendent experience, transcendent truth, transcendent reality. Avoid in casual everyday speech or when describing merely 'very good' or 'excellent'—it implies something that goes beyond normal comprehension or materiality.",
+      "synonyms": [
+        "sublime",
+        "supreme",
+        "extraordinary",
+        "transcendental",
+        "ineffable"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
