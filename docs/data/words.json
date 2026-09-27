@@ -8120,6 +8120,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "renowned",
+      "word": "renowned",
+      "pronunciation": "/rɪˈnaʊnd/",
+      "partOfSpeech": "adjective",
+      "definition": "Famous and respected widely; known and acclaimed throughout a large area or by many people.",
+      "translation": "著名的；聞名的；享有盛譽的",
+      "example": "The renowned pianist performed at Carnegie Hall to a sold-out audience.",
+      "usage": "Formal to neutral register. Often used with prepositions 'for' or 'as' (renowned for his talent, renowned as a chef). Typically modifies nouns referring to people, institutions, or places. Avoid in very casual contexts; 'famous' is a more casual alternative.",
+      "synonyms": [
+        "famous",
+        "celebrated",
+        "acclaimed",
+        "distinguished",
+        "well-known"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
