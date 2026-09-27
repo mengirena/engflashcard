@@ -7977,6 +7977,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "quick-witted",
+      "word": "quick-witted",
+      "pronunciation": "/ˈkwɪk ˈwɪtɪd/",
+      "partOfSpeech": "adjective",
+      "definition": "Able to think fast and respond cleverly or humorously in conversation; mentally sharp and able to understand things immediately.",
+      "translation": "機靈的；反應敏捷的；聰慧的；能言善辯的",
+      "example": "The quick-witted comedian improvised a hilarious response when someone heckled from the audience.",
+      "usage": "Neutral to positive register, commonly used in describing people in social or professional situations. Pairs well with nouns like 'person,' 'reply,' 'remark,' or 'response.' Often used as a compliment. Avoid in formal academic writing; use 'astute' or 'sharp' instead in very formal contexts.",
+      "synonyms": [
+        "clever",
+        "sharp",
+        "witty",
+        "intelligent",
+        "smart"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
