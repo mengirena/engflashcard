@@ -8034,6 +8034,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "dissection",
+      "word": "dissection",
+      "pronunciation": "/dɪˈsɛkʃən/",
+      "partOfSpeech": "noun",
+      "definition": "The action of cutting apart and examining something carefully, especially a dead body or organism for scientific study. It can also mean a detailed analysis or examination of something abstract.",
+      "translation": "解剖；仔細分析",
+      "example": "In biology class, students performed a dissection of a frog to understand its internal organs.",
+      "usage": "Formal/neutral, commonly used in scientific and academic contexts. Typical collocations: 'animal dissection,' 'anatomical dissection,' 'detailed dissection (of an argument).' Can refer both literally (cutting open bodies) and figuratively (thorough analysis). Not used casually in everyday conversation.",
+      "synonyms": [
+        "analysis",
+        "examination",
+        "autopsy",
+        "vivisection"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
