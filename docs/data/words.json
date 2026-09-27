@@ -7921,6 +7921,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "ridge",
+      "word": "ridge",
+      "pronunciation": "/rɪdʒ/",
+      "partOfSpeech": "noun",
+      "definition": "A long, narrow elevated landform or a raised line formed where two sloping surfaces meet, such as the top of a mountain or the peak of a roof.",
+      "translation": "山脊；脊；隆起物",
+      "example": "The hikers followed the ridge along the mountaintop, enjoying views of the valleys below on both sides.",
+      "usage": "Common in geographical (mountain ridge, ridge line) and architectural contexts (roof ridge). Neutral register. Often used with prepositions 'along,' 'over,' or 'across.' Not typically used in abstract contexts.",
+      "synonyms": [
+        "crest",
+        "peak",
+        "summit",
+        "spine"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
