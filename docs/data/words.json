@@ -8292,6 +8292,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "juggle",
+      "word": "juggle",
+      "pronunciation": "/ˈdʒʌɡəl/",
+      "partOfSpeech": "verb",
+      "definition": "To toss multiple objects in the air in a continuous pattern, catching and throwing them in sequence; or metaphorically, to manage multiple tasks or responsibilities simultaneously, often with difficulty.",
+      "translation": "拋接；(比喻) 同時處理多項事務",
+      "example": "She has to juggle work, family, and her studies while maintaining her sanity.",
+      "usage": "The literal sense (tossing objects) is used in entertainment contexts. The figurative sense (managing multiple demands) is very common in contemporary English, especially regarding work-life balance. It typically pairs with 'tasks,' 'responsibilities,' 'demands,' or 'schedules.' Neutral to slightly informal register; generally not used in formal academic writing.",
+      "synonyms": [
+        "balance",
+        "manage",
+        "handle",
+        "coordinate"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
