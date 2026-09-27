@@ -8149,6 +8149,63 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "renowned",
+      "word": "renowned",
+      "pronunciation": "/rɪˈnaʊnd/",
+      "partOfSpeech": "adjective",
+      "definition": "Famous and respected, especially for a particular achievement or quality; widely known and admired.",
+      "translation": "著名的；享有盛譽的；聞名遐邇的",
+      "example": "The renowned pianist performed a sold-out concert at Carnegie Hall.",
+      "usage": "Formal to neutral register. Typically used to describe people (scientists, artists, scholars), institutions, or places with established reputations. Often precedes a noun ('renowned chef', 'renowned university'). Avoid using for temporary or local fame; it implies lasting, widespread recognition.",
+      "synonyms": [
+        "famous",
+        "celebrated",
+        "eminent",
+        "acclaimed"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
+    },
+    {
+      "id": "patron",
+      "word": "patron",
+      "pronunciation": "/ˈpeɪtrən/",
+      "partOfSpeech": "noun",
+      "definition": "A person who gives financial or other support to a person, organization, or cause; alternatively, a customer or client of a business or service.",
+      "translation": "贊助人；顧客；保護人",
+      "example": "The wealthy patron donated a large sum to fund the local art museum.",
+      "usage": "Formal to neutral register. In arts/culture, refers to someone who supports artists or institutions financially. In retail/hospitality, means a regular or occasional customer. Collocates with: patron of the arts, patron saint, loyal patron, valued patron. Avoid using for one-time shoppers in very casual contexts—'customer' is more common in everyday speech.",
+      "synonyms": [
+        "supporter",
+        "donor",
+        "sponsor",
+        "customer",
+        "benefactor"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
