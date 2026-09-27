@@ -7498,6 +7498,34 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "id": "stoop",
+      "word": "stoop",
+      "pronunciation": "/stuːp/",
+      "partOfSpeech": "verb, noun",
+      "definition": "To bend forward and downward from the waist or shoulders; or (noun) a small raised platform or set of steps at the entrance of a building.",
+      "translation": "彎腰；低頭（動詞）；門廊；門階（名詞）",
+      "example": "She had to stoop to fit through the low doorway.",
+      "usage": "As a verb: neutral/formal register, commonly paired with 'down' or 'to' (stoop down, stoop to). In the noun sense (entrance steps), it's particularly common in American English, especially in older buildings. Avoid using 'stoop' to mean simply 'lean' without the downward bending motion.",
+      "synonyms": [
+        "bend",
+        "crouch",
+        "hunch",
+        "lower"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
