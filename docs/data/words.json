@@ -8234,6 +8234,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "galoot",
+      "word": "galoot",
+      "pronunciation": "/ɡəˈluːt/",
+      "partOfSpeech": "noun",
+      "definition": "A silly, clumsy, or uncouth person; an oaf or a foolish individual, often used in a humorous or slightly derogatory way.",
+      "translation": "笨蛋；傻瓜；粗魯的人；舉止笨拙的人",
+      "example": "That galoot knocked over my drink while dancing at the bar.",
+      "usage": "Casual and informal register. Often used humorously or affectionately rather than as a serious insult. Common in older American English (early–mid 20th century) but still understood. Pairs well with adjectives like 'big,' 'clumsy,' or verbs describing foolish actions. Avoid in formal or professional contexts.",
+      "synonyms": [
+        "oaf",
+        "fool",
+        "loon",
+        "buffoon",
+        "dope"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
