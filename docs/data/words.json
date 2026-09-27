@@ -7640,6 +7640,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "roadhouse",
+      "word": "roadhouse",
+      "pronunciation": "/ˈroʊdhaʊs/",
+      "partOfSpeech": "noun",
+      "definition": "A nightclub, bar, or restaurant located on a main road outside a town or city, typically featuring live music, dancing, or casual dining.",
+      "translation": "路邊酒吧；郊外夜總會（通常位於城市外的主幹道旁，提供現場音樂、舞蹈或簡便餐飲）",
+      "example": "We stopped at a roadhouse for burgers and live country music on our drive through Texas.",
+      "usage": "Neutral to casual register. Commonly used in American English. Often appears in contexts describing road trips, rural entertainment, or casual dining venues. Typical collocations: 'stop at a roadhouse,' 'country roadhouse,' 'roadhouse bar,' 'roadhouse restaurant.' Not used in formal contexts.",
+      "synonyms": [
+        "honky-tonk",
+        "dive bar",
+        "tavern",
+        "wayside inn"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
