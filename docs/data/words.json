@@ -7949,6 +7949,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "notch",
+      "word": "notch",
+      "pronunciation": "/nɑːtʃ/",
+      "partOfSpeech": "noun, verb",
+      "definition": "A V-shaped cut or indentation on an edge or surface; to make such a cut, or figuratively to achieve or record something (as in 'notch a victory').",
+      "translation": "凹口；刻痕；(動詞)刻下凹口；達成(成就)",
+      "example": "He carved a notch in the wooden post to keep track of the days.",
+      "usage": "Common in both literal contexts (cutting or marking) and figurative ones ('notch up a win'). Register: neutral to informal. Pairs well with: notch up, notch in, top notch. Avoid in very formal academic writing unless describing actual physical indentations.",
+      "synonyms": [
+        "cut",
+        "indent",
+        "groove",
+        "score"
+      ],
+      "added": "2026-09-27",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-27",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
