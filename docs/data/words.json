@@ -6013,10 +6013,10 @@
       ],
       "id": "hail-from",
       "srs": {
-        "due": "2026-09-10",
-        "interval": 0,
-        "ease": 2.5,
-        "reps": 0
+        "due": "2026-09-29",
+        "interval": 1,
+        "ease": 2.35,
+        "reps": 1
       },
       "added": "2026-09-10",
       "source": {
