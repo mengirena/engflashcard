@@ -5087,6 +5087,52 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "grueling",
+      "word": "grueling",
+      "pronunciation": "/ˈɡruːəlɪŋ/",
+      "partOfSpeech": "adjective",
+      "definition": "Extremely tiring and demanding; exhausting to the point of pushing your physical or mental limits.",
+      "translation": "筋疲力盡的；折磨人的；令人精疲力竭的",
+      "example": "After a grueling 12-hour shift, she could barely keep her eyes open.",
+      "usage": "Focus is on EXHAUSTION — you feel worn out by the end. Common with: grueling schedule, grueling workout, grueling race, grueling process. More informal/everyday than 'arduous'.",
+      "synonyms": ["exhausting", "draining", "punishing", "backbreaking", "taxing"],
+      "added": "2026-09-28",
+      "source": {
+        "label": "English Tutor Session",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-28",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
+    },
+    {
+      "id": "arduous",
+      "word": "arduous",
+      "pronunciation": "/ˈɑːrdʒuəs/",
+      "partOfSpeech": "adjective",
+      "definition": "Requiring great effort, endurance, or determination; involving sustained difficulty.",
+      "translation": "艱難的；費力的；艱辛的",
+      "example": "Getting a work visa can be an arduous process involving months of paperwork.",
+      "usage": "Focus is on the DIFFICULTY of the task itself — it demands sustained effort. More formal and literary than 'grueling'. Common with: arduous journey, arduous task, arduous process, arduous climb. Compare: 'grueling' = you feel exhausted; 'arduous' = the task is hard.",
+      "synonyms": ["demanding", "laborious", "strenuous", "taxing", "toilsome"],
+      "added": "2026-09-28",
+      "source": {
+        "label": "English Tutor Session",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-28",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
