@@ -8348,6 +8348,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "accustomed-to",
+      "word": "accustomed to",
+      "pronunciation": "/əˈkʌstəmd tu/",
+      "partOfSpeech": "adjective phrase",
+      "definition": "familiar with something through repeated experience; having become used to something as a normal or regular part of life.",
+      "translation": "習慣於；適應於；慣於",
+      "example": "After living in the city for five years, she was accustomed to the noise and constant activity.",
+      "usage": "Always used with 'to' (not 'of' or other prepositions). Common in both formal and neutral contexts. Pairs with nouns or gerunds describing habits, environments, or situations. Example collocations: 'accustomed to the climate,' 'accustomed to working late,' 'accustomed to their ways.' Can be used predicatively (after be/become/get) or attributively, though predicative use is more common. Slightly more formal than 'used to.'",
+      "synonyms": [
+        "used to",
+        "familiar with",
+        "adjusted to",
+        "habituated to"
+      ],
+      "added": "2026-09-28",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-28",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
