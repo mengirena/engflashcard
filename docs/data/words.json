@@ -4023,10 +4023,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-07-16",
-        "interval": 1,
+        "due": "2026-10-01",
+        "interval": 3,
         "ease": 2.35,
-        "reps": 1
+        "reps": 2
       }
     },
     {
