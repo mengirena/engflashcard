@@ -5627,9 +5627,9 @@
       ],
       "id": "repercussions",
       "srs": {
-        "due": "2026-09-01",
+        "due": "2026-09-28",
         "interval": 0,
-        "ease": 2.5,
+        "ease": 2.3,
         "reps": 0
       },
       "added": "2026-09-01",
