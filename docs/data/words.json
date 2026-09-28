@@ -61,10 +61,10 @@
         "reps": 5
       },
       "srsBack": {
-        "due": "2026-06-08",
-        "interval": 1,
+        "due": "2026-10-01",
+        "interval": 3,
         "ease": 2.5,
-        "reps": 1
+        "reps": 2
       },
       "usage": "**Serendipity** pairs well with verbs like \"discover,\" \"find,\" or \"experience,\" and appears in phrases like \"pure serendipity\" or \"by serendipity.\" It has a literary/formal-to-neutral register and works best when describing genuinely fortunate coincidences with a sense of wonder. Avoid it for planned successes, minor luck, or when you need a simpler synonym like \"luck\" or \"chance\"—overuse can sound pretentious in casual conversation."
     },
