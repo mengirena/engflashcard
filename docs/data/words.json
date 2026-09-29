@@ -7635,10 +7635,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-09-27",
-        "interval": 0,
+        "due": "2026-09-30",
+        "interval": 1,
         "ease": 2.5,
-        "reps": 0
+        "reps": 1
       }
     },
     {
