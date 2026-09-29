@@ -8376,6 +8376,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "oblivious",
+      "word": "oblivious",
+      "pronunciation": "/əˈblɪviəs/",
+      "partOfSpeech": "adjective",
+      "definition": "Not aware of or not noticing something; lacking knowledge or consciousness of what is happening around you.",
+      "translation": "渾然不覺的、未意識到的、毫不知情的",
+      "example": "She was so focused on her phone that she was completely oblivious to the commotion around her.",
+      "usage": "Commonly used with 'to' or 'of' (oblivious to/of something). Neutral to slightly formal register. Often describes someone who is unaware despite obvious signs. Avoid using when someone is deliberately ignoring something—'oblivious' implies lack of awareness, not intentional disregard.",
+      "synonyms": [
+        "unaware",
+        "unconscious",
+        "ignorant",
+        "unmindful"
+      ],
+      "added": "2026-09-29",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-09-29",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
