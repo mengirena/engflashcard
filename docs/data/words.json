@@ -8404,6 +8404,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "luddite",
+      "word": "Luddite",
+      "pronunciation": "/ˈlʌd.aɪt/",
+      "partOfSpeech": "noun",
+      "definition": "A person who opposes or resists new technology or technological change, especially when it threatens their job or way of life. Originally, a member of early 19th-century English textile workers who destroyed labor-saving machinery.",
+      "translation": "盧德派成員；反對新科技的人；抗拒科技變革者",
+      "example": "My grandfather is a bit of a Luddite—he refuses to use a smartphone and still writes letters by hand.",
+      "usage": "Typically used descriptively or somewhat critically to characterize someone as technologically resistant. Often appears in phrases like 'a self-described Luddite' or 'accused of being a Luddite.' Neutral to mildly pejorative in tone; avoid using it to directly insult someone. Common in discussions about technology adoption, workplace modernization, and generational differences. Register: informal to neutral.",
+      "synonyms": [
+        "technophobe",
+        "technology skeptic",
+        "early adopter's opposite",
+        "modernization resister"
+      ],
+      "added": "2026-10-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-10-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
