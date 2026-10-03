@@ -8487,6 +8487,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "cuttlefish",
+      "word": "cuttlefish",
+      "pronunciation": "/ˈkʌtəlˌfɪʃ/",
+      "partOfSpeech": "noun",
+      "definition": "A marine mollusk with eight arms and two longer tentacles, known for its ability to change color and pattern rapidly and its ink-filled sac used for defense. It is related to octopuses and squids.",
+      "translation": "烏賊；墨魚（一種海洋軟體動物，能迅速改變顏色和花紋，具有墨囊用於防禦）",
+      "example": "The cuttlefish demonstrated its remarkable camouflage abilities by instantly matching the color of the rocky seafloor.",
+      "usage": "Neutral/formal register, commonly used in marine biology, zoology, and casual conversations about sea life. Often appears in nature documentaries and educational contexts. Collocates with words like 'intelligence,' 'camouflage,' 'ink,' and 'species.' Not typically used metaphorically in English.",
+      "synonyms": [
+        "squid",
+        "octopus",
+        "mollusk",
+        "cephalopod"
+      ],
+      "added": "2026-10-03",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-10-03",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
