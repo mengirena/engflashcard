@@ -8432,6 +8432,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "ledger",
+      "word": "ledger",
+      "pronunciation": "/ˈlɛdʒər/",
+      "partOfSpeech": "noun",
+      "definition": "A book or digital record in which financial accounts and transactions are systematically recorded and organized. In accounting, it is the principal book of accounts.",
+      "translation": "帳冊；帳本；總帳；分類帳（記錄財務交易的書籍或系統）",
+      "example": "The accountant reviewed the company's ledger to verify all expenses for the quarter.",
+      "usage": "Formal/technical register, commonly used in accounting, finance, and business contexts. Typical collocations: 'general ledger', 'accounts ledger', 'check the ledger', 'enter in the ledger'. Often paired with verbs like record, maintain, audit, or review. Not used in casual everyday conversation.",
+      "synonyms": [
+        "account book",
+        "record book",
+        "journal",
+        "register"
+      ],
+      "added": "2026-10-03",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-10-03",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
