@@ -8515,6 +8515,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "tai",
+      "word": "tai",
+      "pronunciation": "/taɪ/",
+      "partOfSpeech": "noun",
+      "definition": "A large marine fish of the sea bream family, commonly found in East Asian waters and valued as food; also refers to the practice of tai chi, a Chinese martial art and health exercise.",
+      "translation": "鯛魚（一種海魚）；或指太極（中國武術與養生功法）",
+      "example": "The chef prepared a grilled tai with lemon and herbs.",
+      "usage": "As a fish, 'tai' is primarily used in culinary contexts, especially in Japanese and East Asian cuisine. As a martial art, it is more commonly written as 'tai chi' or 'taichi' in English. Register: neutral. Note: when referring to the fish alone, context about East Asian cuisine is typical; when referring to the exercise, the two-word form 'tai chi' is standard in English.",
+      "synonyms": [
+        "sea bream",
+        "Japanese bream",
+        "tai chi"
+      ],
+      "added": "2026-10-03",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-10-03",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
