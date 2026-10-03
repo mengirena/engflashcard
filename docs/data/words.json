@@ -8460,6 +8460,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "cedar",
+      "word": "cedar",
+      "pronunciation": "/ˈsiːdər/",
+      "partOfSpeech": "noun",
+      "definition": "A large coniferous tree with fragrant, durable wood, or the wood itself used for furniture, building, and storage. Cedar is prized for its pleasant aroma and resistance to decay and insects.",
+      "translation": "雪松；香柏木（一種常綠針葉樹，木材芳香耐久）",
+      "example": "The cedar chest in my grandmother's bedroom still smells wonderful after fifty years.",
+      "usage": "Commonly used in contexts of woodworking, construction, and household items. Often paired with: cedar wood, cedar closet, cedar chest, cedar shingles. Neutral to slightly formal register. Not typically used in technical botanical contexts without specification of species (e.g., 'Atlantic cedar' or 'Eastern red cedar').",
+      "synonyms": [
+        "evergreen",
+        "conifer",
+        "cedarwood"
+      ],
+      "added": "2026-10-03",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-10-03",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
