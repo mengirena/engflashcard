@@ -8542,6 +8542,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "maitake",
+      "word": "maitake",
+      "pronunciation": "/maɪˈtɑːkeɪ/",
+      "partOfSpeech": "noun",
+      "definition": "A large, edible fungus with a branching, frilly structure native to East Asia, prized in Japanese and Chinese cuisine for its delicate flavor and meaty texture.",
+      "translation": "舞茸；一種大型可食用真菌，原產於東亞，因其鮮美風味和肉質口感而在日本和中國料理中備受推崇。",
+      "example": "She sautéed the maitake mushrooms with garlic and finished the dish with a splash of soy sauce.",
+      "usage": "Typically used as a culinary ingredient in cooking; common in Japanese, Chinese, and increasingly in Western fusion cuisine. Often paired with Asian seasonings (soy sauce, mirin, ginger) or in soups and stir-fries. The word is used in both culinary and nutritional/medicinal contexts. Neutral to formal register. Also known as 'hen of the woods' in English.",
+      "synonyms": [
+        "hen of the woods",
+        "dancing mushroom",
+        "Grifola frondosa"
+      ],
+      "added": "2026-10-03",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-10-03",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
