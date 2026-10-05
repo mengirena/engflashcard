@@ -8569,6 +8569,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "deity",
+      "word": "deity",
+      "pronunciation": "/ˈdeɪ.ɪ.ti/",
+      "partOfSpeech": "noun",
+      "definition": "A god or goddess; a divine being worshipped in a religion or belief system.",
+      "translation": "神祇；神靈；神明",
+      "example": "In Hindu mythology, Brahma is the deity responsible for creation.",
+      "usage": "Formal and neutral register. Commonly used in religious studies, mythology, and academic contexts. Pairs with descriptors like 'ancient,' 'Hindu,' 'Greek,' 'supreme,' etc. Not used casually in everyday speech; appropriate for discussing religion, culture, and comparative theology.",
+      "synonyms": [
+        "god",
+        "goddess",
+        "divine being",
+        "idol"
+      ],
+      "added": "2026-10-05",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-10-05",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
