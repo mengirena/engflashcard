@@ -8625,6 +8625,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "slacks",
+      "word": "slacks",
+      "pronunciation": "/slæks/",
+      "partOfSpeech": "noun (plural)",
+      "definition": "Casual trousers made of cotton or a similar fabric, typically worn in non-formal settings. Usually looser-fitting than dress pants.",
+      "translation": "便褲；休閒褲（通常由棉布或類似材料製成，穿著場合較不正式）",
+      "example": "He changed out of his work clothes and put on a comfortable pair of slacks.",
+      "usage": "Neutral to casual register. Common in everyday contexts when referring to comfortable, non-denim trousers. Often paired with: 'a pair of slacks,' 'wear slacks,' 'dress slacks.' Less common in British English, where 'trousers' is standard. Not appropriate for formal/black-tie occasions.",
+      "synonyms": [
+        "trousers",
+        "pants",
+        "chinos",
+        "casual trousers"
+      ],
+      "added": "2026-10-06",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-10-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
