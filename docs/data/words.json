@@ -8597,6 +8597,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "slack",
+      "word": "slack",
+      "pronunciation": "/slæk/",
+      "partOfSpeech": "adjective, noun, verb",
+      "definition": "As an adjective: not tight or taut; loose or relaxed. As a noun: a loose or sagging part, or a period of reduced activity. As a verb: to loosen or reduce effort; to neglect.",
+      "translation": "鬆散的；懶散的；蕭條的；放鬆；怠慢",
+      "example": "The rope was too slack to hold the cargo securely.",
+      "usage": "Neutral to casual register. As adjective, pairs with nouns like 'rope,' 'jaw,' 'season.' As verb, collocates with 'off' (slack off = become lazy). Informal contexts: 'he's being slack about deadlines.' More formal alternative: 'lax' or 'negligent.' Avoid in formal writing when precision is critical.",
+      "synonyms": [
+        "loose",
+        "lax",
+        "negligent",
+        "sluggish"
+      ],
+      "added": "2026-10-06",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-10-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
