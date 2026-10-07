@@ -8653,6 +8653,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "pilgrim",
+      "word": "pilgrim",
+      "pronunciation": "/ˈpɪlɡrɪm/",
+      "partOfSpeech": "noun",
+      "definition": "A person who travels to a sacred or holy place for religious reasons, or more broadly, any person who undertakes a long journey or quest.",
+      "translation": "朝聖者；長途跋涉者",
+      "example": "Thousands of pilgrims visit the temple during the annual festival to pay their respects.",
+      "usage": "Commonly used in religious contexts (pilgrims to Mecca, Jerusalem, etc.), but also in literature/historical contexts for anyone on a spiritual or meaningful journey. Often pairs with 'religious,' 'sacred,' 'holy.' Neutral to formal register. Not typically used for casual trips or short journeys.",
+      "synonyms": [
+        "traveler",
+        "worshipper",
+        "devotee",
+        "wanderer"
+      ],
+      "added": "2026-10-07",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-10-07",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
