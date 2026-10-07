@@ -8681,6 +8681,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "trample",
+      "word": "trample",
+      "pronunciation": "/ˈtræmpəl/",
+      "partOfSpeech": "verb",
+      "definition": "To tread on and crush something or someone under one's feet, either literally or figuratively; to treat someone or their rights with contempt or disrespect.",
+      "translation": "踐踏；踩踏；蹂躪",
+      "example": "The angry crowd trampled the flower beds as they rushed toward the exit.",
+      "usage": "Used both literally (trampling plants, flowers) and figuratively (trampling on someone's rights, feelings, or dignity). Common collocations: 'trample on/over,' 'trample underfoot.' Neutral to formal register. Avoid using casually when talking about minor inconveniences.",
+      "synonyms": [
+        "crush",
+        "tread",
+        "stomp",
+        "trounce"
+      ],
+      "added": "2026-10-07",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-10-07",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
