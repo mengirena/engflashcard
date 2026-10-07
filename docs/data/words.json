@@ -8709,6 +8709,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "filial-deity",
+      "word": "filial deity",
+      "pronunciation": "/ˈfɪliəl ˈdiːɪti/",
+      "partOfSpeech": "noun phrase",
+      "definition": "A deity or divine being worshipped in the context of filial piety—the virtue of respect and obedience toward parents and ancestors in East Asian religions and philosophy, particularly in Chinese folk religion and Taoism.",
+      "translation": "孝神；與孝道相關的神祇",
+      "example": "In Chinese folk temples, the filial deity is venerated by those seeking blessings for family harmony and honoring ancestors.",
+      "usage": "This is a specialized academic or anthropological term used in religious studies and East Asian culture discussions. It appears mainly in formal, scholarly contexts discussing Chinese religion, Taoism, or Confucian-influenced spiritual practices. Not commonly used in everyday conversation. Often appears in museum descriptions or academic papers on Chinese religion.",
+      "synonyms": [
+        "ancestor spirit",
+        "household deity",
+        "tutelary god",
+        "patron saint (of filial piety)"
+      ],
+      "added": "2026-10-07",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-10-07",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
