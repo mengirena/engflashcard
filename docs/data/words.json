@@ -8737,6 +8737,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "crematorium",
+      "word": "crematorium",
+      "pronunciation": "/krɪˈmɔːtɔːriəm/",
+      "partOfSpeech": "noun",
+      "definition": "A facility or building equipped with a furnace for the cremation of dead bodies; a place where human remains are burned as part of funeral rites.",
+      "translation": "火葬場；火化爐設施",
+      "example": "The family arranged for the service to be held at the crematorium before the ashes were scattered.",
+      "usage": "Formal, neutral register. Commonly used in funeral planning, obituaries, and official/legal contexts. Pair with verbs like 'arrange,' 'attend,' 'visit'; nouns like 'service,' 'chapel,' 'staff.' Not used colloquially or casually. British English: 'crematorium'; North American English also accepts 'crematory.'",
+      "synonyms": [
+        "crematory",
+        "furnace",
+        "burning ground",
+        "incineration facility"
+      ],
+      "added": "2026-10-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-10-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
