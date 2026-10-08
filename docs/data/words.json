@@ -8765,6 +8765,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "geranium",
+      "word": "geranium",
+      "pronunciation": "/dʒəˈreɪniəm/",
+      "partOfSpeech": "noun",
+      "definition": "A flowering plant with colorful blooms and aromatic leaves, commonly grown as a houseplant or in gardens; the genus Geranium includes both true geraniums and the closely related pelargoniums often sold as geraniums in shops.",
+      "translation": "天竺葵；老鸛草；一種開花植物，花色鮮豔，葉片有香氣",
+      "example": "She placed a potted geranium on the windowsill, where its bright red flowers could catch the afternoon sun.",
+      "usage": "Commonly used in gardening and floriculture contexts. Pairs naturally with descriptive color words (red geranium, pink geranium) and garden-related verbs (plant, grow, water). Neutral to casual register. Note: In common usage, especially in retail and everyday gardening, 'geranium' often refers to pelargoniums; botanically these are different plants.",
+      "synonyms": [
+        "pelargonium",
+        "flowering plant",
+        "houseplant"
+      ],
+      "added": "2026-10-08",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-10-08",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
