@@ -8792,6 +8792,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "shrine",
+      "word": "shrine",
+      "pronunciation": "/ʃraɪn/",
+      "partOfSpeech": "noun",
+      "definition": "A place of worship or devotion dedicated to a sacred person, relic, or deity, often attracting pilgrims. It can also mean any place regarded with deep respect or reverence.",
+      "translation": "聖殿；聖地；供奉處；受人尊敬的地方",
+      "example": "Thousands of pilgrims visit the shrine each year to pray for blessings.",
+      "usage": "Used in religious contexts (Buddhist shrine, Shinto shrine, Christian shrine) or metaphorically for places of significance. Formal to neutral register. Common in travel writing and spiritual discourse. Not typically used for secular museums or monuments unless emphasizing reverence.",
+      "synonyms": [
+        "sanctuary",
+        "temple",
+        "altar",
+        "holy place",
+        "memorial"
+      ],
+      "added": "2026-10-09",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-10-09",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
