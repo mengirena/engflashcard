@@ -98,7 +98,6 @@ label.check input { width: auto; }
 .card-usage { margin-top: 10px; background: #fff7ed; border-left: 3px solid #f59e0b; border-radius: 8px; padding: 8px 10px; font-size: 14px; text-align: left; }
 .usage-tag { display: inline-block; font-size: 11px; font-weight: 700; color: #92400e; text-transform: uppercase; letter-spacing: .04em; margin-right: 4px; }
 .card-syn { margin-top: 10px; }
-@media (prefers-color-scheme: dark) { .card-usage { background: #3a2a12; } }
 .chip {
   display: inline-block; background: #eef0fb; color: var(--brand);
   padding: 3px 10px; border-radius: 999px; font-size: 13px; margin: 3px 4px 0 0;
@@ -125,11 +124,6 @@ label.check input { width: auto; }
 .fb.v-bad { background: #fef2f2; border: 1px solid #fecaca; }
 .fb.v-bad .fb-verdict { color: #b91c1c; }
 .active-badge { background: #d1fae5; color: #065f46; }
-@media (prefers-color-scheme: dark) {
-  .card-mine, .fb.v-good { background: #0e2a1c; }
-  .fb.v-warn { background: #3a2a12; }
-  .fb.v-bad { background: #3a1414; }
-}
 
 .rate-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 18px; }
 .rate { color: #fff; font-weight: 700; }
@@ -226,9 +220,47 @@ label.check input { width: auto; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
 @media (prefers-color-scheme: dark) {
-  :root { --bg:#13141b; --panel:#1c1e29; --ink:#e8e9f0; --muted:#9aa0b4; --line:#2b2e3d; --shadow:0 6px 24px rgba(0,0,0,.4); }
-  input, select, textarea { background:#13141b; color:var(--ink); }
-  .card-example { background:#13141b; }
-  .chip, .secondary { background:#262a3d; }
-  .banner { background:#3a2a12; color:#fcd9b6; border-color:#5b3f1c; }
+  :root {
+    --bg: #13141b;
+    --panel: #1c1e29;
+    --ink: #e8e9f0;
+    --muted: #9aa0b4;
+    --line: #2b2e3d;
+    --shadow: 0 6px 24px rgba(0,0,0,.4);
+  }
+
+  /* Form controls */
+  input, select, textarea { background: #13141b; color: var(--ink); border-color: var(--line); }
+
+  /* Buttons */
+  .chip, .secondary, .zh-toggle { background: #262a3d; color: var(--brand); }
+
+  /* Banner */
+  .banner { background: #3a2a12; color: #fcd9b6; border-color: #5b3f1c; }
+
+  /* Card surfaces */
+  .card-example { background: #13141b; }
+  .card-example mark { background: #4a3800; color: #fde68a; }
+  .card-usage { background: #3a2a12; }
+  .usage-tag { color: #fcd34d; }
+  .card-mine { background: #0e2a1c; }
+  .usage-tag.mine { color: #6ee7b7; }
+
+  /* Mastery badges */
+  .mbadge.m0 { background: #2b2e3d; color: #9aa0b4; }
+  .mbadge.m1 { background: #3a1414; color: #fca5a5; }
+  .mbadge.m2 { background: #3a2a12; color: #fcd34d; }
+  .mbadge.m3 { background: #0e2a1c; color: #6ee7b7; }
+  .active-badge { background: #0e2a1c; color: #6ee7b7; }
+
+  /* Browse list */
+  .bdel:hover { background: #3a1414; }
+
+  /* Practice feedback panels */
+  .fb.v-good { background: #0e2a1c; border-color: #1a5c3a; }
+  .fb.v-good .fb-verdict { color: #6ee7b7; }
+  .fb.v-warn { background: #3a2a12; border-color: #6b4c1c; }
+  .fb.v-warn .fb-verdict { color: #fcd34d; }
+  .fb.v-bad { background: #3a1414; border-color: #7a2020; }
+  .fb.v-bad .fb-verdict { color: #fca5a5; }
 }
