@@ -5543,10 +5543,10 @@
       ],
       "id": "antidote",
       "srs": {
-        "due": "2026-09-01",
-        "interval": 0,
-        "ease": 2.5,
-        "reps": 0
+        "due": "2026-10-18",
+        "interval": 1,
+        "ease": 2.35,
+        "reps": 1
       },
       "added": "2026-09-01",
       "source": {
