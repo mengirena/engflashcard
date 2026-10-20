@@ -8821,6 +8821,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "tummy",
+      "word": "tummy",
+      "pronunciation": "/ˈtʌmi/",
+      "partOfSpeech": "noun",
+      "definition": "An informal word for the stomach or belly, especially the front part of the abdomen.",
+      "translation": "肚子；腹部（非正式用語）",
+      "example": "The baby rubbed her tummy after eating lunch.",
+      "usage": "Casual and informal register; commonly used with children and in friendly, conversational contexts. Typical collocations: 'tummy ache,' 'tummy button,' 'full tummy.' Avoid in formal medical or professional writing; use 'stomach' or 'abdomen' instead.",
+      "synonyms": [
+        "stomach",
+        "belly",
+        "abdomen",
+        "gut"
+      ],
+      "added": "2026-10-20",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-10-20",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
