@@ -8849,6 +8849,33 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "osmanthus",
+      "word": "osmanthus",
+      "pronunciation": "/ɒzˈmænθəs/",
+      "partOfSpeech": "noun",
+      "definition": "A genus of flowering shrubs and small trees native to Asia, known for their fragrant white, yellow, or orange blossoms that bloom in autumn, commonly cultivated in gardens and used in traditional perfumery and tea.",
+      "translation": "桂花（一種香氣馥郁的秋季開花灌木，花朵呈白色、黃色或橙色，常用於製作香水和花茶）",
+      "example": "The osmanthus flowers filled the garden with their delicate, sweet fragrance every autumn.",
+      "usage": "Formal/neutral register. Commonly used in horticultural, botanical, and culinary contexts. Often appears in descriptions of East Asian gardens, perfumery, and tea culture. The word is not typically used in casual everyday conversation outside these specialized domains.",
+      "synonyms": [
+        "fragrant olive",
+        "sweet olive",
+        "tea olive"
+      ],
+      "added": "2026-10-31",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-10-31",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
