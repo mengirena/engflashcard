@@ -8876,6 +8876,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "fortified",
+      "word": "fortified",
+      "pronunciation": "/ˈfɔːrtɪfaɪd/",
+      "partOfSpeech": "adjective",
+      "definition": "Strengthened or reinforced, either physically (with defensive structures) or by adding something beneficial (such as nutrients or alcohol to a substance). Can also mean emotionally or mentally strengthened.",
+      "translation": "加強的；防禦的；增強的；經過強化的（通常指食物、飲料中添加營養或酒精，或建築物加固防禦）",
+      "example": "Fortified wine like port and sherry contain added alcohol for preservation.",
+      "usage": "Common in food/nutrition contexts (fortified milk, fortified cereal), military/historical contexts (fortified castle), and figurative use (fortified resolve). Neutral to formal register. Often paired with nouns like 'wine,' 'food,' 'position,' or 'walls.' Less common in casual speech.",
+      "synonyms": [
+        "reinforced",
+        "strengthened",
+        "secured",
+        "enhanced"
+      ],
+      "added": "2026-11-01",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-01",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
