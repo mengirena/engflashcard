@@ -4300,10 +4300,10 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-09-29",
-        "interval": 1,
-        "ease": 2.5,
-        "reps": 1
+        "due": "2026-11-02",
+        "interval": 0,
+        "ease": 2.3,
+        "reps": 0
       }
     },
     {
