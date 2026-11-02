@@ -8904,6 +8904,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "navel",
+      "word": "navel",
+      "pronunciation": "/ˈneɪvəl/",
+      "partOfSpeech": "noun",
+      "definition": "The small depression or scar on the abdomen where the umbilical cord was attached at birth. It can also refer to the center or core of something.",
+      "translation": "肚臍；中心；核心",
+      "example": "She gazed down at her navel while lying on the beach.",
+      "usage": "Neutral, everyday register. Commonly used in anatomical contexts or colloquially when referring to one's belly button. In figurative use, means the central or most important part of something (e.g., 'the navel of the city'). Not offensive or formal.",
+      "synonyms": [
+        "belly button",
+        "umbilicus",
+        "center",
+        "core"
+      ],
+      "added": "2026-11-02",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-02",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
