@@ -8932,6 +8932,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "dwarf",
+      "word": "dwarf",
+      "pronunciation": "/dwɔːrf/",
+      "partOfSpeech": "noun, verb, adjective",
+      "definition": "A person or creature of unusually small stature; or to make something appear small by comparison. As an adjective, it describes something of an unusually small kind.",
+      "translation": "侏儒；矮小的人或物；使顯得渺小",
+      "example": "The ancient oak trees dwarfed the small cabin beside them.",
+      "usage": "Noun form is neutral when referring to a person with dwarfism, though context matters. Verb form is common in comparisons (e.g., 'dwarfed by'). Adjective form typically precedes nouns (dwarf star, dwarf planet). Avoid using 'dwarf' as an insult; when discussing medical conditions, 'person with dwarfism' is more respectful. Register: neutral to formal.",
+      "synonyms": [
+        "miniature",
+        "diminish",
+        "overshadow",
+        "stunted"
+      ],
+      "added": "2026-11-03",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-03",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
