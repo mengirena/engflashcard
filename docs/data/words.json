@@ -8988,6 +8988,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "reckoning",
+      "word": "reckoning",
+      "pronunciation": "/ˈrekənɪŋ/",
+      "partOfSpeech": "noun",
+      "definition": "The action of calculating or estimating something; alternatively, a statement of account or bill, or a day of reckoning (when consequences come due).",
+      "translation": "計算；結賬；清算；報應（日子）",
+      "example": "By my reckoning, we should arrive by noon, though there's always a day of reckoning if we're late.",
+      "usage": "Formal to neutral register. Common phrases: 'by my reckoning' (in my calculation/opinion), 'day of reckoning' (when someone must face consequences), 'final reckoning' (settlement of accounts). Less common in casual speech; more typical in written English, especially historical or financial contexts. Avoid confusing with 'recognition.'",
+      "synonyms": [
+        "calculation",
+        "estimation",
+        "accounting",
+        "settlement",
+        "judgment"
+      ],
+      "added": "2026-11-04",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-04",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
