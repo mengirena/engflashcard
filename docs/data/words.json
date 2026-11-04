@@ -8960,6 +8960,34 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "benevolent",
+      "word": "benevolent",
+      "pronunciation": "/bəˈnɛvələnt/",
+      "partOfSpeech": "adjective",
+      "definition": "Kind, generous, and concerned with the welfare of others; showing goodwill or charitable intentions.",
+      "translation": "仁慈的；慈善的；樂善好施的",
+      "example": "The benevolent millionaire donated millions to establish hospitals and schools for underprivileged communities.",
+      "usage": "Formal to neutral register. Commonly paired with nouns like 'benevolent dictator,' 'benevolent organization,' 'benevolent ruler.' Often used to describe people, institutions, or actions motivated by altruism. Avoid using it sarcastically unless context is clear, as it genuinely connotes good intentions.",
+      "synonyms": [
+        "generous",
+        "kind-hearted",
+        "charitable",
+        "philanthropic"
+      ],
+      "added": "2026-11-04",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-04",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
