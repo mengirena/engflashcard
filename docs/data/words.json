@@ -9017,6 +9017,35 @@
         "ease": 2.5,
         "reps": 0
       }
+    },
+    {
+      "id": "rig",
+      "word": "rig",
+      "pronunciation": "/rɪɡ/",
+      "partOfSpeech": "verb, noun",
+      "definition": "As a verb: to set up equipment or machinery; to manipulate or control dishonestly (usually followed by 'up'). As a noun: equipment or apparatus, especially the structure supporting an oil well or drilling equipment.",
+      "translation": "動詞：裝配、架設；不公正地操縱或安排。名詞：設備、機械裝置；（尤指石油鑽井的）鑽塔、設備組合",
+      "example": "The crew rigged up temporary lighting for the outdoor event.",
+      "usage": "Verb (neutral/formal): 'rig up' means to assemble hastily; 'rig' in the context of elections/contests implies dishonesty and is critical. Noun (technical/formal): common in oil/gas, construction, and maritime contexts. Avoid using 'rig' as a verb to mean 'arrange' in formal writing without negative connotations.",
+      "synonyms": [
+        "set up",
+        "manipulate",
+        "apparatus",
+        "equipment",
+        "construct"
+      ],
+      "added": "2026-11-05",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-05",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0
+      }
     }
   ]
 }
