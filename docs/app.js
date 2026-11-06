@@ -37,6 +37,37 @@
   var sessionDone = {};                   // ids graduated (rated non-"again") this session
   var selectMode = false;                 // batch-select in Browse
   var selected = {};                      // ids checked in Browse
+  var currentView = 'study';
+  var COLLECTION_KEY = 'flashcollection';
+  var selectedCollection = loadSelectedCollection();
+  var pendingCollection = null;           // new collection named in Add, no cards yet
+
+  // ---------- collections ----------
+  function loadSelectedCollection() {
+    try { return localStorage.getItem(COLLECTION_KEY) || C.DEFAULT_COLLECTION; }
+    catch (e) { return C.DEFAULT_COLLECTION; }
+  }
+  function persistCollection() {
+    try { localStorage.setItem(COLLECTION_KEY, selectedCollection); } catch (e) {}
+  }
+  function inCollection(c) { return C.getCollection(c) === selectedCollection; }
+  function collectionCards() { return deck.cards.filter(inCollection); }
+  // Cards saved before collections existed have no tag: they are English.
+  // Normalizing in memory means the tag is written out on the next save.
+  function normalizeDeck() {
+    deck.cards.forEach(function (c) { if (!c.collection) c.collection = C.DEFAULT_COLLECTION; });
+  }
+  function refreshCollectionPicker() {
+    var sel = $('#collectionPicker');
+    if (!sel) return;
+    var names = C.listCollections(deck.cards);
+    if (names.indexOf(selectedCollection) < 0) names.push(selectedCollection);
+    if (pendingCollection && names.indexOf(pendingCollection) < 0) names.push(pendingCollection);
+    sel.innerHTML = names.map(function (n) {
+      return '<option value="' + escapeHtml(n) + '"' + (n === selectedCollection ? ' selected' : '') + '>' + escapeHtml(n) + '</option>';
+    }).join('');
+    sel.value = selectedCollection;
+  }
 
   // ---------- config ----------
   function loadCfg() {
@@ -82,20 +113,32 @@
 
   // ---------- navigation ----------
   function show(view) {
+    currentView = view;
     $$('.view').forEach(function (v) { v.hidden = true; });
     var el = $('#view-' + view); if (el) el.hidden = false;
     $$('.tab').forEach(function (t) { t.classList.toggle('active', t.dataset.view === view); });
+    refreshCollectionPicker();
     if (view === 'study') renderStudy();
     if (view === 'browse') renderBrowse();
+    if (view === 'add') renderAddForm();
     if (view === 'settings') fillSettings();
   }
   $$('.tab').forEach(function (t) {
     t.addEventListener('click', function () { show(t.dataset.view); });
   });
+  $('#collectionPicker').addEventListener('change', function () {
+    selectedCollection = this.value || C.DEFAULT_COLLECTION;
+    persistCollection();
+    refreshCollectionPicker();
+    updateDueBadge();
+    if (currentView === 'study') renderStudy();
+    if (currentView === 'browse') renderBrowse();
+    if (currentView === 'add') renderAddForm();
+  });
 
   // ---------- init ----------
   function updateDueBadge() {
-    var n = deck.cards.filter(function (c) { return C.isDue(c, studyDir); }).length;
+    var n = deck.cards.filter(function (c) { return inCollection(c) && C.isDue(c, studyDir); }).length;
     var b = $('#dueBadge');
     b.textContent = n; b.hidden = n === 0;
   }
@@ -103,7 +146,7 @@
   async function init() {
     // show cached deck immediately if available
     var cached = loadCachedDeck();
-    if (cached) { deck = cached; updateDueBadge(); }
+    if (cached) { deck = cached; normalizeDeck(); cacheDeck(); refreshCollectionPicker(); updateDueBadge(); }
 
     if (!hasKeys()) {
       banner('👋 Welcome! Open <b>⚙︎ Settings</b> and paste your GitHub token + Anthropic key to start syncing.');
@@ -114,10 +157,12 @@
       try {
         var fresh = await C.loadDeck(cfg);
         deck = fresh;
+        normalizeDeck();
         cacheDeck();
         // fold in any words captured from the extension / phone
         var res = await C.ingestInbox(cfg, deck);
-        if (res.ingested > 0) { deck.cards = res.cards; deck.sha = res.sha; cacheDeck(); toast('Added ' + res.ingested + ' captured word(s).'); }
+        if (res.ingested > 0) { deck.cards = res.cards; deck.sha = res.sha; normalizeDeck(); cacheDeck(); toast('Added ' + res.ingested + ' captured word(s).'); }
+        refreshCollectionPicker();
         if (res.failed > 0) { banner('⚠︎ ' + res.failed + ' captured file(s) couldn\'t be read and were left in the inbox for another try. They may be malformed.'); }
         else banner('');
         online = true;
@@ -146,12 +191,12 @@
     if (studyMode === 'weak') {
       // practice the least-mastered words first (for the current side), regardless of due date
       // (retired cards for this side are out of study entirely)
-      queue = deck.cards.filter(function (c) { return !C.isRetired(c, studyDir); }).sort(function (a, b) {
+      queue = deck.cards.filter(function (c) { return inCollection(c) && !C.isRetired(c, studyDir); }).sort(function (a, b) {
         return C.masteryInfo(a, studyDir).rank - C.masteryInfo(b, studyDir).rank;
       });
     } else {
       // due cards in RANDOM order (not sequential) so each session feels fresh
-      queue = shuffle(deck.cards.filter(function (c) { return C.isDue(c, studyDir); }));
+      queue = shuffle(deck.cards.filter(function (c) { return inCollection(c) && C.isDue(c, studyDir); }));
     }
   }
   function shuffle(a) {
@@ -190,14 +235,15 @@
     updateProgress();
     updateDueBadge();
     if (!queue.length) {
+      var collTotal = collectionCards().length;
       $('#studyCard').hidden = true;
       $('#studyEmpty').hidden = false;
-      $('#studyEmptyTitle').textContent = !deck.cards.length ? 'No words yet' : 'All caught up 🎉';
-      $('#studyEmptyMsg').textContent = !deck.cards.length
-        ? 'No words yet — add some in the Add or Import tab, or look one up on your phone.'
+      $('#studyEmptyTitle').textContent = !collTotal ? 'No words yet' : 'All caught up 🎉';
+      $('#studyEmptyMsg').textContent = !collTotal
+        ? 'No cards yet in the ' + selectedCollection + ' collection — add some in the Add tab.'
         : (studyMode === 'weak'
             ? 'No words to practice.'
-            : 'Nothing due right now. Try "Weak words" to practice anyway — you have ' + deck.cards.length + ' word(s) total.');
+            : 'Nothing due right now. Try "Weak words" to practice anyway — you have ' + collTotal + ' word(s) in ' + selectedCollection + '.');
       return;
     }
     $('#studyEmpty').hidden = true;
@@ -209,7 +255,7 @@
     $('#studyProgress').hidden = true;
     $('#studyEmpty').hidden = false;
     updateDueBadge();
-    var dueLeft = deck.cards.filter(function (c) { return C.isDue(c, studyDir); }).length;
+    var dueLeft = deck.cards.filter(function (c) { return inCollection(c) && C.isDue(c, studyDir); }).length;
     if (studyMode === 'weak') {
       $('#studyEmptyTitle').textContent = 'Practice round complete 💪';
       $('#studyEmptyMsg').textContent = 'Tap "Weak words" again for another pass.';
@@ -220,18 +266,30 @@
   }
   // ---- audio (Web Speech API, on-device, free) ----
   var speechOK = ('speechSynthesis' in window);
-  function speak(text) {
+  function langForCollection(name) {
+    var n = String(name || '').toLowerCase();
+    if (n.indexOf('japanese') >= 0 || n.indexOf('日本') >= 0) return 'ja-JP';
+    if (n.indexOf('korean') >= 0 || n.indexOf('한국') >= 0) return 'ko-KR';
+    if (n.indexOf('chinese') >= 0 || n.indexOf('中文') >= 0 || n.indexOf('中国') >= 0 || n.indexOf('中國') >= 0) return 'zh-TW';
+    if (n.indexOf('spanish') >= 0 || n.indexOf('español') >= 0) return 'es-ES';
+    if (n.indexOf('french') >= 0 || n.indexOf('français') >= 0) return 'fr-FR';
+    if (n.indexOf('german') >= 0 || n.indexOf('deutsch') >= 0) return 'de-DE';
+    if (n.indexOf('italian') >= 0 || n.indexOf('italiano') >= 0) return 'it-IT';
+    return 'en-US';
+  }
+  function speak(text, collection) {
     if (!speechOK || !text) return;
     try {
       window.speechSynthesis.cancel();
       var u = new SpeechSynthesisUtterance(text);
-      u.lang = 'en-US'; u.rate = 0.95;
+      var coll = collection || (current ? C.getCollection(current) : selectedCollection);
+      u.lang = langForCollection(coll); u.rate = 0.95;
       window.speechSynthesis.speak(u);
     } catch (e) {}
   }
-  function speakBtn(text) {
+  function speakBtn(text, collection) {
     if (!speechOK) return '';
-    return '<button class="speak" data-speak="' + escapeHtml(text) + '" title="Play audio" aria-label="Play audio">🔊</button>';
+    return '<button class="speak" data-speak="' + escapeHtml(text) + '" data-coll="' + escapeHtml(collection || '') + '" title="Play audio" aria-label="Play audio">🔊</button>';
   }
   function maskWord(text, word) {
     var safe = escapeHtml(text);
@@ -254,7 +312,7 @@
     return '<div class="card-translation">' + zh + '</div>';
   }
   function wordBlock(c) {
-    return '<div class="card-word">' + escapeHtml(c.word) + ' ' + speakBtn(c.word) + '</div>' +
+    return '<div class="card-word">' + escapeHtml(c.word) + ' ' + speakBtn(c.word, C.getCollection(c)) + '</div>' +
       '<div class="card-ipa">' + escapeHtml(c.pronunciation || '') + '</div>' +
       '<div class="card-pos">' + escapeHtml(c.partOfSpeech || '') + '</div>';
   }
@@ -325,7 +383,7 @@
   }
   function wireCardButtons() {
     $$('#studyCard .speak').forEach(function (b) {
-      b.onclick = function (e) { e.stopPropagation(); speak(b.dataset.speak); };
+      b.onclick = function (e) { e.stopPropagation(); speak(b.dataset.speak, b.dataset.coll); };
     });
     $$('#studyCard .zh-toggle').forEach(function (b) {
       b.onclick = function (e) {
@@ -339,6 +397,9 @@
 
   // ---------- practice (write a sentence, AI checks it) ----------
   function setupPractice() {
+    // The sentence check is an English coach — hide it for other collections.
+    var practiceBox = document.querySelector('.practice');
+    if (practiceBox) practiceBox.hidden = C.getCollection(current) !== C.DEFAULT_COLLECTION;
     $('#practicePanel').hidden = true;
     $('#practiceInput').value = current.mySentence || '';
     $('#practiceFeedback').innerHTML = '';
@@ -424,11 +485,29 @@
   window.addEventListener('pagehide', function () { if (dirty) flush(); });
 
   // ---------- ADD ----------
+  function renderAddForm() {
+    refreshCollectionPicker();
+    var eng = selectedCollection === C.DEFAULT_COLLECTION;
+    $('#addEnglishPanel').hidden = !eng;
+    $('#addManualPanel').hidden = eng;
+    $('#addTitle').textContent = eng ? 'Add a word' : 'Add to ' + selectedCollection;
+  }
+  $('#newCollectionBtn').addEventListener('click', function () {
+    var name = $('#newCollectionName').value.trim();
+    if (!name) { toast('Type a collection name first.'); return; }
+    pendingCollection = name;
+    selectedCollection = name;
+    persistCollection();
+    $('#newCollectionName').value = '';
+    refreshCollectionPicker();
+    renderAddForm();
+    toast('New collection “' + name + '” — add its first card below.');
+  });
   async function doAdd(word, sourceLabel) {
     word = (word || '').trim();
     if (!word) return;
     if (!hasKeys()) { toast('Add your keys in Settings first.'); show('settings'); return; }
-    var existing = deck.cards.find(function (c) { return c.id === C.slugId(word); });
+    var existing = deck.cards.find(function (c) { return C.getCollection(c) === C.DEFAULT_COLLECTION && c.id === C.slugId(word); });
     var box = $('#addResult');
     if (existing) { box.innerHTML = ''; box.appendChild(renderCardPreview(existing)); toast('Already in your deck.'); return; }
     box.innerHTML = '<p class="muted"><span class="spinner"></span>Looking up “' + escapeHtml(word) + '”…</p>';
@@ -437,7 +516,7 @@
       var card = await C.lookup(cfg, word, source);
       deck.cards.push(card);
       deck.sha = await C.saveDeck(cfg, deck.cards, deck.sha, 'add: ' + card.word);
-      cacheDeck(); updateDueBadge();
+      cacheDeck(); updateDueBadge(); refreshCollectionPicker();
       box.innerHTML = ''; box.appendChild(renderCardPreview(card));
       toast('Saved “' + card.word + '”.');
       $('#addWord').value = ''; $('#addSource').value = '';
@@ -447,6 +526,32 @@
   }
   $('#addBtn').addEventListener('click', function () { doAdd($('#addWord').value, $('#addSource').value); });
   $('#addWord').addEventListener('keydown', function (e) { if (e.key === 'Enter') doAdd($('#addWord').value, $('#addSource').value); });
+
+  // Manual add for non-English collections: no AI lookup, just front/back.
+  async function doManualAdd() {
+    var front = $('#manFront').value.trim();
+    var back = $('#manBack').value.trim();
+    if (!front || !back) { toast('Fill in both the front and the back.'); return; }
+    if (!hasKeys()) { toast('Add your keys in Settings first.'); show('settings'); return; }
+    var coll = selectedCollection;
+    var box = $('#addResult');
+    var source = { label: $('#manSource').value.trim(), url: '', via: 'manual' };
+    var card = C.buildCard(front, { word: front, definition: back, example: $('#manExample').value.trim() }, source, coll);
+    var existing = deck.cards.find(function (c) { return C.getCollection(c) === coll && c.id === card.id; });
+    if (existing) { box.innerHTML = ''; box.appendChild(renderCardPreview(existing)); toast('Already in ' + coll + '.'); return; }
+    try {
+      deck.cards.push(card);
+      deck.sha = await C.saveDeck(cfg, deck.cards, deck.sha, 'add: ' + card.word);
+      if (pendingCollection === coll) pendingCollection = null;
+      cacheDeck(); updateDueBadge(); refreshCollectionPicker();
+      box.innerHTML = ''; box.appendChild(renderCardPreview(card));
+      toast('Saved “' + card.word + '” to ' + coll + '.');
+      $('#manFront').value = ''; $('#manBack').value = ''; $('#manExample').value = ''; $('#manSource').value = '';
+    } catch (e) {
+      box.innerHTML = '<p class="banner">' + escapeHtml(e.message) + '</p>';
+    }
+  }
+  $('#manAddBtn').addEventListener('click', doManualAdd);
 
   function renderCardPreview(card) {
     var d = document.createElement('div'); d.className = 'card';
@@ -468,7 +573,7 @@
   function renderBrowse() {
     var sel = $('#sourceFilter');
     var sources = {};
-    deck.cards.forEach(function (c) { var l = c.source && c.source.label; if (l) sources[l] = true; });
+    collectionCards().forEach(function (c) { var l = c.source && c.source.label; if (l) sources[l] = true; });
     var cur = sel.value;
     sel.innerHTML = '<option value="">All sources</option>' +
       Object.keys(sources).sort().map(function (s) { return '<option>' + escapeHtml(s) + '</option>'; }).join('');
@@ -481,6 +586,7 @@
     var src = $('#sourceFilter').value;
     var sort = $('#sortBy').value;
     var list = deck.cards.filter(function (c) {
+      if (!inCollection(c)) return false;
       if (src && (!c.source || c.source.label !== src)) return false;
       if (!q) return true;
       return (c.word + ' ' + c.definition + ' ' + c.translation + ' ' + (c.synonyms || []).join(' ')).toLowerCase().indexOf(q) >= 0;
@@ -496,7 +602,7 @@
         default: return (b.added || '').localeCompare(a.added || '');
       }
     });
-    $('#browseCount').textContent = list.length + ' of ' + deck.cards.length + ' word(s)';
+    $('#browseCount').textContent = list.length + ' of ' + collectionCards().length + ' word(s) in ' + selectedCollection;
     $('#browseList').innerHTML = list.map(function (c) {
       var mf = C.masteryInfo(c, 'fwd'), mb = C.masteryInfo(c, 'rev');
       var due = (C.isDue(c, 'fwd') || C.isDue(c, 'rev')) ? '<span class="due-dot" title="due"></span>' : '';
@@ -507,12 +613,13 @@
       var del = '<button class="bdel" data-id="' + escapeHtml(c.id) + '" title="Delete">🗑</button>';
       var badges = '<span class="mbadge ' + MASTERY_CLASS[mf.label] + '" title="Front (word→meaning)">F·' + mf.label + '</span>' +
                    ' <span class="mbadge ' + MASTERY_CLASS[mb.label] + '" title="Back (meaning→word)">B·' + mb.label + '</span>' +
+                   ' <span class="chip" title="Collection">' + escapeHtml(C.getCollection(c)) + '</span>' +
                    (c.activeMastery ? ' <span class="mbadge m3" title="You can use it in your own sentence">✓ Active</span>' : '');
       var unretire = (mf.label === 'Retired' ? ' <button class="bunretire secondary small" data-id="' + escapeHtml(c.id) + '" data-dir="fwd">↩ Bring back F</button>' : '') +
                      (mb.label === 'Retired' ? ' <button class="bunretire secondary small" data-id="' + escapeHtml(c.id) + '" data-dir="rev">↩ Bring back B</button>' : '');
       return '<div class="browse-item' + (selectMode ? ' selectable' : '') + '">' +
         '<div class="bhead">' + check +
-          '<div class="bmain"><div>' + due + '<span class="bw">' + escapeHtml(c.word) + '</span> ' + speakBtn(c.word) +
+          '<div class="bmain"><div>' + due + '<span class="bw">' + escapeHtml(c.word) + '</span> ' + speakBtn(c.word, C.getCollection(c)) +
           ' <span class="bipa">' + escapeHtml(c.pronunciation || '') + '</span> ' +
           '<span class="bpos">' + escapeHtml(c.partOfSpeech || '') + '</span>' +
           ' ' + badges + '</div>' +
@@ -547,7 +654,7 @@
       });
     });
     $$('#browseList .speak').forEach(function (b) {
-      b.addEventListener('click', function (e) { e.stopPropagation(); speak(b.dataset.speak); });
+      b.addEventListener('click', function (e) { e.stopPropagation(); speak(b.dataset.speak, b.dataset.coll); });
     });
   }
   function updateSelCount() {
@@ -623,7 +730,7 @@
   function renderPick() {
     if (!parsed.length) { $('#importPick').innerHTML = '<p class="muted">No words found.</p>'; return; }
     var known = {};
-    deck.cards.forEach(function (c) { known[c.id] = true; });
+    deck.cards.forEach(function (c) { if (C.getCollection(c) === C.DEFAULT_COLLECTION) known[c.id] = true; });
     var html = '<div class="pick-actions">' +
       '<button class="secondary" id="selAll">Select all new</button>' +
       '<button class="secondary" id="selNone">Clear</button>' +
@@ -659,7 +766,8 @@
     var added = 0, failed = 0;
     var results = await C.mapLimit(picks, 3, async function (it) {
       var source = { label: it.source || 'Imported', url: '', via: 'import' };
-      var card = await C.lookup(cfg, it.word, source, it.context);
+      // Import is English-only, whatever collection the picker is on.
+      var card = await C.lookup(cfg, it.word, source, it.context, C.DEFAULT_COLLECTION);
       return card;
     }, function (done, total) { fill.style.width = Math.round(done / total * 100) + '%'; $('#pickCount').textContent = done + '/' + total; });
 
@@ -671,7 +779,7 @@
       try { deck.sha = await C.saveDeck(cfg, deck.cards, deck.sha, 'import ' + added + ' word(s)'); cacheDeck(); }
       catch (e) { toast('Saved locally but GitHub write failed: ' + e.message.slice(0, 80)); }
     }
-    updateDueBadge();
+    updateDueBadge(); refreshCollectionPicker();
     $('#importGo').disabled = false;
     $('#importProgress').textContent = 'Imported ' + added + ' word(s)' + (failed ? ', ' + failed + ' failed' : '') + '.';
     toast('Imported ' + added + ' word(s).');
@@ -689,7 +797,7 @@
     $('#setDeckPath').value = cfg.deckPath || DEFAULTS.deckPath;
     $('#setInbox').value = cfg.inboxDir || DEFAULTS.inboxDir;
     $('#setHideZh').checked = cfg.hideChinese !== false;
-    var missing = deck.cards.filter(function (c) { return !c.usage; }).length;
+    var missing = deck.cards.filter(function (c) { return !c.usage && C.getCollection(c) === C.DEFAULT_COLLECTION; }).length;
     $('#backfillUsage').textContent = missing ? ('Fill missing usage notes (' + missing + ')') : 'Usage notes complete ✓';
     $('#backfillUsage').disabled = missing === 0;
   }
@@ -729,7 +837,7 @@
   });
   $('#backfillUsage').addEventListener('click', async function () {
     if (!hasKeys()) { toast('Add your keys first.'); return; }
-    var missing = deck.cards.filter(function (c) { return !c.usage; });
+    var missing = deck.cards.filter(function (c) { return !c.usage && C.getCollection(c) === C.DEFAULT_COLLECTION; });
     var m = $('#settingsMsg');
     if (!missing.length) { m.textContent = 'All cards already have usage notes.'; return; }
     var btn = this; btn.disabled = true;

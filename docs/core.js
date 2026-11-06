@@ -23,7 +23,9 @@
     return d.toISOString().slice(0, 10);
   }
   function slugId(word) {
-    return String(word || '').trim().toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9\-']/g, '');
+    // Keep Unicode letters/numbers so non-Latin words (Japanese, Chinese, …)
+    // get real ids; plain ASCII English words produce exactly the old ids.
+    return String(word || '').trim().toLowerCase().replace(/\s+/g, '-').replace(/[^\p{L}\p{N}\-']/gu, '');
   }
   function utf8ToB64(str) {
     const bytes = new TextEncoder().encode(str);
@@ -139,10 +141,39 @@
   function defaultSrs() {
     return { due: todayISO(), interval: 0, ease: 2.5, reps: 0, retired: false };
   }
-  function buildCard(word, fields, source) {
-    const id = slugId(word);
+
+  // ---------- collections (tag-based) ----------
+  // Each card carries ONE tag in its `collection` field; the picker groups
+  // and filters by it so different types/languages never mix. Cards written
+  // before collections existed have no field and are English.
+  const DEFAULT_COLLECTION = 'English';
+  function getCollection(card) {
+    const name = card && card.collection ? String(card.collection).trim() : '';
+    return name || DEFAULT_COLLECTION;
+  }
+  function listCollections(cards) {
+    const seen = {};
+    const out = [];
+    (cards || []).forEach(function (c) {
+      const name = getCollection(c);
+      if (!seen[name]) { seen[name] = true; out.push(name); }
+    });
+    // English (the original collection) is always offered, and always first.
+    const i = out.indexOf(DEFAULT_COLLECTION);
+    if (i > 0) { out.splice(i, 1); out.unshift(DEFAULT_COLLECTION); }
+    if (i < 0) out.unshift(DEFAULT_COLLECTION);
+    return out;
+  }
+
+  function buildCard(word, fields, source, collection) {
+    const coll = (fields && fields.collection) || collection || DEFAULT_COLLECTION;
+    const baseId = slugId(word);
+    // Non-English ids are prefixed with the collection so the same word can
+    // exist in two collections without colliding; English ids are unchanged.
+    const id = coll === DEFAULT_COLLECTION ? baseId : slugId(coll) + '-' + baseId;
     return {
       id: id,
+      collection: coll,
       word: (fields && fields.word) || word,
       pronunciation: (fields && fields.pronunciation) || '',
       partOfSpeech: (fields && fields.partOfSpeech) || '',
@@ -190,6 +221,7 @@
         if (!card.word) card.word = card.id;
         if (!card.id) { failed++; continue; }
         if (!byId[card.id]) {
+          if (!card.collection) card.collection = DEFAULT_COLLECTION;
           if (!card.srs) card.srs = defaultSrs();
           if (!card.added) card.added = todayISO();
           if (!card.source) card.source = { label: '', url: '', via: 'ios' };
@@ -349,9 +381,11 @@
   }
 
   // High-level: look up a word and build a full card (does not save).
-  async function lookup(cfg, word, source, context) {
+  // The AI lookup is English-only, so callers that don't pass a collection
+  // (e.g. Import) always get English cards.
+  async function lookup(cfg, word, source, context, collection) {
     const fields = await anthropicLookup(cfg, word, context);
-    return buildCard(fields.word || word, fields, source);
+    return buildCard(fields.word || word, fields, source, collection || DEFAULT_COLLECTION);
   }
 
   // Check a user-written sentence that uses `word`. Returns structured feedback.
@@ -423,6 +457,8 @@
     // deck
     loadDeck, saveDeck, buildCard, defaultSrs,
     saveCapture, ingestInbox, deleteCards, masteryInfo,
+    // collections
+    DEFAULT_COLLECTION, getCollection, listCollections,
     // srs
     isDue, srsReview, getSrs, isRetired, setRetired, RETIRE_INTERVAL,
     // ai

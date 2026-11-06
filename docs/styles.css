@@ -35,6 +35,10 @@ body {
   box-shadow: var(--shadow);
 }
 .brand { font-weight: 700; font-size: 17px; margin-bottom: 8px; }
+.collection-row { display: flex; align-items: center; gap: 8px; margin-top: 10px; }
+.collection-row label { color: #fff; font-size: 13px; font-weight: 600; }
+.collection-row select { width: auto; max-width: 70vw; padding: 7px 10px; border-radius: 999px; font-size: 14px; }
+.new-collection { margin-top: 12px; }
 .tabs { display: flex; gap: 6px; flex-wrap: wrap; }
 .tab {
   background: rgba(255,255,255,0.16); color: #fff; border: 0;
