@@ -19,6 +19,7 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;          /* no sideways scrolling of the page */
   overscroll-behavior: none;   /* no rubber-band / swipe-to-navigate bounce */
+  touch-action: pan-x pan-y;   /* allow scrolling, but no pinch-zoom or double-tap zoom */
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -57,7 +58,7 @@ h2 { margin: 6px 0 12px; }
 .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); }
 
-input, select, textarea, button { font-size: 15px; font-family: inherit; }
+input, select, textarea, button { font-size: 16px; font-family: inherit; } /* 16px stops iOS Safari auto-zooming in when a field gets focus */
 input, select, textarea {
   padding: 11px 12px; border: 1px solid var(--line); border-radius: 12px;
   background: #fff; color: var(--ink); width: 100%;
@@ -195,6 +196,8 @@ label.check input { width: auto; }
 .mbadge.m1 { background: #fee2e2; color: #b91c1c; }
 .mbadge.m2 { background: #fef3c7; color: #92400e; }
 .mbadge.m3 { background: #d1fae5; color: #065f46; }
+.mbadge.mret { background: #ddd6fe; color: #5b21b6; }
+.bunretire { margin-left: 6px; }
 .browse-item { background: var(--panel); border-radius: 14px; box-shadow: var(--shadow); padding: 14px 16px; transition: box-shadow .15s, transform .15s; }
 .browse-item:hover { transform: translateY(-1px); box-shadow: 0 10px 30px rgba(20, 20, 50, 0.12); }
 .browse-item .bw { font-size: 19px; font-weight: 700; }

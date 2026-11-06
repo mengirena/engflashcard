@@ -1,6 +1,16 @@
 /* app.js — PWA UI. Uses self.FlashcardCore (core.js). */
 (function () {
   'use strict';
+
+  // No zooming: iOS Safari ignores the viewport user-scalable=no, so block
+  // its pinch-gesture events directly. Also block trackpad pinch (Ctrl+wheel).
+  ['gesturestart', 'gesturechange', 'gestureend'].forEach(function (type) {
+    document.addEventListener(type, function (e) { e.preventDefault(); }, { passive: false });
+  });
+  document.addEventListener('wheel', function (e) {
+    if (e.ctrlKey) e.preventDefault();
+  }, { passive: false });
+
   var C = self.FlashcardCore;
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
@@ -135,7 +145,8 @@
   function buildQueue() {
     if (studyMode === 'weak') {
       // practice the least-mastered words first (for the current side), regardless of due date
-      queue = deck.cards.slice().sort(function (a, b) {
+      // (retired cards for this side are out of study entirely)
+      queue = deck.cards.filter(function (c) { return !C.isRetired(c, studyDir); }).sort(function (a, b) {
         return C.masteryInfo(a, studyDir).rank - C.masteryInfo(b, studyDir).rank;
       });
     } else {
@@ -373,6 +384,9 @@
   function rate(rating) {
     if (!current) return;
     C.srsReview(current, rating, studyDir);
+    if (C.isRetired(current, studyDir)) {
+      toast('🎉 Retired “' + current.word + '” (' + (studyDir === 'rev' ? 'back' : 'front') + ') — mastered!');
+    }
     dirty = true;
     scheduleFlush();
     if (rating !== 'again') sessionDone[current.id] = true;
@@ -461,7 +475,7 @@
     sel.value = cur;
     applyBrowse();
   }
-  var MASTERY_CLASS = { 'New': 'm0', 'Learning': 'm1', 'Familiar': 'm2', 'Mastered': 'm3' };
+  var MASTERY_CLASS = { 'New': 'm0', 'Learning': 'm1', 'Familiar': 'm2', 'Mastered': 'm3', 'Retired': 'mret' };
   function applyBrowse() {
     var q = $('#searchInput').value.trim().toLowerCase();
     var src = $('#sourceFilter').value;
@@ -494,6 +508,8 @@
       var badges = '<span class="mbadge ' + MASTERY_CLASS[mf.label] + '" title="Front (word→meaning)">F·' + mf.label + '</span>' +
                    ' <span class="mbadge ' + MASTERY_CLASS[mb.label] + '" title="Back (meaning→word)">B·' + mb.label + '</span>' +
                    (c.activeMastery ? ' <span class="mbadge m3" title="You can use it in your own sentence">✓ Active</span>' : '');
+      var unretire = (mf.label === 'Retired' ? ' <button class="bunretire secondary small" data-id="' + escapeHtml(c.id) + '" data-dir="fwd">↩ Bring back F</button>' : '') +
+                     (mb.label === 'Retired' ? ' <button class="bunretire secondary small" data-id="' + escapeHtml(c.id) + '" data-dir="rev">↩ Bring back B</button>' : '');
       return '<div class="browse-item' + (selectMode ? ' selectable' : '') + '">' +
         '<div class="bhead">' + check +
           '<div class="bmain"><div>' + due + '<span class="bw">' + escapeHtml(c.word) + '</span> ' + speakBtn(c.word) +
@@ -503,7 +519,7 @@
           '<div class="btr">' + escapeHtml(c.translation || '') + '</div>' +
           '<div class="bdef">' + escapeHtml(c.definition || '') + '</div>' +
           (c.usage ? '<div class="card-usage"><span class="usage-tag">Usage</span> ' + escapeHtml(c.usage) + '</div>' : '') +
-          '<div class="bmeta">added ' + escapeHtml(c.added || '') + ' · next ' + escapeHtml(c.srs ? c.srs.due : '') + seen + '</div></div>' +
+          '<div class="bmeta">added ' + escapeHtml(c.added || '') + ' · next ' + escapeHtml(c.srs ? c.srs.due : '') + seen + unretire + '</div></div>' +
           (selectMode ? '' : del) +
         '</div>' +
       '</div>';
@@ -513,6 +529,16 @@
   function wireBrowseRowActions() {
     $$('#browseList .bdel').forEach(function (b) {
       b.addEventListener('click', function () { confirmDelete([b.dataset.id]); });
+    });
+    $$('#browseList .bunretire').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var c = deck.cards.find(function (x) { return x.id === b.dataset.id; });
+        if (!c) return;
+        C.setRetired(c, b.dataset.dir, false);
+        dirty = true; scheduleFlush(); cacheDeck();
+        updateDueBadge(); applyBrowse();
+        toast('Brought back “' + c.word + '” — due today.');
+      });
     });
     $$('#browseList .bsel').forEach(function (cb) {
       cb.addEventListener('change', function () {

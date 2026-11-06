@@ -137,7 +137,7 @@
   }
 
   function defaultSrs() {
-    return { due: todayISO(), interval: 0, ease: 2.5, reps: 0 };
+    return { due: todayISO(), interval: 0, ease: 2.5, reps: 0, retired: false };
   }
   function buildCard(word, fields, source) {
     const id = slugId(word);
@@ -235,7 +235,8 @@
     const s = getSrs(card, dir) || {};
     const reps = s.reps || 0, interval = s.interval || 0;
     let score, label;
-    if (reps === 0) { score = 0; label = 'New'; }
+    if (s.retired) { score = 4; label = 'Retired'; }
+    else if (reps === 0) { score = 0; label = 'New'; }
     else if (interval < 4) { score = 1; label = 'Learning'; }
     else if (interval < 21) { score = 2; label = 'Familiar'; }
     else { score = 3; label = 'Mastered'; }
@@ -245,7 +246,24 @@
   }
 
   // ---------- SRS (simplified SM-2), per direction ----------
+  // Retirement: once a direction's interval reaches RETIRE_INTERVAL days it is
+  // retired — it leaves Due and Weak-words study for that direction only, and
+  // stays visible in Browse, where it can be brought back (setRetired false).
+  const RETIRE_INTERVAL = 90;
+  function isRetired(card, dir) {
+    const s = getSrs(card, dir);
+    return !!(s && s.retired);
+  }
+  function setRetired(card, dir, retired) {
+    const key = srsKey(dir);
+    const s = card[key] || defaultSrs();
+    // Bringing a card back keeps its interval/ease/reps; it is simply due today.
+    // If the next review is Good/Easy it will retire again; Hard/Again keeps it active.
+    card[key] = { due: retired ? s.due : todayISO(), interval: s.interval || 0, ease: s.ease || 2.5, reps: s.reps || 0, retired: !!retired };
+    return card[key];
+  }
   function isDue(card, dir, refISO) {
+    if (isRetired(card, dir)) return false;
     const s = getSrs(card, dir);
     const today = refISO || todayISO();
     if (!s || s.reps === 0) return true;   // new (or never studied in this direction)
@@ -259,7 +277,7 @@
     let reps = s.reps || 0;
     if (rating === 'again') {
       ease = Math.max(1.3, ease - 0.20);
-      card[key] = { due: todayISO(), interval: 0, ease: ease, reps: 0 };
+      card[key] = { due: todayISO(), interval: 0, ease: ease, reps: 0, retired: false };
       return card[key];
     }
     switch (rating) {
@@ -278,7 +296,7 @@
     }
     reps += 1;
     interval = Math.max(1, interval);
-    card[key] = { due: addDaysISO(interval), interval: interval, ease: ease, reps: reps };
+    card[key] = { due: addDaysISO(interval), interval: interval, ease: ease, reps: reps, retired: interval >= RETIRE_INTERVAL };
     return card[key];
   }
 
@@ -406,7 +424,7 @@
     loadDeck, saveDeck, buildCard, defaultSrs,
     saveCapture, ingestInbox, deleteCards, masteryInfo,
     // srs
-    isDue, srsReview, getSrs,
+    isDue, srsReview, getSrs, isRetired, setRetired, RETIRE_INTERVAL,
     // ai
     anthropicLookup, lookup, parseImport, checkSentence, usageFor
   };
