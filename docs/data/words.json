@@ -8096,7 +8096,7 @@
       "definition": "A freestanding, open-sided roofed structure, typically found in gardens or parks, designed to provide shade and a pleasant outdoor gathering space.",
       "translation": "涼亭；花園涼棚",
       "example": "We sat in the gazebo during the wedding reception to escape the afternoon sun.",
-      "usage": "Neutral/formal register. Commonly paired with descriptors like 'wooden gazebo,' 'garden gazebo,' or 'Victorian gazebo.' Often used in contexts of gardens, parks, outdoor events, and real estate descriptions. Not typically used in casual everyday speech unless discussing specific outdoor structures.",
+      "usage": "Neutral/formal register. Commonly paired with descriptors like 'wooden gazebo,' 'garden gazebo,' or 'Victorian gazebo.' Often used in contexts of gardens, parks, outdoor events, and real estate descriptions. Not typically used in casual everyday speech unless discussing specific outdoor structures. Part of the pavilion / pagoda / gazebo set (queued again 2026-11-06 after the pavilion photo question): a gazebo is the small, simple, Western cousin of a pavilion — one pointed roof, thin posts, benches inside; a pagoda is a tall temple tower; a pavilion is the bigger, decorated park structure.",
       "synonyms": [
         "pavilion",
         "pergola",
@@ -9475,6 +9475,153 @@
       "added": "2026-11-06",
       "source": {
         "label": "Chat with Iggy — Laguna DOE request refinement, 2026-11-06",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
+    },
+    {
+      "id": "pavilion",
+      "collection": "English",
+      "word": "pavilion",
+      "pronunciation": "/pəˈvɪl.jən/",
+      "partOfSpeech": "noun",
+      "definition": "An open-sided decorative building in a park or garden, used for sitting, shade, or small gatherings. In US parks it can also mean a simple covered picnic shelter (often reservable for parties).",
+      "translation": "涼亭；亭子",
+      "example": "A traditional Chinese pavilion stood by the lake, with red lacquered pillars, tiered roofs, and golden upturned eaves.",
+      "usage": "Pavilion vs pagoda — don't mix them up: a pagoda is a tall, multi-storey tower; a pavilion is a low, open structure you can walk into and sit in. From her photo: the pavilion carries a plaque with Thai script, so it's a Chinese-style pavilion in Thailand.",
+      "synonyms": [
+        "gazebo",
+        "summerhouse",
+        "shelter"
+      ],
+      "added": "2026-11-06",
+      "source": {
+        "label": "Chat with Iggy — EngFlashcard side chat photo description, 2026-11-06",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
+    },
+    {
+      "id": "pagoda",
+      "collection": "English",
+      "word": "pagoda",
+      "pronunciation": "/pəˈɡoʊ.də/",
+      "partOfSpeech": "noun",
+      "definition": "A tall East Asian temple tower with several storeys, each storey having its own wide tiled roof with upturned eaves; each level is smaller than the one below, like a stack of roofs.",
+      "translation": "寶塔；佛塔",
+      "example": "The five-story pagoda rose above the trees at the temple in Kyoto.",
+      "usage": "Part of the pavilion / pagoda / gazebo set — a pagoda is a tall landmark you look at, not a shelter you sit in. Common in Japan travel talk (five-story pagoda = 五重塔).",
+      "synonyms": [
+        "temple tower"
+      ],
+      "added": "2026-11-06",
+      "source": {
+        "label": "Chat with Iggy — EngFlashcard side chat, follow-up to the pavilion photo question, 2026-11-06",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
+    },
+    {
+      "id": "pretty-much-finished-everything",
+      "collection": "English",
+      "word": "pretty much finished everything",
+      "pronunciation": "/ˈprɪt.i mʌtʃ ˈfɪn.ɪʃt ˈev.ri.θɪŋ/",
+      "partOfSpeech": "phrase",
+      "definition": "\"Pretty much\" = almost completely. \"I pretty much finished everything\" = I got almost everything done.",
+      "translation": "幾乎都完成了",
+      "example": "I pretty much finished everything today.",
+      "usage": "Her original (spoken): \"I almost were pretty much finished all the tasks…\" → Corrected: \"I pretty much finished everything today.\" \"Pretty much\" is a very common softener in casual US English — \"I pretty much agree\", \"we're pretty much done.\"",
+      "synonyms": [
+        "got almost everything done",
+        "nearly finished everything"
+      ],
+      "added": "2026-11-06",
+      "source": {
+        "label": "Voice call with Iggy — spoken practice, 2026-11-07",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
+    },
+    {
+      "id": "compersion",
+      "collection": "English",
+      "word": "compersion",
+      "pronunciation": "/kəmˈpɝː.ʒən/",
+      "partOfSpeech": "noun",
+      "definition": "Joy you feel when someone you love is happy because of another relationship of theirs — feeling genuinely happy for your partner's happiness with someone else. Known mainly as the opposite of jealousy.",
+      "translation": "為伴侶與他人的幸福真心感到快樂（嫉妒的相反）",
+      "example": "When her partner came home glowing from a great date, she felt compersion instead of jealousy.",
+      "usage": "A coined, niche word from polyamory / non-monogamy communities. You will meet it in relationship articles, podcasts, and books — it is not everyday conversation, and many native speakers don't know it either. Recognize it; you don't need to produce it. Heard in the movie \"Invite\". Recognize-only: the back direction is parked (retired) so it only ever asks word → meaning; bring it back in Browse if ever wanted.",
+      "synonyms": [
+        "empathic joy",
+        "vicarious happiness"
+      ],
+      "added": "2026-11-06",
+      "source": {
+        "label": "Chat with Iggy — EngFlashcard side chat; heard in the movie \"Invite\", 2026-11-06",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      },
+      "srsBack": {
+        "due": "2026-11-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": true
+      }
+    },
+    {
+      "id": "casserole",
+      "collection": "English",
+      "word": "casserole",
+      "pronunciation": "/ˈkæs.ə.roʊl/",
+      "partOfSpeech": "noun",
+      "definition": "(1) A dish of mixed ingredients baked slowly in the oven in one deep dish — e.g. tuna casserole, green bean casserole; (2) the deep ovenproof dish itself (\"a casserole dish\"), and bare \"casserole\" in kitchen talk often means the pot — \"grease the casserole\", \"cover the casserole\".",
+      "translation": "焗烤砂鍋菜；砂鍋（指器皿時）",
+      "example": "She brought a chicken casserole to the potluck.",
+      "usage": "Very common US home-cooking word — recipe sites, potlucks, meal prep. Cultural anchor: green bean casserole is a classic Thanksgiving side dish. Not a stew: stews cook in liquid on the stove; a casserole bakes in the oven. Heard in the movie \"Invite\", where it meant the dish itself (the pot), not the food.",
+      "synonyms": [
+        "baked dish",
+        "casserole dish"
+      ],
+      "added": "2026-11-06",
+      "source": {
+        "label": "Chat with Iggy — EngFlashcard side chat; heard in the movie \"Invite\", 2026-11-06",
         "url": "",
         "via": "manual"
       },
