@@ -4560,10 +4560,11 @@
       ],
       "id": "incontinence",
       "srs": {
-        "due": "2026-09-29",
-        "interval": 1.2,
-        "ease": 2.2,
-        "reps": 2
+        "due": "2026-11-07",
+        "interval": 0,
+        "ease": 2,
+        "reps": 0,
+        "retired": false
       },
       "added": "2026-07-18",
       "source": {
