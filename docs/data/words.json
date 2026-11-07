@@ -5715,10 +5715,11 @@
       ],
       "id": "proponent",
       "srs": {
-        "due": "2026-09-29",
-        "interval": 1,
-        "ease": 2.35,
-        "reps": 1
+        "due": "2026-11-07",
+        "interval": 0,
+        "ease": 2.15,
+        "reps": 0,
+        "retired": false
       },
       "added": "2026-09-01",
       "source": {
