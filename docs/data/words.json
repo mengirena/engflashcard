@@ -4191,10 +4191,11 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-28",
-        "interval": 0,
-        "ease": 2.5,
-        "reps": 0
+        "due": "2026-11-08",
+        "interval": 1,
+        "ease": 2.35,
+        "reps": 1,
+        "retired": false
       },
       "collection": "English"
     },
