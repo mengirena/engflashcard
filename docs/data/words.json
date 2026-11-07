@@ -9136,10 +9136,11 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-10-20",
-        "interval": 0,
+        "due": "2026-11-08",
+        "interval": 1,
         "ease": 2.5,
-        "reps": 0
+        "reps": 1,
+        "retired": false
       },
       "collection": "English"
     },
