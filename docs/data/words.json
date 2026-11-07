@@ -34,7 +34,8 @@
         "reps": 1,
         "retired": true
       },
-      "usage": "Ephemeral describes things lasting only briefly—often beauty, trends, or moments—and carries a somewhat literary or formal tone. It pairs well with nouns like \"beauty,\" \"nature,\" \"joy,\" \"trend,\" or \"existence.\" Avoid it in casual speech where \"short-lived\" or \"temporary\" would sound more natural, and don't use it for planned, permanent things."
+      "usage": "Ephemeral describes things lasting only briefly—often beauty, trends, or moments—and carries a somewhat literary or formal tone. It pairs well with nouns like \"beauty,\" \"nature,\" \"joy,\" \"trend,\" or \"existence.\" Avoid it in casual speech where \"short-lived\" or \"temporary\" would sound more natural, and don't use it for planned, permanent things.",
+      "collection": "English"
     },
     {
       "id": "serendipity",
@@ -68,7 +69,8 @@
         "ease": 2.5,
         "reps": 2
       },
-      "usage": "**Serendipity** pairs well with verbs like \"discover,\" \"find,\" or \"experience,\" and appears in phrases like \"pure serendipity\" or \"by serendipity.\" It has a literary/formal-to-neutral register and works best when describing genuinely fortunate coincidences with a sense of wonder. Avoid it for planned successes, minor luck, or when you need a simpler synonym like \"luck\" or \"chance\"—overuse can sound pretentious in casual conversation."
+      "usage": "**Serendipity** pairs well with verbs like \"discover,\" \"find,\" or \"experience,\" and appears in phrases like \"pure serendipity\" or \"by serendipity.\" It has a literary/formal-to-neutral register and works best when describing genuinely fortunate coincidences with a sense of wonder. Avoid it for planned successes, minor luck, or when you need a simpler synonym like \"luck\" or \"chance\"—overuse can sound pretentious in casual conversation.",
+      "collection": "English"
     },
     {
       "id": "ubiquitous",
@@ -102,7 +104,8 @@
         "ease": 2.5,
         "reps": 2
       },
-      "usage": "Use \"ubiquitous\" for things that are genuinely widespread and hard to escape—smartphones, social media, traffic. It's formal/neutral and pairs well with nouns like \"presence,\" \"technology,\" \"phenomenon.\" Avoid it for things that are merely common or popular; reserve it for what's truly omnipresent."
+      "usage": "Use \"ubiquitous\" for things that are genuinely widespread and hard to escape—smartphones, social media, traffic. It's formal/neutral and pairs well with nouns like \"presence,\" \"technology,\" \"phenomenon.\" Avoid it for things that are merely common or popular; reserve it for what's truly omnipresent.",
+      "collection": "English"
     },
     {
       "id": "plop",
@@ -136,7 +139,8 @@
         "ease": 2.5,
         "reps": 2
       },
-      "usage": "**Plop** is casual and informal, often used in children's language or playful contexts. It pairs well with \"into\" (plop into water/mud) and works as both verb and noun for the sound itself. Avoid it in formal writing, technical documentation, or serious literary work where \"drop,\" \"fall,\" or \"splash\" would be more appropriate."
+      "usage": "**Plop** is casual and informal, often used in children's language or playful contexts. It pairs well with \"into\" (plop into water/mud) and works as both verb and noun for the sound itself. Avoid it in formal writing, technical documentation, or serious literary work where \"drop,\" \"fall,\" or \"splash\" would be more appropriate.",
+      "collection": "English"
     },
     {
       "id": "quotient",
@@ -170,7 +174,8 @@
         "ease": 2.5,
         "reps": 2
       },
-      "usage": "Primarily a mathematical/technical term used in formal or academic contexts. Common collocations: intelligence quotient (IQ), respiratory quotient, quotient of two numbers. Avoid in casual speech unless discussing math or science; use \"result\" or \"answer\" in everyday contexts instead."
+      "usage": "Primarily a mathematical/technical term used in formal or academic contexts. Common collocations: intelligence quotient (IQ), respiratory quotient, quotient of two numbers. Avoid in casual speech unless discussing math or science; use \"result\" or \"answer\" in everyday contexts instead.",
+      "collection": "English"
     },
     {
       "id": "sanctions",
@@ -204,7 +209,8 @@
         "ease": 2.5,
         "reps": 1
       },
-      "usage": "Pairs with impose / lift / ease / tighten and 'economic / trade sanctions'. In news and work talk it almost always means penalties — the 'official approval' meaning is rare, so say 'approval' for that instead. Formal to neutral register."
+      "usage": "Pairs with impose / lift / ease / tighten and 'economic / trade sanctions'. In news and work talk it almost always means penalties — the 'official approval' meaning is rare, so say 'approval' for that instead. Formal to neutral register.",
+      "collection": "English"
     },
     {
       "id": "gutsy",
@@ -238,7 +244,8 @@
         "ease": 2.5,
         "reps": 3
       },
-      "usage": "**Gutsy** is informal/casual and pairs well with nouns like \"decision,\" \"move,\" \"performance,\" or \"person.\" It conveys admiration for boldness but lacks the formality of \"courageous\" or \"brave\"—avoid it in serious professional writing, legal contexts, or when discussing grave moral courage. Don't use it ironically or to describe recklessness without clear context, as it implies positive intent rather than mere risk-taking."
+      "usage": "**Gutsy** is informal/casual and pairs well with nouns like \"decision,\" \"move,\" \"performance,\" or \"person.\" It conveys admiration for boldness but lacks the formality of \"courageous\" or \"brave\"—avoid it in serious professional writing, legal contexts, or when discussing grave moral courage. Don't use it ironically or to describe recklessness without clear context, as it implies positive intent rather than mere risk-taking.",
+      "collection": "English"
     },
     {
       "id": "hazel",
@@ -271,7 +278,8 @@
         "ease": 2.5,
         "reps": 1
       },
-      "usage": "**Hazel** most commonly appears in the phrases \"hazel eyes\" (a light brown eye color) and \"hazel tree/nut\" (the plant). It's neutral-to-formal and works well in descriptive writing and botanical contexts. Avoid using it for very dark brown eyes or for colors unrelated to the plant or eye color—\"hazel\" implies a specific warm, golden-brown tone, not just any brown."
+      "usage": "**Hazel** most commonly appears in the phrases \"hazel eyes\" (a light brown eye color) and \"hazel tree/nut\" (the plant). It's neutral-to-formal and works well in descriptive writing and botanical contexts. Avoid using it for very dark brown eyes or for colors unrelated to the plant or eye color—\"hazel\" implies a specific warm, golden-brown tone, not just any brown.",
+      "collection": "English"
     },
     {
       "id": "militia",
@@ -305,7 +313,8 @@
         "ease": 2.5,
         "reps": 1
       },
-      "usage": "**Militia** typically pairs with verbs like \"form,\" \"mobilize,\" \"train,\" or \"deploy,\" and adjectives like \"armed,\" \"local,\" or \"state.\" It's neutral to formal register and commonly used in historical, legal, and political contexts. Avoid it when referring to professional standing armies or when you need to describe purely civilian volunteer organizations without military structure."
+      "usage": "**Militia** typically pairs with verbs like \"form,\" \"mobilize,\" \"train,\" or \"deploy,\" and adjectives like \"armed,\" \"local,\" or \"state.\" It's neutral to formal register and commonly used in historical, legal, and political contexts. Avoid it when referring to professional standing armies or when you need to describe purely civilian volunteer organizations without military structure.",
+      "collection": "English"
     },
     {
       "id": "appraising",
@@ -333,7 +342,8 @@
         "ease": 2.0500000000000003,
         "reps": 6
       },
-      "usage": "\"Appraising\" works well with abstract nouns (appraising a situation, performance, risk) and in professional contexts like HR, real estate, and art evaluation. It's neutral-to-formal in register. Avoid it in casual speech where \"checking out,\" \"sizing up,\" or \"looking at\" would be more natural; also avoid when you simply mean glancing at something without judgment."
+      "usage": "\"Appraising\" works well with abstract nouns (appraising a situation, performance, risk) and in professional contexts like HR, real estate, and art evaluation. It's neutral-to-formal in register. Avoid it in casual speech where \"checking out,\" \"sizing up,\" or \"looking at\" would be more natural; also avoid when you simply mean glancing at something without judgment.",
+      "collection": "English"
     },
     {
       "id": "around-the-block",
@@ -367,7 +377,8 @@
         "ease": 2.5,
         "reps": 1
       },
-      "usage": "**Usage note:**\n\nThis is a casual/neutral phrase commonly paired with verbs like \"live,\" \"be,\" or \"go\" (e.g., \"just around the block,\" \"been around the block\"). Use it informally for nearby locations or, idiomatically, to suggest someone is experienced or worldly (\"she's been around the block\"). Avoid in formal writing or academic contexts where you'd say \"nearby\" or \"close by\" instead."
+      "usage": "**Usage note:**\n\nThis is a casual/neutral phrase commonly paired with verbs like \"live,\" \"be,\" or \"go\" (e.g., \"just around the block,\" \"been around the block\"). Use it informally for nearby locations or, idiomatically, to suggest someone is experienced or worldly (\"she's been around the block\"). Avoid in formal writing or academic contexts where you'd say \"nearby\" or \"close by\" instead.",
+      "collection": "English"
     },
     {
       "id": "jauntily",
@@ -403,7 +414,8 @@
         "reps": 0,
         "retired": true
       },
-      "usage": "**Jauntily** pairs naturally with verbs of movement or manner: *walk jauntily, stride jauntily, wear jauntily* (a hat tilted at an angle). It's literary/neutral in register, often used in narrative description. Avoid it in formal business writing or when describing serious contexts, as its upbeat tone can undermine gravity."
+      "usage": "**Jauntily** pairs naturally with verbs of movement or manner: *walk jauntily, stride jauntily, wear jauntily* (a hat tilted at an angle). It's literary/neutral in register, often used in narrative description. Avoid it in formal business writing or when describing serious contexts, as its upbeat tone can undermine gravity.",
+      "collection": "English"
     },
     {
       "id": "stuttered",
@@ -431,7 +443,8 @@
         "ease": 2.5,
         "reps": 4
       },
-      "usage": "**Stuttered** is neutral/informal and pairs naturally with speech verbs: \"stuttered out,\" \"stuttered a response,\" \"stuttered nervously.\" It's used both literally (speech impediment) and figuratively (hesitant speaking from emotion or surprise). Avoid in formal writing when you mean simple hesitation—use \"hesitated,\" \"faltered,\" or \"paused\" instead, as \"stuttered\" implies either a real stutter or significant emotional disturbance."
+      "usage": "**Stuttered** is neutral/informal and pairs naturally with speech verbs: \"stuttered out,\" \"stuttered a response,\" \"stuttered nervously.\" It's used both literally (speech impediment) and figuratively (hesitant speaking from emotion or surprise). Avoid in formal writing when you mean simple hesitation—use \"hesitated,\" \"faltered,\" or \"paused\" instead, as \"stuttered\" implies either a real stutter or significant emotional disturbance.",
+      "collection": "English"
     },
     {
       "id": "jittery",
@@ -466,7 +479,8 @@
         "ease": 2.5,
         "reps": 1
       },
-      "usage": "**Jittery** is a casual/neutral adjective commonly paired with \"feel,\" \"get,\" or \"seem\" (e.g., \"feel jittery,\" \"get jittery before a presentation\"). It works well in informal writing and speech but avoid it in formal academic or professional contexts where \"anxious,\" \"nervous,\" or \"apprehensive\" would be more appropriate. Don't use it to describe chronic anxiety disorders—it suggests temporary, situational nervousness."
+      "usage": "**Jittery** is a casual/neutral adjective commonly paired with \"feel,\" \"get,\" or \"seem\" (e.g., \"feel jittery,\" \"get jittery before a presentation\"). It works well in informal writing and speech but avoid it in formal academic or professional contexts where \"anxious,\" \"nervous,\" or \"apprehensive\" would be more appropriate. Don't use it to describe chronic anxiety disorders—it suggests temporary, situational nervousness.",
+      "collection": "English"
     },
     {
       "id": "beguiling",
@@ -501,7 +515,8 @@
         "ease": 2.5,
         "reps": 1
       },
-      "usage": "**Beguiling** pairs well with nouns like smile, charm, manner, appearance, and voice. It's literary/formal register and carries a subtle warning—use it when you want to describe something attractive *but* suspect or deceptive underneath. Avoid it for straightforwardly positive descriptions; \"charming\" or \"enchanting\" work better when there's no hint of deception intended."
+      "usage": "**Beguiling** pairs well with nouns like smile, charm, manner, appearance, and voice. It's literary/formal register and carries a subtle warning—use it when you want to describe something attractive *but* suspect or deceptive underneath. Avoid it for straightforwardly positive descriptions; \"charming\" or \"enchanting\" work better when there's no hint of deception intended.",
+      "collection": "English"
     },
     {
       "id": "exert",
@@ -530,7 +545,8 @@
         "ease": 2.0500000000000003,
         "reps": 6
       },
-      "usage": "**Exert** commonly pairs with abstract nouns like *pressure, influence, control, effort,* and *force*—e.g., \"exert pressure on the government\" or \"exert yourself physically.\" It's neutral to formal and works well in academic and professional writing. Avoid it for simple, direct actions (say \"push\" or \"try hard\" instead of \"exert force\" or \"exert effort\" in casual speech), and don't use it reflexively in very informal contexts where \"make an effort\" would sound more natural."
+      "usage": "**Exert** commonly pairs with abstract nouns like *pressure, influence, control, effort,* and *force*—e.g., \"exert pressure on the government\" or \"exert yourself physically.\" It's neutral to formal and works well in academic and professional writing. Avoid it for simple, direct actions (say \"push\" or \"try hard\" instead of \"exert force\" or \"exert effort\" in casual speech), and don't use it reflexively in very informal contexts where \"make an effort\" would sound more natural.",
+      "collection": "English"
     },
     {
       "id": "lackluster",
@@ -559,7 +575,8 @@
         "ease": 2.0500000000000003,
         "reps": 6
       },
-      "usage": "**Lackluster** is a neutral-to-formal adjective commonly paired with nouns like *performance, effort, economy, results*, or *showing*. It's used to criticize something as disappointing or uninspired without being harshly negative. Avoid it when describing something genuinely poor or harmful—use *poor, abysmal*, or *weak* instead—and it's too informal for highly formal academic writing."
+      "usage": "**Lackluster** is a neutral-to-formal adjective commonly paired with nouns like *performance, effort, economy, results*, or *showing*. It's used to criticize something as disappointing or uninspired without being harshly negative. Avoid it when describing something genuinely poor or harmful—use *poor, abysmal*, or *weak* instead—and it's too informal for highly formal academic writing.",
+      "collection": "English"
     },
     {
       "id": "put-off",
@@ -587,7 +604,8 @@
         "ease": 2.0500000000000003,
         "reps": 7
       },
-      "usage": "**Put off** is neutral and common in both speech and writing. It pairs naturally with tasks, meetings, decisions, or people (e.g., \"put off the meeting,\" \"put off a decision,\" \"put off by his attitude\"). Avoid it in very formal contexts where \"postpone,\" \"defer,\" or \"delay\" sound more appropriate; also avoid confusing the phrasal verb with \"put on\" (wear) or \"put out\" (annoy/inconvenience)."
+      "usage": "**Put off** is neutral and common in both speech and writing. It pairs naturally with tasks, meetings, decisions, or people (e.g., \"put off the meeting,\" \"put off a decision,\" \"put off by his attitude\"). Avoid it in very formal contexts where \"postpone,\" \"defer,\" or \"delay\" sound more appropriate; also avoid confusing the phrasal verb with \"put on\" (wear) or \"put out\" (annoy/inconvenience).",
+      "collection": "English"
     },
     {
       "id": "crotch",
@@ -621,7 +639,8 @@
         "ease": 2.3,
         "reps": 0
       },
-      "usage": "This word is neutral/clinical when referring to anatomy or botany, but becomes casual or crude when used in informal contexts about the body. Pairs naturally with \"of the tree,\" \"area,\" or anatomical terms. Avoid in formal writing unless discussing anatomy or horticulture specifically; in casual speech it's acceptable but can sound blunt or crude depending on context."
+      "usage": "This word is neutral/clinical when referring to anatomy or botany, but becomes casual or crude when used in informal contexts about the body. Pairs naturally with \"of the tree,\" \"area,\" or anatomical terms. Avoid in formal writing unless discussing anatomy or horticulture specifically; in casual speech it's acceptable but can sound blunt or crude depending on context.",
+      "collection": "English"
     },
     {
       "id": "gust-out",
@@ -649,7 +668,8 @@
         "ease": 2.0500000000000003,
         "reps": 6
       },
-      "usage": "\"Gust out\" is rare and not standard; use \"blow out\" instead for wind extinguishing flames, or \"gust\" alone as a verb (e.g., \"wind gusted through the window\"). The phrase appears mainly in older or literary texts but sounds awkward in modern English."
+      "usage": "\"Gust out\" is rare and not standard; use \"blow out\" instead for wind extinguishing flames, or \"gust\" alone as a verb (e.g., \"wind gusted through the window\"). The phrase appears mainly in older or literary texts but sounds awkward in modern English.",
+      "collection": "English"
     },
     {
       "id": "pulverize",
@@ -684,7 +704,8 @@
         "ease": 2.3,
         "reps": 1
       },
-      "usage": "**Pulverize** pairs well with concrete objects (rock, concrete, ore) or opponents/teams in competitive contexts. It's neutral-to-formal and common in both literal (industrial/scientific) and figurative (sports/competition) usage. Avoid it in formal writing about delicate or abstract matters where a less violent metaphor would be more appropriate."
+      "usage": "**Pulverize** pairs well with concrete objects (rock, concrete, ore) or opponents/teams in competitive contexts. It's neutral-to-formal and common in both literal (industrial/scientific) and figurative (sports/competition) usage. Avoid it in formal writing about delicate or abstract matters where a less violent metaphor would be more appropriate.",
+      "collection": "English"
     },
     {
       "id": "chlamydia",
@@ -720,7 +741,8 @@
         "reps": 1,
         "retired": true
       },
-      "usage": "Use in clinical, medical, or educational contexts when discussing sexual health; pairs naturally with \"infection,\" \"test,\" \"treatment,\" \"STI,\" and \"diagnosis.\" It's formal and neutral—appropriate for doctor's offices, health classes, and public health discussions. Avoid using euphemistically or in casual speech where \"STI\" or \"sexually transmitted infection\" might be clearer for general audiences."
+      "usage": "Use in clinical, medical, or educational contexts when discussing sexual health; pairs naturally with \"infection,\" \"test,\" \"treatment,\" \"STI,\" and \"diagnosis.\" It's formal and neutral—appropriate for doctor's offices, health classes, and public health discussions. Avoid using euphemistically or in casual speech where \"STI\" or \"sexually transmitted infection\" might be clearer for general audiences.",
+      "collection": "English"
     },
     {
       "id": "plaguing",
@@ -755,7 +777,8 @@
         "ease": 2.35,
         "reps": 1
       },
-      "usage": "**Plaguing** is formal/neutral and works well with abstract problems or chronic issues: \"questions plaguing researchers,\" \"doubts plaguing him.\" It pairs naturally with health issues, social problems, and uncertainties. Avoid it for temporary or minor annoyances—use \"bothering\" or \"annoying\" instead. It carries literary weight, so it may sound overwrought in casual contexts."
+      "usage": "**Plaguing** is formal/neutral and works well with abstract problems or chronic issues: \"questions plaguing researchers,\" \"doubts plaguing him.\" It pairs naturally with health issues, social problems, and uncertainties. Avoid it for temporary or minor annoyances—use \"bothering\" or \"annoying\" instead. It carries literary weight, so it may sound overwrought in casual contexts.",
+      "collection": "English"
     },
     {
       "id": "doused",
@@ -791,7 +814,8 @@
         "reps": 0,
         "retired": true
       },
-      "usage": "**Doused** pairs well with water, flames, lights, and anger (\"doused the fire,\" \"doused with water,\" \"doused the lights\"). It's neutral-to-casual and works in both everyday and literary contexts. Avoid it in formal writing when a simpler term like \"extinguished\" or \"soaked\" would be clearer, and don't use it metaphorically unless the context is informal or creative."
+      "usage": "**Doused** pairs well with water, flames, lights, and anger (\"doused the fire,\" \"doused with water,\" \"doused the lights\"). It's neutral-to-casual and works in both everyday and literary contexts. Avoid it in formal writing when a simpler term like \"extinguished\" or \"soaked\" would be clearer, and don't use it metaphorically unless the context is informal or creative.",
+      "collection": "English"
     },
     {
       "id": "taboo",
@@ -825,7 +849,8 @@
         "ease": 2.5,
         "reps": 1
       },
-      "usage": "**Taboo** pairs with verbs like *break*, *violate*, *subject to*, and nouns like *subject*, *topic*, *practice*. It works in neutral to formal registers and can function as noun or adjective (\"a taboo subject\"). Avoid using it for mere preference or minor social rules—it implies serious cultural/religious prohibition, not just something inconvenient or unpopular."
+      "usage": "**Taboo** pairs with verbs like *break*, *violate*, *subject to*, and nouns like *subject*, *topic*, *practice*. It works in neutral to formal registers and can function as noun or adjective (\"a taboo subject\"). Avoid using it for mere preference or minor social rules—it implies serious cultural/religious prohibition, not just something inconvenient or unpopular.",
+      "collection": "English"
     },
     {
       "id": "sifted",
@@ -859,7 +884,8 @@
         "ease": 2.5,
         "reps": 1
       },
-      "usage": "**Sifted** commonly pairs with flour, sugar, sand, or soil in cooking and gardening contexts. Metaphorically, it pairs with evidence, data, information, or testimony when meaning \"examined carefully.\" Neutral to slightly formal register. Avoid using it for casual glancing or skimming; it implies thoroughness and deliberate separation of important from unimportant elements."
+      "usage": "**Sifted** commonly pairs with flour, sugar, sand, or soil in cooking and gardening contexts. Metaphorically, it pairs with evidence, data, information, or testimony when meaning \"examined carefully.\" Neutral to slightly formal register. Avoid using it for casual glancing or skimming; it implies thoroughness and deliberate separation of important from unimportant elements.",
+      "collection": "English"
     },
     {
       "id": "drape",
@@ -893,7 +919,8 @@
         "ease": 2.3,
         "reps": 0
       },
-      "usage": "**Drape** (verb/noun) is neutral-to-formal and pairs well with fabric, cloth, curtains, or body parts: \"drape fabric over a chair,\" \"drape oneself in silk,\" \"draped elegantly.\" Avoid it for rigid or structured arrangements—use \"hang\" or \"stretch\" instead. In fashion and interior design, it emphasizes graceful folds; in casual speech, it can sound pretentious."
+      "usage": "**Drape** (verb/noun) is neutral-to-formal and pairs well with fabric, cloth, curtains, or body parts: \"drape fabric over a chair,\" \"drape oneself in silk,\" \"draped elegantly.\" Avoid it for rigid or structured arrangements—use \"hang\" or \"stretch\" instead. In fashion and interior design, it emphasizes graceful folds; in casual speech, it can sound pretentious.",
+      "collection": "English"
     },
     {
       "id": "sleek",
@@ -927,7 +954,8 @@
         "ease": 2.65,
         "reps": 1
       },
-      "usage": "**Sleek** pairs well with nouns like \"car,\" \"design,\" \"hair,\" \"surface,\" and \"appearance,\" often implying both smoothness and modernity. It's neutral-to-formal and common in marketing/fashion contexts. Avoid it when describing rough textures, traditional/ornate styles, or anything intentionally rustic—it specifically connotes polished sophistication."
+      "usage": "**Sleek** pairs well with nouns like \"car,\" \"design,\" \"hair,\" \"surface,\" and \"appearance,\" often implying both smoothness and modernity. It's neutral-to-formal and common in marketing/fashion contexts. Avoid it when describing rough textures, traditional/ornate styles, or anything intentionally rustic—it specifically connotes polished sophistication.",
+      "collection": "English"
     },
     {
       "id": "lapel",
@@ -961,7 +989,8 @@
         "ease": 2.15,
         "reps": 1
       },
-      "usage": "Lapel typically pairs with jacket, coat, suit, and verbs like pin, grab, or clutch. It's neutral/formal register, commonly used in fashion, tailoring, and professional contexts. Avoid using it for casual garments like t-shirts or sweaters that lack structured front closures."
+      "usage": "Lapel typically pairs with jacket, coat, suit, and verbs like pin, grab, or clutch. It's neutral/formal register, commonly used in fashion, tailoring, and professional contexts. Avoid using it for casual garments like t-shirts or sweaters that lack structured front closures.",
+      "collection": "English"
     },
     {
       "id": "froufrou",
@@ -995,7 +1024,8 @@
         "ease": 2.5,
         "reps": 1
       },
-      "usage": "Froufrou is a literary/whimsical word best used when describing elaborate fabrics, ruffles, or lace with a tone of mild mockery or nostalgia—pair it with words like \"silk,\" \"petticoat,\" or \"Victorian.\" Avoid it in formal or technical writing where \"ornamentation\" or \"embellishment\" would be more appropriate, and note it's rarely used in everyday speech."
+      "usage": "Froufrou is a literary/whimsical word best used when describing elaborate fabrics, ruffles, or lace with a tone of mild mockery or nostalgia—pair it with words like \"silk,\" \"petticoat,\" or \"Victorian.\" Avoid it in formal or technical writing where \"ornamentation\" or \"embellishment\" would be more appropriate, and note it's rarely used in everyday speech.",
+      "collection": "English"
     },
     {
       "id": "canine",
@@ -1029,7 +1059,8 @@
         "ease": 2.5,
         "reps": 2
       },
-      "usage": "**Canine** is a formal/technical term commonly paired with \"tooth,\" \"unit,\" \"companion,\" or \"behavior.\" As an adjective, it appears in professional contexts (veterinary, dental, scientific writing). The noun form is primarily anatomical/dental jargon. Avoid it in casual speech where simply \"dog\" or \"doggy\" would be more natural; it can sound overly clinical or pretentious in informal settings."
+      "usage": "**Canine** is a formal/technical term commonly paired with \"tooth,\" \"unit,\" \"companion,\" or \"behavior.\" As an adjective, it appears in professional contexts (veterinary, dental, scientific writing). The noun form is primarily anatomical/dental jargon. Avoid it in casual speech where simply \"dog\" or \"doggy\" would be more natural; it can sound overly clinical or pretentious in informal settings.",
+      "collection": "English"
     },
     {
       "id": "decadently",
@@ -1063,7 +1094,8 @@
         "ease": 2.35,
         "reps": 1
       },
-      "usage": "**Decadently** pairs with nouns like \"indulge,\" \"rich,\" \"live,\" and \"enjoy\"—think \"decadently chocolate\" or \"live decadently.\" It's literary/formal in tone and often carries a judgmental or admiring edge depending on context. Avoid it in neutral, technical, or professional writing where you simply mean \"luxuriously\" without the moral undertones of excess or decline."
+      "usage": "**Decadently** pairs with nouns like \"indulge,\" \"rich,\" \"live,\" and \"enjoy\"—think \"decadently chocolate\" or \"live decadently.\" It's literary/formal in tone and often carries a judgmental or admiring edge depending on context. Avoid it in neutral, technical, or professional writing where you simply mean \"luxuriously\" without the moral undertones of excess or decline.",
+      "collection": "English"
     },
     {
       "id": "go-getter",
@@ -1097,7 +1129,8 @@
         "ease": 2.35,
         "reps": 1
       },
-      "usage": "A go-getter is an informal, neutral term for an ambitious person; it pairs naturally with verbs like \"is,\" \"seems,\" \"hire,\" or \"promote\" (e.g., \"She's a real go-getter\"). Avoid it in formal business writing or academic contexts where \"ambitious,\" \"motivated,\" or \"proactive\" would be more appropriate; it can also sound slightly dismissive if used ironically."
+      "usage": "A go-getter is an informal, neutral term for an ambitious person; it pairs naturally with verbs like \"is,\" \"seems,\" \"hire,\" or \"promote\" (e.g., \"She's a real go-getter\"). Avoid it in formal business writing or academic contexts where \"ambitious,\" \"motivated,\" or \"proactive\" would be more appropriate; it can also sound slightly dismissive if used ironically.",
+      "collection": "English"
     },
     {
       "id": "proffer",
@@ -1125,7 +1158,8 @@
         "ease": 2.2,
         "reps": 4
       },
-      "usage": "Register: Formal/literary. Commonly pairs with \"an offer,\" \"advice,\" \"assistance,\" \"apologies,\" or \"one's hand.\" Avoid in casual conversation—use \"offer\" or \"give\" instead. Often found in written narratives or diplomatic contexts where a sense of dignity or ceremony is intended."
+      "usage": "Register: Formal/literary. Commonly pairs with \"an offer,\" \"advice,\" \"assistance,\" \"apologies,\" or \"one's hand.\" Avoid in casual conversation—use \"offer\" or \"give\" instead. Often found in written narratives or diplomatic contexts where a sense of dignity or ceremony is intended.",
+      "collection": "English"
     },
     {
       "id": "precarious",
@@ -1153,7 +1187,8 @@
         "ease": 2.0500000000000003,
         "reps": 4
       },
-      "usage": "**Precarious** typically pairs with nouns like situation, position, balance, health, or employment. It's neutral-to-formal and works well in professional, academic, and everyday contexts. Avoid it when describing something merely inconvenient or slightly uncertain—it implies genuine risk or instability, not minor discomfort."
+      "usage": "**Precarious** typically pairs with nouns like situation, position, balance, health, or employment. It's neutral-to-formal and works well in professional, academic, and everyday contexts. Avoid it when describing something merely inconvenient or slightly uncertain—it implies genuine risk or instability, not minor discomfort.",
+      "collection": "English"
     },
     {
       "id": "clung",
@@ -1187,7 +1222,8 @@
         "ease": 2.5,
         "reps": 1
       },
-      "usage": "**Clung** is the past tense of cling, used in both literal contexts (clung to the rope, clung together) and figurative ones (clung to hope, clung to tradition). It pairs naturally with prepositions like \"to\" and \"together,\" and works across formal and casual registers. Avoid using it with present tense (\"is clinging\" requires the gerund form instead), and note it can sound slightly literary or emotional in tone when describing emotional attachment."
+      "usage": "**Clung** is the past tense of cling, used in both literal contexts (clung to the rope, clung together) and figurative ones (clung to hope, clung to tradition). It pairs naturally with prepositions like \"to\" and \"together,\" and works across formal and casual registers. Avoid using it with present tense (\"is clinging\" requires the gerund form instead), and note it can sound slightly literary or emotional in tone when describing emotional attachment.",
+      "collection": "English"
     },
     {
       "id": "endearing",
@@ -1222,7 +1258,8 @@
         "ease": 2.35,
         "reps": 1
       },
-      "usage": "**Endearing** typically pairs with qualities, habits, or traits (e.g., \"endearing charm,\" \"endearing quirk,\" \"endearing quality\") and works well with \"to\" (\"endearing to audiences\"). It's neutral to slightly formal, commonly used in reviews, descriptions, and everyday conversation. Avoid it when describing something genuinely annoying or when you mean merely \"likable\"—endearing suggests a deeper warmth or affection that makes something appealing despite minor flaws."
+      "usage": "**Endearing** typically pairs with qualities, habits, or traits (e.g., \"endearing charm,\" \"endearing quirk,\" \"endearing quality\") and works well with \"to\" (\"endearing to audiences\"). It's neutral to slightly formal, commonly used in reviews, descriptions, and everyday conversation. Avoid it when describing something genuinely annoying or when you mean merely \"likable\"—endearing suggests a deeper warmth or affection that makes something appealing despite minor flaws.",
+      "collection": "English"
     },
     {
       "id": "proposition",
@@ -1256,7 +1293,8 @@
         "ease": 2.35,
         "reps": 1
       },
-      "usage": "**Proposition** typically pairs with verbs like \"put forward,\" \"propose,\" \"consider,\" or \"reject,\" and adjectives like \"controversial,\" \"interesting,\" or \"risky.\" It's neutral to formal in register and common in business, academic, and logical contexts. Avoid it when you need a simpler word like \"idea\" or \"offer\" in casual conversation, and don't use it for topics requiring emotional rather than analytical discussion."
+      "usage": "**Proposition** typically pairs with verbs like \"put forward,\" \"propose,\" \"consider,\" or \"reject,\" and adjectives like \"controversial,\" \"interesting,\" or \"risky.\" It's neutral to formal in register and common in business, academic, and logical contexts. Avoid it when you need a simpler word like \"idea\" or \"offer\" in casual conversation, and don't use it for topics requiring emotional rather than analytical discussion.",
+      "collection": "English"
     },
     {
       "id": "surreal",
@@ -1291,7 +1329,8 @@
         "ease": 2.35,
         "reps": 1
       },
-      "usage": "Most natural as 'It felt surreal' or 'a surreal moment' — for dreamlike, hard-to-believe-it's-real moments like big news or a strange coincidence. Very common in spoken US English. For everyday 'a bit weird', use 'strange' or 'odd' instead."
+      "usage": "Most natural as 'It felt surreal' or 'a surreal moment' — for dreamlike, hard-to-believe-it's-real moments like big news or a strange coincidence. Very common in spoken US English. For everyday 'a bit weird', use 'strange' or 'odd' instead.",
+      "collection": "English"
     },
     {
       "id": "splash-over",
@@ -1319,7 +1358,8 @@
         "ease": 2.2,
         "reps": 4
       },
-      "usage": "**Usage Note:**\n\n\"Splash over\" typically pairs with liquids (water splashed over the rim, sauce splashed over the plate) and is neutral/casual in register. It can also be used figuratively for effects that spread beyond intended boundaries (the controversy splashed over into other departments). Avoid it in formal writing where \"spill,\" \"overflow,\" or \"spread beyond\" would be more appropriate."
+      "usage": "**Usage Note:**\n\n\"Splash over\" typically pairs with liquids (water splashed over the rim, sauce splashed over the plate) and is neutral/casual in register. It can also be used figuratively for effects that spread beyond intended boundaries (the controversy splashed over into other departments). Avoid it in formal writing where \"spill,\" \"overflow,\" or \"spread beyond\" would be more appropriate.",
+      "collection": "English"
     },
     {
       "id": "hedge",
@@ -1348,7 +1388,8 @@
         "ease": 2.0500000000000003,
         "reps": 5
       },
-      "usage": "**Hedge** as a noun is neutral/formal and pairs with words like \"trim,\" \"plant,\" \"row,\" or \"boundary.\" As a verb (to hedge), it's neutral and commonly appears with \"one's bets,\" \"the question,\" or \"one's position\"—avoid it when you need to sound direct or decisive, as it implies evasion or lack of commitment."
+      "usage": "**Hedge** as a noun is neutral/formal and pairs with words like \"trim,\" \"plant,\" \"row,\" or \"boundary.\" As a verb (to hedge), it's neutral and commonly appears with \"one's bets,\" \"the question,\" or \"one's position\"—avoid it when you need to sound direct or decisive, as it implies evasion or lack of commitment.",
+      "collection": "English"
     },
     {
       "id": "brainiac",
@@ -1377,7 +1418,8 @@
         "ease": 2.5,
         "reps": 4
       },
-      "usage": "**brainiac** — Informal/casual term; pairs with verbs like \"is,\" \"think,\" or descriptors like \"total\" or \"real\" (\"total brainiac\"). Commonly used playfully or with mild affection rather than as a serious compliment. Avoid in formal academic or professional writing, as it can sound dismissive or condescending depending on tone."
+      "usage": "**brainiac** — Informal/casual term; pairs with verbs like \"is,\" \"think,\" or descriptors like \"total\" or \"real\" (\"total brainiac\"). Commonly used playfully or with mild affection rather than as a serious compliment. Avoid in formal academic or professional writing, as it can sound dismissive or condescending depending on tone.",
+      "collection": "English"
     },
     {
       "id": "simmering",
@@ -1405,7 +1447,8 @@
         "ease": 2.2,
         "reps": 5
       },
-      "usage": "**Simmering** typically pairs with nouns like \"pot,\" \"sauce,\" \"conflict,\" or \"tension,\" and works well with time expressions (\"for hours\"). In cooking contexts, it's neutral/technical; in emotional contexts, it's literary or formal and often describes unresolved issues about to boil over. Avoid using it for sudden, explosive emotions—use \"boiling\" or \"seething\" instead."
+      "usage": "**Simmering** typically pairs with nouns like \"pot,\" \"sauce,\" \"conflict,\" or \"tension,\" and works well with time expressions (\"for hours\"). In cooking contexts, it's neutral/technical; in emotional contexts, it's literary or formal and often describes unresolved issues about to boil over. Avoid using it for sudden, explosive emotions—use \"boiling\" or \"seething\" instead.",
+      "collection": "English"
     },
     {
       "id": "gloating",
@@ -1440,7 +1483,8 @@
         "ease": 2.35,
         "reps": 2
       },
-      "usage": "Gloating is typically used with \"over\" (gloating over a victory, someone's failure) and carries a negative connotation suggesting smugness or meanness. It's neutral to informal register and works well in narrative or conversational contexts. Avoid using it when you want to describe innocent pride or joy—gloating implies an unpleasant, self-satisfied pleasure that others find off-putting."
+      "usage": "Gloating is typically used with \"over\" (gloating over a victory, someone's failure) and carries a negative connotation suggesting smugness or meanness. It's neutral to informal register and works well in narrative or conversational contexts. Avoid using it when you want to describe innocent pride or joy—gloating implies an unpleasant, self-satisfied pleasure that others find off-putting.",
+      "collection": "English"
     },
     {
       "id": "meek",
@@ -1469,7 +1513,8 @@
         "ease": 2.2,
         "reps": 3
       },
-      "usage": "**Meek** pairs well with nouns like \"manner,\" \"expression,\" \"voice,\" and \"demeanor\"; it often appears in biblical or literary contexts (e.g., \"the meek shall inherit\"). Use it neutrally to formally describe someone as humble or unassertive, though it can carry a slightly judgmental tone suggesting weakness. Avoid it when describing someone as simply polite or reserved without implying passivity or lack of confidence."
+      "usage": "**Meek** pairs well with nouns like \"manner,\" \"expression,\" \"voice,\" and \"demeanor\"; it often appears in biblical or literary contexts (e.g., \"the meek shall inherit\"). Use it neutrally to formally describe someone as humble or unassertive, though it can carry a slightly judgmental tone suggesting weakness. Avoid it when describing someone as simply polite or reserved without implying passivity or lack of confidence.",
+      "collection": "English"
     },
     {
       "id": "earnest",
@@ -1497,7 +1542,8 @@
         "ease": 2.0500000000000003,
         "reps": 6
       },
-      "usage": "**Earnest** pairs well with nouns like \"effort,\" \"desire,\" \"plea,\" \"attempt,\" and \"hope\" (e.g., \"in earnest,\" \"earnest request\"). It's formal to neutral in register and commonly used in written contexts. Avoid it in casual speech where \"sincere\" or \"serious\" would sound more natural; also don't use it to describe something that's merely polite or superficial, as it implies genuine intensity."
+      "usage": "**Earnest** pairs well with nouns like \"effort,\" \"desire,\" \"plea,\" \"attempt,\" and \"hope\" (e.g., \"in earnest,\" \"earnest request\"). It's formal to neutral in register and commonly used in written contexts. Avoid it in casual speech where \"sincere\" or \"serious\" would sound more natural; also don't use it to describe something that's merely polite or superficial, as it implies genuine intensity.",
+      "collection": "English"
     },
     {
       "id": "beckoning",
@@ -1526,7 +1572,8 @@
         "ease": 2.2,
         "reps": 4
       },
-      "usage": "**Beckoning** is most commonly used with \"finger,\" \"hand,\" or \"gesture\" when describing physical movement, or with abstract nouns like \"future,\" \"adventure,\" or \"opportunity\" when meaning attractively inviting. It's formal to literary in register and works well in narrative or descriptive writing. Avoid it in casual speech where \"waving someone over\" or \"calling\" would be more natural."
+      "usage": "**Beckoning** is most commonly used with \"finger,\" \"hand,\" or \"gesture\" when describing physical movement, or with abstract nouns like \"future,\" \"adventure,\" or \"opportunity\" when meaning attractively inviting. It's formal to literary in register and works well in narrative or descriptive writing. Avoid it in casual speech where \"waving someone over\" or \"calling\" would be more natural.",
+      "collection": "English"
     },
     {
       "id": "ponder",
@@ -1561,7 +1608,8 @@
         "ease": 2.5,
         "reps": 1
       },
-      "usage": "**Ponder** pairs well with abstract nouns (ponder a question, mystery, decision) and works with \"whether\" or \"if\" clauses. It's formal to neutral in register and fits thoughtful, deliberate contexts. Avoid it for quick casual thinking—use \"think about\" or \"wonder\" instead—and it can sound overwrought in everyday conversation."
+      "usage": "**Ponder** pairs well with abstract nouns (ponder a question, mystery, decision) and works with \"whether\" or \"if\" clauses. It's formal to neutral in register and fits thoughtful, deliberate contexts. Avoid it for quick casual thinking—use \"think about\" or \"wonder\" instead—and it can sound overwrought in everyday conversation.",
+      "collection": "English"
     },
     {
       "id": "quirky",
@@ -1590,7 +1638,8 @@
         "ease": 1.7500000000000004,
         "reps": 5
       },
-      "usage": "Unusual in a fun, likable way — quirky charm, a quirky sense of humor, a quirky little shop. About a person it's usually a compliment. Neutral to casual; don't use it for things that are seriously wrong or broken."
+      "usage": "Unusual in a fun, likable way — quirky charm, a quirky sense of humor, a quirky little shop. About a person it's usually a compliment. Neutral to casual; don't use it for things that are seriously wrong or broken.",
+      "collection": "English"
     },
     {
       "id": "knapsack",
@@ -1624,7 +1673,8 @@
         "ease": 2.35,
         "reps": 2
       },
-      "usage": "A knapsack is somewhat formal or old-fashioned; use \"backpack\" in modern casual contexts instead. It pairs with hiking, travel, camping, and military contexts. Avoid it in contemporary everyday speech where \"backpack\" is standard."
+      "usage": "A knapsack is somewhat formal or old-fashioned; use \"backpack\" in modern casual contexts instead. It pairs with hiking, travel, camping, and military contexts. Avoid it in contemporary everyday speech where \"backpack\" is standard.",
+      "collection": "English"
     },
     {
       "id": "lugubrious",
@@ -1659,7 +1709,8 @@
         "ease": 2.3,
         "reps": 0
       },
-      "usage": "**Lugubrious** is a formal, literary word that pairs with nouns like \"tone,\" \"expression,\" \"atmosphere,\" and \"music\" to convey exaggerated or theatrical sadness. It often carries a slightly humorous or arch quality—use it when you want to describe something *darkly mournful* rather than genuinely tragic. Avoid it in casual speech or sincere emotional contexts where simpler words like \"sad\" or \"gloomy\" would feel more natural."
+      "usage": "**Lugubrious** is a formal, literary word that pairs with nouns like \"tone,\" \"expression,\" \"atmosphere,\" and \"music\" to convey exaggerated or theatrical sadness. It often carries a slightly humorous or arch quality—use it when you want to describe something *darkly mournful* rather than genuinely tragic. Avoid it in casual speech or sincere emotional contexts where simpler words like \"sad\" or \"gloomy\" would feel more natural.",
+      "collection": "English"
     },
     {
       "word": "defy",
@@ -1694,7 +1745,8 @@
         "ease": 2.5,
         "reps": 1
       },
-      "usage": "**Defy** is a neutral-to-formal verb that pairs with authority figures, laws, expectations, or odds (\"defy gravity,\" \"defy convention,\" \"defy the odds\"). It conveys bold, intentional resistance and works well in both everyday and literary contexts. Avoid it when you simply mean \"ignore\" or \"fail to obey\" passively—defy requires active, deliberate defiance."
+      "usage": "**Defy** is a neutral-to-formal verb that pairs with authority figures, laws, expectations, or odds (\"defy gravity,\" \"defy convention,\" \"defy the odds\"). It conveys bold, intentional resistance and works well in both everyday and literary contexts. Avoid it when you simply mean \"ignore\" or \"fail to obey\" passively—defy requires active, deliberate defiance.",
+      "collection": "English"
     },
     {
       "id": "pouty",
@@ -1728,7 +1780,8 @@
         "ease": 2.35,
         "reps": 1
       },
-      "usage": "Informal and playful, for faces and moods: a pouty look, pouty lips, a pouty mood. Slightly teasing, so it's fine for Iggy, kids, and close friends — too dismissive for a serious complaint at work."
+      "usage": "Informal and playful, for faces and moods: a pouty look, pouty lips, a pouty mood. Slightly teasing, so it's fine for Iggy, kids, and close friends — too dismissive for a serious complaint at work.",
+      "collection": "English"
     },
     {
       "word": "seams",
@@ -1762,7 +1815,8 @@
         "ease": 2.5,
         "reps": 2
       },
-      "usage": "**Seams** pairs naturally with verbs like \"split,\" \"burst,\" \"rip,\" and \"come apart\" (often used figuratively: \"the plan is coming apart at the seams\"). In geology, it collocates with \"coal seams\" or material types found in rock layers. The register is neutral in both literal sewing contexts and figurative expressions. Avoid using it when you mean \"seems\" (a common spelling error) or in overly formal writing where \"joints\" or \"junctures\" might be more precise."
+      "usage": "**Seams** pairs naturally with verbs like \"split,\" \"burst,\" \"rip,\" and \"come apart\" (often used figuratively: \"the plan is coming apart at the seams\"). In geology, it collocates with \"coal seams\" or material types found in rock layers. The register is neutral in both literal sewing contexts and figurative expressions. Avoid using it when you mean \"seems\" (a common spelling error) or in overly formal writing where \"joints\" or \"junctures\" might be more precise.",
+      "collection": "English"
     },
     {
       "word": "backtracking",
@@ -1796,7 +1850,8 @@
         "ease": 2.5,
         "reps": 1
       },
-      "usage": "**Backtracking** pairs naturally with \"accuse of,\" \"admit to,\" or \"avoid\" and works well in contexts like policy positions, promises, or technical problem-solving. It's neutral to slightly formal and common in both tech and political discourse. Avoid it when you simply mean \"changing your mind\" without the implication of reversing or retracting something previously committed to, or when you need a term for moving backward physically (use \"retracing steps\" instead)."
+      "usage": "**Backtracking** pairs naturally with \"accuse of,\" \"admit to,\" or \"avoid\" and works well in contexts like policy positions, promises, or technical problem-solving. It's neutral to slightly formal and common in both tech and political discourse. Avoid it when you simply mean \"changing your mind\" without the implication of reversing or retracting something previously committed to, or when you need a term for moving backward physically (use \"retracing steps\" instead).",
+      "collection": "English"
     },
     {
       "word": "conviction",
@@ -1824,7 +1879,8 @@
         "url": "",
         "via": "ios"
       },
-      "usage": "**Conviction** pairs naturally with adjectives like \"strong,\" \"deep,\" \"moral,\" or \"religious\" (e.g., \"moral conviction\"). In legal contexts, it combines with crime types (\"murder conviction\") and verbs like \"secure\" or \"overturn.\" It's formal/neutral across registers. Avoid using it casually for mild opinions—reserve it for deeply-held beliefs or formal legal judgments; \"opinion\" or \"view\" works better for everyday preferences."
+      "usage": "**Conviction** pairs naturally with adjectives like \"strong,\" \"deep,\" \"moral,\" or \"religious\" (e.g., \"moral conviction\"). In legal contexts, it combines with crime types (\"murder conviction\") and verbs like \"secure\" or \"overturn.\" It's formal/neutral across registers. Avoid using it casually for mild opinions—reserve it for deeply-held beliefs or formal legal judgments; \"opinion\" or \"view\" works better for everyday preferences.",
+      "collection": "English"
     },
     {
       "word": "uplift",
@@ -1859,7 +1915,8 @@
         "ease": 2.35,
         "reps": 1
       },
-      "usage": "**Uplift** pairs well with \"spirits,\" \"community,\" \"morale,\" and \"soul\" in emotional contexts, or \"platform,\" \"surface,\" \"terrain\" in physical ones. It's neutral to formal and common in motivational, social, and geological writing. Avoid it for purely physical lifting (use \"lift\" or \"raise\" instead) or when describing negative changes; it carries an inherently positive, aspirational tone that doesn't suit cynical or critical contexts."
+      "usage": "**Uplift** pairs well with \"spirits,\" \"community,\" \"morale,\" and \"soul\" in emotional contexts, or \"platform,\" \"surface,\" \"terrain\" in physical ones. It's neutral to formal and common in motivational, social, and geological writing. Avoid it for purely physical lifting (use \"lift\" or \"raise\" instead) or when describing negative changes; it carries an inherently positive, aspirational tone that doesn't suit cynical or critical contexts.",
+      "collection": "English"
     },
     {
       "word": "enticing",
@@ -1894,7 +1951,8 @@
         "ease": 2.35,
         "reps": 1
       },
-      "usage": "**Enticing** pairs well with nouns like offer, prospect, aroma, display, and idea. It's neutral-to-positive in register and works across formal and casual contexts. Avoid using it for genuinely dangerous or harmful things you want to warn against—use \"tempting\" instead if you need neutral tone, or \"seductive\" if emphasizing deception."
+      "usage": "**Enticing** pairs well with nouns like offer, prospect, aroma, display, and idea. It's neutral-to-positive in register and works across formal and casual contexts. Avoid using it for genuinely dangerous or harmful things you want to warn against—use \"tempting\" instead if you need neutral tone, or \"seductive\" if emphasizing deception.",
+      "collection": "English"
     },
     {
       "id": "thrummed",
@@ -1928,7 +1986,8 @@
         "ease": 2.35,
         "reps": 1
       },
-      "usage": "**thrummed**\n\nNeutral to literary register. Pairs with subjects that vibrate or resonate (engine, strings, voice, heartbeat) and occasionally with musical instruments. Avoid in formal technical writing where \"hummed,\" \"vibrated,\" or \"resonated\" would be clearer; the word carries poetic or descriptive weight best suited to narrative or creative contexts."
+      "usage": "**thrummed**\n\nNeutral to literary register. Pairs with subjects that vibrate or resonate (engine, strings, voice, heartbeat) and occasionally with musical instruments. Avoid in formal technical writing where \"hummed,\" \"vibrated,\" or \"resonated\" would be clearer; the word carries poetic or descriptive weight best suited to narrative or creative contexts.",
+      "collection": "English"
     },
     {
       "id": "groan",
@@ -1956,7 +2015,8 @@
         "ease": 2.5,
         "reps": 3
       },
-      "usage": "**Groan** pairs with subjects expressing pain (\"groan in agony\"), disapproval (\"groan at a bad joke\"), or fatigue (\"groan under the weight\"). It's neutral/casual and very common in both speech and writing. Avoid it in formal academic or professional contexts where \"express disapproval\" or \"object\" would be more appropriate; also avoid when describing other animals' vocalizations unless emphasizing human-like complaint."
+      "usage": "**Groan** pairs with subjects expressing pain (\"groan in agony\"), disapproval (\"groan at a bad joke\"), or fatigue (\"groan under the weight\"). It's neutral/casual and very common in both speech and writing. Avoid it in formal academic or professional contexts where \"express disapproval\" or \"object\" would be more appropriate; also avoid when describing other animals' vocalizations unless emphasizing human-like complaint.",
+      "collection": "English"
     },
     {
       "id": "dawn",
@@ -1991,7 +2051,8 @@
         "ease": 2.5,
         "reps": 1
       },
-      "usage": "**Dawn** commonly pairs with \"break,\" \"crack of,\" or time phrases (\"at dawn,\" \"before dawn\"). As a noun it's neutral-formal; as a verb (\"it dawned on me\"), it's informal-neutral for sudden realization. Avoid using it for noon or afternoon light, and don't use the verb form for gradual understanding—use \"realize\" or \"understand\" instead."
+      "usage": "**Dawn** commonly pairs with \"break,\" \"crack of,\" or time phrases (\"at dawn,\" \"before dawn\"). As a noun it's neutral-formal; as a verb (\"it dawned on me\"), it's informal-neutral for sudden realization. Avoid using it for noon or afternoon light, and don't use the verb form for gradual understanding—use \"realize\" or \"understand\" instead.",
+      "collection": "English"
     },
     {
       "id": "peek",
@@ -2025,7 +2086,8 @@
         "ease": 2.5,
         "reps": 1
       },
-      "usage": "**Peek** is neutral/casual and pairs with prepositions like \"at,\" \"through,\" \"around,\" and \"in.\" Common collocations: \"peek at someone,\" \"peek through a window,\" \"peek around the corner.\" Avoid it in formal writing where \"glance\" or \"glimpse\" would be more appropriate; also don't use it for prolonged or intentional looking, which requires \"look,\" \"watch,\" or \"observe.\""
+      "usage": "**Peek** is neutral/casual and pairs with prepositions like \"at,\" \"through,\" \"around,\" and \"in.\" Common collocations: \"peek at someone,\" \"peek through a window,\" \"peek around the corner.\" Avoid it in formal writing where \"glance\" or \"glimpse\" would be more appropriate; also don't use it for prolonged or intentional looking, which requires \"look,\" \"watch,\" or \"observe.\"",
+      "collection": "English"
     },
     {
       "id": "plaster",
@@ -2054,7 +2116,8 @@
         "ease": 2.0500000000000003,
         "reps": 4
       },
-      "usage": "**Plaster** typically pairs with wall, ceiling, surface, or crack (noun use), and with coat, cover, or apply (verb use). It's neutral/technical in construction contexts but becomes informal when used figuratively (e.g., \"plastered with posters\" or the slang \"plastered\" meaning drunk). Avoid it in formal writing when describing thin coatings or paint—plaster implies a thicker, paste-like application."
+      "usage": "**Plaster** typically pairs with wall, ceiling, surface, or crack (noun use), and with coat, cover, or apply (verb use). It's neutral/technical in construction contexts but becomes informal when used figuratively (e.g., \"plastered with posters\" or the slang \"plastered\" meaning drunk). Avoid it in formal writing when describing thin coatings or paint—plaster implies a thicker, paste-like application.",
+      "collection": "English"
     },
     {
       "id": "snort",
@@ -2088,7 +2151,8 @@
         "ease": 2.5,
         "reps": 2
       },
-      "usage": "**Snort** pairs with *laugh*, *derision*, *contempt*, or *drugs*; it's neutral to casual in register. Avoid it in formal writing unless describing actual physical behavior, and be cautious with the drug-related sense in professional contexts unless the topic explicitly warrants it."
+      "usage": "**Snort** pairs with *laugh*, *derision*, *contempt*, or *drugs*; it's neutral to casual in register. Avoid it in formal writing unless describing actual physical behavior, and be cautious with the drug-related sense in professional contexts unless the topic explicitly warrants it.",
+      "collection": "English"
     },
     {
       "id": "woolly",
@@ -2117,7 +2181,8 @@
         "ease": 2.35,
         "reps": 2
       },
-      "usage": "Woolly typically pairs with nouns like \"jumper,\" \"sweater,\" \"mammoth,\" or abstract nouns like \"thinking\" and \"ideas.\" It's neutral to casual in register and common in British English (American English often prefers \"woolly-headed\" or \"fuzzy\" for the figurative sense). Avoid it in formal academic writing when precision is critical, and note that the figurative sense (confused/vague) can feel slightly informal or dismissive."
+      "usage": "Woolly typically pairs with nouns like \"jumper,\" \"sweater,\" \"mammoth,\" or abstract nouns like \"thinking\" and \"ideas.\" It's neutral to casual in register and common in British English (American English often prefers \"woolly-headed\" or \"fuzzy\" for the figurative sense). Avoid it in formal academic writing when precision is critical, and note that the figurative sense (confused/vague) can feel slightly informal or dismissive.",
+      "collection": "English"
     },
     {
       "id": "grimace",
@@ -2145,7 +2210,8 @@
         "ease": 2.35,
         "reps": 5
       },
-      "usage": "**Grimace** pairs naturally with *at* (grimace at bad news) or *with* (grimace with pain). It's neutral-to-formal and commonly appears in descriptive writing. Avoid it when describing subtle expressions—grimace suggests an obvious, exaggerated distortion of the face, not a slight frown or mild discomfort."
+      "usage": "**Grimace** pairs naturally with *at* (grimace at bad news) or *with* (grimace with pain). It's neutral-to-formal and commonly appears in descriptive writing. Avoid it when describing subtle expressions—grimace suggests an obvious, exaggerated distortion of the face, not a slight frown or mild discomfort.",
+      "collection": "English"
     },
     {
       "id": "slashing",
@@ -2174,7 +2240,8 @@
         "ease": 2.5,
         "reps": 2
       },
-      "usage": "**Slashing** commonly pairs with nouns like \"costs,\" \"prices,\" \"budget,\" and \"rates\" when describing dramatic reductions, and with \"attacks,\" \"wounds,\" or \"rain\" in physical contexts. It's neutral-to-informal in register and works well in business/financial discussions and vivid descriptions. Avoid it in formal academic writing where \"reducing significantly\" or \"cutting\" would be more appropriate, and don't use it when describing gradual or minor changes."
+      "usage": "**Slashing** commonly pairs with nouns like \"costs,\" \"prices,\" \"budget,\" and \"rates\" when describing dramatic reductions, and with \"attacks,\" \"wounds,\" or \"rain\" in physical contexts. It's neutral-to-informal in register and works well in business/financial discussions and vivid descriptions. Avoid it in formal academic writing where \"reducing significantly\" or \"cutting\" would be more appropriate, and don't use it when describing gradual or minor changes.",
+      "collection": "English"
     },
     {
       "id": "jamb",
@@ -2208,7 +2275,8 @@
         "ease": 2.2,
         "reps": 2
       },
-      "usage": "A jamb is a technical/architectural term used in formal or professional contexts; it pairs naturally with words like \"door,\" \"window,\" \"frame,\" and \"opening.\" Avoid using it in casual conversation where \"side of the door\" would be clearer to most audiences."
+      "usage": "A jamb is a technical/architectural term used in formal or professional contexts; it pairs naturally with words like \"door,\" \"window,\" \"frame,\" and \"opening.\" Avoid using it in casual conversation where \"side of the door\" would be clearer to most audiences.",
+      "collection": "English"
     },
     {
       "id": "tendril",
@@ -2242,7 +2310,8 @@
         "ease": 2.35,
         "reps": 1
       },
-      "usage": "A tendril is a botanical term used in formal or neutral contexts; it pairs naturally with verbs like \"coil,\" \"curl,\" \"wrap,\" or \"cling,\" and nouns like \"vine,\" \"plant,\" \"support,\" or \"trellis.\" Avoid using it metaphorically or casually unless you're being deliberately poetic, as it's primarily a technical/descriptive word for actual plant structures."
+      "usage": "A tendril is a botanical term used in formal or neutral contexts; it pairs naturally with verbs like \"coil,\" \"curl,\" \"wrap,\" or \"cling,\" and nouns like \"vine,\" \"plant,\" \"support,\" or \"trellis.\" Avoid using it metaphorically or casually unless you're being deliberately poetic, as it's primarily a technical/descriptive word for actual plant structures.",
+      "collection": "English"
     },
     {
       "id": "crook",
@@ -2270,7 +2339,8 @@
         "ease": 2,
         "reps": 3
       },
-      "usage": "**Crook** (criminal sense) is casual/informal and pairs with verbs like \"catch,\" \"arrest,\" or \"nab\"; avoid it in formal legal or official contexts where \"criminal,\" \"offender,\" or \"perpetrator\" are more appropriate. The curved-implement sense is more formal/technical and commonly collocates with \"shepherd's crook\" or \"bishop's crook.\""
+      "usage": "**Crook** (criminal sense) is casual/informal and pairs with verbs like \"catch,\" \"arrest,\" or \"nab\"; avoid it in formal legal or official contexts where \"criminal,\" \"offender,\" or \"perpetrator\" are more appropriate. The curved-implement sense is more formal/technical and commonly collocates with \"shepherd's crook\" or \"bishop's crook.\"",
+      "collection": "English"
     },
     {
       "id": "flex",
@@ -2299,7 +2369,8 @@
         "ease": 2.35,
         "reps": 3
       },
-      "usage": "**Flex** in its physical sense (bend a muscle) is neutral and technical. In its modern sense (show off), it's casual/slang and pairs with possessions, achievements, or skills: \"flex on someone,\" \"flex your muscles,\" \"flex your wealth.\" Avoid in formal writing unless deliberately adopting colloquial tone; the showing-off meaning may seem dated or regional to some audiences."
+      "usage": "**Flex** in its physical sense (bend a muscle) is neutral and technical. In its modern sense (show off), it's casual/slang and pairs with possessions, achievements, or skills: \"flex on someone,\" \"flex your muscles,\" \"flex your wealth.\" Avoid in formal writing unless deliberately adopting colloquial tone; the showing-off meaning may seem dated or regional to some audiences.",
+      "collection": "English"
     },
     {
       "word": "malicious",
@@ -2328,7 +2399,8 @@
         "url": "",
         "via": "ios"
       },
-      "usage": "**Malicious** pairs with nouns like intent, act, attack, code, gossip, and lies; it's formal/neutral and common in legal and technical contexts. Use it for deliberate harmful actions or statements with clear ill will. Avoid it for accidents, negligence, or harm without intent to damage—use \"harmful\" or \"damaging\" instead."
+      "usage": "**Malicious** pairs with nouns like intent, act, attack, code, gossip, and lies; it's formal/neutral and common in legal and technical contexts. Use it for deliberate harmful actions or statements with clear ill will. Avoid it for accidents, negligence, or harm without intent to damage—use \"harmful\" or \"damaging\" instead.",
+      "collection": "English"
     },
     {
       "word": "dismal",
@@ -2357,7 +2429,8 @@
         "url": "",
         "via": "ios"
       },
-      "usage": "**Dismal** commonly pairs with nouns like \"weather,\" \"performance,\" \"failure,\" \"outlook,\" and \"record.\" It's neutral-to-formal in register and works well in both spoken and written contexts. Avoid it in highly technical or scientific writing where more precise terms are preferred, and don't use it for mild disappointment—reserve it for genuinely bleak or depressing situations."
+      "usage": "**Dismal** commonly pairs with nouns like \"weather,\" \"performance,\" \"failure,\" \"outlook,\" and \"record.\" It's neutral-to-formal in register and works well in both spoken and written contexts. Avoid it in highly technical or scientific writing where more precise terms are preferred, and don't use it for mild disappointment—reserve it for genuinely bleak or depressing situations.",
+      "collection": "English"
     },
     {
       "id": "bewildered",
@@ -2391,7 +2464,8 @@
         "ease": 2.5,
         "reps": 1
       },
-      "usage": "**Bewildered** pairs well with verbs like \"look,\" \"seem,\" \"appear\" and nouns like \"expression,\" \"crowd,\" \"tourist.\" It's more formal/literary than \"confused\" and suits emotional or narrative contexts. Avoid it in technical writing or when describing simple forgetfulness—it implies genuine disorientation from something surprising or complex, not just momentary absent-mindedness."
+      "usage": "**Bewildered** pairs well with verbs like \"look,\" \"seem,\" \"appear\" and nouns like \"expression,\" \"crowd,\" \"tourist.\" It's more formal/literary than \"confused\" and suits emotional or narrative contexts. Avoid it in technical writing or when describing simple forgetfulness—it implies genuine disorientation from something surprising or complex, not just momentary absent-mindedness.",
+      "collection": "English"
     },
     {
       "id": "pricked",
@@ -2425,7 +2499,8 @@
         "ease": 2.5,
         "reps": 1
       },
-      "usage": "**Pricked** is neutral/casual and pairs naturally with \"finger,\" \"skin,\" \"conscience,\" and \"ears\" (as in \"my ears pricked up\"). Avoid it in formal writing when a more precise verb like \"pierced,\" \"punctured,\" or \"stabbed\" would better fit the context, and don't use it to describe deep wounds—that requires stronger terms."
+      "usage": "**Pricked** is neutral/casual and pairs naturally with \"finger,\" \"skin,\" \"conscience,\" and \"ears\" (as in \"my ears pricked up\"). Avoid it in formal writing when a more precise verb like \"pierced,\" \"punctured,\" or \"stabbed\" would better fit the context, and don't use it to describe deep wounds—that requires stronger terms.",
+      "collection": "English"
     },
     {
       "id": "jangle",
@@ -2459,7 +2534,8 @@
         "ease": 2.35,
         "reps": 1
       },
-      "usage": "**Usage note:** \"Jangle\" typically collocates with sounds (jangle of keys, bells, chains) or nerves (jangled nerves, jangle someone's nerves). It's neutral to slightly literary and works well in both descriptive prose and casual speech. Avoid it in formal technical writing where you'd use more neutral terms like \"clatter\" or \"ring\"; it carries an inherently negative or discordant connotation."
+      "usage": "**Usage note:** \"Jangle\" typically collocates with sounds (jangle of keys, bells, chains) or nerves (jangled nerves, jangle someone's nerves). It's neutral to slightly literary and works well in both descriptive prose and casual speech. Avoid it in formal technical writing where you'd use more neutral terms like \"clatter\" or \"ring\"; it carries an inherently negative or discordant connotation.",
+      "collection": "English"
     },
     {
       "id": "chrysanthemum",
@@ -2487,7 +2563,8 @@
         "ease": 2.2,
         "reps": 3
       },
-      "usage": "**Chrysanthemum** typically pairs with words like \"flower,\" \"bloom,\" \"arrangement,\" \"festival,\" or \"garden,\" and is used in neutral/formal contexts when discussing horticulture, floral design, or cultural traditions. It's most common in written English (gardening articles, botanical texts) and sounds slightly formal or poetic in casual speech. Avoid using it as a casual synonym for \"flower\" in everyday conversation—say \"flower\" or \"bloom\" instead unless you're specifically discussing this particular plant."
+      "usage": "**Chrysanthemum** typically pairs with words like \"flower,\" \"bloom,\" \"arrangement,\" \"festival,\" or \"garden,\" and is used in neutral/formal contexts when discussing horticulture, floral design, or cultural traditions. It's most common in written English (gardening articles, botanical texts) and sounds slightly formal or poetic in casual speech. Avoid using it as a casual synonym for \"flower\" in everyday conversation—say \"flower\" or \"bloom\" instead unless you're specifically discussing this particular plant.",
+      "collection": "English"
     },
     {
       "word": "apparatus",
@@ -2516,7 +2593,8 @@
         "url": "",
         "via": "ios"
       },
-      "usage": "**Apparatus** pairs well with descriptive words like \"complex,\" \"sophisticated,\" or \"bureaucratic\" and appears in phrases like \"breathing apparatus,\" \"security apparatus,\" or \"state apparatus.\" It's formal/technical in register and commonly used in scientific, governmental, and institutional contexts. Avoid it in casual conversation where \"equipment,\" \"system,\" or \"machinery\" would sound more natural."
+      "usage": "**Apparatus** pairs well with descriptive words like \"complex,\" \"sophisticated,\" or \"bureaucratic\" and appears in phrases like \"breathing apparatus,\" \"security apparatus,\" or \"state apparatus.\" It's formal/technical in register and commonly used in scientific, governmental, and institutional contexts. Avoid it in casual conversation where \"equipment,\" \"system,\" or \"machinery\" would sound more natural.",
+      "collection": "English"
     },
     {
       "word": "mascaras",
@@ -2543,7 +2621,8 @@
         "url": "",
         "via": "ios"
       },
-      "usage": "Neutral/casual register; commonly pairs with \"waterproof,\" \"volumizing,\" \"mascara brush,\" or \"apply.\" Use freely in everyday contexts (beauty advice, shopping, makeup tutorials). Avoid in formal writing unless discussing cosmetics industry or beauty standards specifically."
+      "usage": "Neutral/casual register; commonly pairs with \"waterproof,\" \"volumizing,\" \"mascara brush,\" or \"apply.\" Use freely in everyday contexts (beauty advice, shopping, makeup tutorials). Avoid in formal writing unless discussing cosmetics industry or beauty standards specifically.",
+      "collection": "English"
     },
     {
       "id": "knot",
@@ -2571,7 +2650,8 @@
         "interval": 1,
         "ease": 2.5,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "burrow",
@@ -2600,7 +2680,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "nestle",
@@ -2628,7 +2709,8 @@
         "interval": 1,
         "ease": 2.15,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "reckless",
@@ -2656,7 +2738,8 @@
         "interval": 24.375,
         "ease": 2.5,
         "reps": 4
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "caress",
@@ -2684,7 +2767,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "bolt",
@@ -2712,7 +2796,8 @@
         "interval": 1,
         "ease": 2.35,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "creased",
@@ -2740,7 +2825,8 @@
         "interval": 2,
         "ease": 2.65,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "duck",
@@ -2769,7 +2855,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "hazard",
@@ -2797,7 +2884,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "procession",
@@ -2825,7 +2913,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "aching",
@@ -2854,7 +2943,8 @@
         "interval": 2,
         "ease": 2.65,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "evade",
@@ -2882,7 +2972,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "merest",
@@ -2910,7 +3001,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "knead",
@@ -2938,7 +3030,8 @@
         "interval": 0,
         "ease": 2.3,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "laved",
@@ -2966,7 +3059,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "gravelly",
@@ -2995,7 +3089,8 @@
         "interval": 1,
         "ease": 2.35,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "chuckle",
@@ -3023,7 +3118,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "tug-on",
@@ -3051,7 +3147,8 @@
         "interval": 2.64,
         "ease": 2.2,
         "reps": 3
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "hazy",
@@ -3080,7 +3177,8 @@
         "interval": 0,
         "ease": 2.3,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "riblets",
@@ -3108,7 +3206,8 @@
         "interval": 0,
         "ease": 2.3,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "ringlets",
@@ -3136,7 +3235,8 @@
         "interval": 4,
         "ease": 2.65,
         "reps": 2
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "chronological",
@@ -3164,7 +3264,8 @@
         "interval": 3,
         "ease": 2.5,
         "reps": 2
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "sass",
@@ -3192,7 +3293,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "dead-on",
@@ -3220,7 +3322,8 @@
         "interval": 1.2,
         "ease": 2.2,
         "reps": 2
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "sketch-out",
@@ -3248,7 +3351,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "chip-in",
@@ -3276,7 +3380,8 @@
         "interval": 1,
         "ease": 2.5,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "goof",
@@ -3305,7 +3410,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "reliance",
@@ -3333,7 +3439,8 @@
         "interval": 0,
         "ease": 2.3,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "hostile-takeover",
@@ -3361,7 +3468,8 @@
         "interval": 1.2,
         "ease": 2.2,
         "reps": 2
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "moronic",
@@ -3389,7 +3497,8 @@
         "interval": 3,
         "ease": 2.35,
         "reps": 2
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "balayage",
@@ -3417,7 +3526,8 @@
         "interval": 1,
         "ease": 2.35,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "plead guilty",
@@ -3444,7 +3554,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "rag",
@@ -3472,7 +3583,8 @@
         "interval": 1,
         "ease": 2.5,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "ragged",
@@ -3501,7 +3613,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "wage",
@@ -3529,7 +3642,8 @@
         "interval": 1,
         "ease": 2.5,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "warfare",
@@ -3557,7 +3671,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "closing-in-on",
@@ -3586,7 +3701,8 @@
         "interval": 1,
         "ease": 2.35,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "discarding",
@@ -3614,7 +3730,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "shell-shocked",
@@ -3642,7 +3759,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "cowardice",
@@ -3670,7 +3788,8 @@
         "interval": 1,
         "ease": 2.5,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "pugnacious",
@@ -3698,7 +3817,8 @@
         "interval": 0,
         "ease": 2.3,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "badger",
@@ -3726,7 +3846,8 @@
         "interval": 1.2,
         "ease": 2.2,
         "reps": 2
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "placket",
@@ -3754,7 +3875,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "fumble",
@@ -3783,7 +3905,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "clasp",
@@ -3811,7 +3934,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "perspiration",
@@ -3839,7 +3963,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "lopsided",
@@ -3867,7 +3992,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "salmonella",
@@ -3894,7 +4020,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "slab",
@@ -3922,7 +4049,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "flit",
@@ -3950,7 +4078,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "lull",
@@ -3978,7 +4107,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "lurch",
@@ -4006,7 +4136,8 @@
         "interval": 1,
         "ease": 2.15,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "wail",
@@ -4035,7 +4166,8 @@
         "interval": 3,
         "ease": 2.35,
         "reps": 2
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "rancorous",
@@ -4063,7 +4195,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "chalkiness",
@@ -4091,7 +4224,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "sparring",
@@ -4119,7 +4253,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "pique",
@@ -4146,7 +4281,8 @@
         "interval": 1,
         "ease": 2.35,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "nebulizer",
@@ -4173,7 +4309,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "wean",
@@ -4200,7 +4337,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "courier",
@@ -4228,7 +4366,8 @@
         "interval": 1,
         "ease": 2.5,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "bougie",
@@ -4256,7 +4395,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "court",
@@ -4284,7 +4424,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "ficus",
@@ -4312,7 +4453,8 @@
         "interval": 0,
         "ease": 2.3,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "kama-sutra",
@@ -4339,7 +4481,8 @@
         "interval": 2,
         "ease": 2.65,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "char",
@@ -4367,7 +4510,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "derogatory",
@@ -4395,7 +4539,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "incontinence",
@@ -4422,7 +4567,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "snap",
@@ -4450,7 +4596,8 @@
         "interval": 1,
         "ease": 2.5,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "crude",
@@ -4479,7 +4626,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "desalination",
@@ -4507,7 +4655,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "maritime",
@@ -4535,7 +4684,8 @@
         "interval": 1,
         "ease": 2.35,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "mediation",
@@ -4563,7 +4713,8 @@
         "interval": 1,
         "ease": 2.5,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "depict",
@@ -4591,7 +4742,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "clad",
@@ -4619,7 +4771,8 @@
         "interval": 2,
         "ease": 2.65,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "cascading",
@@ -4648,7 +4801,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "poised",
@@ -4676,7 +4830,8 @@
         "interval": 0,
         "ease": 2.3,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "complex-rising",
@@ -4704,7 +4859,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "low-rising",
@@ -4732,7 +4888,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "suspending",
@@ -4760,7 +4917,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "controversial",
@@ -4788,7 +4946,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "ziggurat",
@@ -4815,7 +4974,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "thwart",
@@ -4843,7 +5003,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "infamous",
@@ -4870,7 +5031,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "grueling",
@@ -4898,7 +5060,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "regimen",
@@ -4926,7 +5089,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "juror",
@@ -4954,7 +5118,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "ovaltine",
@@ -4981,7 +5146,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "aperitif",
@@ -5009,7 +5175,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "bereavement",
@@ -5037,7 +5204,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "prestige",
@@ -5066,7 +5234,8 @@
         "interval": 1,
         "ease": 2.35,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "apoplectic",
@@ -5094,7 +5263,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "mullet",
@@ -5121,7 +5291,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "proscriptive",
@@ -5148,7 +5319,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "rein in",
@@ -5176,7 +5348,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "unwavering",
@@ -5204,7 +5377,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "devise",
@@ -5232,7 +5406,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "wayward",
@@ -5259,7 +5434,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "unadulterated",
@@ -5287,7 +5463,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "mortified",
@@ -5315,7 +5492,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "excruciating",
@@ -5343,7 +5521,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "cobble",
@@ -5370,7 +5549,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "unwieldy",
@@ -5397,7 +5577,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "dubious",
@@ -5425,7 +5606,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "helm",
@@ -5452,7 +5634,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "sitar",
@@ -5478,7 +5661,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "unnerving",
@@ -5505,7 +5689,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "proponent",
@@ -5533,7 +5718,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "antidote",
@@ -5561,7 +5747,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "newfound",
@@ -5589,7 +5776,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "withered",
@@ -5617,7 +5805,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "repercussions",
@@ -5645,7 +5834,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "nitty-gritty",
@@ -5673,7 +5863,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "ascent",
@@ -5701,7 +5892,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "participatory",
@@ -5728,7 +5920,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "lucrative",
@@ -5756,7 +5949,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "thimble",
@@ -5783,7 +5977,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "yeller",
@@ -5810,7 +6005,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "devour",
@@ -5838,7 +6034,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "Cyclopean",
@@ -5866,7 +6063,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "pug",
@@ -5894,7 +6092,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "runoff",
@@ -5921,7 +6120,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "seep into",
@@ -5949,7 +6149,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "forfeit",
@@ -5977,7 +6178,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "palliative",
@@ -6004,7 +6206,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "hail from",
@@ -6031,7 +6234,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "endeavor",
@@ -6059,7 +6263,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "obscure",
@@ -6087,7 +6292,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "ministry",
@@ -6115,7 +6321,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "gallimaufry",
@@ -6143,7 +6350,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "garlands",
@@ -6170,7 +6378,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "collage",
@@ -6197,7 +6406,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "sunlounge",
@@ -6224,7 +6434,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "pare down",
@@ -6252,7 +6463,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "menacing",
@@ -6280,7 +6492,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "corral",
@@ -6308,7 +6521,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "hog",
@@ -6325,17 +6539,19 @@
       ],
       "id": "hog",
       "srs": {
-        "due": "2026-09-10",
+        "due": "2026-11-07",
         "interval": 0,
-        "ease": 2.5,
-        "reps": 0
+        "ease": 2.3,
+        "reps": 0,
+        "retired": false
       },
       "added": "2026-09-10",
       "source": {
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "naturopaths",
@@ -6362,7 +6578,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "pare back",
@@ -6390,7 +6607,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "teakwood",
@@ -6416,7 +6634,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "etiquette",
@@ -6445,7 +6664,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "contortion",
@@ -6473,7 +6693,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "steeple",
@@ -6500,7 +6721,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "intrepid",
@@ -6528,7 +6750,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "conform",
@@ -6556,7 +6779,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "ungainly",
@@ -6583,7 +6807,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "rote",
@@ -6610,7 +6835,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "celiac",
@@ -6637,7 +6863,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "meets the eye",
@@ -6665,7 +6892,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "superfluous",
@@ -6693,7 +6921,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "bleacher",
@@ -6720,7 +6949,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "brevity",
@@ -6747,7 +6977,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "contusions",
@@ -6774,7 +7005,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "axial",
@@ -6801,7 +7033,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "constricts",
@@ -6829,7 +7062,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "capsule",
@@ -6857,7 +7091,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "hematoma",
@@ -6884,7 +7119,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "liniment",
@@ -6911,7 +7147,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "suboccipitals",
@@ -6938,7 +7175,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "levator",
@@ -6964,7 +7202,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "scapulae",
@@ -6989,7 +7228,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "pectoralis",
@@ -7015,7 +7255,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "anaerobic",
@@ -7041,7 +7282,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "glycolysis",
@@ -7067,7 +7309,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "venous",
@@ -7093,7 +7336,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "soleus",
@@ -7119,7 +7363,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "fortifies",
@@ -7147,7 +7392,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "regime",
@@ -7174,7 +7420,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "glycogen",
@@ -7200,7 +7447,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "wherewithal",
@@ -7227,7 +7475,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "bureaucracy",
@@ -7255,7 +7504,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "taken with",
@@ -7283,7 +7533,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "tormented",
@@ -7311,7 +7562,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "leaf through",
@@ -7339,7 +7591,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "visceral-fat",
@@ -7367,7 +7620,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "osteopenia",
@@ -7395,7 +7649,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "lateral",
@@ -7423,7 +7678,8 @@
         "interval": 1,
         "ease": 2.5,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "scapular",
@@ -7451,7 +7707,8 @@
         "interval": 1,
         "ease": 2.5,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "cortisol",
@@ -7477,7 +7734,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "word": "deluge",
@@ -7505,7 +7763,8 @@
         "label": "",
         "url": "",
         "via": "ios"
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "stoop",
@@ -7533,7 +7792,8 @@
         "interval": 0,
         "ease": 2.3,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "adorn",
@@ -7561,7 +7821,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "whimsy",
@@ -7590,7 +7851,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "asphalt",
@@ -7618,7 +7880,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "gateway",
@@ -7647,7 +7910,8 @@
         "interval": 1,
         "ease": 2.5,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "roadhouse",
@@ -7675,7 +7939,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "slog",
@@ -7704,7 +7969,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "dune",
@@ -7732,7 +7998,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "gridded",
@@ -7760,7 +8027,8 @@
         "interval": 1,
         "ease": 2.5,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "crested",
@@ -7788,7 +8056,8 @@
         "interval": 1,
         "ease": 2.35,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "incessant",
@@ -7816,7 +8085,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "gazebo",
@@ -7844,7 +8114,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "chaparral",
@@ -7872,7 +8143,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "arduous",
@@ -7900,7 +8172,8 @@
         "interval": 1,
         "ease": 2.35,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "hunk",
@@ -7928,7 +8201,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "ridge",
@@ -7956,7 +8230,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "notch",
@@ -7984,7 +8259,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "quick-witted",
@@ -8013,7 +8289,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "sassy",
@@ -8041,7 +8318,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "dissection",
@@ -8069,7 +8347,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "fervent",
@@ -8098,7 +8377,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "transcendent",
@@ -8127,7 +8407,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "renowned",
@@ -8157,7 +8438,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "patron",
@@ -8186,7 +8468,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "busboy",
@@ -8214,7 +8497,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "galoot",
@@ -8243,7 +8527,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "cement",
@@ -8272,7 +8557,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "juggle",
@@ -8300,7 +8586,8 @@
         "interval": 1,
         "ease": 2.35,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "gamescape",
@@ -8328,7 +8615,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "accustomed-to",
@@ -8356,7 +8644,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "oblivious",
@@ -8384,7 +8673,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "luddite",
@@ -8412,7 +8702,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "ledger",
@@ -8440,7 +8731,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "cedar",
@@ -8467,7 +8759,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "cuttlefish",
@@ -8495,7 +8788,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "tai",
@@ -8522,7 +8816,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "maitake",
@@ -8549,7 +8844,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "deity",
@@ -8577,7 +8873,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "slack",
@@ -8605,7 +8902,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "slacks",
@@ -8633,7 +8931,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "pilgrim",
@@ -8661,7 +8960,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "trample",
@@ -8689,7 +8989,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "filial-deity",
@@ -8717,7 +9018,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "crematorium",
@@ -8745,7 +9047,8 @@
         "interval": 1,
         "ease": 2.35,
         "reps": 1
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "geranium",
@@ -8772,7 +9075,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "shrine",
@@ -8801,7 +9105,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "tummy",
@@ -8829,7 +9134,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "osmanthus",
@@ -8856,7 +9162,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "fortified",
@@ -8884,7 +9191,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "navel",
@@ -8912,7 +9220,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "dwarf",
@@ -8940,7 +9249,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "benevolent",
@@ -8968,7 +9278,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "reckoning",
@@ -8997,7 +9308,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "rig",
@@ -9026,7 +9338,8 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
-      }
+      },
+      "collection": "English"
     },
     {
       "id": "diminish",
