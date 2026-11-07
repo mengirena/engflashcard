@@ -5516,10 +5516,11 @@
       ],
       "id": "excruciating",
       "srs": {
-        "due": "2026-09-29",
-        "interval": 1,
-        "ease": 2,
-        "reps": 1
+        "due": "2026-11-07",
+        "interval": 0,
+        "ease": 1.8,
+        "reps": 0,
+        "retired": false
       },
       "added": "2026-09-01",
       "source": {
