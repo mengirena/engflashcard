@@ -24,13 +24,15 @@
         "due": "2026-07-27",
         "interval": 11.643587999999998,
         "ease": 1.5,
-        "reps": 8
+        "reps": 8,
+        "retired": true
       },
       "srsBack": {
         "due": "2026-06-08",
         "interval": 1,
         "ease": 2.35,
-        "reps": 1
+        "reps": 1,
+        "retired": true
       },
       "usage": "Ephemeral describes things lasting only briefly—often beauty, trends, or moments—and carries a somewhat literary or formal tone. It pairs well with nouns like \"beauty,\" \"nature,\" \"joy,\" \"trend,\" or \"existence.\" Avoid it in casual speech where \"short-lived\" or \"temporary\" would sound more natural, and don't use it for planned, permanent things."
     },
@@ -177,7 +179,7 @@
       "partOfSpeech": "noun",
       "definition": "Penalties or punitive measures imposed by one country or group against another to enforce compliance with international law or policy; or official permissions or approvals.",
       "translation": "制裁；處罰；批准",
-      "example": "The international community imposed economic sanctions on the country for its human rights violations.",
+      "example": "Because of the sanctions, the team had to check whether that chip could be shipped to the factory.",
       "synonyms": [
         "penalties",
         "punishments",
@@ -202,7 +204,7 @@
         "ease": 2.5,
         "reps": 1
       },
-      "usage": "**Sanctions** most commonly pairs with verbs like *impose*, *lift*, *tighten*, *ease* and nouns like *economic*, *trade*, *international*, *UN*. It's a formal/neutral word used primarily in political and legal contexts (e.g., \"The government imposed sanctions on the regime\"). Avoid it in casual speech for general punishments—use *penalties* or *consequences* instead. Note the dual meaning: as penalties it's standard; as \"official approval\" it's much rarer in modern English and can cause confusion, so prefer *authorization* or *approval* in that sense."
+      "usage": "Pairs with impose / lift / ease / tighten and 'economic / trade sanctions'. In news and work talk it almost always means penalties — the 'official approval' meaning is rare, so say 'approval' for that instead. Formal to neutral register."
     },
     {
       "id": "gutsy",
@@ -391,13 +393,15 @@
         "due": "2026-11-01",
         "interval": 15.250032000000008,
         "ease": 1.7500000000000004,
-        "reps": 8
+        "reps": 8,
+        "retired": true
       },
       "srsBack": {
         "due": "2026-06-08",
         "interval": 0,
         "ease": 2.3,
-        "reps": 0
+        "reps": 0,
+        "retired": true
       },
       "usage": "**Jauntily** pairs naturally with verbs of movement or manner: *walk jauntily, stride jauntily, wear jauntily* (a hat tilted at an angle). It's literary/neutral in register, often used in narrative description. Avoid it in formal business writing or when describing serious contexts, as its upbeat tone can undermine gravity."
     },
@@ -706,13 +710,15 @@
         "due": "2026-07-09",
         "interval": 9.225964800000002,
         "ease": 1.7000000000000002,
-        "reps": 7
+        "reps": 7,
+        "retired": true
       },
       "srsBack": {
         "due": "2026-06-09",
         "interval": 1,
         "ease": 2.35,
-        "reps": 1
+        "reps": 1,
+        "retired": true
       },
       "usage": "Use in clinical, medical, or educational contexts when discussing sexual health; pairs naturally with \"infection,\" \"test,\" \"treatment,\" \"STI,\" and \"diagnosis.\" It's formal and neutral—appropriate for doctor's offices, health classes, and public health discussions. Avoid using euphemistically or in casual speech where \"STI\" or \"sexually transmitted infection\" might be clearer for general audiences."
     },
@@ -775,13 +781,15 @@
         "due": "2026-06-17",
         "interval": 2.9859839999999997,
         "ease": 1.3,
-        "reps": 7
+        "reps": 7,
+        "retired": true
       },
       "srsBack": {
         "due": "2026-06-08",
         "interval": 0,
         "ease": 2.3,
-        "reps": 0
+        "reps": 0,
+        "retired": true
       },
       "usage": "**Doused** pairs well with water, flames, lights, and anger (\"doused the fire,\" \"doused with water,\" \"doused the lights\"). It's neutral-to-casual and works in both everyday and literary contexts. Avoid it in formal writing when a simpler term like \"extinguished\" or \"soaked\" would be clearer, and don't use it metaphorically unless the context is informal or creative."
     },
@@ -1257,7 +1265,7 @@
       "partOfSpeech": "adjective",
       "definition": "Having the qualities of a dream; bizarre, dreamlike, or having an strange and unsettling quality that seems disconnected from reality.",
       "translation": "超現實的；夢幻般的；離奇怪異的",
-      "example": "The abandoned amusement park had a surreal quality, with faded colors and silent rides creating an eerie, dreamlike atmosphere.",
+      "example": "Seeing the DVT approval come through after weeks of stress felt surreal.",
       "synonyms": [
         "dreamlike",
         "bizarre",
@@ -1283,7 +1291,7 @@
         "ease": 2.35,
         "reps": 1
       },
-      "usage": "**Surreal** pairs well with nouns like \"experience,\" \"quality,\" \"atmosphere,\" and \"feeling,\" and works with intensifiers like \"absolutely\" or \"completely.\" It's neutral-to-casual in register and commonly used in everyday conversation, film criticism, and creative writing. Avoid it in formal academic or professional contexts where you'd prefer more precise language like \"dreamlike,\" \"disorienting,\" or \"bizarre,\" and don't use it for merely odd or unusual things—it implies a specifically hallucinatory or disconnected-from-reality quality."
+      "usage": "Most natural as 'It felt surreal' or 'a surreal moment' — for dreamlike, hard-to-believe-it's-real moments like big news or a strange coincidence. Very common in spoken US English. For everyday 'a bit weird', use 'strange' or 'odd' instead."
     },
     {
       "id": "splash-over",
@@ -1562,7 +1570,7 @@
       "partOfSpeech": "adjective",
       "definition": "Having unusual, peculiar, or unexpected characteristics in an interesting or endearing way; unconventional or idiosyncratic.",
       "translation": "古怪的；奇特的；離奇的（通常帶有趣味性）",
-      "example": "She has a quirky sense of humor that makes her stand out among her friends.",
+      "example": "The little stationery shop had a quirky charm — nothing matched, and that was the point.",
       "synonyms": [
         "eccentric",
         "unconventional",
@@ -1582,7 +1590,7 @@
         "ease": 1.7500000000000004,
         "reps": 5
       },
-      "usage": "**Quirky** pairs well with nouns like character, personality, sense of humor, charm, and style. It's neutral to casual in register and commonly used in everyday speech and informal writing. Avoid it in formal academic or professional contexts where you'd want more precise language like \"idiosyncratic\" or \"unconventional,\" and be cautious using it to describe serious or sensitive subjects, as it can trivialize them."
+      "usage": "Unusual in a fun, likable way — quirky charm, a quirky sense of humor, a quirky little shop. About a person it's usually a compliment. Neutral to casual; don't use it for things that are seriously wrong or broken."
     },
     {
       "id": "knapsack",
@@ -1695,7 +1703,7 @@
       "partOfSpeech": "adjective",
       "definition": "Showing annoyance or dissatisfaction by pushing out one's lips; sulky or moody.",
       "translation": "噘嘴的；生氣的；不滿的；悶悶不樂的",
-      "example": "She gave him a pouty look when he refused to buy her ice cream.",
+      "example": "Iggy sat by his empty bowl with a pouty look until I fed him.",
       "synonyms": [
         "sulky",
         "moody",
@@ -1720,7 +1728,7 @@
         "ease": 2.35,
         "reps": 1
       },
-      "usage": "**Pouty** is informal/casual and describes a childlike or petulant demeanor—common collocations include \"pouty expression,\" \"pouty lips,\" or \"pouty mood.\" It's slightly dismissive in tone, so avoid it in formal contexts or when you want to describe serious grievances; use \"sullen\" or \"disgruntled\" instead for more neutral or serious situations."
+      "usage": "Informal and playful, for faces and moods: a pouty look, pouty lips, a pouty mood. Slightly teasing, so it's fine for Iggy, kids, and close friends — too dismissive for a serious complaint at work."
     },
     {
       "word": "seams",
@@ -8126,44 +8134,17 @@
       "word": "renowned",
       "pronunciation": "/rɪˈnaʊnd/",
       "partOfSpeech": "adjective",
-      "definition": "Famous and respected widely; known and acclaimed throughout a large area or by many people.",
-      "translation": "著名的；聞名的；享有盛譽的",
+      "definition": "Famous and respected, especially for a particular achievement or quality; widely known and admired.",
+      "translation": "著名的；聞名的；享有盛譽的；聞名遐邇的",
       "example": "The renowned pianist performed at Carnegie Hall to a sold-out audience.",
-      "usage": "Formal to neutral register. Often used with prepositions 'for' or 'as' (renowned for his talent, renowned as a chef). Typically modifies nouns referring to people, institutions, or places. Avoid in very casual contexts; 'famous' is a more casual alternative.",
+      "usage": "Formal to neutral register. Typically used before a noun for people, institutions, or places with established reputations ('renowned chef', 'renowned university'), often with 'for' or 'as' (renowned for his talent, renowned as a chef). It implies lasting, widespread recognition — avoid it for temporary or local fame; 'famous' is the more casual alternative.",
       "synonyms": [
         "famous",
         "celebrated",
         "acclaimed",
         "distinguished",
-        "well-known"
-      ],
-      "added": "2026-09-27",
-      "source": {
-        "label": "",
-        "url": "",
-        "via": "manual"
-      },
-      "srs": {
-        "due": "2026-09-27",
-        "interval": 0,
-        "ease": 2.5,
-        "reps": 0
-      }
-    },
-    {
-      "id": "renowned",
-      "word": "renowned",
-      "pronunciation": "/rɪˈnaʊnd/",
-      "partOfSpeech": "adjective",
-      "definition": "Famous and respected, especially for a particular achievement or quality; widely known and admired.",
-      "translation": "著名的；享有盛譽的；聞名遐邇的",
-      "example": "The renowned pianist performed a sold-out concert at Carnegie Hall.",
-      "usage": "Formal to neutral register. Typically used to describe people (scientists, artists, scholars), institutions, or places with established reputations. Often precedes a noun ('renowned chef', 'renowned university'). Avoid using for temporary or local fame; it implies lasting, widespread recognition.",
-      "synonyms": [
-        "famous",
-        "celebrated",
-        "eminent",
-        "acclaimed"
+        "well-known",
+        "eminent"
       ],
       "added": "2026-09-27",
       "source": {
@@ -9045,6 +9026,151 @@
         "interval": 0,
         "ease": 2.5,
         "reps": 0
+      }
+    },
+    {
+      "id": "diminish",
+      "collection": "English",
+      "word": "diminish",
+      "pronunciation": "/dɪˈmɪn.ɪʃ/",
+      "partOfSpeech": "verb",
+      "definition": "To make something seem smaller, weaker, or less important than it really is. \"Diminish yourself\" = talk about yourself as less capable than you are.",
+      "translation": "使顯得不重要；貶低",
+      "example": "Don't diminish your own experience when you talk to leadership.",
+      "usage": "Words like \"just / only / sorry\" can diminish you in work messages — e.g. \"I'm just an EE TPM\" vs \"I'm an EE TPM.\" Pairs with 'diminish your role / experience / achievements'. Neutral register, common in professional feedback.",
+      "synonyms": [
+        "downplay",
+        "belittle",
+        "minimize",
+        "undervalue"
+      ],
+      "added": "2026-11-06",
+      "source": {
+        "label": "Chat with Iggy — Raymond thank-you refinement, 2026-11-06",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
+    },
+    {
+      "id": "doesn't-come-naturally-to-me",
+      "collection": "English",
+      "word": "doesn't come naturally to me",
+      "pronunciation": "/ˈdʌz.ənt kʌm ˈnætʃ.rə.li tuː miː/",
+      "partOfSpeech": "phrase",
+      "definition": "Something is not your natural style or talent; you have to make an effort to do it.",
+      "translation": "這不是我天生就會／擅長的事",
+      "example": "Being in a very visible role doesn't come naturally to me, but I'm seriously considering it.",
+      "usage": "A soft, professional way to name a personality mismatch without saying \"conflict with my personality.\" Pattern: \"X doesn't come naturally to me\"; also \"come naturally to someone\" for things others find easy.",
+      "synonyms": [
+        "not my strong suit",
+        "not second nature to me",
+        "something I have to work at"
+      ],
+      "added": "2026-11-06",
+      "source": {
+        "label": "Chat with Iggy — Raymond thank-you refinement, 2026-11-06",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
+    },
+    {
+      "id": "think-about-ing",
+      "collection": "English",
+      "word": "think about + -ing",
+      "pronunciation": "/θɪŋk əˈbaʊt/",
+      "partOfSpeech": "grammar pattern",
+      "definition": "When you consider doing something, use \"think about doing\" — the verb after \"about\" takes the -ing form, never \"to do.\"",
+      "translation": "想著要做某事（考慮中）",
+      "example": "I'm really thinking about expanding my role from EE TPM to system TPM.",
+      "usage": "Her original: \"I'm really thinking about to expand my role…\" → Corrected: \"I'm really thinking about expanding my role…\" Same rule for 'consider doing', 'dream about doing', 'talk about doing' — after a preposition, always -ing.",
+      "synonyms": [
+        "consider doing",
+        "think of doing",
+        "be thinking of doing"
+      ],
+      "added": "2026-11-06",
+      "source": {
+        "label": "Chat with Iggy — Raymond thank-you refinement, 2026-11-06",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
+    },
+    {
+      "id": "from-x-to-y",
+      "collection": "English",
+      "word": "from X to Y",
+      "pronunciation": "/frʌm … tuː …/",
+      "partOfSpeech": "grammar pattern",
+      "definition": "The direction pair is \"from (starting point) to (destination)\", in that order: from X to Y.",
+      "translation": "從 X 到 Y",
+      "example": "I'm thinking about expanding my role from EE TPM to system TPM.",
+      "usage": "Her original: \"expand my role to system TPM from EE TPM\" → Corrected: \"expanding my role from EE TPM to system TPM.\" Always name the starting point after 'from' first, then the destination after 'to'.",
+      "synonyms": [
+        "from A to B",
+        "from start to finish"
+      ],
+      "added": "2026-11-06",
+      "source": {
+        "label": "Chat with Iggy — Raymond thank-you refinement, 2026-11-06",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
+    },
+    {
+      "id": "lessons-learned",
+      "collection": "English",
+      "word": "lessons learned",
+      "pronunciation": "/ˈles.ənz lɜːrnd/",
+      "partOfSpeech": "noun phrase",
+      "definition": "The standard US workplace phrase for what a team learned from a past problem, used in reports and requests (\"based on lessons learned from…\").",
+      "translation": "從過去經驗學到的教訓",
+      "example": "Based on the lessons learned from the missing-component issue on the CL core SMT, we will need AOI and VI completed at HQ before pack-out.",
+      "usage": "Her original: \"given the last lessons learnt on the missing component…\" — \"learnt\" is the British spelling; US work English uses \"learned\", and the fixed phrase is \"lessons learned.\" Common frames: \"based on lessons learned from…\", \"share the lessons learned\".",
+      "synonyms": [
+        "key takeaways",
+        "what we learned",
+        "post-mortem findings"
+      ],
+      "added": "2026-11-06",
+      "source": {
+        "label": "Chat with Iggy — Laguna DOE request refinement, 2026-11-06",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-06",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
       }
     }
   ]
