@@ -51,6 +51,7 @@ body {
 }
 main { max-width: 680px; margin: 0 auto; padding: 16px; }
 .view { animation: fade .2s ease; }
+[hidden] { display: none !important; } /* .stack sets display:flex, which would otherwise override the hidden attribute (e.g. the Add page's lookup/manual panels) */
 @keyframes fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
 
 h2 { margin: 6px 0 12px; }

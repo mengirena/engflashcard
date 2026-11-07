@@ -11,7 +11,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="Flashcards" />
-  <link rel="stylesheet" href="styles.css?v=24" />
+  <link rel="stylesheet" href="styles.css?v=26" />
 </head>
 <body>
   <header class="topbar">
@@ -107,10 +107,11 @@
     <!-- ADD -->
     <section id="view-add" class="view" hidden>
       <h2 id="addTitle">Add a word</h2>
-      <div id="addEnglishPanel" class="stack panel">
+      <div id="addPanel" class="stack panel">
         <input id="addWord" type="text" placeholder="Type an English word or phrase" />
         <input id="addSource" type="text" placeholder="Where did you see it? (optional)" />
         <button id="addBtn" class="primary">Look up &amp; save</button>
+        <p class="muted"><a href="#" id="manualToggle">or type both sides yourself</a></p>
       </div>
       <div id="addManualPanel" class="stack panel" hidden>
         <input id="manFront" type="text" placeholder="Front — word, phrase or question" />
@@ -119,12 +120,13 @@
         <input id="manSource" type="text" placeholder="Where did you see it? (optional)" />
         <button id="manAddBtn" class="primary">Save card</button>
       </div>
-      <div class="stack panel new-collection">
+      <div id="newCollectionPanel" class="stack panel" hidden>
         <label>New collection name
           <input id="newCollectionName" type="text" placeholder="e.g. Japanese, Work terms, Things to remember" />
         </label>
-        <button id="newCollectionBtn" class="secondary">Start a new collection</button>
-        <p class="muted">Cards are kept separate by collection — pick the collection at the top before studying, browsing or adding.</p>
+        <button id="newCollectionBtn" class="primary">Create collection</button>
+        <button id="newCollectionCancel" class="secondary">Cancel</button>
+        <p class="muted">The new collection is created with its first card — after creating it, add that card in the box above.</p>
       </div>
       <div id="addResult"></div>
     </section>
@@ -177,7 +179,7 @@
 
   <div id="toast" class="toast" hidden></div>
 
-  <script src="core.js?v=24"></script>
-  <script src="app.js?v=24"></script>
+  <script src="core.js?v=26"></script>
+  <script src="app.js?v=26"></script>
 </body>
 </html>

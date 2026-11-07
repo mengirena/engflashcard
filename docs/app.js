@@ -41,6 +41,8 @@
   var COLLECTION_KEY = 'flashcollection';
   var selectedCollection = loadSelectedCollection();
   var pendingCollection = null;           // new collection named in Add, no cards yet
+  var creatingCollection = false;         // Add view is showing the new-collection form
+  var NEW_COLLECTION_OPTION = '__new_collection__'; // picker sentinel: "+ New collection…"
 
   // ---------- collections ----------
   function loadSelectedCollection() {
@@ -65,7 +67,7 @@
     if (pendingCollection && names.indexOf(pendingCollection) < 0) names.push(pendingCollection);
     sel.innerHTML = names.map(function (n) {
       return '<option value="' + escapeHtml(n) + '"' + (n === selectedCollection ? ' selected' : '') + '>' + escapeHtml(n) + '</option>';
-    }).join('');
+    }).join('') + '<option value="' + NEW_COLLECTION_OPTION + '">+ New collection…</option>';
     sel.value = selectedCollection;
   }
 
@@ -127,6 +129,15 @@
     t.addEventListener('click', function () { show(t.dataset.view); });
   });
   $('#collectionPicker').addEventListener('change', function () {
+    if (this.value === NEW_COLLECTION_OPTION) {
+      // Start a new collection: jump to Add in create mode. The picker itself
+      // keeps showing the current collection until the new one is created.
+      creatingCollection = true;
+      refreshCollectionPicker();
+      show('add');
+      var nameInput = $('#newCollectionName'); if (nameInput) nameInput.focus();
+      return;
+    }
     selectedCollection = this.value || C.DEFAULT_COLLECTION;
     persistCollection();
     refreshCollectionPicker();
@@ -488,37 +499,69 @@
   function renderAddForm() {
     refreshCollectionPicker();
     var eng = selectedCollection === C.DEFAULT_COLLECTION;
-    $('#addEnglishPanel').hidden = !eng;
-    $('#addManualPanel').hidden = eng;
-    $('#addTitle').textContent = eng ? 'Add a word' : 'Add to ' + selectedCollection;
+    $('#addPanel').hidden = creatingCollection;
+    $('#newCollectionPanel').hidden = !creatingCollection;
+    if (!creatingCollection) $('#addManualPanel').hidden = true;
+    $('#addTitle').textContent = creatingCollection ? 'New collection'
+      : (eng ? 'Add a word' : 'Add to ' + selectedCollection);
+    $('#addWord').placeholder = eng
+      ? 'Type an English word or phrase'
+      : 'Type what you want to remember';
   }
+  $('#manualToggle').addEventListener('click', function (e) {
+    e.preventDefault();
+    var p = $('#addManualPanel');
+    p.hidden = !p.hidden;
+    if (!p.hidden) $('#manFront').focus();
+  });
   $('#newCollectionBtn').addEventListener('click', function () {
     var name = $('#newCollectionName').value.trim();
     if (!name) { toast('Type a collection name first.'); return; }
+    if (C.listCollections(deck.cards).indexOf(name) >= 0 || name === pendingCollection) {
+      creatingCollection = false;
+      selectedCollection = name;
+      persistCollection();
+      renderAddForm();
+      toast('Collection “' + name + '” already exists — switched to it.');
+      return;
+    }
     pendingCollection = name;
     selectedCollection = name;
     persistCollection();
+    creatingCollection = false;
     $('#newCollectionName').value = '';
     refreshCollectionPicker();
     renderAddForm();
-    toast('New collection “' + name + '” — add its first card below.');
+    toast('New collection “' + name + '” — add its first card in the box.');
+    $('#addWord').focus();
+  });
+  $('#newCollectionCancel').addEventListener('click', function () {
+    creatingCollection = false;
+    $('#newCollectionName').value = '';
+    renderAddForm();
   });
   async function doAdd(word, sourceLabel) {
     word = (word || '').trim();
     if (!word) return;
     if (!hasKeys()) { toast('Add your keys in Settings first.'); show('settings'); return; }
-    var existing = deck.cards.find(function (c) { return C.getCollection(c) === C.DEFAULT_COLLECTION && c.id === C.slugId(word); });
+    var coll = selectedCollection;
+    var provisional = C.buildCard(word, {}, null, coll);
+    var existing = deck.cards.find(function (c) { return C.getCollection(c) === coll && c.id === provisional.id; });
     var box = $('#addResult');
-    if (existing) { box.innerHTML = ''; box.appendChild(renderCardPreview(existing)); toast('Already in your deck.'); return; }
+    if (existing) { box.innerHTML = ''; box.appendChild(renderCardPreview(existing)); toast('Already in ' + coll + '.'); return; }
     box.innerHTML = '<p class="muted"><span class="spinner"></span>Looking up “' + escapeHtml(word) + '”…</p>';
     try {
       var source = { label: sourceLabel || '', url: '', via: 'manual' };
-      var card = await C.lookup(cfg, word, source);
+      var card = await C.lookup(cfg, word, source, null, coll);
+      // The AI may normalize the item (e.g. base form) — re-check for a duplicate.
+      var dupe = deck.cards.find(function (c) { return C.getCollection(c) === coll && c.id === card.id; });
+      if (dupe) { box.innerHTML = ''; box.appendChild(renderCardPreview(dupe)); toast('Already in ' + coll + '.'); return; }
       deck.cards.push(card);
       deck.sha = await C.saveDeck(cfg, deck.cards, deck.sha, 'add: ' + card.word);
+      if (pendingCollection === coll) pendingCollection = null;
       cacheDeck(); updateDueBadge(); refreshCollectionPicker();
       box.innerHTML = ''; box.appendChild(renderCardPreview(card));
-      toast('Saved “' + card.word + '”.');
+      toast('Saved “' + card.word + '” to ' + coll + '.');
       $('#addWord').value = ''; $('#addSource').value = '';
     } catch (e) {
       box.innerHTML = '<p class="banner">' + escapeHtml(e.message) + '</p>';
@@ -527,7 +570,8 @@
   $('#addBtn').addEventListener('click', function () { doAdd($('#addWord').value, $('#addSource').value); });
   $('#addWord').addEventListener('keydown', function (e) { if (e.key === 'Enter') doAdd($('#addWord').value, $('#addSource').value); });
 
-  // Manual add for non-English collections: no AI lookup, just front/back.
+  // Manual add (any collection): no AI lookup, just front/back — for personal
+  // facts the AI can't know. Reached via the "type both sides yourself" link.
   async function doManualAdd() {
     var front = $('#manFront').value.trim();
     var back = $('#manBack').value.trim();

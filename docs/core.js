@@ -380,12 +380,51 @@
     return obj;
   }
 
-  // High-level: look up a word and build a full card (does not save).
-  // The AI lookup is English-only, so callers that don't pass a collection
-  // (e.g. Import) always get English cards.
+  // Generic lookup for non-English collections: the learner types whatever
+  // they want to remember (a word or phrase in any language, a term, a name,
+  // or a question) and the AI fills in the card's context around it.
+  function genericLookupSystem(collection) {
+    return "You help a learner build one flashcard for their collection named \"" + collection + "\". " +
+      "The learner typed something they want to remember: it may be a word or phrase in any " +
+      "language, a technical term, a name, or a question/fact cue. Respond with ONLY a single " +
+      "JSON object, no prose, no code fences, with keys: " +
+      "word (string: the front of the card — the item itself in a clean/base form; if the input " +
+      "is a question, keep the question as the front), " +
+      "pronunciation (a reading/pronunciation aid when helpful — e.g. kana for Japanese, pinyin " +
+      "for Chinese, IPA for English — else an empty string), " +
+      "partOfSpeech (for language words, e.g. noun/verb; else an empty string), " +
+      "definition (the back of the card: a clear English explanation or, if the front is a " +
+      "question, the answer; one or two sentences), " +
+      "translation (a Traditional Chinese 繁體中文 translation or short explanation — never Simplified Chinese), " +
+      "example (one natural example sentence or real usage context when helpful, else an empty string), " +
+      "usage (a short English memory note: extra context, a mnemonic, related facts, or when this " +
+      "comes up; keep it brief), " +
+      "synonyms (array of 0-5 related terms, or an empty array). " +
+      "If a context sentence is provided, tailor the card to that sense.";
+  }
+
+  async function anthropicGenericLookup(cfg, input, collection, context) {
+    const user = context
+      ? ('Item: "' + input + '"\nContext it appeared in: "' + context + '"')
+      : ('Item: "' + input + '"');
+    const text = await anthropicCall(cfg, genericLookupSystem(collection), user, 700);
+    let obj;
+    try { obj = JSON.parse(stripFences(text)); }
+    catch (e) { throw new Error('AI returned unparseable data for "' + input + '". Raw: ' + text.slice(0, 200)); }
+    return obj;
+  }
+
+  // High-level: look up an item and build a full card (does not save).
+  // English uses the vocabulary-tutor lookup; any other collection uses the
+  // generic lookup above, which fills in context for whatever the item is.
+  // Callers that don't pass a collection (Import, extension, Shortcut
+  // captures) always get English cards, exactly as before.
   async function lookup(cfg, word, source, context, collection) {
-    const fields = await anthropicLookup(cfg, word, context);
-    return buildCard(fields.word || word, fields, source, collection || DEFAULT_COLLECTION);
+    const coll = collection || DEFAULT_COLLECTION;
+    const fields = coll === DEFAULT_COLLECTION
+      ? await anthropicLookup(cfg, word, context)
+      : await anthropicGenericLookup(cfg, word, coll, context);
+    return buildCard(fields.word || word, fields, source, coll);
   }
 
   // Check a user-written sentence that uses `word`. Returns structured feedback.
