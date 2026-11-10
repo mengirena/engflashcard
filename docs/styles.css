@@ -151,7 +151,7 @@ label.check input { width: auto; }
 .seg { display: inline-flex; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 3px; box-shadow: var(--shadow); }
 .seg button { border: 0; background: transparent; color: var(--muted); padding: 7px 14px; border-radius: 999px; font-weight: 600; font-size: 13px; white-space: nowrap; transition: background .15s, color .15s; }
 .seg-mode .mode.active { background: var(--brand); color: #fff; }
-.seg-dir .dir.active { background: var(--brand2); color: #fff; }
+
 .card-pos.prompt { font-style: normal; font-weight: 600; color: var(--brand); margin-top: 14px; }
 .speak { background: transparent; border: 0; padding: 2px 4px; font-size: 17px; cursor: pointer; line-height: 1; vertical-align: middle; }
 .speak:hover { transform: scale(1.15); }

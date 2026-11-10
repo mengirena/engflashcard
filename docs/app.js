@@ -32,7 +32,9 @@
   var flushTimer = null;
   var online = true;
   var studyMode = 'due';                  // 'due' | 'weak'
-  var studyDir = 'fwd';                   // 'fwd' (word→meaning) | 'rev' (meaning→word)
+  // There is no direction selector: every session mixes Front and Back, and
+  // currentDir is the direction of the card on screen ('fwd' | 'rev').
+  var currentDir = 'fwd';
   var sessionTotal = 0;                   // cards in the current study session
   var sessionDone = {};                   // ids graduated (rated non-"again") this session
   var selectMode = false;                 // batch-select in Browse
@@ -149,7 +151,10 @@
 
   // ---------- init ----------
   function updateDueBadge() {
-    var n = deck.cards.filter(function (c) { return inCollection(c) && C.isDue(c, studyDir); }).length;
+    var n = deck.cards.filter(function (c) {
+      if (!inCollection(c)) return false;
+      return C.isDue(c, 'fwd') || C.isDue(c, 'rev');
+    }).length;
     var b = $('#dueBadge');
     b.textContent = n; b.hidden = n === 0;
   }
@@ -198,16 +203,32 @@
   }
 
   // ---------- STUDY ----------
+  // Pick the direction for one card: never a retired side; in a
+  // due session prefer a side that is actually due; in Weak-words practice
+  // pick the weaker side; otherwise flip a coin.
+  function pickDir(c) {
+    var dirs = ['fwd', 'rev'].filter(function (d) { return !C.isRetired(c, d); });
+    if (!dirs.length) return 'fwd';
+    if (dirs.length === 1) return dirs[0];
+    if (studyMode === 'weak') {
+      return C.masteryInfo(c, 'fwd').rank <= C.masteryInfo(c, 'rev').rank ? 'fwd' : 'rev';
+    }
+    var due = dirs.filter(function (d) { return C.isDue(c, d); });
+    var pool = due.length ? due : dirs;
+    return pool[Math.floor(Math.random() * pool.length)];
+  }
   function buildQueue() {
     if (studyMode === 'weak') {
-      // practice the least-mastered words first (for the current side), regardless of due date
-      // (retired cards for this side are out of study entirely)
-      queue = deck.cards.filter(function (c) { return inCollection(c) && !C.isRetired(c, studyDir); }).sort(function (a, b) {
-        return C.masteryInfo(a, studyDir).rank - C.masteryInfo(b, studyDir).rank;
+      // least-mastered first, judged by each card's weaker side; a card is out
+      // only when BOTH sides are retired
+      queue = deck.cards.filter(function (c) { return inCollection(c) && (!C.isRetired(c, 'fwd') || !C.isRetired(c, 'rev')); }).sort(function (a, b) {
+        return Math.min(C.masteryInfo(a, 'fwd').rank, C.masteryInfo(a, 'rev').rank) -
+               Math.min(C.masteryInfo(b, 'fwd').rank, C.masteryInfo(b, 'rev').rank);
       });
     } else {
-      // due cards in RANDOM order (not sequential) so each session feels fresh
-      queue = shuffle(deck.cards.filter(function (c) { return inCollection(c) && C.isDue(c, studyDir); }));
+      // due in EITHER direction earns a place (order shuffled so each session
+      // feels fresh); the side is picked per card when it is shown
+      queue = shuffle(deck.cards.filter(function (c) { return inCollection(c) && (C.isDue(c, 'fwd') || C.isDue(c, 'rev')); }));
     }
   }
   function shuffle(a) {
@@ -222,13 +243,6 @@
       studyMode = b.dataset.mode;
       $$('.mode').forEach(function (m) { m.classList.toggle('active', m === b); });
       renderStudy();
-    });
-  });
-  $$('.dir').forEach(function (b) {
-    b.addEventListener('click', function () {
-      studyDir = b.dataset.dir;
-      $$('.dir').forEach(function (m) { m.classList.toggle('active', m === b); });
-      renderStudy(); // rebuild the queue for this side (front/back have separate schedules)
     });
   });
   function updateProgress() {
@@ -261,12 +275,17 @@
     $('#studyCard').hidden = false;
     nextCard();
   }
-  function sessionDone() {
+  // NOTE: named showSessionComplete, not sessionDone — `sessionDone` is the
+  // graduated-ids object above, and the shared name silently broke this call.
+  function showSessionComplete() {
     $('#studyCard').hidden = true;
     $('#studyProgress').hidden = true;
     $('#studyEmpty').hidden = false;
     updateDueBadge();
-    var dueLeft = deck.cards.filter(function (c) { return inCollection(c) && C.isDue(c, studyDir); }).length;
+    var dueLeft = deck.cards.filter(function (c) {
+      if (!inCollection(c)) return false;
+      return C.isDue(c, 'fwd') || C.isDue(c, 'rev');
+    }).length;
     if (studyMode === 'weak') {
       $('#studyEmptyTitle').textContent = 'Practice round complete 💪';
       $('#studyEmptyMsg').textContent = 'Tap "Weak words" again for another pass.';
@@ -342,17 +361,18 @@
   }
 
   function nextCard() {
-    if (!queue.length) { sessionDone(); return; }
+    if (!queue.length) { showSessionComplete(); return; }
     $('#studyEmpty').hidden = true;
     $('#studyCard').hidden = false;
     current = queue[0];
-    var m = C.masteryInfo(current, studyDir);
+    currentDir = pickDir(current);
+    var m = C.masteryInfo(current, currentDir);
     var badge = $('#cardMastery');
     badge.className = 'mbadge ' + (MASTERY_CLASS[m.label] || 'm0');
-    badge.textContent = (studyDir === 'rev' ? 'Back · ' : 'Front · ') + m.label;
+    badge.textContent = (currentDir === 'rev' ? 'Back · ' : 'Front · ') + m.label;
     $('#cardActive').hidden = !current.activeMastery;
     $('#cardSource').textContent = current.source && current.source.label ? '— ' + current.source.label : '';
-    if (studyDir === 'rev') {
+    if (currentDir === 'rev') {
       // show the meaning; recall the word
       $('#cardFront').innerHTML = meaningBlock(current, true) +
         '<div class="card-pos prompt">What\'s the word?</div>';
@@ -369,7 +389,7 @@
   function revealCard() {
     $('#revealBtn').hidden = true;
     $('#cardBack').hidden = false;
-    if (studyDir === 'rev') {
+    if (currentDir === 'rev') {
       // back side shows the word; chip goes right under its part of speech
       $('#cardBackContent').innerHTML = wordBlock(current) + zhBlock(current) +
         (current.synonyms && current.synonyms.length ? '<div class="card-syn">' + synChips(current) + '</div>' : '') +
@@ -455,9 +475,9 @@
   }
   function rate(rating) {
     if (!current) return;
-    C.srsReview(current, rating, studyDir);
-    if (C.isRetired(current, studyDir)) {
-      toast('🎉 Retired “' + current.word + '” (' + (studyDir === 'rev' ? 'back' : 'front') + ') — mastered!');
+    C.srsReview(current, rating, currentDir);
+    if (C.isRetired(current, currentDir)) {
+      toast('🎉 Retired “' + current.word + '” (' + (currentDir === 'rev' ? 'back' : 'front') + ') — mastered!');
     }
     dirty = true;
     scheduleFlush();
