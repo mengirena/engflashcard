@@ -3817,10 +3817,11 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-06-27",
+        "due": "2026-11-10",
         "interval": 0,
-        "ease": 2.3,
-        "reps": 0
+        "ease": 2.0999999999999996,
+        "reps": 0,
+        "retired": false
       },
       "collection": "English"
     },
