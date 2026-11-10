@@ -9674,6 +9674,139 @@
         "url": "",
         "via": "ios"
       }
+    },
+    {
+      "id": "vinyl",
+      "collection": "English",
+      "word": "vinyl",
+      "pronunciation": "/ˈvaɪ.nəl/",
+      "partOfSpeech": "noun",
+      "definition": "A strong, flexible plastic (PVC). In crafts: thin plastic sheets a cutting machine like a Cricut cuts into stickers, decals, and labels. Also the material of LP records — \"on vinyl\" means released as a record.",
+      "translation": "乙烯基塑膠；黑膠（指唱片時）",
+      "example": "She cut her shop logo out of vinyl and stuck it on the notebook cover.",
+      "usage": "Two craft types not to mix up: adhesive vinyl = a sticker for hard surfaces (notebook covers, mugs, laptops); iron-on vinyl (HTV, heat-transfer vinyl) = for fabric like T-shirts and tote bags, applied with heat. Met in the Etsy chat's Cricut conversation.",
+      "synonyms": [],
+      "added": "2026-11-10",
+      "source": {
+        "label": "Chat with Iggy — EngFlashcard side chat, vocabulary question, 2026-11-07",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
+    },
+    {
+      "id": "a-handful-of",
+      "collection": "English",
+      "word": "a handful of",
+      "pronunciation": "",
+      "partOfSpeech": "phrase",
+      "definition": "The amount that fits in one hand — used for loose things you grab, like shredded cheese, nuts, or berries. A much smaller amount taken with just the fingers is a pinch (for salt or spices).",
+      "translation": "一把（手抓的量）",
+      "example": "I added two handfuls of shredded cheddar to the baked egg.",
+      "usage": "handful = palm-sized grab (cheese, nuts, greens); pinch = thumb-and-fingers tiny amount (salt, seasoning). Her own sentence, from her cooking log.",
+      "synonyms": [
+        "a few",
+        "some"
+      ],
+      "added": "2026-11-10",
+      "source": {
+        "label": "Chat with Iggy — Food Intake Log side chat, her own cooking sentence, 2026-11-08",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
+    },
+    {
+      "id": "the-pride-of-taiwan",
+      "collection": "English",
+      "word": "the pride of Taiwan",
+      "pronunciation": "",
+      "partOfSpeech": "phrase",
+      "definition": "A person (or thing) Taiwan is proud of — someone whose success brings honor to Taiwan. Pattern: \"the pride of + place\".",
+      "translation": "台灣之光",
+      "example": "People in Taiwan call her the pride of Taiwan.",
+      "usage": "With a person's name, news style is usually \"X, the pride of Taiwan, ...\" — common for athletes, performers, and founders who succeed internationally. A softer, more formal variant is \"Taiwan's pride and glory.\"",
+      "synonyms": [
+        "Taiwan's pride and glory"
+      ],
+      "added": "2026-11-10",
+      "source": {
+        "label": "Chat with Iggy — main chat translation question, 2026-11-08",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
+    },
+    {
+      "id": "collage-paper",
+      "collection": "English",
+      "word": "collage paper",
+      "pronunciation": "/kəˈlɑːʒ ˈpeɪ.pɚ/",
+      "partOfSpeech": "noun",
+      "definition": "Decorative paper printed with images, patterns, or textures, made to be cut or torn and glued into a journal, planner, or scrapbook as backgrounds and layers. \"Collage\" itself is the art of gluing pieces together into a new picture.",
+      "translation": "拼貼紙；拼貼素材紙",
+      "example": "She tore a piece of collage paper to use as the background for her weekly spread.",
+      "usage": "Not a sticker — collage paper has no adhesive and isn't pre-cut; you cut or tear it and glue it down yourself, usually as the layer under stickers and washi. Met in Archer & Olive's \"Stickers / Collage Papers\" category while saving shop-website inspiration.",
+      "synonyms": [],
+      "added": "2026-11-10",
+      "source": {
+        "label": "Chat with Iggy — EngFlashcard side chat, vocabulary question, 2026-11-10",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
+    },
+    {
+      "id": "puppet",
+      "collection": "English",
+      "word": "puppet",
+      "pronunciation": "/ˈpʌp.ɪt/",
+      "partOfSpeech": "noun",
+      "definition": "A doll made to be moved by your hand inside it, or by strings/wires from above — used in shows for children and storytelling. Figuratively, a person or government controlled by someone else.",
+      "translation": "手偶；傀儡（比喻）",
+      "example": "The kids watched a puppet show at the library.",
+      "usage": "Spelling, as she asked: p-u-p-p-e-t, with a double p. A puppet moved only by strings has a special name — a marionette. \"Puppet government\" （傀儡政府） is the common figurative use in news.",
+      "synonyms": [
+        "marionette",
+        "hand puppet"
+      ],
+      "added": "2026-11-10",
+      "source": {
+        "label": "Chat with Iggy — EngFlashcard side chat, spelling question, 2026-11-10",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-10",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
     }
   ]
 }
