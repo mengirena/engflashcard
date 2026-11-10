@@ -1049,10 +1049,11 @@
         "via": "manual"
       },
       "srs": {
-        "due": "2026-07-09",
-        "interval": 21.53775,
+        "due": "2027-01-03",
+        "interval": 53.844375,
         "ease": 2.5,
-        "reps": 5
+        "reps": 6,
+        "retired": false
       },
       "srsBack": {
         "due": "2026-06-12",
