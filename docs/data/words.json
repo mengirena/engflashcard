@@ -9814,6 +9814,137 @@
         "reps": 0,
         "retired": false
       }
+    },
+    {
+      "id": "corporate-slave-wage-slave",
+      "collection": "English",
+      "word": "corporate slave / wage slave",
+      "pronunciation": "",
+      "partOfSpeech": "noun",
+      "definition": "A joking, bitter way to describe yourself as an office worker trapped in a job — working long hours for a company, with no real freedom, just for the paycheck. \"Corporate slave\" keeps the company angle; \"wage slave\" stresses living paycheck to paycheck.",
+      "translation": "社畜",
+      "example": "We're just corporate slaves — in the office by eight, answering emails until midnight.",
+      "usage": "The closest English match for 社畜 (from Japanese shachiku, \"company livestock\"). Related: 做牛做馬 = \"to work like a dog\" / \"to slave away\" (the labour), or \"to be treated like a beast of burden\" (the treatment). Careful: \"workhorse\" alone is a compliment in English (a reliable hard worker) — it only turns negative as \"treated like a workhorse.\" For the whole lifestyle: \"trapped in the rat race.\"",
+      "synonyms": [],
+      "added": "2026-11-11",
+      "source": {
+        "label": "Chat with Iggy — main chat translation question, 2026-11-11",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-12",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
+    },
+    {
+      "id": "should-have-qualified",
+      "collection": "English",
+      "word": "should have qualified",
+      "pronunciation": "",
+      "partOfSpeech": "phrase",
+      "definition": "Hello, I'm calling about my Citi Strata Elite card. I made a Best Buy purchase that should have qualified for the annual splurge credit, but the credit was not applied. Can you please check why and add the credit if I'm eligible?",
+      "translation": "本來應該符合資格（卻沒有）",
+      "example": "I made a Best Buy purchase that should have qualified for the annual splurge credit, but the credit was not applied.",
+      "usage": "\"Should have qualified\" = it met the conditions, so the benefit was expected — states your expectation politely, without accusing. Key chunks: \"I'm calling about…\" (state the topic first), \"Can you please check why…\" (polite, direct ask), \"if I'm eligible\" (leaves them room to help). Reusable pattern for any \"benefit not applied\" call: I'm calling about [card] → [purchase] should have qualified for [benefit] → but [it was not applied] → Can you please check why and add it if I'm eligible? From her real call to Citi about a Best Buy transaction where the splurge credit was not applied.",
+      "synonyms": [],
+      "added": "2026-11-11",
+      "source": {
+        "label": "Chat with Iggy — main chat voice call, 2026-11-11",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-12",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
+    },
+    {
+      "id": "weigh-something",
+      "collection": "English",
+      "word": "weigh something",
+      "pronunciation": "/weɪ/",
+      "partOfSpeech": "grammar pattern",
+      "definition": "To think about something carefully before deciding; evaluate it. Memory hook: the original meaning of weigh is 秤重 — you are putting an idea on a scale. \"Weigh A against B\" = put two options on the scale and compare the good and bad sides.",
+      "translation": "仔細衡量／權衡",
+      "example": "Let me weigh my options before I decide.",
+      "usage": "From her real conversation: \"A manager weighs three things on a request like this: the evidence, the precedent, and whether it keeps you at the company.\" Very common in work decisions and meetings.",
+      "synonyms": [
+        "consider",
+        "evaluate"
+      ],
+      "added": "2026-11-12",
+      "source": {
+        "label": "Chat with Iggy — main chat vocabulary question, 2026-11-12",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-12",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
+    },
+    {
+      "id": "weigh-on-someone",
+      "collection": "English",
+      "word": "weigh on someone",
+      "pronunciation": "/weɪ ɑːn/",
+      "partOfSpeech": "grammar pattern",
+      "definition": "To press on someone's mind like a burden — a worry or hard decision that stays with them and makes them feel heavy or stressed. Memory hook: something heavy sitting ON you.",
+      "translation": "壓在心頭；讓人煩心",
+      "example": "The decision weighed on her for weeks.",
+      "usage": "Usually about decisions, worries, guilt, deadlines: \"The deadline is weighing on me.\" Not for physical weight.",
+      "synonyms": [],
+      "added": "2026-11-12",
+      "source": {
+        "label": "Chat with Iggy — main chat, 2026-11-12",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-12",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
+    },
+    {
+      "id": "weigh-in",
+      "collection": "English",
+      "word": "weigh in",
+      "pronunciation": "/weɪ ɪn/",
+      "partOfSpeech": "grammar pattern",
+      "definition": "To give your opinion and join a discussion with your view — you add your voice to a decision or debate. Memory hook: you step onto the scale yourself — you enter the discussion.",
+      "translation": "發表意見；參與討論並表態",
+      "example": "She weighed in during the design review.",
+      "usage": "Common at work: \"Can you weigh in on this doc?\" = please give your opinion on it. Softer than \"decide\" — you are contributing a view, not making the final call.",
+      "synonyms": [
+        "chime in",
+        "give your take"
+      ],
+      "added": "2026-11-12",
+      "source": {
+        "label": "Chat with Iggy — main chat, 2026-11-12",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-12",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
     }
   ]
 }
