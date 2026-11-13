@@ -2499,10 +2499,11 @@
         "reps": 3
       },
       "srsBack": {
-        "due": "2026-06-15",
-        "interval": 1,
-        "ease": 2.5,
-        "reps": 1
+        "due": "2026-11-13",
+        "interval": 0,
+        "ease": 2.3,
+        "reps": 0,
+        "retired": false
       },
       "usage": "**Pricked** is neutral/casual and pairs naturally with \"finger,\" \"skin,\" \"conscience,\" and \"ears\" (as in \"my ears pricked up\"). Avoid it in formal writing when a more precise verb like \"pierced,\" \"punctured,\" or \"stabbed\" would better fit the context, and don't use it to describe deep wounds—that requires stronger terms.",
       "collection": "English"
