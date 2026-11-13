@@ -6644,10 +6644,11 @@
       ],
       "id": "teakwood",
       "srs": {
-        "due": "2026-09-22",
+        "due": "2026-11-13",
         "interval": 0,
-        "ease": 2.3,
-        "reps": 0
+        "ease": 2.0999999999999996,
+        "reps": 0,
+        "retired": false
       },
       "added": "2026-09-10",
       "source": {
