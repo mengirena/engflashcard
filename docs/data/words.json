@@ -9949,6 +9949,37 @@
         "reps": 0,
         "retired": false
       }
+    },
+    {
+      "id": "atrocious",
+      "collection": "English",
+      "word": "atrocious",
+      "pronunciation": "/əˈtroʊʃəs/",
+      "partOfSpeech": "adjective",
+      "definition": "Extremely wicked, cruel, or brutal; alternatively, extremely bad or appalling in quality.",
+      "translation": "駭人聽聞的；殘暴的；極其糟糕的；令人厭惡的",
+      "example": "The weather was atrocious, with heavy rain and strong winds making travel impossible.",
+      "usage": "Formal to neutral register. Can describe morally reprehensible behavior (atrocious crimes) or poor quality (atrocious spelling, atrocious food). Often used for emphasis when something is exceptionally bad. Avoid in very casual speech where 'terrible' or 'awful' might suffice.",
+      "synonyms": [
+        "abominable",
+        "horrific",
+        "appalling",
+        "dreadful",
+        "heinous"
+      ],
+      "added": "2026-11-14",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-14",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
     }
   ]
 }
