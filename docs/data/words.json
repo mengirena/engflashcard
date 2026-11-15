@@ -10017,6 +10017,36 @@
         "reps": 0,
         "retired": false
       }
+    },
+    {
+      "id": "strenuous",
+      "collection": "English",
+      "word": "strenuous",
+      "pronunciation": "/ˈstrenj.u.əs/",
+      "partOfSpeech": "adjective",
+      "definition": "Requiring or involving great effort, energy, or intensity; demanding and exhausting.",
+      "translation": "費力的；艱苦的；需要大量努力的",
+      "example": "After a strenuous hike up the mountain, we were all exhausted but satisfied.",
+      "usage": "Common in formal and neutral contexts. Typically pairs with nouns like 'exercise,' 'activity,' 'effort,' 'day,' or 'workout.' Use it to describe physically or mentally demanding tasks. Avoid in casual speech unless emphasizing real difficulty; less common in everyday conversation.",
+      "synonyms": [
+        "arduous",
+        "demanding",
+        "exhausting",
+        "taxing"
+      ],
+      "added": "2026-11-15",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-15",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      }
     }
   ]
 }
