@@ -10000,6 +10000,13 @@
         "ease": 2.5,
         "reps": 0,
         "retired": false
+      },
+      "srsBack": {
+        "due": "2026-11-15",
+        "interval": 0,
+        "ease": 2.3,
+        "reps": 0,
+        "retired": false
       }
     }
   ]
