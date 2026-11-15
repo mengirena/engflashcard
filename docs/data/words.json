@@ -2375,7 +2375,14 @@
         "reps": 3
       },
       "usage": "**Flex** in its physical sense (bend a muscle) is neutral and technical. In its modern sense (show off), it's casual/slang and pairs with possessions, achievements, or skills: \"flex on someone,\" \"flex your muscles,\" \"flex your wealth.\" Avoid in formal writing unless deliberately adopting colloquial tone; the showing-off meaning may seem dated or regional to some audiences.",
-      "collection": "English"
+      "collection": "English",
+      "srsBack": {
+        "due": "2026-11-16",
+        "interval": 1,
+        "ease": 2.35,
+        "reps": 1,
+        "retired": false
+      }
     },
     {
       "word": "malicious",
