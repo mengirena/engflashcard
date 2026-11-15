@@ -8246,7 +8246,14 @@
         "ease": 2.5,
         "reps": 0
       },
-      "collection": "English"
+      "collection": "English",
+      "srsBack": {
+        "due": "2026-11-15",
+        "interval": 0,
+        "ease": 2.3,
+        "reps": 0,
+        "retired": false
+      }
     },
     {
       "id": "ridge",
