@@ -9189,7 +9189,14 @@
         "reps": 1,
         "retired": false
       },
-      "collection": "English"
+      "collection": "English",
+      "srsBack": {
+        "due": "2026-11-18",
+        "interval": 2,
+        "ease": 2.65,
+        "reps": 1,
+        "retired": false
+      }
     },
     {
       "id": "osmanthus",
