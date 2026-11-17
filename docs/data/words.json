@@ -1673,10 +1673,11 @@
         "retired": false
       },
       "srsBack": {
-        "due": "2026-06-12",
-        "interval": 3,
-        "ease": 2.35,
-        "reps": 2
+        "due": "2026-11-21",
+        "interval": 3.5999999999999996,
+        "ease": 2.2,
+        "reps": 3,
+        "retired": false
       },
       "usage": "A knapsack is somewhat formal or old-fashioned; use \"backpack\" in modern casual contexts instead. It pairs with hiking, travel, camping, and military contexts. Avoid it in contemporary everyday speech where \"backpack\" is standard.",
       "collection": "English"
