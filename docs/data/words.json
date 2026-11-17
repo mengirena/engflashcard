@@ -4859,7 +4859,14 @@
         "ease": 2.3,
         "reps": 0
       },
-      "collection": "English"
+      "collection": "English",
+      "srsBack": {
+        "due": "2026-11-18",
+        "interval": 1,
+        "ease": 2.35,
+        "reps": 1,
+        "retired": false
+      }
     },
     {
       "id": "complex-rising",
