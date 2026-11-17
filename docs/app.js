@@ -321,11 +321,42 @@
     if (!speechOK) return '';
     return '<button class="speak" data-speak="' + escapeHtml(text) + '" data-coll="' + escapeHtml(collection || '') + '" title="Play audio" aria-label="Play audio">🔊</button>';
   }
+  // Stems that can begin an inflected form of a word: the word itself, the
+  // word minus a silent -e (devise→devising), consonant+y → i (carry→carried),
+  // and a doubled final consonant (stop→stopping, hope→hopping via the -e stem).
+  function maskStems(w) {
+    var stems = [w];
+    var base = w;
+    if (/e$/.test(w) && w.length > 3) { base = w.slice(0, -1); stems.push(base); }
+    if (/[^aeiou]y$/.test(w)) stems.push(w.slice(0, -1) + 'i');
+    if (/[^aeiou][aeiou][bcdfgklmnprstz]$/.test(base)) stems.push(base + base.slice(-1));
+    return stems;
+  }
   function maskWord(text, word) {
     var safe = escapeHtml(text);
     if (!word) return safe;
     try {
-      var re = new RegExp(word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\w*', 'ig');
+      var esc = function (s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); };
+      var w = String(word).toLowerCase();
+      var patterns = [];
+      if (/^\S+$/.test(w) && !/['’]/.test(w)) {
+        // single word: mask it and its inflected forms
+        maskStems(w).forEach(function (s) {
+          // very short stems only match with a real inflection suffix, so
+          // "go" blanks going/gone but never "gold"
+          patterns.push(s.length >= 4 ? esc(s) + '\\w*' : esc(s) + '(?:ing|ed|es|en|ne|er|est|d|s)?\\b');
+        });
+      } else {
+        // phrase: mask the exact phrase, plus inflected forms of its content
+        // words (skip short words and auxiliaries like "should have")
+        patterns.push(esc(w) + '\\w*');
+        var skip = { should: 1, have: 1, has: 1, had: 1, will: 1, would: 1, can: 1, could: 1, been: 1, being: 1, were: 1, was: 1, are: 1, the: 1, and: 1, for: 1, with: 1 };
+        w.split(/[^a-z']+/).forEach(function (tok) {
+          if (tok.length < 4 || skip[tok]) return;
+          maskStems(tok).forEach(function (s) { patterns.push(esc(s) + '\\w*'); });
+        });
+      }
+      var re = new RegExp('\\b(?:' + patterns.join('|') + ')', 'ig');
       return safe.replace(re, '_____');
     } catch (e) { return safe; }
   }
@@ -348,7 +379,10 @@
   }
   function meaningBlock(c, blankExample) {
     var ex = c.example ? (blankExample ? maskWord(c.example, c.word) : highlight(c.example, c.word)) : '';
-    return '<div class="card-def">' + escapeHtml(c.definition || '') + '</div>' +
+    // on the Back-side front the definition is shown before the answer too,
+    // so it gets the same masking — some definitions contain the word itself
+    var def = blankExample ? maskWord(c.definition || '', c.word) : escapeHtml(c.definition || '');
+    return '<div class="card-def">' + def + '</div>' +
       (ex ? '<div class="card-example">' + ex + '</div>' : '');
   }
   function usageBlock(c) {

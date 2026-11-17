@@ -1,9 +1,9 @@
 /* sw.js — network-first with cache fallback (offline study works, never serves stale).
    Online: always fetch fresh and update the cache. Offline: serve last cached copy. */
-var CACHE = 'flashcards-v27';
+var CACHE = 'flashcards-v28';
 var SHELL = [
   './', './index.html',
-  './styles.css?v=27', './app.js?v=27', './core.js?v=27',
+  './styles.css?v=28', './app.js?v=28', './core.js?v=28',
   './manifest.webmanifest', './icons/icon.svg'
 ];
 
