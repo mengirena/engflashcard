@@ -7203,10 +7203,10 @@
       },
       "collection": "English",
       "srsBack": {
-        "due": "2026-11-16",
-        "interval": 1,
-        "ease": 2.5,
-        "reps": 1,
+        "due": "2026-11-17",
+        "interval": 0,
+        "ease": 2.3,
+        "reps": 0,
         "retired": false
       }
     },
