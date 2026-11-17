@@ -5441,7 +5441,14 @@
         "url": "",
         "via": "ios"
       },
-      "collection": "English"
+      "collection": "English",
+      "srsBack": {
+        "due": "2026-11-17",
+        "interval": 0,
+        "ease": 2.3,
+        "reps": 0,
+        "retired": false
+      }
     },
     {
       "word": "wayward",
