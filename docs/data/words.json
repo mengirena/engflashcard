@@ -6488,7 +6488,14 @@
         "url": "",
         "via": "ios"
       },
-      "collection": "English"
+      "collection": "English",
+      "srsBack": {
+        "due": "2026-11-18",
+        "interval": 1,
+        "ease": 2.35,
+        "reps": 1,
+        "retired": false
+      }
     },
     {
       "word": "pare down",
