@@ -4301,10 +4301,11 @@
         "via": "extension"
       },
       "srs": {
-        "due": "2026-09-29",
-        "interval": 1,
-        "ease": 2.35,
-        "reps": 1
+        "due": "2026-11-18",
+        "interval": 1.2,
+        "ease": 2.2,
+        "reps": 2,
+        "retired": false
       },
       "collection": "English"
     },
