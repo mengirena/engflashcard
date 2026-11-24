@@ -10092,6 +10092,143 @@
         "reps": 0,
         "retired": false
       }
+    },
+    {
+      "id": "reckon",
+      "word": "reckon",
+      "pronunciation": "/ˈrek.ən/",
+      "partOfSpeech": "verb",
+      "definition": "Informal — (1) to think, believe, or suppose (\"I reckon it'll rain\"); (2) to estimate or roughly calculate (\"I reckon it takes about two hours\"). Basically \"I think\" with a personal-estimate feel: you are giving your own judgment, not a proven fact.",
+      "translation": "我覺得／我估計",
+      "example": "I reckon the readout will land by Friday.",
+      "usage": "Very common in British and Australian English for \"I think\"; in the US it sounds casual, a bit Southern/rural — fine with friends and in chat, but in work writing \"I think / I expect / I'd estimate\" is safer. Fixed phrase: \"a force to be reckoned with\" = someone or something powerful that must be taken seriously （不容小覷的力量）.",
+      "synonyms": [
+        "think",
+        "believe",
+        "suppose",
+        "estimate",
+        "figure"
+      ],
+      "added": "2026-11-24",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-24",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      },
+      "collection": "English"
+    },
+    {
+      "id": "shoulder-blade",
+      "word": "shoulder blade",
+      "pronunciation": "/ˈʃoʊl.dɚ ˌbleɪd/",
+      "partOfSpeech": "noun",
+      "definition": "The flat, triangular bone on each side of the upper back — the everyday word for the scapula. Formal/medical term: scapula (plural scapulae).",
+      "translation": "肩胛骨",
+      "example": "My shoulder blade hurts after boxing.",
+      "usage": "In everyday conversation, fitness, and at the doctor, say \"shoulder blade\"; \"scapula\" is the medical word. The deck also has the medical plural \"scapulae\" — this card is the everyday term you will actually say.",
+      "synonyms": [
+        "scapula"
+      ],
+      "added": "2026-11-24",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-24",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      },
+      "collection": "English"
+    },
+    {
+      "id": "techo",
+      "word": "techo",
+      "pronunciation": "/teˈtʃoʊ/",
+      "partOfSpeech": "noun",
+      "definition": "Romanization of Japanese 手帳 (techō) — a planner / handbook / notebook you carry and write in by hand. \"Hobonichi Techo\" = Hobonichi's planner.",
+      "translation": "手帳（隨身手帳本）",
+      "example": "I write in my Hobonichi Techo almost every day.",
+      "usage": "Recognize it on planner pages and in the stationery community; not to be confused with \"techno\" (the music). \"Hobonichi\" itself (ほぼ日, \"almost every day\") is a brand name.",
+      "synonyms": [
+        "planner",
+        "handbook",
+        "notebook"
+      ],
+      "added": "2026-11-24",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-24",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      },
+      "collection": "English"
+    },
+    {
+      "id": "get-caught-on-a-speed-camera",
+      "word": "get caught on a speed camera",
+      "pronunciation": "",
+      "partOfSpeech": "phrase",
+      "definition": "To be photographed/recorded by a speed camera while driving too fast — the everyday way to say 超速被測速照相拍到. \"Get caught\" = 被抓到 (doing something wrong).",
+      "translation": "超速被測速照相拍到",
+      "example": "I got caught on a speed camera.",
+      "usage": "Related plain version: \"My photo was taken by a speed camera.\" (neutral, just states the fact). For the ticket itself: \"I got a speeding ticket.\"",
+      "synonyms": [],
+      "added": "2026-11-24",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-24",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      },
+      "collection": "English"
+    },
+    {
+      "id": "be-flashed-by-a-speed-camera",
+      "word": "be flashed by a speed camera",
+      "pronunciation": "",
+      "partOfSpeech": "phrase",
+      "definition": "The speed camera's flash went off as it photographed you speeding — a casual way to say you were caught: \"I was flashed by a speed camera.\" The flash is the giveaway that the camera got you.",
+      "translation": "被測速照相的閃光燈拍到（口語）",
+      "example": "I was flashed by a speed camera on the highway.",
+      "usage": "Casual; pairs with \"get caught on a speed camera\" — that one is the neutral everyday version, \"be flashed\" is the vivid spoken one.",
+      "synonyms": [],
+      "added": "2026-11-24",
+      "source": {
+        "label": "",
+        "url": "",
+        "via": "manual"
+      },
+      "srs": {
+        "due": "2026-11-24",
+        "interval": 0,
+        "ease": 2.5,
+        "reps": 0,
+        "retired": false
+      },
+      "collection": "English"
     }
   ]
 }
